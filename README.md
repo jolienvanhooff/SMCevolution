@@ -1,8 +1,7 @@
 # SMCevolution
 **Evolutionary histories and current-day distributions of eukaryotic SMC complexes' proteins**
 
-*NB: typically, this repository serves to share and visualize results and, importantly, to keep track of the versions of such results*
-*It is not intended to use as a location for storing all sorts of intermediate files*
+*NB: typically, this repository serves to share and visualize results and, importantly, to keep track of the versions of such results. It is not intended to use as a location for storing all sorts of intermediate files*
 
 ## proteins
 * Lists (\*.txt) and FASTA files (\*.fa) of SMC complexes' proteins
