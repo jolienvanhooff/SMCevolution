@@ -1,6 +1,9 @@
 # SMCevolution
 **Evolutionary histories and current-day distributions of eukaryotic SMC complexes' proteins**
 
+*NB: typically, this repository serves to share and visualize results and, importantly, to keep track of the versions of such results*
+*It is not intended to use as a location for storing all sorts of intermediate files*
+
 ## proteins
 * Lists (\*.txt) and FASTA files (\*.fa) of SMC complexes' proteins
   * Filename convention: [dataset]\_[protein set type].[protein name].[txt or fa]; e.g. euk5_orths2.SMC1.fa, 'euk5' indicating eukarya.v5
@@ -26,7 +29,7 @@
 ## co-evolution *to be added*
 
 ## .gitignore
-* Add anything to be ignored in version-controlling
+* Add anything to be ignored in version controlling
 
 ## External links / other platforms
 * [Google Drive directory](https://drive.google.com/drive/folders/10_zQJfThDdbN8nEHA8leA_tiyxAh5Fh-)
