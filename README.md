@@ -10,7 +10,7 @@
 * *other data, e.g. for pre-LECA examinations - maybe it is most practical if we add a subdirectory for these*
 
 ## alveolata
-* Subproject: datasets
+* Subproject: contains data similar to the main directory, most importantly 'proteins' based on searches across Jolien's SAR dataset (418 taxa)
 
 ## euk5proteomes
 * Tab-separated files (\.csv) listing the eukarya.v5 ('euk5') proteome dataset
