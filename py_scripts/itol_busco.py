@@ -1,8 +1,14 @@
-import pandas as pd
+#!/usr/bin/env python3
 
-busco_output = pd.read_csv('BUSCO_output.tsv', header = 'infer', sep = '\t')
-species_list = busco_output['Species'].tolist()
-busco_output = busco_output.set_index('Species')
+import pandas as pd
+import argparse
+
+parser = argparse.ArgumentParser(description="make a dataset to upload to iTol to visualize BUSCO completeness scores")
+parser.add_argument('-pp', metavar='pprofile', default="../20220930_condensin_cohesin_SMC56.csv", help="phylogenetics profile comma-separated table")
+
+args = parser.parse_args()
+busco_output = pd.read_csv(args.pp, index_col='Abbreviation')
+species_list = busco_output.index.tolist()
 
 with open('iTOL_BUSCO_piechart.txt', 'w') as f:
     f.write('DATASET_PIECHART \n')
@@ -17,4 +23,4 @@ with open('iTOL_BUSCO_piechart.txt', 'w') as f:
     f.write('LEGEND_LABELS\tComplete\tFragmented\tMissing\n')
     f.write('DATA\n')
     for species in species_list:
-        f.write(species + '\t-1\t20\t' + str(busco_output.loc[species]['Percentage.BUSCO.complete']) + '\t' + str(busco_output.loc[species]['Percentage.fragmented']) + '\t' + str(busco_output.loc[species]['Percentage.missing']) + '\n')
+        f.write(species + '\t-1\t20\t' + str(busco_output.loc[species]['BUSCO_completeness']) + '\t' + str(busco_output.loc[species]['BUSCO_fragmented']) + '\t' + str(busco_output.loc[species]['BUSCO_missing']) + '\n')

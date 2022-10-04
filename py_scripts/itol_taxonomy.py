@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import pandas as pd
 
 species_taxonomy = pd.read_csv('./eukarya_species.tsv', sep = '\t', header = 'infer')
