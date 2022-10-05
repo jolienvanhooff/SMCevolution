@@ -2,9 +2,8 @@
 
 import pandas as pd
 
-euk5table = pd.read_csv('eukarya_species.tsv', sep = '\t', header = 'infer')
-species_abbrevs = euk5table['Abbreviation'].tolist()
-euk5table = euk5table.set_index('Abbreviation')
+euk5table = pd.read_csv('../20220930_condensin_cohesin_SMC56.csv', index_col="Abbreviation")
+species_abbrevs = euk5table.index.tolist()
 
 with open('iTOL_label_names.txt', 'w') as f:
     f.write('LABELS\n')
