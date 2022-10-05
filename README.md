@@ -35,4 +35,5 @@
   * [Manuscript_outline](https://docs.google.com/document/d/1BkOMaUu7r-3rs05RzT2_LqnterpXH63XLRaZpAGHmeM/edit)
   * [General notes/observations](https://docs.google.com/document/d/1uRSr-7Q_5-_9Sp_bZsohDjWt9PrOxKg1IUqID9gxZLE/edit)
 * [Collected literature](https://paperpile.com/shared/Uow2va)
-* [Google Spaces](https://mail.google.com/chat/u/0/#chat/space/AAAAiR1Ycrk) *for day-to-day communication*
+* [Slack channel](https://deemteamworkspace.slack.com/archives/C04579BJXR8)
+* [Google Spaces](https://mail.google.com/chat/u/0/#chat/space/AAAAiR1Ycrk) *obsolete*
