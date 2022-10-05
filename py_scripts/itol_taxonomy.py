@@ -1,8 +1,9 @@
+#!/usr/bin/env python3
+
 import pandas as pd
 
-species_taxonomy = pd.read_csv('./eukarya_species.tsv', sep = '\t', header = 'infer')
-species_list = species_taxonomy['Scientific name'].tolist()
-species_taxonomy = species_taxonomy.set_index('Scientific name')
+species_taxonomy = pd.read_csv('../20220930_condensin_cohesin_SMC56.csv', index_col="Abbreviation")
+species_list = species_taxonomy.index.tolist()
 
 colour_codes = {"Stramenopiles" : "#750C19", "Alveolata" : "#762A83", "Rhizaria" : "#B85A07", "Telonemia" : "#74ADD1", "Haptista" : "#40004B", "Ancoracysta" : "#C2A5CF", "Chloroplastida" : "#1B7837", "Glaucophyta" : "#6BC987", "Rhodophyta" : "#F7001E", "Rhodelphis" : "#F26374", "Cryptista" : "#35978F", "Discoba" : "#C1DE3E", "Obazoa" : "#F59A22", "Amoebozoa" : "#F04695", "Ancyromonadida" : "#AB688A", "Metamonada" : "#3288BD", 'CRuMs' : "#1824AB", "Malawimonadidae" : "#5E5E5E",  "Hemimastigophora" : "#000000", "Picozoa" : "#2F6140", 'Breviatea' : '#f59a22', 'Apusomonadida' : '#F59A22', 'Opisthokonta' : '#F59A22'}
 
@@ -18,7 +19,7 @@ with open('iTOL_Taxonomy_BranchColour.txt', 'w') as f:
     f.write('DATA\n')
     for species in species_list:
         taxonomy = species_taxonomy.loc[species]['relevant taxonomy']
-        species = species.replace(' ', '_')
+        #species = species.replace(' ', '_')
         colour_code = colour_codes.get(taxonomy)
         f.write('{}\tbranch\tclade\t{}\t1\tnormal\n'.format(species, colour_code))
 
