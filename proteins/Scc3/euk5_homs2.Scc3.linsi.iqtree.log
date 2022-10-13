@@ -1,0 +1,1043 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Apr 26 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    jolien-Precision-5820-Tower (AVX512, FMA3, 31 GB RAM)
+Command: iqtree -s euk5_homs2.Scc3.linsi.fa -m LG+F+R5 -B 1000 -T 2 -nm 2000 -pre euk5_homs2.Scc3.linsi.iqtree
+Seed:    32849 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jul 18 13:39:13 2022
+Kernel:  AVX+FMA - 2 threads (16 CPU cores detected)
+
+Reading alignment file euk5_homs2.Scc3.linsi.fa ... Fasta format detected
+Alignment most likely contains protein sequences
+WARNING: 40 sites contain only gaps or ambiguous characters.
+Alignment has 596 sequences with 14835 columns, 11730 distinct patterns
+5888 parsimony-informative, 4423 singleton sites, 4524 constant sites
+              Gap/Ambiguity  Composition  p-value
+   1  HOMSAP049214   91.52%    failed      0.00%
+   2  HOMSAP003675   91.45%    failed      0.00%
+   3  DANRER026095   91.40%    failed      0.00%
+   4  DANRER022506   91.49%    failed      0.00%
+   5  CRAGIG012655   91.72%    failed      0.00%
+   6  ACAPLA019528   91.37%    failed      0.00%
+   7  DANRER021493   91.60%    failed      0.00%
+   8  DAPMAG011822   92.13%    failed      0.00%
+   9  IXOSCA000155   92.54%    failed      0.00%
+  10  BRABEL030647   92.30%    failed      0.00%
+  11  HOMSAP087559   91.63%    failed      0.00%
+  12  SCHMAN001462   90.48%    failed      0.00%
+  13  BOMMOR004942   92.22%    failed      0.00%
+  14  DROMEL025287   92.40%    failed      0.00%
+  15  MNELEI006644   92.74%    failed      0.00%
+  16  CIOINT015969   93.39%    failed      0.00%
+  17  MARPOL007339   91.47%    failed      0.00%
+  18  CHLATM007089   91.34%    failed      0.00%
+  19  KLENIT012951   91.28%    failed      0.00%
+  20  VERVER008135   91.70%    failed      0.00%
+  21  DANRER002942   92.09%    failed      0.00%
+  22  LEUCOM028642   91.02%    failed      0.00%
+  23  CHRPER002834   91.99%    failed      0.00%
+  24  CYCPAN024090   91.61%    failed      0.00%
+  25  BASMER003956   91.37%    failed      0.00%
+  26  ARATHA041524   92.60%    failed      0.00%
+  27  CHABRA021987   90.37%    failed      0.00%
+  28  NEODAM000880   90.01%    failed      0.00%
+  29  MALJAK019742   91.51%    failed      0.00%
+  30  PRIPAC015694   92.59%    failed      0.00%
+  31  SORBIC033369   92.33%    failed      0.00%
+  32  GEFOKE017820   91.86%    failed      0.00%
+  33  MALCAL000197   92.18%    failed      0.00%
+  34  PERSWS004680   88.69%    failed      0.00%
+  35  PERSWS008486   91.72%    failed      0.00%
+  36  MALJAK023505   91.86%    failed      0.00%
+  37  COCSUB005093   90.99%    failed      0.00%
+  38  DIAGRA032588   91.47%    failed      0.00%
+  39  TRIADH010551   92.01%    failed      0.00%
+  40  PLAFUN010824   92.54%    failed      0.00%
+  41  STRRAT002333   93.23%    failed      0.00%
+  42  ARCINT022718   88.90%    failed      0.00%
+  43  RAMVAR015899   90.97%    failed      0.00%
+  44  PHYINF009079   90.58%    failed      0.00%
+  45  MORVER007221   90.26%    failed      0.00%
+  46  COLSPE011401   92.63%    failed      0.00%
+  47  CREFRA008492   91.39%    failed      0.00%
+  48  MASBAL010117   91.43%    failed      0.00%
+  49  SALKVE021050   91.94%    failed      0.00%
+  50  CAPOWC006905   90.39%    failed      0.00%
+  51  RIGRAM002296   91.31%    failed      0.00%
+  52  NAEFOW008366   90.25%    failed      0.00%
+  53  SPIPUN006143   88.32%    failed      0.00%
+  54  AGABIS008037   89.83%    failed      0.00%
+  55  PHYPOL000605   90.85%    failed      0.00%
+  56  PAUCHR000658   91.21%    failed      0.00%
+  57  USTMAY001208   90.47%    failed      0.00%
+  58  UMBRAM007162   91.39%    failed      0.00%
+  59  SAPDIC002825   90.15%    failed      0.00%
+  60  NEPPYR029183   94.14%    failed      0.00%
+  61  CRYNEO002010   92.02%    failed      0.00%
+  62  DIPROT011177   91.68%    failed      0.00%
+  63  OSTTAU000295   92.61%    failed      0.00%
+  64  BIGNAT014631   92.62%    failed      0.00%
+  65  TRIMAR002309   91.28%    failed      0.00%
+  66  PLAMIC005389   91.90%    failed      0.00%
+  67  SYNPLU004337   91.36%    failed      0.00%
+  68  THETRA002004   91.82%    failed      0.00%
+  69  NANOCE017967   87.24%    failed      0.00%
+  70  RHIIRR021226   92.42%    failed      0.00%
+  71  MICSPE001714   92.67%    failed      0.00%
+  72  GEPOCE053464   92.29%    failed      0.00%
+  73  GRACHO001743   89.33%    failed      0.00%
+  74  GEMCRY020702   92.05%    failed      0.00%
+  75  GEPOCE001805   92.21%    failed      0.00%
+  76  ENTSUL034147   92.59%    failed      0.00%
+  77  MICMAR128504   91.30%    failed      0.00%
+  78  HALSPE000487   91.27%    failed      0.00%
+  79  NEUCRA008721   91.74%    failed      0.00%
+  80  CHLREI018495   86.08%    failed      0.00%
+  81  GEPOCE018728   92.11%    failed      0.00%
+  82  CAULEN005341   87.37%    failed      0.00%
+  83  CLAOKA006625   88.43%    failed      0.00%
+  84  STECOE028368   92.08%    failed      0.00%
+  85  BAFFRI055916   92.03%    failed      0.00%
+  86  SCHPOM002590   93.52%    failed      0.00%
+  87  PAPANK017543   92.37%    failed      0.00%
+  88  APISPI047009   92.05%    failed      0.00%
+  89  LEIMAJ007701   91.85%    failed      0.00%
+  90  HALSEO011450   90.17%    failed      0.00%
+  91  DICDIS011531   90.97%    failed      0.00%
+  92  HOMSAP085417   94.47%    failed      0.00%
+  93  RHOMAR012054   91.27%    failed      0.00%
+  94  MONNEG010192   95.04%    failed      0.00%
+  95  GONPRO003730   87.10%    failed      0.00%
+  96  TRYBRU005593   92.15%    failed      0.00%
+  97  CHOSPE013279   92.09%    failed      0.00%
+  98  CHOSPE013278   93.29%    failed      0.00%
+  99  PRYPAR015238   91.07%    failed      0.00%
+ 100  PLABRA002645   92.24%    failed      0.00%
+ 101  DROMEL018869   93.44%    failed      0.00%
+ 102  NEOSPE014803   89.16%    failed      0.00%
+ 103  BODSAL016446   93.77%    failed      0.00%
+ 104  CYAPAR005408   95.82%    failed      0.00%
+ 105  GUITHE014003   94.61%    failed      0.00%
+ 106  GONPAC046480   94.43%    failed      0.00%
+ 107  HEMPHA031118   91.62%    failed      0.00%
+ 108  DANRER002397   97.18%    failed      0.00%
+ 109  CRYCOH012767   91.51%    failed      0.00%
+ 110  DIALUT012565   89.46%    failed      0.00%
+ 111  RHYHUM006826   90.16%    failed      0.00%
+ 112  PORPUR002562   90.21%    failed      0.00%
+ 113  ALLMAC019233   91.76%    failed      0.00%
+ 114  ALLMAC003850   91.56%    failed      0.00%
+ 115  PYGBIF004478   97.15%    failed      0.00%
+ 116  JAKBAH006298   91.39%    failed      0.00%
+ 117  PHAKIR007500   95.90%    failed      0.00%
+ 118  MONBRE007546   91.61%    failed      0.00%
+ 119  CHLVAR008187   96.56%    failed      0.00%
+ 120  GALSUL005157   92.61%    failed      0.00%
+ 121  RUSMAR000448   92.68%    failed      0.00%
+ 122  PHATRI012058   90.39%    failed      0.00%
+ 123  CYAMER001876   93.31%    failed      0.00%
+ 124  PERSPE001905   92.17%    failed      0.00%
+ 125  COLVIE015322   93.35%    failed      0.00%
+ 126  VITBRA011191   89.94%    failed      0.00%
+ 127  RUSMAR000554   93.58%    failed      0.00%
+ 128  PLAFUN006603   97.00%    failed      0.00%
+ 129  ANAIGN006462   95.51%    failed      0.00%
+ 130  EUGLON029933   96.57%    failed      0.00%
+ 131  NUCSPE091379   96.54%    failed      0.00%
+ 132  PARATL004566   96.54%    failed      0.00%
+ 133  AURLIM012752   90.43%    failed      0.00%
+ 134  CHRVEL007259   89.27%    failed      0.00%
+ 135  MONEXI009892   85.98%    failed      0.00%
+ 136  HYPCAT005884   97.34%    failed      0.00%
+ 137  NUTLON009027   97.21%    failed      0.00%
+ 138  SACCER002744   92.25%    failed      0.00%
+ 139  GRACHO007195   96.95%    failed      0.01%
+ 140  GLOWIT024263   97.73%    failed      0.07%
+ 141  TRIVAG046554   93.91%    failed      0.00%
+ 142  HONFER007946   91.18%    failed      0.00%
+ 143  HEMSPE006922   93.07%    failed      0.00%
+ 144  ROZALL002803   93.37%    failed      0.00%
+ 145  GRACHO005051   97.53%    failed      0.84%
+ 146  SECSPE000596   94.07%    failed      0.00%
+ 147  SYMSPE073060   94.68%    failed      0.00%
+ 148  TRIVAG008370   94.16%    failed      0.00%
+ 149  MASSPE010278   85.97%    failed      0.00%
+ 150  PYGBIF005982   94.74%    failed      0.00%
+ 151  CARMEM000530   92.44%    failed      0.00%
+ 152  COLSPE016288   94.49%    failed      0.00%
+ 153  SCHPOM000257   93.78%    failed      0.00%
+ 154  ELPMAR019979   87.97%    failed      0.00%
+ 155  POLPAL005244   94.13%    failed      0.00%
+ 156  LEPVOR000105   98.29%    failed      0.02%
+ 157  SYMSPE017867   94.20%    failed      0.00%
+ 158  PHAKIR013357   97.94%    failed      0.00%
+ 159  PARTRI009804   91.36%    failed      0.00%
+ 160  PARPYR005242   98.17%    failed      0.03%
+ 161  LEPVOR000102   94.74%    failed      0.00%
+ 162  LAPGUS031066   98.54%    failed      1.36%
+ 163  CRYMUR003259   90.79%    failed      0.00%
+ 164  TELSUB002564   97.95%    failed      0.08%
+ 165  BARSPE001077   93.40%    failed      0.00%
+ 166  CRYCOH055322   97.67%    failed      0.00%
+ 167  EUGLON013951   95.29%    failed      0.00%
+ 168  RAMBRE008248   87.30%    failed      0.00%
+ 169  SYMSPE051852   92.12%    failed      0.00%
+ 170  GLOWIT012475   97.92%    failed      0.00%
+ 171  DYSBRE005526   91.92%    failed      0.00%
+ 172  TETTHE022996   91.57%    failed      0.00%
+ 173  PERMAR020610   93.92%    failed      0.00%
+ 174  HYPCAT005885   98.60%    failed      0.03%
+ 175  ANDGOD004831   91.28%    failed      0.00%
+ 176  PLATAR006400   98.92%    failed      0.01%
+ 177  NUTLON007611   96.54%    failed      0.00%
+ 178  CRYCOH037129   90.11%    failed      0.00%
+ 179  ENCINT001508   95.38%    failed      0.00%
+ 180  GUITHE000112   91.90%    failed      0.00%
+ 181  CHOSPE039163   98.60%    failed      0.41%
+ 182  LENLIM007382   98.93%    passed     21.74%
+ 183  MATSPE004560   98.94%    failed      1.15%
+ 184  MADERY021569   99.29%    failed      1.70%
+ 185  HOMSAP058022   93.51%    failed      0.00%
+ 186  ENTHIS002505   95.57%    failed      0.00%
+ 187  MATSPE003106   97.94%    failed      0.00%
+ 188  HYPCAT005886   96.24%    failed      0.00%
+ 189  TELSUB039590   96.47%    failed      0.00%
+ 190  GRACHO010251   99.01%    failed      0.96%
+ 191  SECSPE000119   96.41%    failed      0.00%
+ 192  DANRER045038   93.40%    failed      0.00%
+ 193  SYMSPE015325   97.36%    failed      0.00%
+ 194  CYAPAR005410   98.58%    failed      0.00%
+ 195  HEMSPE003620   90.58%    failed      0.00%
+ 196  GONPAC023823   92.99%    failed      0.00%
+ 197  ACAPLA018956   93.52%    failed      0.00%
+ 198  SYMSPE023236   86.96%    failed      0.00%
+ 199  NEPPYR021759   98.92%    failed      0.00%
+ 200  PLAFAL004824   83.88%    failed      0.00%
+ 201  BRABEL002779   93.62%    failed      0.00%
+ 202  THEPAR001178   90.76%    failed      0.00%
+ 203  MANPLA019367   97.90%    failed      0.00%
+ 204  PICSPE113781   99.28%    failed      0.89%
+ 205  LENLIM003107   98.07%    failed      0.01%
+ 206  MASBAL006284   94.15%    failed      0.00%
+ 207  COLSPE034617   99.30%    passed     11.55%
+ 208  TRIADH001328   97.30%    failed      0.00%
+ 209  LEUCOM085663   99.26%    passed     15.58%
+ 210  LAPGUS056722   98.62%    failed      0.01%
+ 211  PARTET030832   93.25%    failed      0.00%
+ 212  NEMVEC003860   94.06%    failed      0.00%
+ 213  ACASPE020100   99.27%    passed      6.36%
+ 214  PARTET033553   94.34%    failed      0.00%
+ 215  PLAFUN002850   93.54%    failed      0.00%
+ 216  CHASUB001873   96.70%    failed      0.00%
+ 217  DAPMAG012184   93.59%    failed      0.00%
+ 218  LAPGUS018716   99.15%    failed      2.85%
+ 219  ANAIGN003995   97.52%    failed      0.00%
+ 220  IXOSCA009556   93.53%    failed      0.00%
+ 221  MNELEI011687   94.07%    failed      0.00%
+ 222  CREFRA004886   91.16%    failed      0.00%
+ 223  NUCSPE091355   99.00%    failed      0.01%
+ 224  PARATL004562   99.00%    failed      0.01%
+ 225  CRYCOH007309   96.12%    failed      0.00%
+ 226  SYMSPE043906   95.13%    failed      0.00%
+ 227  ACASPE025661   99.09%    failed      0.24%
+ 228  PYGBIF006285   96.64%    failed      0.00%
+ 229  CHRPER000781   88.70%    failed      0.00%
+ 230  LENLIM014206   98.97%    passed      6.53%
+ 231  RHOMAR000794   90.91%    failed      0.00%
+ 232  CRYCOH044919   95.48%    failed      0.00%
+ 233  DIAGRA032554   95.52%    failed      0.00%
+ 234  NEOSPE007142   94.99%    failed      0.00%
+ 235  MALJAK002133   94.05%    failed      0.00%
+ 236  VERVER003927   96.13%    failed      0.00%
+ 237  RAMVAR001592   95.93%    failed      0.00%
+ 238  MATSPE003717   99.51%    passed      9.63%
+ 239  AURLIM004296   95.95%    failed      0.00%
+ 240  GRACHO010249   94.24%    failed      0.00%
+ 241  CRYCOH047655   95.32%    failed      0.00%
+ 242  BASMER009120   94.01%    failed      0.00%
+ 243  HONFER006555   95.95%    failed      0.00%
+ 244  BOMMOR007643   96.29%    failed      0.00%
+ 245  CRAGIG053684   93.71%    failed      0.00%
+ 246  MATSPE004764   99.58%    passed     10.90%
+ 247  MALJAK011936   94.06%    failed      0.00%
+ 248  TOXGON007499   81.73%    failed      0.00%
+ 249  MONNEG010191   97.96%    failed      0.00%
+ 250  ALLMAC015647   96.46%    failed      0.00%
+ 251  GEPOCE056091   92.44%    failed      0.00%
+ 252  UMBRAM000396   94.59%    failed      0.00%
+ 253  ANAIGN002045   98.80%    failed      0.00%
+ 254  LEUCOM029894   93.01%    failed      0.00%
+ 255  PICSPE072167   96.89%    failed      0.00%
+ 256  PARATL007710   97.98%    failed      0.00%
+ 257  NUCSPE113430   97.97%    failed      0.00%
+ 258  PLAMIC000764   96.10%    failed      0.00%
+ 259  TRIMAR003837   95.92%    failed      0.00%
+ 260  NAEFOW000133   94.59%    failed      0.00%
+ 261  NAEFOW005698   93.01%    failed      0.00%
+ 262  CYAPAR005411   94.36%    failed      0.00%
+ 263  LAPGUS056723   99.10%    passed     33.25%
+ 264  MALCAL011007   95.44%    failed      0.00%
+ 265  ARCINT012962   93.96%    failed      0.00%
+ 266  DIPROT038936   96.85%    failed      0.00%
+ 267  RHOMAR013315   94.76%    failed      0.00%
+ 268  BRABEL034543   89.67%    failed      0.00%
+ 269  DIPROT038935   96.13%    failed      0.00%
+ 270  PHYPOL002165   93.50%    failed      0.00%
+ 271  PRIPAC024641   95.98%    failed      0.00%
+ 272  NEPPYR027858   98.41%    failed      0.00%
+ 273  BASMER008827   96.05%    failed      0.00%
+ 274  PERSWS008410   91.65%    failed      0.00%
+ 275  ACACAS007919   90.30%    failed      0.00%
+ 276  PLATAR006399   98.89%    failed      0.00%
+ 277  DROMEL011746   93.11%    failed      0.00%
+ 278  OSTTAU006988   88.45%    failed      0.00%
+ 279  CHABRA016208   88.80%    failed      0.00%
+ 280  DIPROT012220   93.80%    failed      0.00%
+ 281  CYAGLO000776   96.08%    failed      0.00%
+ 282  PLATAR020665   98.62%    failed      0.00%
+ 283  HALSPE007046   96.15%    failed      0.00%
+ 284  PAUCHR002451   94.45%    failed      0.00%
+ 285  GLOWIT013660   96.06%    failed      0.00%
+ 286  BAFFRI003421   96.96%    failed      0.00%
+ 287  SECSPE006404   92.68%    failed      0.00%
+ 288  COLSPE008070   96.04%    failed      0.00%
+ 289  SALKVE009818   93.47%    failed      0.00%
+ 290  VERVER009194   91.00%    failed      0.00%
+ 291  RUSMAR010773   98.03%    failed      0.00%
+ 292  RAMVAR009383   93.51%    failed      0.00%
+ 293  SPIPUN006715   94.48%    failed      0.00%
+ 294  CHLVAR001084   96.10%    failed      0.00%
+ 295  GLOWIT023164   93.50%    failed      0.00%
+ 296  COEREV002753   97.36%    failed      0.00%
+ 297  NEPPYR003376   96.06%    failed      0.00%
+ 298  HONFER000573   86.82%    failed      0.00%
+ 299  MALCAL010882   98.79%    failed      0.00%
+ 300  COLSPE009883   93.62%    failed      0.00%
+ 301  MALJAK000598   89.71%    failed      0.00%
+ 302  RHIIRR014503   93.51%    failed      0.00%
+ 303  GUITHE019673   92.42%    failed      0.00%
+ 304  NEODAM006345   96.10%    failed      0.00%
+ 305  LEPVOR042336   95.63%    failed      0.00%
+ 306  PERMAR018267   95.64%    failed      0.00%
+ 307  OXYTRI004311   90.26%    failed      0.00%
+ 308  STEHIS001751   90.26%    failed      0.00%
+ 309  SYNPLU003487   95.33%    failed      0.00%
+ 310  TETTHE000860   96.10%    failed      0.00%
+ 311  COLSPE002393   96.02%    failed      0.00%
+ 312  NAEFOW003080   96.08%    failed      0.00%
+ 313  MALJAK007880   89.15%    failed      0.00%
+ 314  ACAPLA016836   96.04%    failed      0.00%
+ 315  DROMEL012953   93.98%    failed      0.00%
+ 316  GEFOKE021795   94.90%    failed      0.00%
+ 317  TELSUB030901   97.22%    failed      0.00%
+ 318  EUGLON031526   96.10%    failed      0.00%
+ 319  DICDIS011522   96.06%    failed      0.00%
+ 320  CRYCOH045852   95.18%    failed      0.00%
+ 321  NEMVEC009366   94.03%    failed      0.00%
+ 322  HEMSPE001698   91.34%    failed      0.00%
+ 323  TELSUB017769   97.62%    failed      0.00%
+ 324  PHYPOL000432   89.42%    failed      0.00%
+ 325  CHOSPE011855   94.54%    failed      0.00%
+ 326  PAUCHR000684   92.31%    failed      0.00%
+ 327  GUITHE015799   97.57%    failed      0.00%
+ 328  PLAFUN015964   88.20%    failed      0.00%
+ 329  MNELEI005343   93.97%    failed      0.00%
+ 330  SYMSPE035969   97.05%    failed      0.00%
+ 331  SECSPE000229   96.09%    failed      0.00%
+ 332  PRIPAC010367   87.28%    failed      0.00%
+ 333  THETRA005921   94.41%    failed      0.00%
+ 334  PICSPE129636   99.43%    failed      2.27%
+ 335  HEMSPE009113   93.80%    failed      0.00%
+ 336  HOMSAP006453   93.95%    failed      0.00%
+ 337  PHATRI005825   95.23%    failed      0.00%
+ 338  BICSPE012550   97.92%    failed      0.00%
+ 339  DICDIS012995   91.69%    failed      0.00%
+ 340  RHYHUM052019   94.96%    failed      0.00%
+ 341  PARTRI005019   96.01%    failed      0.00%
+ 342  ARCINT002677   96.02%    failed      0.00%
+ 343  BAFFRI009884   93.37%    failed      0.00%
+ 344  NEODAM002803   94.25%    failed      0.00%
+ 345  MONNEG002774   96.85%    failed      0.00%
+ 346  MONNEG005736   96.32%    failed      0.00%
+ 347  STECOE025709   90.77%    failed      0.00%
+ 348  CHLREI012711   96.06%    failed      0.00%
+ 349  ACACAS004894   92.93%    failed      0.00%
+ 350  DANRER015103   96.03%    failed      0.00%
+ 351  HALSPE015685   94.30%    failed      0.00%
+ 352  LEPVOR000106   98.37%    failed      0.00%
+ 353  RHOMAR013909   90.83%    failed      0.00%
+ 354  CRYCOH039859   91.80%    failed      0.00%
+ 355  MALCAL003147   96.08%    failed      0.00%
+ 356  DANRER013533   93.83%    failed      0.00%
+ 357  BIGNAT001151   96.00%    failed      0.00%
+ 358  CHLVAR008186   94.67%    failed      0.00%
+ 359  HEMSPE009491   93.73%    failed      0.00%
+ 360  ARATHA035626   87.56%    failed      0.00%
+ 361  ANAIGN021977   95.94%    failed      0.00%
+ 362  VERVER005435   90.54%    failed      0.00%
+ 363  COLVIE004530   95.97%    failed      0.00%
+ 364  BRABEL032196   93.97%    failed      0.00%
+ 365  ENTSUL048370   96.37%    failed      0.00%
+ 366  CAPOWC007366   87.87%    failed      0.00%
+ 367  VITBRA000473   95.95%    failed      0.00%
+ 368  TRIADH006335   96.00%    failed      0.00%
+ 369  TRIVAG020586   93.90%    failed      0.00%
+ 370  DANRER034180   96.03%    failed      0.00%
+ 371  GONPRO007335   95.98%    failed      0.00%
+ 372  TELSUB038304   91.45%    failed      0.00%
+ 373  ACAPLA002691   91.82%    failed      0.00%
+ 374  PYGBIF003070   94.15%    failed      0.00%
+ 375  ACAPLA015093   97.71%    failed      0.00%
+ 376  CIOINT004037   92.80%    failed      0.00%
+ 377  HOMSAP065175   92.48%    failed      0.00%
+ 378  MICSPE006453   94.05%    failed      0.00%
+ 379  SALKVE002539   89.40%    failed      0.00%
+ 380  GEFOKE005476   91.16%    failed      0.00%
+ 381  CHABRA017740   93.93%    failed      0.00%
+ 382  HEMSPE010372   94.49%    failed      0.00%
+ 383  GUITHE015005   95.97%    failed      0.00%
+ 384  GRACHO010061   88.87%    failed      0.00%
+ 385  SORBIC005199   94.41%    failed      0.00%
+ 386  COEREV000076   94.37%    failed      0.00%
+ 387  LEUCOM043531   96.06%    failed      0.00%
+ 388  NEOSPE015363   93.95%    failed      0.00%
+ 389  GUITHE008190   94.16%    failed      0.00%
+ 390  GEPOCE053107   97.85%    failed      0.00%
+ 391  GEFOKE024428   96.16%    failed      0.00%
+ 392  GEMCRY000915   83.75%    failed      0.00%
+ 393  MANPLA017896   99.02%    failed      2.20%
+ 394  COEREV002049   87.88%    failed      0.00%
+ 395  CYAPAR002304   94.27%    failed      0.00%
+ 396  TELSUB014423   99.00%    failed      0.01%
+ 397  PHYPOL001431   93.33%    failed      0.00%
+ 398  PTESPE004617   94.87%    failed      0.00%
+ 399  PARTRI005021   97.03%    failed      0.00%
+ 400  MONNEG006406   98.17%    failed      0.00%
+ 401  CYCPAN013028   94.00%    failed      0.00%
+ 402  DANRER021167   92.63%    failed      0.00%
+ 403  NEOSPE015780   94.05%    failed      0.00%
+ 404  NEOSPE004514   92.71%    failed      0.00%
+ 405  ARCINT028527   98.48%    failed      0.00%
+ 406  GONPRO013340   93.75%    failed      0.00%
+ 407  SYMSPE073508   97.88%    failed      0.00%
+ 408  ANAIGN001813   94.98%    failed      0.00%
+ 409  MICMAR109153   94.94%    failed      0.00%
+ 410  NEOSPE013425   96.04%    failed      0.00%
+ 411  BOMMOR006478   95.31%    failed      0.00%
+ 412  CRYCOH048289   98.61%    failed      0.00%
+ 413  CHRPER006621   92.63%    failed      0.00%
+ 414  TETTHE020197   96.10%    failed      0.00%
+ 415  PLAFUN005532   90.57%    failed      0.00%
+ 416  DIPROT010082   92.91%    failed      0.00%
+ 417  HOMSAP053468   94.24%    failed      0.00%
+ 418  LAPGUS026341   96.05%    failed      0.00%
+ 419  NEODAM011345   94.80%    failed      0.00%
+ 420  PRIPAC014109   89.87%    failed      0.00%
+ 421  GEFOKE022661   94.33%    failed      0.00%
+ 422  BAFFRI019958   94.95%    failed      0.00%
+ 423  HEMSPE009937   94.57%    failed      0.00%
+ 424  HEMPHA031112   95.96%    failed      0.00%
+ 425  MORVER002160   92.00%    failed      0.00%
+ 426  MADERY013408   95.96%    failed      0.00%
+ 427  UMBRAM006262   96.04%    failed      0.00%
+ 428  PERMAR008158   95.01%    failed      0.00%
+ 429  SYMSPE049320   94.96%    failed      0.00%
+ 430  GUITHE001748   97.49%    failed      0.00%
+ 431  PLABRA002860   95.83%    failed      0.00%
+ 432  PERSWS003219   94.59%    failed      0.00%
+ 433  BRABEL010855   95.96%    failed      0.00%
+ 434  DIPROT010085   89.51%    failed      0.00%
+ 435  ANAIGN006570   96.55%    failed      0.00%
+ 436  MADERY016753   97.58%    failed      0.00%
+ 437  SAPDIC010604   96.08%    failed      0.00%
+ 438  CYCPAN018582   93.16%    failed      0.00%
+ 439  PLAFUN003246   95.31%    failed      0.00%
+ 440  CAPOWC006386   90.48%    failed      0.00%
+ 441  PRIPAC027071   89.07%    failed      0.00%
+ 442  GUITHE014076   96.23%    failed      0.00%
+ 443  ACASPE022556   97.47%    failed      0.00%
+ 444  MNELEI001746   97.18%    failed      0.00%
+ 445  MATSPE020255   97.87%    failed      0.00%
+ 446  IXOSCA005957   96.03%    failed      0.00%
+ 447  CLAOKA005553   89.54%    failed      0.00%
+ 448  CRYMUR000208   88.24%    failed      0.00%
+ 449  PLAFUN009868   99.27%    failed      0.01%
+ 450  RHIIRR011443   85.77%    failed      0.00%
+ 451  UMBRAM002809   94.87%    failed      0.00%
+ 452  BODSAL007349   90.00%    failed      0.00%
+ 453  COEREV003977   95.88%    failed      0.00%
+ 454  ARATHA028692   93.69%    failed      0.00%
+ 455  PHAKIR007382   94.26%    failed      0.00%
+ 456  CRYCOH038767   92.23%    failed      0.00%
+ 457  NEUCRA006233   89.25%    failed      0.00%
+ 458  PRACOL003216   93.05%    failed      0.00%
+ 459  PARTRI009177   94.55%    failed      0.00%
+ 460  PRACOL000485   92.45%    failed      0.00%
+ 461  DROMEL013629   93.79%    failed      0.00%
+ 462  COLVIE040086   99.05%    failed      0.03%
+ 463  LEUCOM064485   93.92%    failed      0.00%
+ 464  MICSPE001578   89.45%    failed      0.00%
+ 465  NANOCE101458   95.85%    failed      0.00%
+ 466  PRYPAR005609   96.83%    failed      0.00%
+ 467  GEMCRY031379   95.53%    failed      0.00%
+ 468  PLAFUN006028   94.07%    failed      0.00%
+ 469  ANAIGN006797   95.87%    failed      0.00%
+ 470  SACCER000937   95.72%    failed      0.00%
+ 471  GEPOCE029391   91.68%    failed      0.00%
+ 472  GEMCRY037598   91.64%    failed      0.00%
+ 473  PARTET016532   96.19%    failed      0.00%
+ 474  PARATL013080   95.75%    failed      0.00%
+ 475  CHABRA012757   94.63%    failed      0.00%
+ 476  RHOMAR000205   94.04%    failed      0.00%
+ 477  PICSPE120161   99.37%    failed      0.00%
+ 478  SPIPUN008334   94.56%    failed      0.00%
+ 479  PARATL011289   95.08%    failed      0.00%
+ 480  STRRAT004857   93.53%    failed      0.00%
+ 481  UMBRAM005444   95.50%    failed      0.00%
+ 482  TELSUB038303   95.01%    failed      0.00%
+ 483  NUCSPE012876   95.07%    failed      0.00%
+ 484  GEMCRY013800   95.52%    failed      0.00%
+ 485  PERSPE001601   79.90%    failed      0.00%
+ 486  SYNPLU006011   95.92%    failed      0.00%
+ 487  DIAGRA015851   94.32%    failed      0.00%
+ 488  HEMPHA007686   92.33%    failed      0.00%
+ 489  COLVIE001246   92.55%    failed      0.00%
+ 490  RAMVAR016734   93.52%    failed      0.00%
+ 491  GLOWIT010054   98.43%    failed      0.00%
+ 492  DIALUT004827   94.32%    failed      0.00%
+ 493  BASMER004167   95.73%    failed      0.00%
+ 494  GUITHE016840   98.79%    failed      0.07%
+ 495  ARATHA026191   93.97%    failed      0.00%
+ 496  HEMPHA031104   95.81%    failed      0.00%
+ 497  GLOWIT019180   97.39%    failed      0.00%
+ 498  TELSUB039692   97.18%    failed      0.00%
+ 499  BRABEL024243   93.62%    failed      0.00%
+ 500  PARATL011087   98.55%    passed      7.64%
+ 501  NUCSPE162188   98.55%    passed      7.64%
+ 502  NEOSPE007112   94.07%    failed      0.00%
+ 503  MANPLA000743   97.35%    failed      0.00%
+ 504  NEOSPE003113   93.96%    failed      0.00%
+ 505  POLPAL004370   93.10%    failed      0.00%
+ 506  ANAIGN000961   99.10%    failed      0.00%
+ 507  LEUCOM089212   96.97%    failed      0.00%
+ 508  CHOSPE040041   95.03%    failed      0.00%
+ 509  CHLATM005999   94.92%    failed      0.00%
+ 510  TELSUB011592   91.41%    failed      0.00%
+ 511  NEPPYR016460   98.08%    failed      0.00%
+ 512  COLSPE002987   92.66%    failed      0.00%
+ 513  LEPVOR024984   95.52%    failed      0.00%
+ 514  COCSUB004556   97.65%    failed      0.00%
+ 515  NEUCRA005743   94.96%    failed      0.00%
+ 516  CHRPER001441   93.36%    failed      0.00%
+ 517  NEOSPE006864   94.05%    failed      0.00%
+ 518  RHOMAR000975   88.71%    failed      0.00%
+ 519  STECOE029342   99.10%    failed      0.05%
+ 520  OXYTRI012068   94.67%    failed      0.00%
+ 521  STEHIS005629   94.67%    failed      0.00%
+ 522  POLPAL008065   87.34%    failed      0.00%
+ 523  BREMOT009802   97.31%    failed      0.00%
+ 524  HOMSAP050856   92.55%    failed      0.00%
+ 525  PHAKIR018750   99.31%    failed      0.09%
+ 526  NUTLON004018   98.51%    failed      0.00%
+ 527  BRABEL031079   92.84%    failed      0.00%
+ 528  PLATAR012379   93.29%    failed      0.00%
+ 529  ANAIGN019143   96.97%    failed      0.00%
+ 530  SAPDIC011033   93.77%    failed      0.00%
+ 531  CHABRA020663   86.79%    failed      0.00%
+ 532  CREFRA004200   93.40%    failed      0.00%
+ 533  CAULEN000753   94.53%    failed      0.00%
+ 534  MALCAL007588   98.54%    failed      0.00%
+ 535  PHAKIR009430   95.06%    failed      0.00%
+ 536  CRYCOH008021   93.17%    failed      0.00%
+ 537  POLPAL002788   86.55%    failed      0.00%
+ 538  CREFRA003562   86.61%    failed      0.00%
+ 539  MALJAK024248   95.23%    failed      0.00%
+ 540  PLAFUN000706   92.42%    failed      0.00%
+ 541  VAVCUL000064   94.03%    failed      0.00%
+ 542  CIOINT012249   94.80%    failed      0.00%
+ 543  SYMSPE018123   96.58%    failed      0.00%
+ 544  SALKVE003043   90.93%    failed      0.00%
+ 545  RHIIRR021225   96.97%    failed      0.00%
+ 546  GLOWIT022413   98.62%    failed      0.00%
+ 547  LEUCOM018449   99.29%    failed      0.29%
+ 548  PHYINF002773   93.96%    failed      0.00%
+ 549  SALKVE006187   94.03%    failed      0.00%
+ 550  PARTET033215   96.04%    failed      0.00%
+ 551  RAMVAR020834   91.26%    failed      0.00%
+ 552  CHLATM008623   93.99%    failed      0.00%
+ 553  ROZALL004778   94.66%    failed      0.00%
+ 554  ROZALL003679   92.86%    failed      0.00%
+ 555  PICSPE023512   84.58%    failed      0.00%
+ 556  CHABRA008828   96.43%    failed      0.00%
+ 557  GLOWIT023743   98.48%    failed      0.02%
+ 558  GEPOCE027979   94.45%    failed      0.00%
+ 559  CIOINT004705   96.65%    failed      0.00%
+ 560  COLVIE010729   96.65%    failed      0.00%
+ 561  LEUCOM024640   97.74%    failed      0.00%
+ 562  MALJAK023389   95.71%    failed      0.00%
+ 563  ARATHA010458   91.70%    failed      0.00%
+ 564  PLAMIC006075   93.67%    failed      0.00%
+ 565  GONPAC031729   98.20%    failed      0.00%
+ 566  PHAKIR010200   89.58%    failed      0.00%
+ 567  CRYNEO004325   94.91%    failed      0.00%
+ 568  CLAOKA012149   87.80%    failed      0.00%
+ 569  MARPOL003497   89.18%    failed      0.00%
+ 570  ELPMAR001553   93.47%    failed      0.00%
+ 571  MORVER012460   93.90%    failed      0.00%
+ 572  RAPHET003141   95.71%    failed      0.00%
+ 573  BICSPE005037   90.05%    failed      0.00%
+ 574  MANPLA014823   97.68%    failed      0.00%
+ 575  MASBAL012887   89.68%    failed      0.00%
+ 576  CHLREI012652   94.21%    failed      0.00%
+ 577  BARSPE012370   95.63%    failed      0.00%
+ 578  PICSPE015363   94.30%    failed      0.00%
+ 579  BAFFRI038007   93.91%    failed      0.00%
+ 580  CRYCOH037069   91.36%    failed      0.00%
+ 581  PAPANK033292   97.11%    failed      0.00%
+ 582  BAFFRI012505   95.83%    failed      0.00%
+ 583  BICSPE000854   95.33%    failed      0.00%
+ 584  DIPROT013613   98.27%    failed      0.04%
+ 585  PLABRA006827   95.49%    failed      0.00%
+ 586  MICSPE008527   95.56%    failed      0.00%
+ 587  MONNEG015481   96.05%    failed      0.00%
+ 588  ENTSUL015204   93.48%    failed      0.00%
+ 589  MANPLA015423   98.89%    failed      1.91%
+ 590  GALSUL002345   97.69%    failed      0.00%
+ 591  ANAIGN022738   98.07%    failed      0.00%
+ 592  NEPPYR006958   97.26%    failed      0.00%
+ 593  SALKVE020678   93.48%    failed      0.00%
+ 594  COLSPE016774   92.24%    failed      0.00%
+ 595  BODSAL017100   90.52%    failed      0.00%
+ 596  MATSPE028214   94.62%    failed      0.00%
+WARNING: 596 sequences contain more than 50% gaps/ambiguity
+****  TOTAL          93.94%  586 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: PARATL004566 is identical to NUCSPE091379 but kept for subsequent analysis
+NOTE: PARATL004562 is identical to NUCSPE091355 but kept for subsequent analysis
+NOTE: STEHIS001751 is identical to OXYTRI004311 but kept for subsequent analysis
+NOTE: NUCSPE162188 is identical to PARATL011087 but kept for subsequent analysis
+NOTE: STEHIS005629 is identical to OXYTRI012068 but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 8.964 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 32849)...
+
+NOTE: 5455 MB RAM (5 GB) is required!
+WARNING: Memory required per CPU-core (2.66378 GB) is higher than your computer RAM per CPU-core (1 GB), thus multiple runs may exceed RAM!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -1516751.282
+2. Current log-likelihood: -1147840.218
+3. Current log-likelihood: -1145060.539
+4. Current log-likelihood: -1144997.107
+5. Current log-likelihood: -1144985.913
+6. Current log-likelihood: -1144982.170
+7. Current log-likelihood: -1144980.029
+8. Current log-likelihood: -1144978.636
+9. Current log-likelihood: -1144978.458
+Optimal log-likelihood: -1144978.357
+Site proportion and rates:  (0.027,0.163) (0.065,0.389) (0.159,0.594) (0.355,0.907) (0.395,1.404)
+Parameters optimization took 9 rounds (1941.544 sec)
+Computing ML distances based on estimated model parameters... 116.242 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.310 seconds
+Log-likelihood of BIONJ tree: -1148536.399
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1233.945 second
+Computing log-likelihood of 98 initial trees ... 3004.854 seconds
+Current best score: -1144978.357
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -1142711.899
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -1142459.649
+Iteration 10 / LogL: -1143819.182 / Time: 6h:6m:19s
+Iteration 20 / LogL: -1142547.659 / Time: 9h:21m:48s
+Finish initializing candidate tree set (20)
+Current best tree score: -1142459.649 / CPU time: 30392.352
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -1142442.253
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -1142431.664
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -1142407.732
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -1142371.317
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -1142356.400
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -1142306.812
+Iteration 30 / LogL: -1142326.968 / Time: 12h:6m:52s (40h:30m:44s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -1142207.132
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 36: -1142194.063
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 38: -1142152.990
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 39: -1142148.566
+Iteration 40 / LogL: -1142170.201 / Time: 14h:14m:19s (36h:8m:17s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 43: -1142122.448
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 49: -1142117.050
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 50: -1142067.710
+Iteration 50 / LogL: -1142067.710 / Time: 16h:20m:23s (33h:20m:29s left)
+Log-likelihood cutoff on original alignment: -1142416.996
+Iteration 60 / LogL: -1142084.972 / Time: 18h:2m:35s (27h:31m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 62: -1142063.872
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 65: -1142058.859
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 68: -1142046.371
+Iteration 70 / LogL: -1142059.361 / Time: 19h:56m:25s (28h:19m:3s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 73: -1142027.435
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 79: -1142010.937
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 80: -1141997.270
+Iteration 80 / LogL: -1141997.270 / Time: 22h:6m:47s (27h:59m:16s left)
+Iteration 90 / LogL: -1142003.181 / Time: 23h:51m:26s (24h:7m:22s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 91: -1141993.266
+Iteration 100 / LogL: -1141996.875 / Time: 25h:49m:18s (23h:43m:58s left)
+Log-likelihood cutoff on original alignment: -1142210.987
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.857
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 102: -1141970.049
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 106: -1141946.509
+Iteration 110 / LogL: -1141961.936 / Time: 27h:49m:4s (24h:29m:52s left)
+Iteration 120 / LogL: -1141946.792 / Time: 29h:33m:55s (21h:21m:53s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 121: -1141945.273
+Iteration 130 / LogL: -1141974.459 / Time: 31h:32m:53s (22h:15m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 132: -1141938.986
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 133: -1141932.904
+Iteration 140 / LogL: -1141977.968 / Time: 33h:25m:18s (22h:21m:34s left)
+Iteration 150 / LogL: -1141980.183 / Time: 35h:26m:57s (19h:44m:44s left)
+Log-likelihood cutoff on original alignment: -1142210.987
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 152: -1141927.738
+Iteration 160 / LogL: -1141956.374 / Time: 37h:21m:24s (21h:36m:49s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 166: -1141915.751
+Iteration 170 / LogL: -1141946.460 / Time: 39h:14m:9s (22h:17m:11s left)
+Iteration 180 / LogL: -1141946.038 / Time: 41h:4m:1s (19h:43m:45s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 189: -1141902.844
+Iteration 190 / LogL: -1141922.461 / Time: 42h:57m:56s (22h:30m:15s left)
+Iteration 200 / LogL: -1141942.021 / Time: 44h:45m:29s (20h:0m:58s left)
+Log-likelihood cutoff on original alignment: -1142102.324
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.900
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 206: -1141871.428
+Iteration 210 / LogL: -1141923.173 / Time: 46h:38m:0s (21h:25m:8s left)
+Iteration 220 / LogL: -1141943.508 / Time: 48h:23m:33s (19h:0m:9s left)
+Iteration 230 / LogL: -1141872.768 / Time: 50h:19m:40s (16h:42m:6s left)
+Iteration 240 / LogL: -1141901.203 / Time: 52h:12m:43s (14h:25m:3s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 249: -1141865.694
+Iteration 250 / LogL: -1141882.440 / Time: 54h:14m:34s (21h:33m:55s left)
+Log-likelihood cutoff on original alignment: -1142076.616
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 255: -1141860.000
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 257: -1141852.187
+Iteration 260 / LogL: -1141887.945 / Time: 56h:17m:55s (21h:5m:1s left)
+Iteration 270 / LogL: -1141886.356 / Time: 58h:14m:52s (18h:50m:15s left)
+Iteration 280 / LogL: -1141862.759 / Time: 60h:10m:2s (16h:36m:16s left)
+Iteration 290 / LogL: -1141888.723 / Time: 61h:54m:35s (14h:21m:7s left)
+Iteration 300 / LogL: -1141900.847 / Time: 63h:29m:29s (12h:6m:11s left)
+Log-likelihood cutoff on original alignment: -1142076.616
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.918
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 302: -1141843.241
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 306: -1141841.535
+Iteration 310 / LogL: -1141854.747 / Time: 65h:12m:19s (20h:15m:25s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 312: -1141839.346
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 316: -1141827.642
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 320: -1141812.152
+Iteration 320 / LogL: -1141812.152 / Time: 67h:3m:9s (21h:1m:7s left)
+Iteration 330 / LogL: -1141824.870 / Time: 68h:38m:16s (18h:46m:32s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 334: -1141810.422
+Iteration 340 / LogL: -1141924.194 / Time: 70h:15m:17s (19h:28m:47s left)
+Iteration 350 / LogL: -1141824.282 / Time: 71h:54m:31s (17h:18m:25s left)
+Log-likelihood cutoff on original alignment: -1142042.792
+Iteration 360 / LogL: -1141835.014 / Time: 73h:25m:51s (15h:8m:8s left)
+Iteration 370 / LogL: -1141855.029 / Time: 74h:58m:38s (13h:0m:13s left)
+Iteration 380 / LogL: -1141834.306 / Time: 76h:36m:3s (10h:54m:49s left)
+Iteration 390 / LogL: -1141822.106 / Time: 78h:11m:18s (8h:50m:37s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 398: -1141797.900
+Iteration 400 / LogL: -1141820.798 / Time: 79h:43m:33s (19h:34m:52s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.880
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 410 / LogL: -1141825.108 / Time: 81h:18m:6s (17h:53m:23s left)
+Iteration 420 / LogL: -1141894.915 / Time: 82h:57m:20s (15h:50m:17s left)
+Iteration 430 / LogL: -1141849.755 / Time: 84h:34m:59s (13h:48m:3s left)
+Iteration 440 / LogL: -1141848.871 / Time: 86h:7m:52s (11h:46m:17s left)
+Iteration 450 / LogL: -1141841.738 / Time: 87h:45m:34s (9h:46m:21s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+Iteration 460 / LogL: -1141813.451 / Time: 89h:19m:14s (7h:47m:1s left)
+Iteration 470 / LogL: -1141826.636 / Time: 91h:3m:25s (5h:49m:27s left)
+Iteration 480 / LogL: -1141818.348 / Time: 92h:42m:11s (3h:52m:14s left)
+Iteration 490 / LogL: -1141846.556 / Time: 94h:21m:39s (1h:55m:46s left)
+Iteration 500 / LogL: -1141833.259 / Time: 95h:55m:55s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.905
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 507: -1141795.967
+Iteration 510 / LogL: -1141861.112 / Time: 97h:31m:8s (18h:35m:1s left)
+Iteration 520 / LogL: -1141810.463 / Time: 99h:13m:11s (16h:37m:54s left)
+Iteration 530 / LogL: -1141826.310 / Time: 100h:44m:16s (14h:39m:46s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 536: -1141795.255
+Iteration 540 / LogL: -1141817.765 / Time: 102h:25m:0s (18h:14m:26s left)
+Iteration 550 / LogL: -1141867.427 / Time: 103h:55m:39s (16h:16m:46s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+Iteration 560 / LogL: -1141809.683 / Time: 105h:35m:2s (14h:21m:16s left)
+Iteration 570 / LogL: -1141799.328 / Time: 107h:11m:41s (12h:26m:0s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 574: -1141790.032
+Iteration 580 / LogL: -1141814.978 / Time: 108h:48m:25s (17h:39m:51s left)
+Iteration 590 / LogL: -1141817.241 / Time: 110h:23m:36s (15h:44m:36s left)
+Iteration 600 / LogL: -1141795.574 / Time: 111h:57m:40s (13h:49m:52s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.916
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 610 / LogL: -1141796.424 / Time: 113h:32m:12s (16h:46m:42s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 611: -1141786.452
+Iteration 620 / LogL: -1141793.924 / Time: 115h:17m:22s (16h:56m:54s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 627: -1141773.793
+Iteration 630 / LogL: -1141801.356 / Time: 116h:53m:17s (18h:1m:31s left)
+Iteration 640 / LogL: -1141794.140 / Time: 118h:28m:49s (16h:7m:50s left)
+Iteration 650 / LogL: -1141864.487 / Time: 120h:2m:11s (14h:14m:28s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+Iteration 660 / LogL: -1141810.278 / Time: 121h:39m:47s (12h:22m:8s left)
+Iteration 670 / LogL: -1141854.556 / Time: 123h:13m:33s (10h:29m:55s left)
+Iteration 680 / LogL: -1141787.217 / Time: 124h:44m:48s (8h:38m:5s left)
+Iteration 690 / LogL: -1141787.256 / Time: 126h:18m:11s (6h:46m:56s left)
+Iteration 700 / LogL: -1141781.860 / Time: 127h:55m:22s (4h:56m:28s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.963
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 710 / LogL: -1141779.849 / Time: 129h:31m:53s (16h:26m:32s left)
+Iteration 720 / LogL: -1141802.178 / Time: 131h:10m:22s (14h:35m:41s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 723: -1141761.775
+Iteration 730 / LogL: -1141832.705 / Time: 132h:41m:14s (16h:55m:36s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 735: -1141761.525
+Iteration 740 / LogL: -1141787.002 / Time: 134h:23m:21s (17h:16m:32s left)
+Iteration 750 / LogL: -1141782.315 / Time: 135h:57m:20s (15h:25m:42s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+Iteration 760 / LogL: -1141785.929 / Time: 137h:34m:45s (13h:35m:40s left)
+Iteration 770 / LogL: -1141777.157 / Time: 139h:12m:28s (11h:45m:58s left)
+Iteration 780 / LogL: -1141770.729 / Time: 140h:49m:55s (9h:56m:34s left)
+Iteration 790 / LogL: -1141785.686 / Time: 142h:26m:17s (8h:7m:25s left)
+Iteration 800 / LogL: -1141772.857 / Time: 143h:57m:41s (6h:18m:21s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.959
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 810 / LogL: -1141776.338 / Time: 145h:30m:39s (16h:11m:15s left)
+Iteration 820 / LogL: -1141785.481 / Time: 147h:5m:44s (14h:22m:5s left)
+Iteration 830 / LogL: -1141802.178 / Time: 148h:39m:29s (12h:33m:8s left)
+Iteration 840 / LogL: -1141786.244 / Time: 150h:13m:28s (10h:44m:34s left)
+Iteration 850 / LogL: -1141783.999 / Time: 151h:49m:59s (8h:56m:30s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+Iteration 860 / LogL: -1141785.975 / Time: 153h:26m:8s (7h:8m:41s left)
+Iteration 870 / LogL: -1141785.631 / Time: 154h:59m:6s (5h:21m:1s left)
+Iteration 880 / LogL: -1141781.978 / Time: 156h:26m:39s (3h:33m:34s left)
+Iteration 890 / LogL: -1141823.968 / Time: 158h:1m:56s (1h:46m:39s left)
+Iteration 900 / LogL: -1141789.568 / Time: 159h:37m:46s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.955
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 910 / LogL: -1141764.111 / Time: 161h:14m:50s (15h:57m:53s left)
+Iteration 920 / LogL: -1141796.703 / Time: 162h:48m:39s (14h:10m:21s left)
+Iteration 930 / LogL: -1141781.355 / Time: 164h:25m:45s (12h:23m:22s left)
+Iteration 940 / LogL: -1141786.233 / Time: 165h:58m:51s (10h:36m:20s left)
+Iteration 950 / LogL: -1141782.415 / Time: 167h:33m:25s (8h:49m:40s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+Iteration 960 / LogL: -1141773.254 / Time: 169h:5m:23s (7h:3m:9s left)
+Iteration 970 / LogL: -1141769.948 / Time: 170h:34m:52s (5h:16m:51s left)
+Iteration 980 / LogL: -1141781.877 / Time: 172h:10m:57s (3h:31m:2s left)
+Iteration 990 / LogL: -1141787.804 / Time: 173h:43m:26s (1h:45m:23s left)
+Iteration 1000 / LogL: -1141784.727 / Time: 175h:16m:5s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.957
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 1010 / LogL: -1141771.700 / Time: 176h:48m:38s (15h:46m:14s left)
+Iteration 1020 / LogL: -1141776.190 / Time: 178h:21m:48s (14h:0m:10s left)
+Iteration 1030 / LogL: -1141784.641 / Time: 180h:0m:16s (12h:14m:42s left)
+Iteration 1040 / LogL: -1141782.958 / Time: 181h:36m:2s (10h:29m:12s left)
+Iteration 1050 / LogL: -1141770.342 / Time: 183h:9m:59s (8h:43m:49s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+Iteration 1060 / LogL: -1141776.123 / Time: 184h:45m:33s (6h:58m:42s left)
+Iteration 1070 / LogL: -1141832.321 / Time: 186h:20m:44s (5h:13m:46s left)
+Iteration 1080 / LogL: -1141925.423 / Time: 187h:54m:54s (3h:28m:59s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1086: -1141760.308
+Iteration 1090 / LogL: -1141807.237 / Time: 189h:31m:19s (16h:42m:25s left)
+Iteration 1100 / LogL: -1141780.506 / Time: 191h:9m:32s (14h:57m:30s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.957
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 1110 / LogL: -1141778.605 / Time: 192h:43m:6s (15h:38m:22s left)
+Iteration 1120 / LogL: -1141832.447 / Time: 194h:28m:35s (13h:54m:12s left)
+Iteration 1130 / LogL: -1141794.796 / Time: 196h:4m:34s (12h:9m:24s left)
+Iteration 1140 / LogL: -1141763.445 / Time: 197h:39m:24s (10h:24m:43s left)
+Iteration 1150 / LogL: -1141816.021 / Time: 199h:13m:25s (8h:40m:9s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+Iteration 1160 / LogL: -1141926.032 / Time: 200h:45m:57s (6h:55m:43s left)
+Iteration 1170 / LogL: -1141771.845 / Time: 202h:19m:5s (5h:11m:31s left)
+Iteration 1180 / LogL: -1141782.487 / Time: 203h:43m:46s (3h:27m:21s left)
+Iteration 1190 / LogL: -1141826.990 / Time: 205h:6m:58s (1h:43m:30s left)
+Iteration 1200 / LogL: -1141780.782 / Time: 206h:33m:27s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.964
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 1210 / LogL: -1141855.331 / Time: 207h:54m:53s (15h:28m:38s left)
+Iteration 1220 / LogL: -1141779.755 / Time: 209h:15m:5s (13h:43m:57s left)
+Iteration 1230 / LogL: -1141816.099 / Time: 210h:36m:13s (11h:59m:42s left)
+Iteration 1240 / LogL: -1141763.238 / Time: 211h:55m:36s (10h:15m:45s left)
+Iteration 1250 / LogL: -1141771.096 / Time: 213h:17m:43s (8h:32m:18s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+Iteration 1260 / LogL: -1141801.219 / Time: 214h:37m:13s (6h:49m:7s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1265: -1141759.863
+Iteration 1270 / LogL: -1141811.956 / Time: 216h:2m:16s (16h:10m:22s left)
+Iteration 1280 / LogL: -1141771.973 / Time: 217h:24m:42s (14h:26m:55s left)
+Iteration 1290 / LogL: -1141802.697 / Time: 218h:47m:57s (12h:43m:50s left)
+Iteration 1300 / LogL: -1141836.274 / Time: 220h:12m:55s (11h:1m:8s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.972
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 1310 / LogL: -1141774.436 / Time: 221h:35m:27s (15h:14m:6s left)
+Iteration 1320 / LogL: -1141778.685 / Time: 223h:1m:39s (13h:31m:36s left)
+Iteration 1330 / LogL: -1141801.251 / Time: 224h:25m:26s (11h:49m:13s left)
+Iteration 1340 / LogL: -1141805.636 / Time: 225h:50m:56s (10h:7m:12s left)
+Iteration 1350 / LogL: -1141904.294 / Time: 227h:13m:35s (8h:25m:18s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+Iteration 1360 / LogL: -1141804.180 / Time: 228h:34m:52s (6h:43m:40s left)
+Iteration 1370 / LogL: -1141837.474 / Time: 229h:55m:49s (5h:2m:18s left)
+Iteration 1380 / LogL: -1141779.053 / Time: 231h:16m:15s (3h:21m:14s left)
+Iteration 1390 / LogL: -1141819.173 / Time: 232h:39m:3s (1h:40m:29s left)
+Iteration 1400 / LogL: -1141791.343 / Time: 234h:2m:8s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.978
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1405: -1141756.654
+Iteration 1410 / LogL: -1141813.743 / Time: 235h:25m:38s (15h:52m:23s left)
+Iteration 1420 / LogL: -1141773.080 / Time: 236h:47m:12s (14h:11m:1s left)
+Iteration 1430 / LogL: -1141802.924 / Time: 238h:7m:44s (12h:29m:52s left)
+Iteration 1440 / LogL: -1141783.386 / Time: 239h:28m:23s (10h:49m:1s left)
+Iteration 1450 / LogL: -1141794.308 / Time: 240h:51m:20s (9h:8m:31s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+Iteration 1460 / LogL: -1141779.113 / Time: 242h:7m:46s (7h:28m:4s left)
+Iteration 1470 / LogL: -1141796.295 / Time: 243h:32m:23s (5h:48m:8s left)
+Iteration 1480 / LogL: -1141786.509 / Time: 244h:58m:0s (4h:8m:26s left)
+Iteration 1490 / LogL: -1141826.763 / Time: 246h:16m:57s (2h:28m:51s left)
+Iteration 1500 / LogL: -1141779.064 / Time: 247h:35m:24s (0h:49m:33s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.986
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 1510 / LogL: -1141829.696 / Time: 248h:58m:47s (14h:50m:58s left)
+Iteration 1520 / LogL: -1141804.449 / Time: 250h:22m:47s (13h:11m:11s left)
+Iteration 1530 / LogL: -1141779.659 / Time: 251h:43m:6s (11h:31m:26s left)
+Iteration 1540 / LogL: -1141770.218 / Time: 253h:6m:52s (9h:52m:4s left)
+Iteration 1550 / LogL: -1141771.180 / Time: 254h:29m:13s (8h:12m:52s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+Iteration 1560 / LogL: -1141779.250 / Time: 255h:53m:4s (6h:33m:55s left)
+Iteration 1570 / LogL: -1141803.791 / Time: 257h:14m:23s (4h:55m:6s left)
+Iteration 1580 / LogL: -1141782.990 / Time: 258h:36m:14s (3h:16m:31s left)
+Iteration 1590 / LogL: -1141785.364 / Time: 259h:58m:52s (1h:38m:10s left)
+Iteration 1600 / LogL: -1141829.526 / Time: 261h:20m:16s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.990
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 1610 / LogL: -1141800.640 / Time: 262h:40m:49s (14h:41m:34s left)
+Iteration 1620 / LogL: -1141813.901 / Time: 264h:2m:52s (13h:2m:50s left)
+Iteration 1630 / LogL: -1141760.674 / Time: 265h:21m:12s (11h:24m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1635: -1141753.886
+Iteration 1640 / LogL: -1141762.902 / Time: 266h:45m:21s (15h:27m:41s left)
+Iteration 1650 / LogL: -1141820.355 / Time: 268h:9m:52s (13h:49m:22s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+Iteration 1660 / LogL: -1141773.136 / Time: 269h:30m:10s (12h:11m:0s left)
+Iteration 1670 / LogL: -1141758.781 / Time: 270h:51m:17s (10h:32m:54s left)
+Iteration 1680 / LogL: -1141791.998 / Time: 272h:14m:21s (8h:55m:4s left)
+Iteration 1690 / LogL: -1141788.845 / Time: 273h:39m:12s (7h:17m:27s left)
+Iteration 1700 / LogL: -1141823.351 / Time: 275h:0m:52s (5h:39m:55s left)
+Log-likelihood cutoff on original alignment: -1141971.990
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Iteration 1710 / LogL: -1141778.319 / Time: 276h:24m:48s (14h:33m:23s left)
+Iteration 1720 / LogL: -1141780.356 / Time: 277h:44m:14s (12h:55m:31s left)
+Iteration 1730 / LogL: -1141776.816 / Time: 279h:8m:27s (11h:18m:4s left)
+TREE SEARCH COMPLETED AFTER 1736 ITERATIONS / Time: 279h:59m:38s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1141753.886
+2. Current log-likelihood: -1141753.839
+3. Current log-likelihood: -1141753.816
+Optimal log-likelihood: -1141753.803
+Site proportion and rates:  (0.025,0.160) (0.067,0.388) (0.158,0.597) (0.357,0.910) (0.392,1.402)
+Parameters optimization took 3 rounds (165.512 sec)
+BEST SCORE FOUND : -1141753.803
+Creating bootstrap support values...
+Split supports printed to NEXUS file euk5_homs2.Scc3.linsi.iqtree.splits.nex
+Total tree length: 703.966
+
+Total number of iterations: 1736
+CPU time used for tree search: 2005853.695 sec (557h:10m:53s)
+Wall-clock time used for tree search: 1004662.185 sec (279h:4m:22s)
+Total CPU time used: 2012773.759 sec (559h:6m:13s)
+Total wall-clock time used: 1008149.669 sec (280h:2m:29s)
+
+Computing bootstrap consensus tree...
+Reading input file euk5_homs2.Scc3.linsi.iqtree.splits.nex...
+596 taxa and 4766 splits.
+Consensus tree written to euk5_homs2.Scc3.linsi.iqtree.contree
+Reading input trees file euk5_homs2.Scc3.linsi.iqtree.contree
+Log-likelihood of consensus tree: -1141751.816
+
+Analysis results written to: 
+  IQ-TREE report:                euk5_homs2.Scc3.linsi.iqtree.iqtree
+  Maximum-likelihood tree:       euk5_homs2.Scc3.linsi.iqtree.treefile
+  Likelihood distances:          euk5_homs2.Scc3.linsi.iqtree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          euk5_homs2.Scc3.linsi.iqtree.splits.nex
+  Consensus tree:                euk5_homs2.Scc3.linsi.iqtree.contree
+  Screen log file:               euk5_homs2.Scc3.linsi.iqtree.log
+
+Date and Time: Sat Jul 30 05:47:52 2022
