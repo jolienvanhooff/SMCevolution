@@ -7,7 +7,7 @@
 * Lists (\*.txt) and FASTA files (\*.fa) of SMC complexes' proteins
   * Filename convention: [dataset]\_[protein set type].[protein name].[txt or fa]; e.g. euk5_orths2.SMC1.fa, 'euk5' indicating eukarya.v5
   * protein set type: 'orths' (sequences belonging to the orthogroup within eukaryotes) or 'homs' (broader set of homologs, e.g. also containing eukaryotic outparalogs or prokaryotic homologs)
-* HMM profiles used to establish the orthogroup or to gather the homologs for the phylogeny
+* HMM profiles used to establish the orthogroup or to gather homologs for the phylogeny
 * Phylogenies used to establish the orthogroup, including:
   * (annotated) treefile
   * logfile
