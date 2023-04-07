@@ -1,6 +1,8 @@
 # SMCevolution
 **Evolutionary histories and current-day distributions of eukaryotic SMC complexes' proteins**
 
+***Warning: current version contains outdated orthologous groups for CAPD3, PDS5, Sororin, Nse5 and Nse6 (groups for eukarya.v5.1 instead of the most recent eukarya.v5.2)***
+
 *NB: typically, this repository serves to share and visualize results and, importantly, to keep track of the versions of such results. It is not intended to use as a location for storing all sorts of intermediate files*
 
 ## proteins

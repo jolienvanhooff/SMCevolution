@@ -19,6 +19,7 @@ GIAINT	branch	clade	#3288BD	1	normal
 SPISAL	branch	clade	#3288BD	1	normal
 TRESPE	branch	clade	#3288BD	1	normal
 ANDGOD	branch	clade	#C1DE3E	1	normal
+STYINC	branch	clade	#C1DE3E	1	normal
 JAKBAH	branch	clade	#C1DE3E	1	normal
 PHAKIR	branch	clade	#C1DE3E	1	normal
 SECSPE	branch	clade	#C1DE3E	1	normal
@@ -40,10 +41,12 @@ HEMKUK	branch	clade	#000000	1	normal
 SPISPE	branch	clade	#000000	1	normal
 NUTLON	branch	clade	#AB688A	1	normal
 PLAMIC	branch	clade	#AB688A	1	normal
+FABTRO	branch	clade	#AB688A	1	normal
 GEFOKE	branch	clade	#5E5E5E	1	normal
 MALCAL	branch	clade	#5E5E5E	1	normal
 MALJAK	branch	clade	#5E5E5E	1	normal
 MANPLA	branch	clade	#1824AB	1	normal
+MANSPH	branch	clade	#1824AB	1	normal
 DIPROT	branch	clade	#1824AB	1	normal
 RIGRAM	branch	clade	#1824AB	1	normal
 ARCINT	branch	clade	#F04695	1	normal
@@ -103,6 +106,7 @@ SCHMAN	branch	clade	#F59A22	1	normal
 CRAGIG	branch	clade	#F59A22	1	normal
 RAMVAR	branch	clade	#F59A22	1	normal
 PRIPAC	branch	clade	#F59A22	1	normal
+CAEELE	branch	clade	#F59A22	1	normal
 STRRAT	branch	clade	#F59A22	1	normal
 PICSPE	branch	clade	#2F6140	1	normal
 MICMAR	branch	clade	#35978F	1	normal
@@ -132,6 +136,7 @@ CHLATM	branch	clade	#1B7837	1	normal
 KLENIT	branch	clade	#1B7837	1	normal
 CHABRA	branch	clade	#1B7837	1	normal
 MARPOL	branch	clade	#1B7837	1	normal
+PHYPAT	branch	clade	#1B7837	1	normal
 CYCPAN	branch	clade	#1B7837	1	normal
 ARATHA	branch	clade	#1B7837	1	normal
 SORBIC	branch	clade	#1B7837	1	normal

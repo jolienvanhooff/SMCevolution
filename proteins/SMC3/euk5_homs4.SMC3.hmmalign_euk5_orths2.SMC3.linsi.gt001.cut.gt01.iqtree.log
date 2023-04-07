@@ -1,0 +1,2186 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Dec 20 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    n95 (AVX2, FMA3, 251 GB RAM)
+Command: /shared/software/miniconda/envs/iqtree-2.0.3/bin/iqtree -s euk5_homs4.SMC3.hmmalign_euk5_orths2.SMC3.linsi.gt001.cut.gt01.fa -m LG+C20 -B 1000 -T AUTO -pre euk5_homs4.SMC3.hmmalign_euk5_orths2.SMC3.linsi.gt001.cut.gt01.iqtree
+Seed:    738100 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Feb 10 17:55:21 2023
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file euk5_homs4.SMC3.hmmalign_euk5_orths2.SMC3.linsi.gt001.cut.gt01.fa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 1723 sequences with 585 columns, 585 distinct patterns
+580 parsimony-informative, 3 singleton sites, 2 constant sites
+                     Gap/Ambiguity  Composition  p-value
+   1  CHRPER000613/1-233    60.17%    passed     18.76%
+   2  BASMER005663/1-232    60.34%    passed     46.74%
+   3  MICMAR133532/1-232    60.34%    passed     16.14%
+   4  CYCPAN004724/1-426    28.72%    failed      0.50%
+   5  MARPOL014475/1-432    28.21%    failed      2.13%
+   6  KLENIT013767/1-233    60.17%    passed     86.01%
+   7  CRAGIG003045/1-232    60.34%    passed     64.23%
+   8  IXOSCA026611/1-233    60.17%    passed     82.05%
+   9  NEPPYR020859/1-232    60.34%    passed     97.18%
+  10  PHYPAT008016/1-428    27.86%    failed      1.21%
+  11  ACACAS013718/1-232    60.34%    passed     26.32%
+  12  MORVER000929/1-232    60.34%    passed     51.93%
+  13  ACAPLA015379/1-233    60.17%    passed     71.23%
+  14  RAPHET004522/1-232    60.34%    passed     78.49%
+  15  BRABEL032851/1-232    60.34%    passed     78.44%
+  16  ARATHA001945/1-232    60.34%    passed     53.30%
+  17  HYPCAT016322/1-235    60.00%    passed     26.94%
+  18  SPIPUN003636/1-447    27.35%    failed      0.21%
+  19  UMBRAM004078/1-437    27.01%    failed      0.01%
+  20  HOMSAP048835/1-232    60.34%    passed     86.63%
+  21  DAPMAG013128/1-232    60.34%    passed     67.51%
+  22  SORBIC020648/1-440    27.69%    failed      1.67%
+  23  AGABIS005856/1-233    60.34%    passed     75.64%
+  24  DANRER037066/1-233    60.17%    passed     89.30%
+  25  USTMAY000698/1-236    60.00%    passed      9.43%
+  26  THETRA001906/1-254    56.58%    passed     53.33%
+  27  RUSMAR000852/1-232    60.34%    failed      3.59%
+  28  LEUCOM082219/1-232    60.34%    passed     64.56%
+  29  CRYNEO005803/1-233    60.34%    passed     17.48%
+  30  CREFRA007285/1-250    57.26%    passed     32.91%
+  31  TRIMAR001020/1-233    60.17%    passed     54.16%
+  32  ALLMAC002923/1-232    60.34%    passed     91.73%
+  33  DROMEL029691/1-232    60.34%    passed     50.50%
+  34  GRACHO001880/1-232    60.34%    passed     90.80%
+  35  DIAGRA033645/1-439    28.55%    failed      2.73%
+  36  PRACOL000925/1-232    60.34%    passed     47.37%
+  37  SCHPOM003558/1-232    60.34%    passed     44.35%
+  38  PARTRI009701/1-278    52.65%    passed      6.13%
+  39  MATSPE019817/1-235    59.83%    passed     78.78%
+  40  DIALUT004898/1-233    60.34%    failed      1.43%
+  41  COLSPE007154/1-434    27.35%    failed      0.01%
+  42  CYAPAR018309/1-232    60.34%    passed     83.80%
+  43  SYNPLU000363/1-456    25.98%    failed      0.05%
+  44  NEODAM003454/1-240    58.97%    passed     42.49%
+  45  OSTTAU005875/1-231    60.51%    passed     39.84%
+  46  MICSPE002052/1-232    60.34%    passed     62.52%
+  47  VERVER008043/1-233    60.34%    passed     42.23%
+  48  NANOCE077179/1-233    60.34%    passed     75.83%
+  49  ALLMAC014839/1-257    60.34%    passed     84.67%
+  50  NANOCE114163/1-233    60.34%    passed     75.83%
+  51  COEREV002514/1-232    60.34%    passed     10.71%
+  52  DIPROT011248/1-209    64.27%    passed     44.97%
+  53  NANOCE139573/1-233    60.34%    passed     75.83%
+  54  SALKVE015220/1-232    60.34%    passed      8.82%
+  55  GEFOKE003554/1-254    56.58%    passed     25.19%
+  56  PLAFUN015584/1-246    58.29%    passed     20.36%
+  57  CAPOWC007189/1-240    60.34%    passed     57.44%
+  58  SAPDIC009202/1-233    60.34%    passed     59.25%
+  59  MASBAL010304/1-579    25.30%    failed      0.02%
+  60  PHYINF010035/1-234    60.17%    passed     79.35%
+  61  NAEFOW007263/1-234    60.17%    passed     59.49%
+  62  CIOINT011297/1-232    60.34%    passed     99.10%
+  63  GONPRO009554/1-232    60.34%    passed     65.59%
+  64  GLOWIT000464/1-220    63.25%    passed     41.56%
+  65  CLAOKA013011/1-235    60.00%    passed     63.44%
+  66  GEPOCE045632/1-222    62.56%    passed     83.18%
+  67  NEUCRA009596/1-230    60.68%    passed     93.13%
+  68  PRYPAR015398/1-213    63.93%    passed     67.05%
+  69  MNELEI006197/1-216    66.50%    passed     19.03%
+  70  PLABRA006919/1-231    60.51%    passed     54.53%
+  71  CHLATM004172/1-1135    3.25%    failed      2.37%
+  72  PORPUR005404/1-232    60.34%    passed     13.75%
+  73  PHATRI006299/1-234    60.34%    passed     78.21%
+  74  CHLREI011027/1-235    59.83%    passed     96.39%
+  75  PHAKIR002451/1-416    30.60%    failed      0.00%
+  76  HONFER004290/1-236    59.83%    passed     64.64%
+  77  PERSWS004621/1-468    22.22%    failed      0.00%
+  78  RAMVAR017815/1-234    60.34%    passed     67.15%
+  79  RAMBRE001855/1-449    26.50%    failed      0.40%
+  80  AURLIM012177/1-281    52.48%    passed     14.50%
+  81  TRIADH002443/1-1033    3.42%    passed     50.16%
+  82  PRIPAC027800/1-233    60.17%    passed     36.23%
+  83  APISPI058635/1-236    59.83%    passed     33.52%
+  84  BAFFRI019675/1-256    56.41%    passed     39.22%
+  85  GALSUL000531/1-231    60.51%    passed     58.64%
+  86  STRRAT006623/1-233    60.17%    passed     23.68%
+  87  HALSEO013927/1-227    61.37%    passed     59.99%
+  88  PAPANK006970/1-237    59.66%    passed     94.14%
+  89  PARATL020918/1-233    60.17%    passed     93.57%
+  90  ARCINT008967/1-486    19.83%    failed      0.00%
+  91  CAEELE024106/1-233    60.17%    passed     33.61%
+  92  LEIMAJ000893/1-236    59.83%    passed     63.76%
+  93  COCSUB000673/1-228    61.03%    passed     63.55%
+  94  MASSPE012496/1-235    60.34%    passed     58.25%
+  95  CYAMER002737/1-233    60.17%    passed      9.08%
+  96  HEMSPE002134/1-414    29.57%    passed      6.06%
+  97  PARPYR001953/1-247    60.34%    passed     88.31%
+  98  CRYCOH011649/1-233    60.34%    passed     86.48%
+  99  ENTHIS006583/1-232    60.51%    failed      1.43%
+ 100  PERSPE002508/1-236    59.83%    passed     91.10%
+ 101  SYMSPE049675/1-234    60.17%    passed     38.56%
+ 102  TRYBRU004529/1-236    59.83%    passed     56.17%
+ 103  CAULEN003089/1-386    38.63%    failed      1.37%
+ 104  CRYCOH022611/1-233    60.34%    passed     87.85%
+ 105  STECOE018354/1-245    58.29%    passed     79.48%
+ 106  SACCER004354/1-245    58.80%    passed     53.85%
+ 107  DICDIS007845/1-321    46.32%    failed      2.86%
+ 108  RHYHUM036829/1-238    60.00%    passed     80.34%
+ 109  GEMCRY000292/1-443    26.15%    failed      3.88%
+ 110  HEMPHA013934/1-251    60.00%    passed     48.76%
+ 111  ANDGOD007861/1-232    60.34%    passed      7.12%
+ 112  BAFFRI025018/1-261    55.56%    passed     43.76%
+ 113  ENTSUL036669/1-233    60.51%    passed     98.89%
+ 114  TRIVAG035034/1-432    27.52%    failed      0.65%
+ 115  ANAIGN013838/1-423    30.43%    failed      0.00%
+ 116  PYGBIF003483/1-419    29.74%    failed      4.72%
+ 117  MONEXI008068/1-435    28.03%    failed      0.00%
+ 118  NUTLON015031/1-176    69.91%    passed     20.98%
+ 119  NEMVEC003785/1-228    61.20%    passed     53.91%
+ 120  ELPMAR001061/1-232    60.34%    passed     24.08%
+ 121  MANSPH001320/1-255    56.58%    passed     65.18%
+ 122  POLPAL004369/1-244    59.83%    passed     58.11%
+ 123  PAUCHR001028/1-234    60.34%    failed      4.51%
+ 124  RHOMAR006834/1-229    65.98%    passed     98.83%
+ 125  VITBRA011122/1-236    60.17%    passed     19.16%
+ 126  CRYMUR002397/1-440    27.86%    failed      0.01%
+ 127  CHRVEL030176/1-433    28.03%    failed      0.00%
+ 128  PERMAR023381/1-232    60.51%    passed     29.24%
+ 129  NANOCE088395/1-233    60.34%    passed     75.83%
+ 130  BOMMOR008446/1-436    27.52%    failed      0.00%
+ 131  PARTRI009706/1-278    52.65%    passed      6.60%
+ 132  SPISPE008745/1-232    60.34%    passed     41.81%
+ 133  TRIVAG021614/1-431    27.01%    failed      0.00%
+ 134  ENCINT001210/1-227    61.20%    failed      1.67%
+ 135  RIGRAM023938/1-289    65.98%    passed     13.15%
+ 136  GEMCRY023749/1-232    60.34%    passed     78.42%
+ 137  CARMEM008251/1-444    26.67%    failed      1.09%
+ 138  TRIVAG052252/1-231    60.51%    passed     31.19%
+ 139  GEMCRY018681/1-232    60.34%    passed     78.42%
+ 140  PRYPAR014715/1-272    64.44%    passed     67.43%
+ 141  BARSPE006546/1-228    61.20%    failed      0.08%
+ 142  STEHIS020799/1-457    24.96%    failed      0.00%
+ 143  PLAFAL000645/1-226    61.37%    failed      0.00%
+ 144  NEOSPE017698/1-234    60.17%    passed     24.10%
+ 145  HALSPE000036/1-231    60.51%    passed     70.95%
+ 146  BODSAL006228/1-251    57.26%    passed     49.00%
+ 147  SCHMAN005950/1-228    66.32%    passed     77.13%
+ 148  CHABRA026644/1-198    71.62%    passed     21.20%
+ 149  MONBRE000108/1-254    61.20%    passed     28.58%
+ 150  TELSUB010034/1-232    60.34%    passed     23.50%
+ 151  PHYPOL000796/1-229    66.50%    passed     88.92%
+ 152  HEMSPE001225/1-235    60.34%    passed     94.38%
+ 153  PARTET018086/1-442    25.98%    failed      0.00%
+ 154  EUGLON031599/1-222    66.50%    passed     60.84%
+ 155  GONPAC026942/1-210    65.98%    passed     25.05%
+ 156  STYINC005070/1-244    65.81%    passed     77.49%
+ 157  GRACHO007505/1-231    61.03%    passed     46.67%
+ 158  STYINC009473/1-252    57.61%    passed     75.44%
+ 159  MASSPE011617/1-215    63.93%    passed     22.04%
+ 160  BRABEL028776/1-238    59.83%    passed     49.90%
+ 161  SALKVE022038/1-236    60.17%    passed     60.34%
+ 162  DIAGRA027226/1-456    25.98%    failed      0.60%
+ 163  PSEPER001326/1-458    25.64%    failed      0.00%
+ 164  DAPMAG013541/1-269    58.29%    passed     71.04%
+ 165  DAPMAG014451/1-233    60.68%    passed     30.72%
+ 166  HONFER009637/1-240    59.49%    passed     59.37%
+ 167  ARATHA038694/1-232    61.03%    passed     89.58%
+ 168  RHIIRR011519/1-232    60.34%    passed     74.74%
+ 169  CREFRA000493/1-249    58.97%    passed     64.86%
+ 170  NEPPYR026579/1-228    61.54%    passed     85.80%
+ 171  CAPOWC003022/1-232    60.85%    passed     54.55%
+ 172  SORBIC025487/1-265    56.41%    passed     99.94%
+ 173  ACASPE009801/1-363    41.20%    failed      0.02%
+ 174  GUITHE012177/1-235    60.51%    passed     77.54%
+ 175  ARATHA013631/1-466    24.27%    passed     27.24%
+ 176  MONBRE008367/1-229    61.37%    passed     72.57%
+ 177  EUGLON001329/1-226    62.39%    passed     55.63%
+ 178  AURLIM013315/1-457    25.98%    failed      4.82%
+ 179  BIGNAT000119/1-239    59.66%    passed     52.45%
+ 180  NEODAM003009/1-232    61.03%    passed     65.03%
+ 181  CHLREI002709/1-230    61.37%    passed     66.44%
+ 182  SAPDIC013855/1-240    59.66%    passed     30.39%
+ 183  COLSPE014135/1-212    66.15%    passed     59.15%
+ 184  DIALUT007953/1-238    59.83%    passed     75.42%
+ 185  ENTSUL031690/1-231    62.22%    passed     53.18%
+ 186  TOXGON005257/1-240    60.85%    passed     15.71%
+ 187  CIOINT015915/1-240    59.66%    passed     37.85%
+ 188  CHRPER010662/1-205    65.47%    passed     21.40%
+ 189  DANRER012792/1-462    23.93%    failed      3.27%
+ 190  RHOMAR000369/1-240    59.49%    passed     89.37%
+ 191  ACAPLA022570/1-232    60.85%    passed     78.60%
+ 192  CYCPAN008163/1-467    24.27%    passed     11.30%
+ 193  STEHIS004483/1-240    59.49%    passed     48.10%
+ 194  MONNEG010743/1-201    69.06%    passed     38.46%
+ 195  THETRA006741/1-457    26.67%    failed      0.00%
+ 196  ANDGOD007086/1-236    61.03%    passed     42.58%
+ 197  MARPOL000564/1-295    51.11%    passed     97.98%
+ 198  PORPUR006811/1-241    59.49%    passed     62.35%
+ 199  CHABRA026632/1-233    60.17%    passed     77.19%
+ 200  PERSWS008668/1-463    24.44%    failed      0.08%
+ 201  MASBAL014838/1-238    60.00%    passed     82.12%
+ 202  CLAOKA020312/1-234    60.51%    passed     32.87%
+ 203  MANSPH004950/1-435    26.67%    failed      2.51%
+ 204  PHYINF000464/1-445    27.69%    failed      0.01%
+ 205  HOMSAP003614/1-247    58.29%    passed     72.63%
+ 206  GLOWIT024501/1-235    60.34%    passed     42.31%
+ 207  SCHPOM001484/1-241    59.49%    passed     50.07%
+ 208  PHAKIR000835/1-469    24.27%    failed      0.14%
+ 209  PHYPAT037130/1-250    58.80%    passed     78.05%
+ 210  GALSUL001537/1-263    56.75%    passed     38.86%
+ 211  GIAINT003873/1-228    61.37%    passed     83.11%
+ 212  CRAGIG005085/1-438    27.01%    failed      4.66%
+ 213  RUSMAR000878/1-203    65.30%    passed     98.08%
+ 214  ELPMAR009230/1-232    60.85%    passed     51.16%
+ 215  PLAFUN015765/1-469    23.42%    failed      0.30%
+ 216  HALSEO008016/1-202    65.47%    passed     62.39%
+ 217  NEUCRA007078/1-240    59.66%    passed     83.12%
+ 218  PARATL019656/1-239    59.83%    passed     83.58%
+ 219  CYAPAR017367/1-255    57.78%    passed     64.14%
+ 220  POLPAL007931/1-202    65.47%    passed     12.29%
+ 221  CHLATM005912/1-231    61.20%    passed     89.92%
+ 222  GEPOCE018046/1-231    61.20%    passed     66.43%
+ 223  GEPOCE030532/1-426    28.72%    failed      0.72%
+ 224  HEMPHA018276/1-228    61.54%    passed     72.63%
+ 225  PAPANK005677/1-196    66.50%    passed     88.99%
+ 226  DIPROT004444/1-233    60.68%    passed     16.61%
+ 227  COEREV001234/1-230    61.20%    passed     89.29%
+ 228  GONPRO009185/1-230    61.20%    passed     55.48%
+ 229  COCSUB000214/1-232    60.85%    passed     39.07%
+ 230  MATSPE021239/1-232    60.85%    passed     13.78%
+ 231  OSTTAU004942/1-229    61.37%    passed     80.70%
+ 232  GEMCRY046306/1-233    60.85%    passed     95.40%
+ 233  STRRAT004454/1-421    31.45%    failed      0.00%
+ 234  PHATRI005904/1-450    25.98%    passed     26.61%
+ 235  SCHMAN006938/1-243    60.34%    passed     79.66%
+ 236  IXOSCA018882/1-241    59.32%    passed     63.62%
+ 237  NANOCE097135/1-237    60.00%    passed     29.73%
+ 238  RHIIRR023193/1-239    59.83%    passed     33.15%
+ 239  CYAMER003109/1-233    60.85%    passed     86.96%
+ 240  GEFOKE016359/1-246    58.46%    passed     39.48%
+ 241  KLENIT000067/1-238    60.00%    passed     55.78%
+ 242  SPIPUN008928/1-240    59.49%    passed     92.07%
+ 243  LEUCOM025452/1-241    59.32%    passed     44.94%
+ 244  NAEFOW000571/1-241    59.32%    passed     12.60%
+ 245  BARSPE008576/1-440    28.03%    failed      0.01%
+ 246  BAFFRI006389/1-232    61.03%    passed     72.62%
+ 247  RAMVAR017076/1-239    60.00%    passed     79.87%
+ 248  CHLVAR008305/1-229    61.37%    passed     52.33%
+ 249  MORVER003160/1-235    60.34%    passed     61.61%
+ 250  USTMAY003635/1-229    61.54%    passed     68.25%
+ 251  ACACAS013749/1-383    35.21%    failed      0.08%
+ 252  PARTET022067/1-241    59.49%    failed      3.31%
+ 253  PARTRI008250/1-240    59.49%    passed     26.67%
+ 254  ROZALL002573/1-240    59.66%    passed     84.52%
+ 255  ENTHIS002011/1-240    59.49%    passed     22.03%
+ 256  TELSPE042423/1-1      99.83%    passed     55.42%
+ 257  DICDIS011927/1-463    29.06%    failed      2.63%
+ 258  TELSPE082000/1-211    66.50%    passed     94.80%
+ 259  HEMSPE003698/1-453    27.86%    failed      3.71%
+ 260  PLABRA002127/1-234    61.20%    passed     63.71%
+ 261  ANAIGN002024/1-239    59.66%    passed     73.75%
+ 262  CRYMUR001271/1-238    60.00%    passed     19.60%
+ 263  CRYCOH013216/1-305    49.23%    passed     52.94%
+ 264  GEMCRY034863/1-233    66.15%    passed     17.19%
+ 265  AGABIS009290/1-234    61.20%    failed      1.67%
+ 266  EUGLON045559/1-237    60.00%    passed     50.04%
+ 267  SYNPLU001844/1-231    61.03%    passed     89.60%
+ 268  ALLMAC018666/1-265    55.56%    passed     90.96%
+ 269  BOMMOR007082/1-456    26.50%    passed     37.56%
+ 270  CRYNEO000755/1-240    59.66%    passed     75.84%
+ 271  TETTHE020649/1-460    25.47%    failed      0.00%
+ 272  TRIVAG045617/1-237    60.00%    passed     67.84%
+ 273  CARMEM006925/1-226    61.88%    passed     81.16%
+ 274  NEOSPE011759/1-240    59.66%    passed     59.40%
+ 275  SACCER001542/1-254    58.12%    passed     61.06%
+ 276  PARTET001725/1-239    59.83%    failed      4.62%
+ 277  PLAFAL004020/1-477    23.93%    failed      0.00%
+ 278  PRACOL006942/1-192    67.18%    passed     57.48%
+ 279  TRYBRU005166/1-227    62.22%    passed     86.39%
+ 280  ANAIGN023403/1-236    63.59%    failed      0.00%
+ 281  DYSBRE006159/1-230    61.20%    passed     37.79%
+ 282  TOXGON007141/1-238    60.34%    passed     38.24%
+ 283  BASMER013058/1-231    61.03%    passed     48.61%
+ 284  CHASUB000206/1-236    65.13%    passed     82.28%
+ 285  PERMAR008282/1-205    65.13%    passed     87.69%
+ 286  RHYHUM045505/1-237    61.20%    passed     90.15%
+ 287  SYNPLU005850/1-229    61.03%    passed     94.11%
+ 288  PSEPER005560/1-435    27.52%    failed      0.00%
+ 289  VITBRA003781/1-385    35.90%    failed      2.66%
+ 290  PLATAR014930/1-214    63.42%    passed     21.25%
+ 291  MADERY024430/1-234    60.34%    failed      1.85%
+ 292  TETTHE011227/1-431    29.74%    failed      0.00%
+ 293  DROMEL019690/1-230    61.20%    passed     11.83%
+ 294  MONEXI003635/1-232    61.03%    passed     44.20%
+ 295  STRRAT004032/1-223    62.56%    failed      0.11%
+ 296  PARPYR005155/1-236    60.34%    passed     30.62%
+ 297  ALLMAC016593/1-292    51.28%    passed     51.26%
+ 298  CAEELE016311/1-231    62.05%    passed      6.82%
+ 299  COLVIE011981/1-160    73.50%    passed     75.57%
+ 300  TELSUB006503/1-211    66.50%    passed     94.80%
+ 301  PERSPE003335/1-192    67.18%    passed     91.84%
+ 302  PRIPAC009017/1-234    61.37%    passed     33.62%
+ 303  LENLIM012780/1-406    33.33%    passed     10.17%
+ 304  ROZALL006033/1-434    29.74%    failed      0.00%
+ 305  LEIMAJ000497/1-229    61.88%    passed     39.96%
+ 306  SCHMAN009414/1-203    65.30%    passed     72.07%
+ 307  GUITHE010914/1-218    63.42%    passed     70.69%
+ 308  THEPAR001372/1-206    64.79%    passed     29.61%
+ 309  ANCTWI031186/1-191    67.52%    passed     90.08%
+ 310  TELSUB024590/1-223    65.81%    passed     36.55%
+ 311  RHIIRR011517/1-226    66.50%    passed     77.09%
+ 312  GIAINT003027/1-250    57.78%    passed     28.07%
+ 313  CLAOKA003937/1-233    60.85%    passed     39.94%
+ 314  TELSUB024589/1-223    65.81%    passed     36.55%
+ 315  HOMSAP103977/1-247    58.29%    passed     72.63%
+ 316  CYAGLO006032/1-248    66.84%    passed     58.66%
+ 317  COLSPE007686/1-196    66.50%    passed     82.65%
+ 318  STEHIS007416/1-206    64.96%    passed     65.21%
+ 319  LAPGUS034833/1-236    65.64%    passed     56.99%
+ 320  ENCINT000273/1-191    67.86%    passed     69.37%
+ 321  CHLVAR003177/1-168    71.28%    passed     87.17%
+ 322  MICSPE009894/1-206    65.64%    passed     68.84%
+ 323  SPISAL000829/1-232    60.85%    failed      1.26%
+ 324  CHASUB017373/1-236    65.13%    passed     82.28%
+ 325  LEPVOR006963/1-215    68.55%    passed     21.36%
+ 326  IXOSCA029050/1-222    67.01%    passed     20.16%
+ 327  SCHPOM000800/1-330    46.32%    passed      9.27%
+ 328  PERMAR000553/1-234    60.17%    passed     15.08%
+ 329  TRIVAG010936/1-258    57.26%    passed     28.09%
+ 330  HALSPE013191/1-269    65.98%    passed     11.58%
+ 331  MASBAL004554/1-199    66.15%    passed     55.21%
+ 332  BODSAL006227/1-213    66.15%    passed     76.76%
+ 333  TRIVAG040110/1-237    61.03%    passed     62.67%
+ 334  DANRER023396/1-202    65.98%    passed     21.94%
+ 335  LEUCOM064998/1-177    69.74%    passed     45.09%
+ 336  TRESPE000873/1-505    20.85%    failed      0.00%
+ 337  MATSPE022294/1-239    61.37%    passed     84.73%
+ 338  LEPVOR016353/1-241    63.42%    passed     89.51%
+ 339  STECOE023049/1-474    22.74%    failed      0.00%
+ 340  ENCINT000657/1-279    53.50%    failed      0.82%
+ 341  PARTRI008723/1-237    61.37%    passed     83.74%
+ 342  PARTRI008722/1-237    61.37%    passed     83.74%
+ 343  CHRPER000901/1-195    67.69%    passed     64.27%
+ 344  AGABIS000157/1-238    61.88%    passed     99.66%
+ 345  THETRA008619/1-194    67.01%    passed     79.82%
+ 346  PARTET027660/1-489    20.68%    failed      0.00%
+ 347  CAULEN005751/1-234    60.51%    passed     22.02%
+ 348  POLPAL000162/1-246    60.51%    passed     72.12%
+ 349  NEODAM009786/1-440    29.57%    failed      0.01%
+ 350  RHOMAR007090/1-244    60.85%    passed     87.42%
+ 351  ACACAS015136/1-240    61.37%    passed     64.70%
+ 352  COEREV001757/1-246    60.34%    passed     75.49%
+ 353  CHOSPE027934/1-197    67.35%    passed     85.35%
+ 354  GEFOKE003480/1-185    68.55%    passed     63.90%
+ 355  HOMSAP049619/1-187    68.21%    failed      3.52%
+ 356  SALKVE023172/1-239    61.37%    passed     87.81%
+ 357  RUSMAR000817/1-232    62.56%    passed     90.66%
+ 358  BODSAL001711/1-197    66.32%    passed     95.29%
+ 359  SPIPUN009390/1-254    60.51%    passed     22.88%
+ 360  GRACHO001432/1-325    47.52%    passed     16.08%
+ 361  PARATL022014/1-243    60.34%    passed     96.89%
+ 362  PLABRA001391/1-244    61.03%    passed     83.00%
+ 363  ACAPLA027977/1-458    26.32%    failed      0.04%
+ 364  PICSPE012666/1-257    70.43%    passed     46.70%
+ 365  CYAMER002063/1-192    67.18%    passed     22.36%
+ 366  LEUCOM088618/1-253    58.80%    passed     11.09%
+ 367  NAEFOW000010/1-249    60.00%    passed      7.48%
+ 368  PARTRI009152/1-205    66.32%    passed     42.70%
+ 369  MASSPE004300/1-204    65.30%    passed     99.85%
+ 370  HEMKUK003044/1-186    73.16%    passed     18.19%
+ 371  TETTHE007573/1-439    28.21%    failed      0.00%
+ 372  BIGNAT009824/1-206    65.98%    passed     71.64%
+ 373  COCSUB001552/1-242    60.85%    passed     73.98%
+ 374  PHYPOL000832/1-445    27.69%    failed      0.01%
+ 375  BRABEL021280/1-241    60.85%    passed     94.51%
+ 376  NAEFOW001121/1-426    28.72%    failed      0.01%
+ 377  MASBAL006668/1-200    66.67%    passed     72.14%
+ 378  MORVER007664/1-199    66.15%    passed     94.52%
+ 379  ELPMAR008353/1-200    66.15%    passed     99.09%
+ 380  PARTRI009153/1-205    66.32%    passed     48.08%
+ 381  HEMPHA020163/1-191    68.21%    passed     34.19%
+ 382  GLOWIT007943/1-243    60.85%    passed     62.43%
+ 383  ACAPLA003455/1-195    66.84%    passed     19.29%
+ 384  PLABRA005021/1-226    61.71%    passed     19.84%
+ 385  PSEPER004459/1-470    22.91%    failed      0.00%
+ 386  CYAPAR018303/1-234    62.22%    passed     72.63%
+ 387  CHRPER000185/1-189    67.86%    passed     92.75%
+ 388  HONFER005427/1-241    61.54%    passed     55.48%
+ 389  VERVER007024/1-232    62.56%    passed     19.98%
+ 390  RHIIRR022454/1-245    59.15%    passed     79.46%
+ 391  STECOE026436/1-425    30.09%    failed      0.00%
+ 392  RIGRAM016281/1-218    65.47%    passed     34.30%
+ 393  PHYPAT034702/1-213    66.15%    passed     52.55%
+ 394  SORBIC020073/1-227    63.42%    passed     39.19%
+ 395  HONFER007105/1-205    65.98%    passed     70.33%
+ 396  CLAOKA010466/1-213    65.13%    passed     95.65%
+ 397  STRRAT012100/1-187    68.21%    passed     48.15%
+ 398  CRYNEO006574/1-235    62.39%    passed     92.96%
+ 399  LEUCOM001475/1-201    65.98%    passed     63.06%
+ 400  CRAGIG030406/1-436    27.01%    failed      0.00%
+ 401  COLSPE009053/1-198    66.50%    passed     87.44%
+ 402  DAPMAG017754/1-1      99.83%    passed     42.30%
+ 403  ARATHA007906/1-218    65.47%    passed     86.22%
+ 404  CRYCOH043558/1-207    64.79%    passed     95.09%
+ 405  DYSBRE004155/1-199    66.32%    passed     37.91%
+ 406  USTMAY000920/1-231    62.56%    passed     98.98%
+ 407  PLAFUN015353/1-241    61.03%    passed     42.35%
+ 408  IXOSCA008515/1-187    68.21%    passed     36.41%
+ 409  PYGBIF002257/1-206    65.98%    passed     88.13%
+ 410  MICMAR136216/1-199    67.18%    passed     52.02%
+ 411  EUGLON000887/1-190    67.86%    passed     91.25%
+ 412  RHYHUM037927/1-289    51.97%    failed      2.34%
+ 413  COCSUB002858/1-197    67.69%    failed      0.03%
+ 414  MARPOL003724/1-221    65.13%    passed     51.47%
+ 415  THEPAR000659/1-250    60.51%    failed      0.10%
+ 416  DIPROT027572/1-263    58.29%    passed     78.00%
+ 417  ELPMAR016941/1-242    60.85%    passed     30.91%
+ 418  SACCER004216/1-209    66.32%    passed     67.06%
+ 419  BRABEL020769/1-190    67.69%    passed     27.81%
+ 420  VERVER005939/1-266    56.92%    passed     28.42%
+ 421  MARPOL014084/1-232    62.56%    passed     77.22%
+ 422  ANDGOD007886/1-194    66.84%    passed     97.09%
+ 423  GALSUL006107/1-508    18.80%    failed      0.28%
+ 424  HYPCAT004189/1-1      99.83%    passed     94.46%
+ 425  GEFOKE004874/1-219    63.76%    passed     54.72%
+ 426  PRYPAR006325/1-204    65.13%    passed     48.94%
+ 427  PHATRI008366/1-206    65.47%    passed     78.59%
+ 428  DICDIS012867/1-201    65.64%    passed     64.86%
+ 429  DANRER012548/1-179    70.09%    passed     88.70%
+ 430  CIOINT002342/1-238    61.54%    passed     89.29%
+ 431  MONBRE000206/1-206    69.23%    passed     68.06%
+ 432  STYINC005101/1-420    32.31%    failed      4.11%
+ 433  NEUCRA011157/1-198    66.50%    passed     51.21%
+ 434  AURLIM012058/1-203    66.32%    passed     73.80%
+ 435  ACASPE017228/1-396    34.53%    failed      1.44%
+ 436  SACCER005571/1-196    66.84%    passed     84.81%
+ 437  DANRER022539/1-225    61.54%    passed     89.53%
+ 438  NEMVEC020706/1-242    60.68%    passed     18.11%
+ 439  PERSWS008544/1-202    66.50%    passed     50.74%
+ 440  LAPGUS005427/1-181    71.62%    passed     69.48%
+ 441  PORPUR009771/1-467    25.81%    passed      5.21%
+ 442  BICSPE011658/1-229    62.56%    failed      4.57%
+ 443  COEREV005070/1-247    58.63%    passed     33.65%
+ 444  PHYINF010456/1-205    65.13%    passed     98.57%
+ 445  CREFRA003876/1-202    66.67%    passed     30.22%
+ 446  PLAFUN010394/1-198    66.32%    passed     51.51%
+ 447  DAPMAG007532/1-245    60.34%    passed     50.23%
+ 448  APISPI005943/1-310    50.09%    failed      3.82%
+ 449  PYGBIF004360/1-240    59.49%    passed     45.26%
+ 450  PHYPAT046252/1-230    62.91%    passed     60.28%
+ 451  CYAPAR001112/1-420    32.31%    passed      5.43%
+ 452  OSTTAU005437/1-243    61.03%    passed     92.17%
+ 453  CAPOWC006949/1-242    60.68%    passed     87.76%
+ 454  STEHIS007115/1-193    67.01%    passed     57.47%
+ 455  CRYNEO001122/1-199    66.84%    passed     63.47%
+ 456  KLENIT011193/1-232    62.74%    passed     91.91%
+ 457  NUTLON014893/1-205    64.96%    passed     33.15%
+ 458  THEPAR002011/1-298    53.16%    failed      4.78%
+ 459  KLENIT012966/1-215    65.64%    passed     46.49%
+ 460  DIAGRA035198/1-441    28.55%    failed      2.13%
+ 461  TRYBRU005048/1-175    70.09%    passed     80.27%
+ 462  LEPVOR007687/1-201    66.15%    passed     66.55%
+ 463  RHYHUM048315/1-203    65.30%    passed     89.96%
+ 464  APISPI026410/1-212    65.13%    passed     90.65%
+ 465  CYCPAN027555/1-205    67.35%    passed     58.84%
+ 466  PERSWS008589/1-453    28.21%    failed      0.28%
+ 467  GEMCRY016094/1-198    67.52%    passed     99.56%
+ 468  AURLIM012090/1-236    62.39%    passed     48.32%
+ 469  SORBIC042655/1-216    65.81%    passed     63.33%
+ 470  ARCINT009206/1-428    28.55%    failed      0.00%
+ 471  PHYINF013215/1-254    57.61%    passed     17.69%
+ 472  CHLATM007674/1-243    60.68%    passed     34.96%
+ 473  ROZALL005537/1-221    65.98%    failed      1.12%
+ 474  TOXGON005810/1-240    62.05%    passed     24.77%
+ 475  SCHPOM003633/1-205    66.32%    passed     58.81%
+ 476  CHLREI013625/1-468    27.35%    failed      0.18%
+ 477  MICSPE004675/1-241    61.03%    passed     68.22%
+ 478  HEMPHA003657/1-246    60.68%    passed     62.76%
+ 479  HOMSAP001172/1-500    22.56%    failed      0.06%
+ 480  DANRER023398/1-202    65.98%    passed     21.94%
+ 481  VAVCUL000297/1-202    65.64%    passed     37.54%
+ 482  CLAOKA005246/1-200    67.35%    passed     75.78%
+ 483  PAUCHR001467/1-408    32.82%    failed      0.00%
+ 484  CREFRA001134/1-203    65.47%    passed     91.46%
+ 485  PRIPAC027676/1-184    68.72%    passed     41.17%
+ 486  SAPDIC000472/1-470    26.32%    failed      2.67%
+ 487  PAUCHR000376/1-236    61.88%    passed     72.72%
+ 488  CAULEN000965/1-240    61.03%    passed     76.39%
+ 489  MATSPE000492/1-454    27.52%    failed      0.04%
+ 490  PRYPAR015288/1-191    68.03%    passed     40.97%
+ 491  PAPANK006999/1-1      99.83%    failed      0.12%
+ 492  IXOSCA013396/1-239    61.37%    passed     55.52%
+ 493  STRRAT009397/1-192    67.86%    passed     79.72%
+ 494  RAMBRE001038/1-212    64.10%    passed     86.35%
+ 495  MICMAR117320/1-195    66.67%    passed     47.60%
+ 496  VERVER009147/1-193    67.35%    passed     83.87%
+ 497  ARATHA005870/1-243    61.54%    passed     37.30%
+ 498  TELSUB047694/1-226    61.88%    passed     13.07%
+ 499  HEMSPE004653/1-177    70.09%    failed      1.40%
+ 500  CRAGIG051612/1-196    66.67%    passed     98.20%
+ 501  BODSAL010681/1-169    71.11%    passed     96.57%
+ 502  MANSPH007835/1-204    65.98%    passed     75.56%
+ 503  BAFFRI008351/1-192    67.35%    passed     72.83%
+ 504  DROMEL015325/1-187    68.03%    passed     43.59%
+ 505  RAMVAR019544/1-193    67.01%    passed     96.82%
+ 506  ARCINT001873/1-192    67.86%    passed     17.31%
+ 507  TELSUB047693/1-227    61.71%    passed     11.13%
+ 508  CYCPAN007843/1-231    62.91%    passed     24.70%
+ 509  DIALUT011653/1-164    72.31%    passed     97.36%
+ 510  MICSPE000543/1-214    65.81%    passed     30.72%
+ 511  ACACAS001419/1-479    20.85%    failed      0.05%
+ 512  CAULEN005542/1-226    63.76%    passed     56.35%
+ 513  GONPRO012560/1-209    65.98%    passed     26.41%
+ 514  ENTHIS008045/1-190    67.52%    passed     69.06%
+ 515  UMBRAM002926/1-243    61.03%    passed     57.51%
+ 516  PRACOL000453/1-207    67.01%    failed      0.32%
+ 517  PERSPE005094/1-268    55.38%    passed     46.98%
+ 518  ALLMAC003355/1-196    67.52%    passed     24.45%
+ 519  PAPANK007401/1-228    62.39%    passed     99.00%
+ 520  RAPHET004774/1-204    66.84%    passed     86.91%
+ 521  PHYPOL001133/1-207    65.13%    passed     35.90%
+ 522  CAEELE009512/1-185    68.55%    passed     50.98%
+ 523  ALLMAC015059/1-198    67.18%    passed     18.47%
+ 524  BOMMOR004302/1-182    69.06%    failed      3.10%
+ 525  RUSMAR000838/1-205    66.32%    passed     32.46%
+ 526  GEMCRY048285/1-188    68.03%    passed     59.01%
+ 527  STEHIS021716/1-205    65.47%    passed     40.86%
+ 528  SALKVE018186/1-454    28.55%    passed      7.74%
+ 529  CHOSPE009147/1-205    64.96%    passed     98.77%
+ 530  DROMEL019339/1-422    29.06%    passed     21.99%
+ 531  PERMAR000555/1-176    72.82%    passed     91.57%
+ 532  CLAOKA011947/1-207    65.81%    passed     18.54%
+ 533  CAEELE010310/1-195    66.67%    passed     82.83%
+ 534  GRACHO005435/1-199    67.18%    passed     19.32%
+ 535  IXOSCA028848/1-206    65.13%    passed     57.03%
+ 536  BAFFRI057181/1-201    67.18%    passed     90.49%
+ 537  DIPROT023069/1-202    67.52%    passed     21.42%
+ 538  SAPDIC009791/1-428    31.11%    passed     10.72%
+ 539  GEPOCE027936/1-243    60.85%    passed     85.52%
+ 540  HEMSPE001677/1-206    65.13%    passed     88.62%
+ 541  SCHMAN009592/1-186    68.21%    passed     59.86%
+ 542  GIAINT002911/1-415    32.14%    passed     10.69%
+ 543  CRYMUR002308/1-192    67.69%    passed     80.78%
+ 544  UMBRAM009095/1-206    66.15%    passed     56.25%
+ 545  PORPUR009153/1-227    62.56%    passed     29.63%
+ 546  NEPPYR025014/1-198    67.52%    passed     76.67%
+ 547  VITBRA005598/1-343    44.44%    passed     42.38%
+ 548  HOMSAP059864/1-186    68.38%    passed     39.51%
+ 549  APISPI004586/1-287    53.33%    passed     92.13%
+ 550  PERSPE000228/1-233    61.71%    passed     92.95%
+ 551  GLOWIT023884/1-418    29.23%    failed      0.12%
+ 552  DIALUT000653/1-211    64.96%    failed      0.00%
+ 553  GUITHE006275/1-191    67.52%    passed     92.84%
+ 554  BODSAL010293/1-195    68.21%    passed     28.07%
+ 555  STRRAT011233/1-246    59.83%    failed      0.03%
+ 556  CHRVEL031625/1-233    61.71%    passed     29.96%
+ 557  USTMAY001032/1-223    63.08%    passed     68.26%
+ 558  NEMVEC021137/1-197    66.50%    passed     38.53%
+ 559  CHLVAR001723/1-234    62.05%    passed     98.62%
+ 560  TELSUB047692/1-203    65.30%    passed     30.47%
+ 561  GALSUL002458/1-210    65.30%    passed     33.54%
+ 562  PERMAR008285/1-205    65.13%    passed     87.69%
+ 563  TRYBRU003939/1-279    54.87%    failed      2.21%
+ 564  PHATRI007954/1-197    67.18%    passed     26.92%
+ 565  LEPVOR031063/1-154    75.38%    passed     79.23%
+ 566  LEIMAJ002965/1-152    74.02%    passed     98.75%
+ 567  GEPOCE047951/1-243    60.85%    passed     85.52%
+ 568  SYNPLU004481/1-487    21.88%    failed      0.71%
+ 569  STECOE019798/1-248    60.17%    failed      0.47%
+ 570  STYINC001079/1-174    71.97%    passed     21.14%
+ 571  BOMMOR002753/1-126    80.34%    passed     70.90%
+ 572  MORVER006433/1-200    66.84%    passed     62.59%
+ 573  CAEELE017580/1-211    66.15%    passed     53.88%
+ 574  OSTTAU000916/1-224    62.56%    passed     95.29%
+ 575  SCHMAN006155/1-188    68.03%    failed      2.21%
+ 576  CHLATM006531/1-202    67.01%    failed      4.45%
+ 577  CLAOKA001101/1-213    65.13%    failed      1.92%
+ 578  ENTHIS002093/1-197    67.35%    passed     57.08%
+ 579  GEFOKE016354/1-206    64.96%    passed     45.41%
+ 580  GEFOKE016355/1-206    64.96%    passed     45.41%
+ 581  CLAOKA016724/1-204    66.84%    failed      0.18%
+ 582  LEIMAJ007480/1-215    64.27%    failed      0.11%
+ 583  CHABRA015621/1-198    66.15%    passed     98.40%
+ 584  PLAFAL001013/1-194    66.84%    passed      9.09%
+ 585  PRIPAC025512/1-243    60.34%    passed     83.76%
+ 586  GUITHE008248/1-202    67.01%    passed     64.82%
+ 587  CRYCOH039325/1-433    28.21%    failed      0.71%
+ 588  PERSWS008545/1-405    33.85%    passed     24.55%
+ 589  CLAOKA021204/1-198    67.86%    failed      1.21%
+ 590  STRRAT007481/1-192    67.69%    passed      9.76%
+ 591  NEODAM000698/1-249    61.20%    failed      2.71%
+ 592  MONEXI011800/1-205    64.96%    passed     99.82%
+ 593  PLATAR012991/1-153    76.92%    failed      0.07%
+ 594  IXOSCA029049/1-236    59.66%    passed     31.78%
+ 595  ENCINT001515/1-179    70.26%    passed     60.49%
+ 596  NEOSPE019197/1-255    57.61%    failed      0.38%
+ 597  CARMEM004170/1-199    66.67%    passed     89.40%
+ 598  DIPROT011246/1-124    78.80%    passed     21.95%
+ 599  CYCPAN028236/1-176    69.91%    passed     78.60%
+ 600  CARMEM000730/1-223    62.56%    passed     97.82%
+ 601  LAPGUS054754/1-204    65.64%    passed     96.37%
+ 602  TELSPE042074/1-196    66.50%    passed     90.28%
+ 603  BARSPE004269/1-252    57.26%    failed      0.56%
+ 604  CHLVAR007778/1-210    66.15%    passed     12.36%
+ 605  MASSPE014391/1-207    68.72%    passed     63.70%
+ 606  ANCTWI031542/1-123    80.68%    passed     43.58%
+ 607  SAPDIC011292/1-199    65.98%    failed      0.15%
+ 608  ACASPE024703/1-127    80.00%    passed      5.66%
+ 609  RAMVAR004467/1-452    27.01%    failed      1.07%
+ 610  ROZALL003120/1-138    78.29%    failed      4.85%
+ 611  TELSPE007582/1-187    68.55%    passed     72.32%
+ 612  NEODAM003212/1-235    60.00%    failed      0.00%
+ 613  NAEFOW000931/1-231    61.71%    passed      9.95%
+ 614  CHOSPE024385/1-126    80.17%    passed     53.10%
+ 615  CHRVEL026157/1-195    66.67%    passed     67.79%
+ 616  CRYMUR002898/1-213    66.15%    passed      9.43%
+ 617  CLAOKA000126/1-195    67.18%    passed     17.44%
+ 618  HEMPHA053883/1-187    69.40%    failed      0.89%
+ 619  BASMER010349/1-209    65.30%    passed     65.75%
+ 620  NEUCRA007017/1-210    65.13%    passed     82.17%
+ 621  CYAMER000624/1-201    66.67%    failed      3.45%
+ 622  TRESPE005325/1-395    34.70%    failed      0.00%
+ 623  RHIIRR011518/1-180    69.57%    failed      1.68%
+ 624  MADERY024087/1-142    77.78%    passed     26.77%
+ 625  BOMMOR007396/1-208    64.96%    passed     54.02%
+ 626  PYGBIF006425/1-130    80.51%    passed     28.56%
+ 627  COLVIE009249/1-421    30.43%    failed      0.09%
+ 628  LEPVOR016351/1-212    64.62%    passed     14.38%
+ 629  MONEXI007028/1-207    65.13%    passed     91.52%
+ 630  TRIVAG031999/1-381    35.04%    failed      0.00%
+ 631  NEMVEC003789/1-100    84.62%    passed     61.95%
+ 632  RHOMAR006835/1-119    79.83%    passed     32.17%
+ 633  MNELEI006636/1-198    66.32%    passed     46.84%
+ 634  PAUCHR025095/1-120    81.20%    passed     58.95%
+ 635  PRIPAC000790/1-447    27.18%    passed      7.45%
+ 636  NANOCE045389/1-130    80.00%    failed      0.00%
+ 637  NANOCE077184/1-130    80.00%    failed      0.00%
+ 638  PARTET009972/1-426    29.23%    failed      0.00%
+ 639  SPISAL006457/1-201    65.64%    failed      2.51%
+ 640  GEFOKE014063/1-203    66.32%    passed     14.79%
+ 641  KLENIT012553/1-214    63.93%    passed     73.95%
+ 642  PRACOL002752/1-200    65.98%    passed     93.74%
+ 643  HEMSPE001026/1-197    66.84%    passed     60.03%
+ 644  CHASUB010490/1-119    79.83%    passed     97.26%
+ 645  SYNPLU000474/1-207    66.15%    passed      7.55%
+ 646  PERSWS008475/1-188    67.86%    passed     30.92%
+ 647  SPISAL007373/1-190    69.06%    failed      0.37%
+ 648  VITBRA003157/1-199    67.18%    passed     29.14%
+ 649  CLAOKA004446/1-159    72.82%    passed     62.09%
+ 650  TELSPE041727/1-203    66.32%    passed     30.76%
+ 651  COLSPE009579/1-195    67.69%    passed     14.43%
+ 652  TELSUB034731/1-203    66.15%    passed     62.47%
+ 653  ANAIGN002346/1-293    52.14%    passed      5.00%
+ 654  CYAPAR024035/1-241    62.56%    failed      1.46%
+ 655  PHAKIR005394/1-479    23.93%    failed      0.00%
+ 656  DICDIS004295/1-186    69.57%    passed     60.77%
+ 657  LEUCOM032579/1-105    83.76%    passed     34.86%
+ 658  POLPAL010177/1-1      99.83%    passed     55.42%
+ 659  HALSEO004483/1-225    67.86%    passed     10.20%
+ 660  PARTRI003336/1-100    84.62%    passed     29.86%
+ 661  LAPGUS008719/1-198    66.50%    passed     92.33%
+ 662  NANOCE020570/1-242    61.03%    failed      2.11%
+ 663  RIGRAM018065/1-198    66.15%    passed     69.89%
+ 664  PLATAR008095/1-176    70.26%    failed      0.04%
+ 665  ANCTWI021033/1-230    61.20%    passed     51.61%
+ 666  THETRA000962/1-257    58.80%    failed      0.02%
+ 667  ALLMAC001441/1-239    60.85%    passed     84.87%
+ 668  VITBRA000033/1-184    69.57%    passed     81.24%
+ 669  PARTRI009157/1-446    28.21%    passed     12.83%
+ 670  CYCPAN002341/1-215    63.42%    passed     36.12%
+ 671  COLVIE010436/1-205    64.96%    passed     91.37%
+ 672  VAVCUL000360/1-180    70.09%    failed      2.06%
+ 673  LAPGUS003812/1-201    66.50%    passed     46.55%
+ 674  LENLIM001202/1-267    57.26%    failed      1.64%
+ 675  CHABRA000922/1-247    59.15%    passed     96.80%
+ 676  PARTRI009154/1-224    62.91%    passed     90.41%
+ 677  BARSPE005851/1-265    56.92%    passed     33.86%
+ 678  CAPOWC003402/1-213    66.67%    passed     79.71%
+ 679  PARTRI009147/1-445    28.89%    passed     11.41%
+ 680  MADERY031337/1-228    61.71%    passed     65.06%
+ 681  PICSPE012667/1-197    67.52%    passed     31.93%
+ 682  SAPDIC009246/1-187    68.03%    failed      2.79%
+ 683  PAUCHR011777/1-232    61.03%    passed     34.16%
+ 684  TRESPE005903/1-289    54.02%    failed      0.00%
+ 685  NUTLON011107/1-235    60.34%    passed     33.49%
+ 686  NEOSPE013125/1-1      99.83%    passed     41.31%
+ 687  RIGRAM018068/1-235    60.51%    passed     88.84%
+ 688  FABTRO006624/1-140    77.61%    passed     99.65%
+ 689  CHRVEL026515/1-244    60.17%    passed     80.74%
+ 690  UMBRAM006834/1-236    60.34%    passed     37.53%
+ 691  COLSPE014173/1-202    67.01%    passed     98.72%
+ 692  RAPHET014364/1-216    63.76%    passed     71.25%
+ 693  CHASUB000348/1-408    32.65%    failed      4.90%
+ 694  CHOSPE026157/1-105    84.10%    failed      0.03%
+ 695  LAPGUS027788/1-131    77.78%    passed     53.43%
+ 696  SYMSPE088815/1-204    66.67%    failed      0.45%
+ 697  GEFOKE016358/1-243    58.97%    passed     43.17%
+ 698  CHABRA027401/1-185    68.38%    passed     55.76%
+ 699  CLAOKA008887/1-191    67.52%    failed      0.22%
+ 700  PERSWS008579/1-186    68.72%    passed     99.53%
+ 701  PHAKIR000070/1-233    60.85%    passed     79.25%
+ 702  COLSPE013552/1-220    63.59%    passed     18.02%
+ 703  BIGNAT007280/1-246    60.34%    passed     12.67%
+ 704  ENTSUL003545/1-254    59.15%    failed      1.92%
+ 705  APISPI042130/1-331    44.79%    failed      0.45%
+ 706  NEPPYR028825/1-234    62.22%    passed      7.21%
+ 707  PYGBIF005843/1-201    65.64%    passed     55.53%
+ 708  HYPCAT010803/1-203    65.30%    passed     32.31%
+ 709  APISPI047453/1-88     85.30%    passed     14.80%
+ 710  HEMKUK018451/1-200    65.98%    passed     68.84%
+ 711  APISPI047452/1-88     85.30%    passed     14.80%
+ 712  SPISPE016907/1-191    67.86%    passed     95.79%
+ 713  MONBRE009075/1-198    66.15%    passed     93.18%
+ 714  PHYPOL000920/1-200    66.15%    passed     93.34%
+ 715  MONNEG011370/1-240    60.51%    passed     74.64%
+ 716  GEMCRY033664/1-207    64.79%    passed     73.95%
+ 717  TELSPE042073/1-196    66.50%    passed     90.28%
+ 718  ANCTWI034684/1-114    81.37%    passed     68.95%
+ 719  LAPGUS054751/1-192    67.86%    passed     95.00%
+ 720  LENLIM009915/1-204    65.13%    passed     47.65%
+ 721  MONEXI013555/1-170    71.62%    passed     44.97%
+ 722  CLAOKA002620/1-218    63.25%    failed      0.07%
+ 723  ANCTWI016027/1-203    65.30%    passed     32.97%
+ 724  MADERY019477/1-203    65.47%    passed     80.74%
+ 725  HEMSPE004813/1-190    68.21%    passed     73.03%
+ 726  NAEFOW007104/1-364    42.39%    failed      0.01%
+ 727  HYPCAT011749/1-238    62.74%    passed      8.79%
+ 728  RHOMAR005293/1-223    62.74%    passed     85.98%
+ 729  PERMAR020029/1-225    63.08%    passed     35.12%
+ 730  LEPVOR015983/1-200    66.50%    passed     45.72%
+ 731  SYMSPE065715/1-279    54.02%    passed     31.09%
+ 732  BREMOT000989/1-179    70.09%    passed     67.43%
+ 733  NUTLON006809/1-277    53.33%    passed     97.86%
+ 734  COLVIE008268/1-202    67.01%    passed     97.49%
+ 735  GONPAC030627/1-199    67.35%    passed     34.42%
+ 736  PLATAR014424/1-201    65.64%    passed     33.83%
+ 737  MNELEI011563/1-197    66.32%    passed     86.78%
+ 738  RIGRAM025524/1-194    67.01%    passed     86.53%
+ 739  HEMSPE003538/1-430    31.45%    failed      0.75%
+ 740  ANDGOD002040/1-210    69.40%    passed     70.06%
+ 741  DIAGRA013154/1-237    62.22%    passed     26.28%
+ 742  DIALUT012454/1-189    69.57%    failed      0.02%
+ 743  TOXGON004782/1-266    59.49%    passed      8.86%
+ 744  GONPAC010740/1-202    65.47%    passed     87.88%
+ 745  APISPI004587/1-227    62.05%    passed     80.32%
+ 746  GONPAC026921/1-198    66.15%    passed     78.47%
+ 747  EUGLON014080/1-287    53.68%    failed      0.04%
+ 748  PRYPAR002540/1-173    70.43%    failed      0.03%
+ 749  PAUCHR001374/1-437    27.86%    failed      0.00%
+ 750  CYAPAR006559/1-209    64.44%    failed      0.00%
+ 751  VAVCUL001069/1-185    68.38%    failed      0.31%
+ 752  ACASPE019827/1-184    68.55%    passed     64.16%
+ 753  FABTRO004857/1-231    61.03%    passed     22.56%
+ 754  DIPROT023071/1-211    65.64%    passed     40.26%
+ 755  HALSPE000361/1-213    65.81%    failed      0.00%
+ 756  MICMAR016515/1-215    64.10%    failed      1.65%
+ 757  MANSPH000124/1-239    60.34%    passed     67.48%
+ 758  PARTRI003335/1-176    69.91%    passed     63.99%
+ 759  PARTET012383/1-422    29.40%    failed      0.00%
+ 760  HALSPE004786/1-205    64.96%    passed     36.39%
+ 761  CHLREI016405/1-158    72.99%    failed      0.00%
+ 762  KLENIT012009/1-183    68.72%    passed     10.97%
+ 763  PICSPE012670/1-99     83.08%    passed     76.18%
+ 764  STRRAT004761/1-187    68.55%    failed      3.44%
+ 765  RAMVAR011212/1-236    62.56%    passed     82.47%
+ 766  TELSPE062018/1-100    82.91%    failed      0.74%
+ 767  ENTSUL025644/1-196    66.84%    passed     12.77%
+ 768  TRIVAG011465/1-1      99.83%    passed     71.80%
+ 769  NEODAM008839/1-397    37.44%    failed      0.00%
+ 770  TELSUB006502/1-100    83.76%    passed     87.49%
+ 771  DYSBRE003482/1-166    72.99%    passed      7.02%
+ 772  LENLIM002404/1-214    64.96%    passed     21.01%
+ 773  STEHIS000387/1-417    30.43%    failed      0.00%
+ 774  GEPOCE017769/1-185    68.55%    passed     89.77%
+ 775  PAPANK025640/1-189    70.77%    failed      1.06%
+ 776  ENTSUL039953/1-192    67.35%    passed     34.99%
+ 777  ENTSUL064755/1-194    67.52%    passed     32.76%
+ 778  GEPOCE047901/1-167    71.45%    failed      0.01%
+ 779  THEPAR003132/1-421    30.77%    failed      0.00%
+ 780  LAPGUS008718/1-198    66.50%    passed     92.33%
+ 781  USTMAY006283/1-224    62.39%    passed     79.49%
+ 782  FABTRO031888/1-200    67.35%    passed     85.09%
+ 783  LAPGUS017393/1-153    73.85%    passed     48.47%
+ 784  HEMSPE002742/1-1      99.83%    passed     69.68%
+ 785  ROZALL004385/1-277    54.87%    failed      0.00%
+ 786  ANAIGN023063/1-412    33.16%    failed      0.00%
+ 787  ENTHIS007267/1-168    71.28%    passed     54.05%
+ 788  SYMSPE080652/1-81     86.32%    passed     54.52%
+ 789  TELSPE042344/1-130    77.78%    passed     56.78%
+ 790  GEFOKE017976/1-263    55.90%    passed     16.75%
+ 791  PHAKIR007553/1-195    66.67%    failed      0.50%
+ 792  MICMAR006967/1-179    69.74%    passed     91.20%
+ 793  DIALUT009628/1-219    63.08%    passed      9.91%
+ 794  HEMPHA013935/1-100    84.27%    passed     29.56%
+ 795  HALSEO014156/1-242    60.68%    passed     52.15%
+ 796  DIPROT023068/1-214    63.93%    passed     84.55%
+ 797  PALBIL008645/1-201    66.67%    passed     47.98%
+ 798  HEMPHA000647/1-137    76.58%    passed     38.46%
+ 799  SPISPE010176/1-226    63.42%    passed     51.03%
+ 800  CREFRA005823/1-368    38.12%    passed     78.10%
+ 801  PERMAR020030/1-206    64.96%    passed     96.97%
+ 802  PHAKIR005946/1-198    66.32%    passed     79.96%
+ 803  MNELEI003309/1-385    36.58%    failed      1.01%
+ 804  TELSUB025597/1-185    68.89%    passed     80.06%
+ 805  MICMAR006975/1-170    71.28%    passed     96.38%
+ 806  ACAPLA012179/1-169    71.45%    passed     57.09%
+ 807  SYNPLU005779/1-212    65.47%    passed     26.65%
+ 808  ENTSUL059761/1-187    68.55%    passed     94.00%
+ 809  SYMSPE032472/1-151    75.21%    passed     25.57%
+ 810  RHIIRR013129/1-247    60.34%    passed     55.43%
+ 811  IXOSCA026458/1-165    72.48%    passed     32.80%
+ 812  DANRER023380/1-60     89.74%    passed      8.91%
+ 813  ARCINT006723/1-157    73.50%    passed     66.84%
+ 814  HOMSAP052026/1-171    71.11%    passed     50.74%
+ 815  AGABIS003999/1-209    65.13%    passed     20.91%
+ 816  LEPVOR007586/1-196    66.67%    passed     75.59%
+ 817  GONPAC022546/1-192    67.35%    passed     71.26%
+ 818  CRAGIG048317/1-368    39.15%    failed      0.03%
+ 819  CIOINT016871/1-178    69.91%    passed      7.04%
+ 820  BODSAL000161/1-122    79.15%    passed     72.73%
+ 821  COLVIE014277/1-198    66.32%    passed     88.35%
+ 822  PRYPAR033144/1-225    62.91%    passed     65.07%
+ 823  HYPCAT011750/1-202    65.64%    passed     94.14%
+ 824  MANSPH007934/1-452    31.97%    failed      0.00%
+ 825  TRIADH009846/1-185    68.89%    passed     85.43%
+ 826  CHLVAR004896/1-215    63.42%    failed      0.00%
+ 827  TETTHE001293/1-459    23.25%    failed      0.00%
+ 828  COLVIE021821/1-199    67.01%    passed     66.31%
+ 829  ALLMAC012325/1-217    63.59%    passed     94.69%
+ 830  HEMKUK002908/1-198    66.15%    passed     64.37%
+ 831  ANCTWI037784/1-81     86.15%    passed     86.24%
+ 832  BARSPE005484/1-183    68.72%    passed     48.80%
+ 833  HALSPE006510/1-204    65.47%    passed     13.85%
+ 834  DIAGRA013155/1-198    66.50%    passed     95.50%
+ 835  NANOCE046008/1-222    63.08%    failed      4.76%
+ 836  PARATL016192/1-292    52.99%    passed      6.49%
+ 837  SPIPUN007542/1-201    66.84%    failed      3.35%
+ 838  ANCTWI014006/1-199    66.15%    passed     78.75%
+ 839  ENTSUL032979/1-205    67.01%    passed     42.76%
+ 840  EUGLON038967/1-202    66.50%    passed     76.78%
+ 841  GEFOKE015625/1-215    63.76%    passed     50.60%
+ 842  CRYCOH039620/1-219    67.69%    passed     10.10%
+ 843  PERSWS000447/1-183    69.40%    passed     12.10%
+ 844  PARPYR003643/1-174    75.04%    passed     91.70%
+ 845  CRYCOH012654/1-221    67.35%    passed      8.29%
+ 846  MADERY027340/1-204    65.98%    passed      6.13%
+ 847  PALBIL014475/1-130    78.12%    passed     51.76%
+ 848  PICSPE026145/1-414    35.90%    failed      2.91%
+ 849  RHOMAR012775/1-201    66.84%    passed     73.04%
+ 850  SYMSPE078290/1-74     87.35%    passed     85.45%
+ 851  PLATAR008607/1-208    65.30%    failed      4.48%
+ 852  TELSPE072021/1-56     90.43%    passed     58.05%
+ 853  ROZALL004720/1-196    66.67%    passed      7.88%
+ 854  ENTSUL067166/1-178    70.09%    passed     79.76%
+ 855  GEMCRY005990/1-228    62.05%    passed     26.78%
+ 856  DYSBRE000603/1-135    77.09%    failed      0.53%
+ 857  GEPOCE050224/1-204    66.15%    passed     49.06%
+ 858  RHIIRR013127/1-208    66.50%    passed     60.20%
+ 859  MNELEI006637/1-214    63.76%    passed     88.10%
+ 860  PLAFAL002941/1-392    35.21%    failed      0.00%
+ 861  MANSPH000358/1-424    30.94%    failed      0.02%
+ 862  PARPYR010272/1-230    60.68%    passed     25.24%
+ 863  CLAOKA009550/1-180    70.60%    passed     55.63%
+ 864  CHRPER007717/1-157    73.50%    passed     93.45%
+ 865  COLSPE023779/1-107    81.88%    passed     77.91%
+ 866  BAFFRI006359/1-215    64.10%    passed     29.39%
+ 867  PAPANK006341/1-93     84.62%    passed      5.93%
+ 868  BRABEL013402/1-216    63.59%    passed     23.56%
+ 869  PYGBIF005650/1-246    60.51%    passed     39.51%
+ 870  NEOSPE019682/1-222    63.25%    failed      3.91%
+ 871  CLAOKA005634/1-118    79.83%    failed      0.53%
+ 872  BOMMOR009205/1-230    62.56%    passed      8.59%
+ 873  DIAGRA018923/1-410    32.99%    failed      0.25%
+ 874  CAULEN005988/1-196    66.84%    failed      4.76%
+ 875  CHLVAR008984/1-1      99.83%    passed     92.47%
+ 876  PHYPOL001644/1-216    63.76%    passed     99.57%
+ 877  BREMOT000990/1-253    58.80%    passed     66.86%
+ 878  ANAIGN003168/1-191    68.03%    passed     77.19%
+ 879  HALSPE009631/1-200    66.50%    failed      0.07%
+ 880  RUSMAR001668/1-96     83.59%    passed     17.94%
+ 881  GALSUL003778/1-240    61.71%    passed     66.87%
+ 882  LENLIM001201/1-182    69.57%    passed     69.01%
+ 883  ENTSUL007263/1-139    78.12%    passed     12.32%
+ 884  NEPPYR025458/1-187    68.21%    passed     91.35%
+ 885  GLOWIT014416/1-206    65.47%    passed     10.53%
+ 886  LENLIM001500/1-230    62.56%    passed     26.24%
+ 887  APISPI047451/1-209    65.30%    failed      0.00%
+ 888  VITBRA004707/1-286    56.07%    passed     21.72%
+ 889  RAPHET010611/1-194    66.84%    passed     82.80%
+ 890  TRIADH002992/1-219    63.08%    passed     82.56%
+ 891  VERVER009982/1-372    37.78%    passed     16.22%
+ 892  PERSWS008924/1-225    63.59%    passed     57.16%
+ 893  RHOMAR000802/1-245    59.83%    passed      8.46%
+ 894  PYGBIF006767/1-198    66.50%    passed     28.83%
+ 895  PHAKIR003767/1-1      99.83%    passed     71.80%
+ 896  LEPVOR043648/1-216    66.32%    passed      8.19%
+ 897  MNELEI011358/1-402    35.04%    passed     21.57%
+ 898  CAPOWC005015/1-221    63.59%    passed     58.03%
+ 899  MADERY000319/1-192    67.35%    passed     31.69%
+ 900  PHAKIR000156/1-199    67.18%    passed     19.26%
+ 901  CHOSPE007587/1-169    72.99%    passed     88.30%
+ 902  ANCTWI013260/1-187    68.03%    passed     84.41%
+ 903  DICDIS001972/1-209    65.13%    passed      6.97%
+ 904  GUITHE024075/1-222    63.08%    passed     75.54%
+ 905  MADERY021603/1-85     85.47%    passed     14.64%
+ 906  NAEFOW000509/1-404    32.82%    failed      0.00%
+ 907  COLVIE031463/1-248    60.85%    passed     94.02%
+ 908  BASMER003639/1-378    36.92%    passed     26.27%
+ 909  BAFFRI048359/1-213    65.13%    passed     38.69%
+ 910  NUTLON009635/1-236    60.68%    failed      4.84%
+ 911  PICSPE075386/1-265    58.97%    failed      4.94%
+ 912  MORVER004657/1-214    64.10%    failed      2.02%
+ 913  TELSPE020079/1-187    68.03%    passed     84.41%
+ 914  PARTRI009150/1-224    62.91%    passed     90.41%
+ 915  CIOINT016564/1-179    69.74%    passed     10.84%
+ 916  NEUCRA009775/1-217    63.42%    passed     81.42%
+ 917  CHOSPE009321/1-224    63.08%    passed     85.50%
+ 918  MONNEG015560/1-218    63.42%    passed     20.32%
+ 919  PLABRA004946/1-215    64.79%    passed     58.71%
+ 920  SAPDIC001246/1-252    57.78%    passed     62.77%
+ 921  PHATRI000952/1-230    62.56%    passed     78.25%
+ 922  ARCINT010055/1-160    73.33%    passed     23.63%
+ 923  ANAIGN017535/1-135    76.92%    passed     37.86%
+ 924  RAMBRE003974/1-236    60.68%    passed     62.99%
+ 925  PLAFUN007882/1-227    63.08%    passed     13.69%
+ 926  ANCTWI017662/1-96     83.59%    passed     80.10%
+ 927  GEPOCE032290/1-239    61.20%    passed     12.30%
+ 928  LEUCOM044763/1-129    77.95%    passed     61.96%
+ 929  PHATRI008419/1-176    71.45%    passed     73.29%
+ 930  COLVIE009524/1-220    63.59%    passed     23.23%
+ 931  LAPGUS023365/1-152    75.04%    passed     40.30%
+ 932  MONBRE008890/1-159    73.68%    passed     71.08%
+ 933  ACACAS010211/1-143    75.90%    passed     42.43%
+ 934  GEFOKE017977/1-231    61.37%    passed     74.24%
+ 935  PLATAR014426/1-157    76.07%    failed      0.68%
+ 936  VAVCUL000540/1-408    32.82%    failed      0.00%
+ 937  CYAPAR014887/1-233    62.39%    passed     12.88%
+ 938  HEMPHA051485/1-181    69.23%    passed     15.80%
+ 939  RAMVAR022836/1-194    66.84%    passed     31.92%
+ 940  POLPAL002793/1-208    64.96%    passed     64.85%
+ 941  PICSPE012669/1-83     85.81%    failed      0.10%
+ 942  HYPCAT010814/1-281    56.75%    failed      2.66%
+ 943  BIGNAT010358/1-219    63.42%    passed     37.64%
+ 944  BICSPE009343/1-69     89.91%    passed     46.10%
+ 945  PHAKIR000506/1-391    37.95%    failed      0.62%
+ 946  LAPGUS022010/1-133    77.26%    passed     90.87%
+ 947  STYINC001080/1-122    79.15%    passed     35.51%
+ 948  VAVCUL001011/1-178    69.91%    passed     65.24%
+ 949  UMBRAM006405/1-218    63.42%    passed     61.86%
+ 950  TELSUB046350/1-205    66.67%    passed     46.95%
+ 951  TELSPE060444/1-205    66.67%    passed     46.95%
+ 952  ENTSUL018950/1-242    60.68%    passed     58.31%
+ 953  PARTRI008347/1-220    63.59%    passed     97.84%
+ 954  TELSPE060443/1-205    66.67%    passed     46.95%
+ 955  CHOSPE007588/1-143    77.09%    passed     79.79%
+ 956  TRESPE002893/1-383    38.12%    failed      0.00%
+ 957  GLOWIT023865/1-226    62.91%    passed     97.90%
+ 958  LEUCOM024278/1-154    74.02%    passed     78.29%
+ 959  COEREV006141/1-219    63.25%    failed      3.88%
+ 960  LAPGUS003810/1-151    75.04%    passed     35.79%
+ 961  ACASPE016431/1-185    68.89%    passed     21.48%
+ 962  CAEELE003538/1-393    34.02%    failed      3.19%
+ 963  BREMOT003499/1-89     84.79%    passed     65.79%
+ 964  MONNEG015327/1-84     85.81%    passed     36.78%
+ 965  SPISAL001236/1-189    68.21%    passed     31.81%
+ 966  ENTSUL049865/1-174    70.94%    failed      3.84%
+ 967  AURLIM011824/1-162    73.50%    passed     86.65%
+ 968  GLOWIT005567/1-224    63.25%    passed     98.72%
+ 969  RAMVAR015257/1-207    65.30%    passed     96.42%
+ 970  NUTLON004034/1-95     83.76%    passed     80.60%
+ 971  PARTRI009151/1-213    65.30%    passed     49.77%
+ 972  CYAGLO001062/1-144    76.24%    passed     14.70%
+ 973  COLSPE019705/1-255    60.17%    passed     77.21%
+ 974  TELSPE041728/1-273    55.73%    failed      1.46%
+ 975  KLENIT003539/1-208    64.62%    passed     30.18%
+ 976  HALSEO004484/1-219    68.72%    passed     93.07%
+ 977  SYNPLU005781/1-245    60.17%    passed     20.57%
+ 978  ENTHIS004115/1-216    63.76%    passed     92.28%
+ 979  GEPOCE027169/1-148    75.90%    passed     41.50%
+ 980  ELPMAR009805/1-214    63.76%    passed     17.15%
+ 981  DROMEL000266/1-171    71.11%    passed     70.78%
+ 982  ANDGOD001873/1-224    62.39%    passed     79.70%
+ 983  MATSPE021349/1-211    64.44%    passed     66.75%
+ 984  GEPOCE040887/1-221    63.25%    passed     20.54%
+ 985  CRYNEO005887/1-152    74.36%    passed     38.61%
+ 986  SCHPOM001893/1-364    39.32%    passed     15.67%
+ 987  RHIIRR022968/1-379    37.78%    passed      5.69%
+ 988  CLAOKA016265/1-399    34.53%    failed      0.04%
+ 989  RIGRAM018069/1-235    62.56%    failed      0.00%
+ 990  NUTLON021493/1-240    61.37%    passed     13.99%
+ 991  RIGRAM018066/1-237    62.22%    failed      0.00%
+ 992  BICSPE006333/1-179    69.74%    passed     28.48%
+ 993  CHASUB015444/1-190    70.09%    failed      4.09%
+ 994  HALSPE015768/1-227    62.22%    failed      4.02%
+ 995  CIOINT016559/1-82     85.98%    passed     88.16%
+ 996  GEPOCE024701/1-68     88.55%    failed      2.31%
+ 997  ENCINT000199/1-181    69.40%    passed     32.32%
+ 998  FABTRO020670/1-121    79.32%    failed      3.87%
+ 999  PARTRI010325/1-102    83.93%    failed      3.35%
+1000  BAFFRI041667/1-215    64.10%    passed     29.39%
+1001  SPIPUN000841/1-221    63.08%    passed     81.90%
+1002  PERMAR007032/1-107    82.91%    passed     25.24%
+1003  LENLIM015343/1-174    71.97%    passed     63.69%
+1004  LEUCOM062131/1-116    80.34%    passed     12.48%
+1005  CYAPAR021272/1-210    65.13%    passed     88.57%
+1006  SALKVE014210/1-381    37.95%    passed      8.60%
+1007  SORBIC046656/1-1      99.83%    failed      0.12%
+1008  OSTTAU000377/1-208    65.13%    passed      7.71%
+1009  PICSPE070053/1-90     85.13%    passed     83.88%
+1010  PLATAR014427/1-89     84.96%    passed     65.50%
+1011  DIPROT037872/1-215    63.93%    passed     26.05%
+1012  MONNEG001482/1-230    63.93%    failed      3.35%
+1013  ANAIGN011347/1-139    76.24%    failed      0.42%
+1014  GONPAC011326/1-199    67.35%    passed     34.42%
+1015  NANOCE023330/1-271    56.41%    failed      0.02%
+1016  ANCTWI033236/1-142    76.07%    passed     87.54%
+1017  PAUCHR000931/1-215    63.76%    passed     44.95%
+1018  ARCINT010054/1-108    81.88%    passed     31.42%
+1019  LENLIM017679/1-274    55.38%    passed     46.64%
+1020  PERSWS008954/1-230    61.88%    passed     90.96%
+1021  BREMOT009832/1-110    81.20%    passed     69.49%
+1022  RHYHUM006989/1-188    68.03%    failed      0.00%
+1023  FABTRO020235/1-150    75.04%    passed     90.01%
+1024  GALSUL006917/1-277    54.02%    failed      0.87%
+1025  ENTSUL029534/1-104    83.76%    passed     27.80%
+1026  NEOSPE019693/1-444    27.52%    failed      0.00%
+1027  GONPRO008589/1-207    65.13%    passed     79.96%
+1028  TRIADH001313/1-106    81.88%    passed     15.23%
+1029  COCSUB009048/1-216    63.76%    passed     26.08%
+1030  MNELEI005780/1-147    76.07%    failed      0.69%
+1031  TRIVAG046045/1-172    71.11%    passed     15.69%
+1032  GLOWIT001775/1-153    75.21%    passed     36.30%
+1033  GEPOCE004437/1-187    71.28%    failed      0.30%
+1034  CHLATM005635/1-294    51.97%    passed      7.68%
+1035  RHYHUM009495/1-171    70.77%    failed      0.00%
+1036  TELSUB026655/1-155    73.50%    passed     65.88%
+1037  EUGLON002164/1-192    68.72%    failed      3.71%
+1038  CHLREI012000/1-233    62.39%    passed     29.09%
+1039  CYCPAN025727/1-207    64.79%    passed     61.33%
+1040  NEPPYR020060/1-196    68.38%    passed     15.55%
+1041  CAEELE005077/1-512    13.16%    failed      0.05%
+1042  NEODAM003347/1-402    32.31%    failed      0.56%
+1043  PARATL016196/1-191    67.35%    passed     69.35%
+1044  ANCTWI020883/1-89     84.79%    passed     78.97%
+1045  ARATHA035657/1-373    37.78%    passed      7.36%
+1046  ENTSUL051139/1-362    39.15%    failed      0.03%
+1047  SPIPUN007344/1-236    60.68%    passed     45.28%
+1048  STYINC014541/1-149    75.21%    failed      3.44%
+1049  NEOSPE011072/1-64     89.06%    passed     12.11%
+1050  PLATAR013631/1-210    65.13%    failed      0.00%
+1051  CHLATM008216/1-147    75.21%    passed     79.11%
+1052  CHLVAR001270/1-114    81.54%    failed      0.01%
+1053  ACASPE024256/1-160    74.02%    passed     79.94%
+1054  RHYHUM038953/1-92     84.27%    failed      1.34%
+1055  RAPHET004963/1-200    67.86%    passed     36.68%
+1056  COLVIE000924/1-147    75.90%    passed     46.31%
+1057  ANAIGN017957/1-218    64.44%    passed      8.65%
+1058  PSEPER000569/1-434    31.97%    failed      0.00%
+1059  PORPUR003512/1-172    71.45%    failed      2.25%
+1060  SACCER003335/1-225    62.74%    passed     34.11%
+1061  PHYINF005000/1-233    62.56%    passed     75.72%
+1062  NEPPYR014530/1-164    72.48%    passed     17.92%
+1063  SYMSPE024549/1-122    80.85%    passed     23.46%
+1064  CRAGIG038327/1-184    69.57%    passed      7.93%
+1065  BREMOT009507/1-125    78.80%    passed     40.95%
+1066  CRAGIG038332/1-168    72.31%    passed     14.54%
+1067  MONNEG012775/1-206    65.47%    failed      0.00%
+1068  COLSPE011821/1-213    64.27%    passed     16.61%
+1069  LAPGUS003809/1-97     83.42%    passed     22.10%
+1070  COCSUB009062/1-231    61.88%    passed     57.00%
+1071  DYSBRE004001/1-162    72.99%    passed      8.45%
+1072  HALSPE006288/1-117    80.85%    passed     23.81%
+1073  TRIMAR003318/1-177    72.14%    passed     11.24%
+1074  MONBRE003714/1-228    63.59%    passed     70.12%
+1075  MASSPE014052/1-187    69.91%    passed     81.13%
+1076  ENTHIS001376/1-232    62.56%    passed     44.88%
+1077  PARPYR010274/1-141    76.92%    passed      9.38%
+1078  PAUCHR008740/1-84     85.64%    passed     33.28%
+1079  PLATAR012989/1-65     88.89%    passed     36.73%
+1080  DYSBRE000635/1-163    72.65%    failed      1.04%
+1081  PHYPAT008064/1-216    63.93%    passed     54.92%
+1082  NUTLON002372/1-179    69.91%    passed     92.32%
+1083  HONFER010502/1-172    71.62%    passed     21.51%
+1084  THETRA009896/1-223    64.10%    failed      4.89%
+1085  ACACAS004875/1-234    61.03%    passed     99.90%
+1086  GEPOCE005604/1-230    62.22%    failed      0.50%
+1087  MICSPE008282/1-218    64.62%    passed     66.77%
+1088  RHIIRR013128/1-280    55.04%    passed     80.75%
+1089  PRACOL003556/1-211    64.10%    passed     98.20%
+1090  FABTRO010945/1-107    81.71%    passed     64.11%
+1091  PLATAR014428/1-129    78.80%    passed     75.03%
+1092  MARPOL007224/1-376    38.29%    passed      6.05%
+1093  APISPI042129/1-210    64.62%    passed     11.66%
+1094  VITBRA008915/1-228    62.39%    passed     43.71%
+1095  MADERY015654/1-76     87.18%    failed      3.82%
+1096  STYINC006497/1-212    64.96%    passed     81.97%
+1097  CYAMER000833/1-160    72.99%    failed      0.00%
+1098  COLSPE012836/1-231    61.71%    passed     60.15%
+1099  DYSBRE007013/1-177    69.74%    failed      0.01%
+1100  CAULEN003082/1-180    69.91%    failed      2.75%
+1101  TRIVAG052753/1-141    77.44%    passed     78.90%
+1102  MNELEI003308/1-109    81.37%    passed     13.66%
+1103  ENTSUL008833/1-276    54.70%    passed     25.70%
+1104  NANOCE015874/1-146    75.56%    passed     86.24%
+1105  DIALUT009003/1-1      99.83%    passed     53.65%
+1106  CYAMER004435/1-192    68.89%    passed      6.96%
+1107  SYMSPE033411/1-128    78.12%    passed     75.18%
+1108  PARTRI009146/1-129    78.97%    passed     86.57%
+1109  SAPDIC014622/1-187    68.55%    passed     20.49%
+1110  MADERY021422/1-70     88.21%    passed      7.23%
+1111  DIALUT008894/1-68     88.72%    failed      3.65%
+1112  CIOINT016563/1-299    51.97%    passed     15.97%
+1113  THEPAR000660/1-58     90.09%    passed     60.19%
+1114  MASSPE003635/1-190    68.38%    passed     30.12%
+1115  LAPGUS054753/1-84     86.32%    passed     54.06%
+1116  RHYHUM035237/1-202    66.32%    failed      0.00%
+1117  CHOSPE023688/1-82     85.98%    passed     33.27%
+1118  PICSPE074513/1-53     90.94%    passed     51.47%
+1119  BARSPE005023/1-216    63.76%    failed      2.79%
+1120  BIGNAT003889/1-206    65.81%    passed     48.56%
+1121  LAPGUS032628/1-157    73.50%    passed     67.54%
+1122  DROMEL027906/1-420    31.11%    failed      2.44%
+1123  CHRPER003285/1-172    72.31%    failed      0.07%
+1124  MARPOL020211/1-229    61.88%    passed     70.86%
+1125  ENCINT000243/1-213    64.79%    passed      7.95%
+1126  NANOCE093428/1-214    65.81%    failed      0.72%
+1127  PYGBIF007901/1-148    75.21%    passed     10.93%
+1128  CYCPAN011466/1-78     86.67%    passed     15.05%
+1129  DIPROT005270/1-230    61.71%    passed     52.30%
+1130  SYMSPE059622/1-132    77.61%    passed     15.20%
+1131  ARATHA038622/1-228    63.42%    passed     90.46%
+1132  MONNEG004060/1-150    74.87%    failed      0.00%
+1133  CHLREI016137/1-160    72.82%    failed      0.00%
+1134  MATSPE004607/1-231    62.39%    passed     83.77%
+1135  BICSPE012858/1-50     91.45%    passed     63.89%
+1136  PORPUR009396/1-160    73.50%    passed     31.40%
+1137  CHASUB003332/1-217    63.76%    passed     47.80%
+1138  LEPVOR007689/1-114    80.85%    failed      3.31%
+1139  HALSEO004482/1-70     88.03%    passed     42.86%
+1140  GEFOKE017975/1-275    55.38%    failed      0.16%
+1141  ANAIGN007378/1-250    59.15%    passed     33.56%
+1142  ELPMAR007405/1-356    40.68%    failed      4.34%
+1143  CHLREI013938/1-235    62.74%    passed     76.25%
+1144  COLVIE041709/1-108    82.05%    passed     14.17%
+1145  PAUCHR000625/1-160    73.16%    passed     26.01%
+1146  ACASPE016396/1-373    39.15%    failed      0.37%
+1147  TRIVAG038308/1-174    70.77%    passed     83.61%
+1148  PICSPE039565/1-187    69.23%    passed     30.85%
+1149  CRAGIG038331/1-219    63.93%    passed     94.49%
+1150  NANOCE063972/1-179    70.43%    failed      2.15%
+1151  PARPYR003644/1-153    74.87%    failed      0.65%
+1152  CARMEM003171/1-235    61.54%    passed     56.11%
+1153  UMBRAM006835/1-84     85.98%    passed     73.62%
+1154  GONPAC044188/1-165    72.99%    passed     77.81%
+1155  ANAIGN012750/1-110    82.05%    failed      1.08%
+1156  GIAINT001053/1-141    77.09%    failed      2.93%
+1157  PRIPAC024347/1-170    71.79%    passed     32.74%
+1158  ENTHIS007236/1-1      99.83%    passed     53.65%
+1159  PRYPAR002237/1-247    60.68%    failed      0.01%
+1160  HALSEO005851/1-160    73.33%    passed     83.11%
+1161  RHYHUM036605/1-194    68.55%    failed      0.00%
+1162  PLATAR013634/1-201    67.01%    failed      0.00%
+1163  CIOINT016849/1-429    29.74%    failed      2.18%
+1164  PHYPOL000990/1-427    30.60%    failed      0.07%
+1165  SYMSPE015912/1-200    66.50%    passed     12.02%
+1166  MONEXI010404/1-151    74.53%    passed     39.69%
+1167  PRYPAR041854/1-74     87.35%    passed     84.88%
+1168  ARATHA035085/1-227    62.22%    passed     90.98%
+1169  NANOCE023331/1-190    68.89%    passed      6.10%
+1170  DYSBRE004463/1-74     87.35%    passed     65.25%
+1171  LENLIM018084/1-120    79.49%    passed     18.98%
+1172  NEMVEC021466/1-406    34.36%    failed      2.20%
+1173  GEFOKE005571/1-205    66.67%    passed     34.28%
+1174  MICSPE003087/1-223    63.93%    passed     83.52%
+1175  VERVER006189/1-226    62.39%    passed     97.68%
+1176  IXOSCA005563/1-406    35.04%    failed      0.06%
+1177  RAMBRE000074/1-204    65.81%    passed     49.43%
+1178  TRIADH000786/1-155    73.85%    passed     38.39%
+1179  COLVIE036931/1-133    78.29%    passed     96.99%
+1180  CRYNEO005668/1-222    64.10%    passed     45.58%
+1181  BARSPE014208/1-196    67.35%    failed      0.38%
+1182  MICMAR006959/1-51     91.28%    passed     73.57%
+1183  PARATL001715/1-233    62.22%    passed     89.29%
+1184  CHABRA000864/1-150    75.38%    passed     38.97%
+1185  PRYPAR015354/1-232    62.05%    passed     26.35%
+1186  NEODAM007884/1-388    37.44%    failed      0.00%
+1187  OSTTAU002071/1-233    61.71%    passed     85.14%
+1188  HOMSAP079083/1-233    61.54%    passed     83.05%
+1189  LEUCOM061791/1-231    61.88%    passed     60.41%
+1190  VITBRA015319/1-224    62.91%    passed     91.37%
+1191  MASBAL014327/1-187    68.72%    passed     45.02%
+1192  PARPYR010537/1-61     89.57%    passed     83.06%
+1193  BRABEL025087/1-439    28.89%    failed      4.54%
+1194  SCHPOM001409/1-224    63.93%    passed      8.89%
+1195  SYMSPE034140/1-93     84.62%    passed     31.56%
+1196  CHLREI011288/1-396    34.36%    failed      0.00%
+1197  NEOSPE017697/1-52     92.82%    passed     45.94%
+1198  SALKVE005004/1-187    69.57%    passed     59.04%
+1199  DICDIS001027/1-421    30.94%    failed      0.54%
+1200  SYNPLU005190/1-453    25.13%    failed      0.40%
+1201  DIPROT037871/1-215    63.93%    passed     26.05%
+1202  PLATAR015137/1-72     87.69%    passed     53.09%
+1203  DANRER013009/1-447    28.03%    passed     37.22%
+1204  LAPGUS016467/1-124    79.66%    passed     22.70%
+1205  PRYPAR003309/1-67     88.72%    passed     18.24%
+1206  CYCPAN030899/1-223    62.91%    passed     92.35%
+1207  USTMAY002856/1-164    73.50%    passed     18.60%
+1208  PARTRI008458/1-445    27.35%    passed     36.35%
+1209  SPIPUN007774/1-228    62.39%    passed     91.08%
+1210  BARSPE012876/1-207    64.62%    failed      0.00%
+1211  MASBAL003164/1-151    74.53%    passed     85.82%
+1212  ENTSUL035209/1-188    69.40%    passed     21.31%
+1213  CHABRA023721/1-194    68.38%    passed     10.42%
+1214  SALKVE004996/1-191    68.89%    passed     15.78%
+1215  RAMVAR009270/1-237    61.88%    passed     21.25%
+1216  AGABIS009627/1-244    59.15%    passed     91.02%
+1217  LEUCOM035896/1-84     85.81%    passed      7.96%
+1218  ENTSUL052805/1-100    82.91%    passed     21.66%
+1219  RAPHET014455/1-123    80.00%    passed     10.44%
+1220  UMBRAM009573/1-180    70.09%    passed     29.25%
+1221  ENTSUL060566/1-109    81.37%    passed     63.88%
+1222  DANRER015828/1-174    70.77%    failed      1.28%
+1223  PLAFUN004523/1-426    30.26%    passed      6.77%
+1224  AGABIS006053/1-228    62.74%    passed     74.09%
+1225  ROZALL003785/1-392    34.53%    failed      0.00%
+1226  LAPGUS021549/1-182    69.40%    passed     42.90%
+1227  ANAIGN022555/1-157    73.50%    passed     33.98%
+1228  NANOCE064374/1-160    72.82%    passed     55.20%
+1229  SYNPLU000726/1-151    75.04%    passed     48.85%
+1230  CRYCOH010185/1-159    73.50%    failed      2.36%
+1231  RHOMAR001592/1-224    62.91%    passed     78.72%
+1232  PLATAR010378/1-174    70.77%    passed     72.16%
+1233  PHYPAT032219/1-228    62.39%    passed     86.80%
+1234  DYSBRE006688/1-198    66.67%    failed      0.32%
+1235  DYSBRE008436/1-96     83.76%    failed      0.26%
+1236  SACCER000835/1-219    65.47%    passed     44.88%
+1237  SYNPLU001335/1-171    70.94%    passed     74.63%
+1238  SYMSPE065877/1-98     83.42%    passed     61.66%
+1239  LEUCOM065719/1-166    71.97%    passed     15.34%
+1240  ACASPE024954/1-274    56.58%    failed      0.06%
+1241  RAMVAR000503/1-232    62.56%    passed     74.54%
+1242  PICSPE046520/1-89     84.79%    passed     33.19%
+1243  CAEELE012763/1-75     87.35%    failed      0.58%
+1244  CAEELE003180/1-74     87.52%    failed      0.32%
+1245  VAVCUL000719/1-162    72.65%    passed     33.80%
+1246  PTESPE005742/1-163    72.48%    passed     43.71%
+1247  KLENIT013238/1-161    74.19%    passed     76.00%
+1248  GEMCRY017562/1-230    62.05%    passed     44.61%
+1249  MICMAR101706/1-247    61.54%    failed      2.12%
+1250  GEMCRY008208/1-229    62.22%    passed     48.52%
+1251  ANAIGN017074/1-140    76.92%    passed     11.25%
+1252  TRIMAR002317/1-222    62.74%    failed      0.47%
+1253  GEMCRY043789/1-1      99.83%    passed     55.42%
+1254  BAFFRI034364/1-72     87.69%    passed     26.75%
+1255  NAEFOW015045/1-418    32.14%    failed      0.00%
+1256  ANCTWI019577/1-165    72.65%    passed     77.30%
+1257  HOMSAP104366/1-410    32.65%    failed      0.07%
+1258  SYMSPE082689/1-82     86.67%    passed     90.17%
+1259  PHYINF008672/1-207    64.79%    passed     99.77%
+1260  GEPOCE058436/1-211    64.44%    failed      0.00%
+1261  SPISPE008743/1-38     93.50%    passed      6.25%
+1262  SPISAL000882/1-443    30.60%    failed      0.00%
+1263  MICMAR092686/1-162    72.99%    passed     86.93%
+1264  ALLMAC010353/1-229    62.74%    passed     55.15%
+1265  GIAINT002109/1-51     91.28%    passed     29.91%
+1266  THEPAR001463/1-157    73.50%    passed     17.86%
+1267  BAFFRI021617/1-57     90.26%    passed     12.50%
+1268  PLATAR008610/1-128    78.80%    failed      0.38%
+1269  HEMSPE024598/1-105    82.74%    passed     41.62%
+1270  RAPHET021979/1-210    65.64%    passed     74.24%
+1271  ENTSUL049906/1-185    68.72%    failed      2.33%
+1272  ANCTWI020666/1-128    80.34%    passed     14.69%
+1273  STYINC003490/1-92     84.62%    passed     38.68%
+1274  NEOSPE013126/1-466    25.98%    failed      0.00%
+1275  CHABRA008654/1-377    36.41%    failed      1.05%
+1276  ANAIGN011424/1-39     93.33%    failed      2.18%
+1277  PLABRA000562/1-182    69.23%    passed     63.90%
+1278  PYGBIF005727/1-216    63.59%    passed     72.47%
+1279  CHABRA027393/1-301    52.31%    failed      0.00%
+1280  AGABIS009720/1-72     87.69%    passed     27.06%
+1281  TOXGON003863/1-285    53.33%    failed      0.08%
+1282  GEMCRY000671/1-226    62.74%    passed     55.96%
+1283  RUSMAR000490/1-236    62.56%    passed     76.95%
+1284  RIGRAM026464/1-233    62.05%    passed     60.75%
+1285  POLPAL007323/1-221    63.76%    passed     24.98%
+1286  ACASPE026429/1-63     89.40%    passed     66.20%
+1287  GEPOCE043910/1-185    68.89%    passed     11.38%
+1288  TRIADH003902/1-152    74.36%    passed     33.32%
+1289  ANAIGN020472/1-69     89.06%    failed      3.77%
+1290  ANCTWI029822/1-170    72.82%    passed     17.53%
+1291  ANCTWI023896/1-178    69.74%    passed     58.32%
+1292  BIGNAT019959/1-207    65.64%    passed     21.66%
+1293  PRIPAC008593/1-73     87.52%    passed     21.45%
+1294  MADERY024701/1-87     85.30%    passed     25.30%
+1295  MICMAR069085/1-114    83.59%    failed      0.36%
+1296  PRACOL001034/1-231    63.42%    passed     74.62%
+1297  SPISAL001354/1-142    75.73%    passed     28.19%
+1298  ANAIGN019118/1-189    69.23%    failed      2.64%
+1299  ROZALL003870/1-235    61.71%    passed      8.91%
+1300  NUTLON004447/1-154    74.02%    passed     54.56%
+1301  PICSPE042421/1-74     87.35%    passed     86.26%
+1302  PARATL006096/1-210    64.44%    passed     22.83%
+1303  PLATAR021680/1-82     85.98%    passed     38.83%
+1304  ANAIGN012235/1-102    82.74%    failed      0.04%
+1305  BARSPE000996/1-162    72.82%    failed      0.04%
+1306  ACAPLA018002/1-229    62.05%    passed     55.59%
+1307  BAFFRI021264/1-162    75.21%    passed     23.94%
+1308  CHOSPE000017/1-72     87.69%    passed     41.25%
+1309  HALSEO008759/1-238    62.91%    passed      9.78%
+1310  SORBIC014997/1-227    63.42%    failed      2.00%
+1311  PARPYR002549/1-207    66.32%    passed     36.04%
+1312  BAFFRI011714/1-66     88.72%    passed      9.47%
+1313  DIPROT023061/1-262    57.09%    passed     88.85%
+1314  NANOCE093441/1-137    76.75%    passed     61.38%
+1315  ENTSUL036831/1-54     90.77%    passed     60.14%
+1316  LEPVOR008740/1-153    74.36%    passed     12.54%
+1317  DYSBRE004915/1-229    63.59%    passed     27.55%
+1318  NEUCRA008286/1-218    64.27%    passed     89.30%
+1319  AURLIM010787/1-77     87.52%    passed     69.47%
+1320  MORVER012437/1-226    63.25%    passed     70.71%
+1321  MONBRE002959/1-385    37.61%    failed      4.19%
+1322  PLATAR015352/1-150    75.73%    failed      0.47%
+1323  GONPRO010417/1-75     87.18%    passed     16.15%
+1324  ACASPE027326/1-123    79.32%    passed     69.34%
+1325  MANSPH005584/1-119    81.37%    failed      0.19%
+1326  BICSPE009316/1-138    77.61%    passed     22.64%
+1327  GONPRO004151/1-73     87.52%    passed     56.71%
+1328  RHOMAR011034/1-253    58.29%    passed     96.46%
+1329  ALLMAC009258/1-144    76.75%    passed     27.13%
+1330  GONPRO009935/1-206    66.67%    passed     21.13%
+1331  RAMVAR016606/1-410    33.68%    passed      8.77%
+1332  ARATHA029038/1-72     88.72%    passed     98.23%
+1333  PRIPAC017094/1-205    70.77%    failed      1.17%
+1334  GIAINT000295/1-235    63.25%    passed     53.83%
+1335  MADERY027754/1-232    62.22%    passed     41.23%
+1336  NANOCE093430/1-136    76.92%    passed     49.40%
+1337  CHRPER000982/1-230    61.71%    passed     52.76%
+1338  CAEELE023367/1-74     88.38%    passed     86.59%
+1339  COLVIE022525/1-158    73.16%    passed     10.93%
+1340  PLABRA008170/1-89     85.30%    passed     16.15%
+1341  PHYINF011743/1-153    75.56%    passed     20.31%
+1342  GLOWIT012818/1-362    40.00%    failed      0.00%
+1343  TRIADH004892/1-172    70.77%    passed     25.48%
+1344  LEUCOM005272/1-232    62.39%    passed     24.50%
+1345  MICMAR055246/1-157    74.02%    failed      2.96%
+1346  GEMCRY022501/1-45     92.31%    passed     38.18%
+1347  BAFFRI027122/1-162    75.21%    passed     23.94%
+1348  CAPOWC006358/1-399    37.09%    failed      0.00%
+1349  PICSPE035295/1-75     87.52%    passed     17.63%
+1350  PALBIL014449/1-121    80.00%    passed     99.31%
+1351  LEPVOR004638/1-150    75.21%    passed    100.00%
+1352  PALBIL001884/1-74     87.35%    passed     46.68%
+1353  BRABEL008297/1-73     88.55%    passed     61.63%
+1354  STYINC006496/1-196    67.69%    passed     63.12%
+1355  SYMSPE025185/1-48     91.79%    passed     23.43%
+1356  PICSPE067004/1-175    71.79%    passed     47.63%
+1357  ARCINT000503/1-229    62.22%    passed     90.60%
+1358  HYPCAT001436/1-96     84.27%    passed     86.02%
+1359  TRIMAR004076/1-73     88.55%    passed     65.51%
+1360  CHLREI009710/1-74     88.38%    passed     68.53%
+1361  HONFER010503/1-187    72.14%    passed     66.92%
+1362  TRESPE003951/1-197    67.52%    failed      0.73%
+1363  CARMEM000427/1-115    80.51%    passed     13.31%
+1364  CAEELE019909/1-74     87.35%    passed     34.70%
+1365  TOXGON006779/1-94     84.44%    passed     76.27%
+1366  GONPAC050588/1-184    70.43%    passed     66.13%
+1367  PYGBIF001930/1-211    65.81%    passed     23.89%
+1368  MASBAL000319/1-147    75.04%    passed     10.27%
+1369  DAPMAG007816/1-170    71.62%    passed     78.92%
+1370  CHASUB021687/1-78     87.69%    passed     79.42%
+1371  BARSPE011957/1-218    64.62%    failed      0.02%
+1372  ENTHIS004413/1-75     87.18%    passed     59.00%
+1373  PRIPAC023332/1-71     88.89%    passed     90.14%
+1374  RAMVAR014478/1-77     86.84%    passed     11.36%
+1375  MADERY002286/1-128    78.29%    failed      0.12%
+1376  ANAIGN002722/1-154    73.68%    failed      0.00%
+1377  TRIVAG011505/1-147    74.87%    failed      1.01%
+1378  ANCTWI038030/1-114    82.74%    failed      0.84%
+1379  RIGRAM018336/1-152    74.36%    passed     91.02%
+1380  AGABIS006328/1-80     86.32%    passed     42.78%
+1381  LEUCOM001931/1-87     85.13%    passed     58.80%
+1382  ANDGOD007543/1-167    71.97%    passed     38.20%
+1383  GONPRO004211/1-74     87.35%    passed     22.27%
+1384  CAEELE005981/1-71     87.86%    passed     35.18%
+1385  COLSPE033591/1-68     88.38%    passed     65.77%
+1386  PHAKIR012725/1-119    80.68%    passed      6.60%
+1387  SALKVE006388/1-76     87.01%    passed     14.63%
+1388  PRACOL001298/1-79     86.50%    failed      1.24%
+1389  CHOSPE014170/1-165    72.31%    passed     84.35%
+1390  BOMMOR002257/1-71     87.86%    passed     46.73%
+1391  SORBIC037813/1-75     87.18%    failed      4.19%
+1392  ENTSUL025617/1-229    64.96%    passed     13.80%
+1393  MNELEI008985/1-149    75.73%    passed     20.85%
+1394  NANOCE120706/1-174    70.60%    passed     50.01%
+1395  TELSPE005783/1-85     86.50%    passed     26.75%
+1396  CRYMUR001003/1-183    72.48%    passed      6.08%
+1397  RHOMAR008615/1-186    68.72%    passed      8.02%
+1398  NANOCE102552/1-223    65.13%    passed      5.14%
+1399  CARMEM008266/1-235    61.54%    passed     52.77%
+1400  MASSPE002756/1-110    81.54%    failed      4.51%
+1401  ACAPLA029440/1-75     88.21%    passed     82.61%
+1402  NEOSPE001203/1-71     87.86%    passed     40.05%
+1403  ALLMAC018509/1-75     88.21%    passed     94.60%
+1404  DIPROT005273/1-165    72.82%    passed     96.96%
+1405  CLAOKA003946/1-179    69.74%    passed     41.67%
+1406  BREMOT001194/1-150    75.90%    passed     22.87%
+1407  MADERY024852/1-59     90.43%    passed     51.76%
+1408  PICSPE039563/1-95     84.96%    passed     85.83%
+1409  TRESPE003930/1-59     89.91%    passed     71.16%
+1410  ALLMAC019141/1-80     86.32%    failed      3.09%
+1411  ALLMAC003916/1-79     86.50%    passed      8.91%
+1412  LAPGUS013044/1-162    72.99%    passed      9.31%
+1413  BARSPE011030/1-98     83.59%    passed     86.35%
+1414  PHYPAT043367/1-113    81.71%    passed     36.77%
+1415  DROMEL015465/1-74     88.38%    passed     62.82%
+1416  GEMCRY037958/1-65     88.89%    passed     88.77%
+1417  STRRAT003723/1-74     88.38%    passed     57.74%
+1418  BASMER002768/1-77     86.84%    passed     20.33%
+1419  PTESPE012990/1-170    71.11%    passed     34.59%
+1420  ALLMAC019160/1-79     86.50%    passed      6.20%
+1421  PARATL006091/1-163    72.48%    passed     61.69%
+1422  COLVIE037812/1-90     84.79%    passed     31.03%
+1423  RHOMAR004974/1-74     87.35%    passed     40.79%
+1424  RHOMAR002419/1-160    74.53%    passed     44.66%
+1425  PHYPAT009671/1-111    82.05%    passed     40.14%
+1426  BIGNAT019410/1-73     88.55%    passed     85.01%
+1427  CLAOKA016167/1-74     88.38%    passed     94.36%
+1428  HYPCAT001434/1-183    69.57%    passed     73.71%
+1429  PICSPE086351/1-70     88.21%    passed     16.25%
+1430  BASMER010078/1-47     91.97%    passed     76.96%
+1431  BASMER000245/1-78     86.67%    passed     29.99%
+1432  CHASUB007727/1-364    40.17%    failed      3.33%
+1433  MADERY011118/1-154    74.87%    passed     13.32%
+1434  CHLATM001335/1-74     88.38%    passed     85.87%
+1435  RAPHET022692/1-380    38.12%    failed      0.16%
+1436  HONFER000479/1-174    72.48%    passed     71.26%
+1437  SPIPUN004354/1-74     87.35%    passed     44.77%
+1438  ANAIGN004913/1-192    68.21%    failed      0.19%
+1439  EUGLON038882/1-223    64.44%    passed     80.13%
+1440  MARPOL022054/1-74     88.38%    passed     74.88%
+1441  ARCINT000504/1-159    73.50%    passed     37.50%
+1442  NEOSPE011719/1-208    66.32%    passed     19.50%
+1443  DYSBRE001046/1-54     90.77%    passed     61.69%
+1444  CYAMER001437/1-73     88.55%    passed     92.76%
+1445  BASMER004343/1-77     86.84%    passed     19.23%
+1446  AURLIM011339/1-166    72.65%    passed     73.15%
+1447  MADERY003132/1-54     93.50%    passed     31.39%
+1448  PARPYR000169/1-181    71.97%    failed      4.62%
+1449  GEMCRY024234/1-230    62.05%    passed     44.61%
+1450  BASMER013884/1-78     86.67%    passed     29.99%
+1451  HONFER001025/1-84     85.64%    passed     44.20%
+1452  GUITHE001512/1-158    75.21%    passed     42.73%
+1453  IXOSCA006279/1-74     88.38%    passed     87.57%
+1454  OSTTAU004462/1-48     91.79%    passed     92.09%
+1455  PICSPE042416/1-65     89.23%    failed      3.94%
+1456  GUITHE001575/1-159    75.04%    passed     41.20%
+1457  HALSEO008760/1-78     87.35%    passed     49.84%
+1458  RHIIRR012619/1-157    74.36%    failed      4.02%
+1459  DAPMAG007817/1-110    81.20%    passed     46.31%
+1460  LEUCOM010718/1-100    84.10%    passed     50.02%
+1461  MONEXI001291/1-406    33.68%    failed      0.42%
+1462  MNELEI011811/1-72     88.72%    passed     52.60%
+1463  RIGRAM003272/1-102    82.56%    failed      1.28%
+1464  MASBAL009542/1-70     88.03%    passed     70.42%
+1465  MADERY021246/1-111    81.37%    passed     29.39%
+1466  CRYCOH008028/1-83     86.15%    passed     44.87%
+1467  PARTRI008721/1-126    79.66%    passed     81.45%
+1468  GONPRO007228/1-75     87.18%    passed     46.86%
+1469  CIOINT006864/1-73     88.55%    passed     81.10%
+1470  CHLREI013333/1-55     90.77%    passed     33.95%
+1471  MASSPE010631/1-88     84.96%    passed     47.74%
+1472  TRYBRU006243/1-78     87.69%    passed     35.58%
+1473  GLOWIT006086/1-81     86.32%    passed      7.29%
+1474  CRAGIG015964/1-74     88.38%    passed     66.04%
+1475  LEIMAJ006986/1-86     85.47%    passed     87.60%
+1476  COLSPE016401/1-82     87.01%    passed      8.23%
+1477  MANSPH004850/1-238    63.76%    passed     24.27%
+1478  ANCTWI016178/1-163    73.16%    passed     45.45%
+1479  NUTLON007422/1-160    74.19%    passed     17.69%
+1480  PSEPER010808/1-76     88.03%    passed     74.28%
+1481  FABTRO028258/1-77     87.86%    passed     37.32%
+1482  THEPAR002966/1-143    76.75%    failed      0.00%
+1483  COLVIE020346/1-159    73.33%    passed     75.09%
+1484  GEPOCE017283/1-185    68.89%    passed      8.56%
+1485  FABTRO031742/1-65     88.89%    passed     23.69%
+1486  VITBRA013031/1-397    35.56%    failed      0.01%
+1487  GRACHO008967/1-78     86.84%    passed     53.98%
+1488  NAEFOW009996/1-76     88.03%    passed     55.54%
+1489  MADERY014683/1-55     90.60%    passed      5.66%
+1490  ANAIGN005667/1-119    80.85%    passed     28.82%
+1491  GEPOCE053282/1-57     90.26%    passed     36.15%
+1492  COLVIE004068/1-82     87.01%    passed      8.23%
+1493  TRESPE004133/1-57     90.26%    passed     24.35%
+1494  ENTSUL026596/1-47     92.14%    passed     33.19%
+1495  ANCTWI015952/1-108    82.56%    passed     56.44%
+1496  HEMPHA028068/1-113    81.71%    passed     10.21%
+1497  DIAGRA034331/1-242    60.34%    failed      0.18%
+1498  THETRA007939/1-415    30.09%    failed      1.44%
+1499  PAUCHR004678/1-115    81.37%    passed     41.24%
+1500  DANRER032889/1-74     88.38%    passed     67.40%
+1501  PRACOL006450/1-73     88.55%    passed     39.85%
+1502  SYMSPE060847/1-50     91.45%    passed     45.01%
+1503  BOMMOR004275/1-74     88.38%    passed     80.11%
+1504  DAPMAG002542/1-64     89.23%    passed     33.37%
+1505  TELSUB000029/1-75     88.21%    passed     59.59%
+1506  CHLVAR009107/1-204    65.98%    failed      4.38%
+1507  MONNEG006648/1-78     86.84%    passed     30.32%
+1508  CYCPAN014357/1-43     92.65%    passed     18.25%
+1509  FABTRO030578/1-66     88.72%    passed     11.21%
+1510  HOMSAP003497/1-75     88.21%    passed     68.14%
+1511  CYAGLO004834/1-81     86.50%    passed     98.55%
+1512  HYPCAT001437/1-51     91.28%    passed     25.91%
+1513  BIGNAT009831/1-114    81.03%    failed      3.06%
+1514  DIPROT005272/1-98     83.93%    passed     90.24%
+1515  DANRER045590/1-56     90.60%    passed     70.27%
+1516  BIGNAT013739/1-60     89.74%    passed     20.16%
+1517  PICSPE052800/1-109    82.39%    failed      3.23%
+1518  HALSPE013545/1-147    75.73%    failed      4.04%
+1519  EUGLON012547/1-142    77.09%    failed      3.12%
+1520  VERVER010716/1-49     91.62%    passed     76.13%
+1521  MADERY021890/1-168    71.62%    passed     41.11%
+1522  CHOSPE022448/1-164    72.48%    passed     53.47%
+1523  TRIADH009824/1-235    62.91%    passed     25.48%
+1524  PICSPE080439/1-175    72.14%    passed     67.69%
+1525  PALBIL001836/1-70     88.03%    passed     51.10%
+1526  PALBIL015105/1-70     88.03%    passed     57.63%
+1527  ROZALL005252/1-78     86.67%    passed     64.60%
+1528  CLAOKA003430/1-90     84.62%    passed     98.41%
+1529  ACASPE024684/1-72     87.86%    passed     68.69%
+1530  MADERY014771/1-141    77.78%    passed     23.97%
+1531  ALLMAC007188/1-192    69.57%    failed      0.41%
+1532  TETTHE013702/1-133    77.95%    passed      9.95%
+1533  SYMSPE058821/1-144    75.38%    passed      8.92%
+1534  GONPAC005854/1-185    70.26%    passed     53.61%
+1535  GLOWIT018790/1-79     86.67%    failed      0.48%
+1536  RAMVAR016608/1-170    73.50%    failed      0.17%
+1537  PHYPAT039022/1-120    79.83%    passed     76.06%
+1538  GEPOCE018264/1-80     86.32%    failed      0.29%
+1539  LENLIM009005/1-62     89.40%    passed     94.80%
+1540  FABTRO027055/1-71     87.86%    failed      0.47%
+1541  ANCTWI017918/1-132    77.78%    passed     57.70%
+1542  ANAIGN002842/1-61     89.74%    passed     45.58%
+1543  CHASUB003218/1-167    72.99%    passed     89.20%
+1544  TELSPE040187/1-74     87.69%    passed     38.15%
+1545  MANSPH000114/1-125    78.80%    passed     65.74%
+1546  GEPOCE033125/1-157    76.41%    passed     12.06%
+1547  PALBIL004283/1-70     88.03%    passed     64.38%
+1548  FABTRO004507/1-97     83.76%    passed     11.55%
+1549  PARTET029954/1-76     88.03%    passed     89.65%
+1550  PARTET024234/1-78     87.69%    passed     89.80%
+1551  GEPOCE050040/1-96     83.59%    failed      1.42%
+1552  PHYPAT037325/1-120    79.83%    passed     42.34%
+1553  DYSBRE000326/1-202    65.81%    failed      1.08%
+1554  ACACAS008738/1-74     87.35%    failed      4.89%
+1555  ANAIGN018515/1-97     83.42%    passed     67.87%
+1556  POLPAL002973/1-76     87.01%    passed     69.19%
+1557  FABTRO023685/1-97     84.62%    passed     77.57%
+1558  PLAFAL003351/1-397    35.90%    failed      0.00%
+1559  TELSPE005782/1-85     86.50%    passed     26.75%
+1560  BARSPE002283/1-68     88.38%    passed     31.20%
+1561  PALBIL001978/1-75     87.18%    passed     48.37%
+1562  RHIIRR023602/1-80     86.50%    passed     41.49%
+1563  TRIADH004837/1-110    81.37%    passed     34.97%
+1564  LEPVOR001678/1-91     85.30%    passed     46.13%
+1565  PICSPE108126/1-73     88.21%    passed     66.15%
+1566  PICSPE042422/1-51     91.28%    passed     29.85%
+1567  TELSUB025000/1-85     86.50%    passed     26.75%
+1568  ENTSUL018948/1-130    78.97%    passed     18.85%
+1569  ENTSUL000894/1-230    65.13%    passed      7.87%
+1570  PARATL010189/1-72     87.69%    passed     70.34%
+1571  ELPMAR015214/1-46     92.14%    passed     58.38%
+1572  PARATL013457/1-76     87.18%    failed      1.79%
+1573  PICSPE109488/1-106    82.39%    passed     20.44%
+1574  CAPOWC003350/1-48     91.79%    passed     33.67%
+1575  ARATHA033822/1-52     91.11%    passed     84.38%
+1576  STYINC009332/1-132    78.29%    passed     69.97%
+1577  ARCINT010104/1-85     85.98%    passed     62.04%
+1578  TRIADH005704/1-221    63.59%    failed      2.40%
+1579  ANAIGN014537/1-127    79.15%    passed     84.86%
+1580  ARCINT035796/1-75     87.18%    passed     49.36%
+1581  MNELEI000795/1-57     90.26%    passed     99.83%
+1582  VAVCUL002428/1-93     85.64%    passed     88.22%
+1583  LEPVOR001683/1-78     86.67%    passed     78.09%
+1584  PLATAR013636/1-89     85.13%    failed      0.00%
+1585  LENLIM017557/1-85     85.81%    passed     31.71%
+1586  NEMVEC007629/1-72     87.69%    passed     65.58%
+1587  TRIVAG050733/1-63     89.23%    passed     17.16%
+1588  CYAPAR007335/1-75     87.18%    passed     30.23%
+1589  TRIVAG017273/1-79     86.50%    passed     58.64%
+1590  CLAOKA022531/1-57     90.26%    failed      1.64%
+1591  MNELEI014431/1-72     87.69%    passed     31.57%
+1592  ENTSUL033763/1-75     87.18%    passed     87.73%
+1593  BARSPE003714/1-131    78.12%    passed     23.34%
+1594  ANAIGN002241/1-174    71.97%    passed     14.53%
+1595  LEPVOR004641/1-43     92.65%    passed     33.74%
+1596  GONPAC048638/1-78     86.84%    failed      2.13%
+1597  BAFFRI053175/1-71     87.86%    passed     32.16%
+1598  FABTRO004694/1-180    70.26%    failed      1.76%
+1599  NANOCE089945/1-123    80.68%    passed      5.13%
+1600  PALBIL013088/1-72     87.69%    passed     68.64%
+1601  STECOE005578/1-74     87.35%    passed     89.07%
+1602  HALSPE011020/1-77     87.18%    passed     59.91%
+1603  CAPOWC002583/1-48     91.79%    passed     28.83%
+1604  LEPVOR004597/1-78     86.67%    passed     88.21%
+1605  STYINC009304/1-150    75.21%    passed     12.57%
+1606  SALKVE007812/1-69     88.21%    passed      5.83%
+1607  CAPOWC002206/1-47     91.97%    passed     31.48%
+1608  MONNEG014733/1-55     90.60%    passed     23.78%
+1609  FABTRO012298/1-67     88.55%    passed     35.39%
+1610  NEPPYR011296/1-56     90.43%    passed      9.69%
+1611  RAPHET007720/1-368    38.63%    passed      9.72%
+1612  CAPOWC003672/1-51     91.28%    passed     41.61%
+1613  PRYPAR001616/1-70     88.03%    passed      6.02%
+1614  SYMSPE089902/1-78     86.67%    failed      1.22%
+1615  NUTLON022089/1-75     87.18%    passed     70.54%
+1616  SORBIC012722/1-210    64.79%    passed     74.98%
+1617  PALBIL015899/1-75     87.18%    passed     46.92%
+1618  VITBRA016669/1-71     87.86%    passed     15.05%
+1619  PICSPE046519/1-48     91.79%    passed     38.51%
+1620  CAPOWC003812/1-47     91.97%    passed     32.92%
+1621  ENTSUL033515/1-93     84.44%    passed     42.96%
+1622  PERMAR011224/1-70     88.03%    passed     37.11%
+1623  CAPOWC000541/1-47     91.97%    passed     31.48%
+1624  NEPPYR025626/1-73     87.69%    failed      2.54%
+1625  NUTLON003059/1-68     88.38%    passed     41.36%
+1626  CLAOKA017844/1-72     87.69%    passed     18.40%
+1627  COEREV001096/1-75     87.18%    failed      1.07%
+1628  ALLMAC019210/1-79     86.50%    passed      6.53%
+1629  CYAPAR015483/1-76     87.01%    passed     41.50%
+1630  BAFFRI015058/1-64     89.06%    passed     13.93%
+1631  MICMAR055389/1-80     86.32%    passed     14.96%
+1632  NANOCE054661/1-100    83.76%    failed      4.78%
+1633  DAPMAG018024/1-93     84.79%    passed     31.79%
+1634  CAPOWC008099/1-50     91.45%    passed     53.40%
+1635  CAPOWC008225/1-47     91.97%    passed     32.92%
+1636  BASMER003417/1-74     88.38%    passed     80.00%
+1637  LEUCOM026555/1-101    83.59%    failed      3.63%
+1638  PALBIL003267/1-75     87.18%    passed     59.44%
+1639  CAPOWC009683/1-49     91.62%    passed     36.52%
+1640  GUITHE000503/1-84     85.64%    passed     54.35%
+1641  HALSPE009891/1-102    82.74%    failed      4.51%
+1642  NEMVEC023107/1-75     87.18%    passed     29.80%
+1643  GONPAC033470/1-53     90.94%    passed     48.85%
+1644  CAPOWC008189/1-48     91.79%    passed     25.48%
+1645  TRIADH010881/1-74     87.52%    passed     58.25%
+1646  ANAIGN007809/1-108    81.54%    failed      3.29%
+1647  CYAGLO008230/1-74     87.52%    failed      4.71%
+1648  PALBIL004764/1-75     87.18%    passed     59.44%
+1649  COLVIE035209/1-66     88.72%    passed     58.95%
+1650  BREMOT002345/1-181    69.74%    passed     11.90%
+1651  TELSUB050004/1-84     85.64%    passed     61.32%
+1652  LENLIM008300/1-158    73.16%    passed      7.89%
+1653  CIOINT014728/1-87     85.13%    passed     29.19%
+1654  GLOWIT016770/1-74     87.52%    passed     45.05%
+1655  CHOSPE033194/1-68     88.38%    passed     29.28%
+1656  CLAOKA003322/1-73     87.52%    failed      0.36%
+1657  PLATAR009646/1-132    77.95%    failed      0.10%
+1658  PRIPAC022140/1-76     87.01%    passed     78.98%
+1659  CAEELE027825/1-77     86.84%    passed     81.21%
+1660  FABTRO024143/1-100    83.08%    failed      1.69%
+1661  HALSPE003658/1-72     87.69%    passed     59.35%
+1662  DYSBRE001109/1-57     90.26%    passed     39.55%
+1663  BRABEL007961/1-79     86.50%    passed     26.59%
+1664  MONBRE003074/1-53     91.11%    passed     54.29%
+1665  TRYBRU006245/1-70     88.03%    passed     45.02%
+1666  CRAGIG020875/1-51     91.28%    failed      4.79%
+1667  RAPHET024670/1-74     87.35%    passed     22.47%
+1668  GEPOCE051327/1-76     87.18%    failed      0.87%
+1669  PERSWS004925/1-75     87.18%    passed      5.39%
+1670  MICMAR103165/1-75     87.18%    passed     26.47%
+1671  PERMAR003224/1-70     88.03%    passed     37.11%
+1672  MONBRE003211/1-71     87.86%    passed     29.98%
+1673  NEMVEC013785/1-60     89.74%    failed      2.36%
+1674  PLATAR008608/1-131    78.63%    failed      0.07%
+1675  PRYPAR038299/1-64     89.06%    passed     38.81%
+1676  BARSPE004432/1-72     87.69%    passed     60.60%
+1677  NUTLON015505/1-117    80.85%    passed     69.55%
+1678  TRIVAG054766/1-77     87.01%    passed     54.82%
+1679  COLSPE013186/1-69     88.21%    passed     17.26%
+1680  DYSBRE000812/1-166    72.48%    failed      0.00%
+1681  MICMAR103171/1-75     87.18%    passed     26.47%
+1682  MANSPH002221/1-68     88.38%    passed     55.26%
+1683  HYPCAT010152/1-72     87.69%    passed     23.71%
+1684  TRIADH000795/1-75     87.18%    passed     22.68%
+1685  GEMCRY023069/1-82     85.98%    passed     65.19%
+1686  MASSPE012639/1-75     87.18%    passed     66.13%
+1687  MNELEI012199/1-85     85.47%    passed     60.98%
+1688  TELSUB057411/1-79     86.50%    passed     13.54%
+1689  LENLIM014434/1-71     87.86%    failed      2.52%
+1690  RUSMAR012788/1-70     88.03%    passed     54.78%
+1691  STYINC008740/1-70     88.03%    passed     77.53%
+1692  BAFFRI015956/1-81     86.15%    passed     69.34%
+1693  ANCTWI004602/1-69     88.21%    passed     44.20%
+1694  CAEELE024382/1-78     86.67%    passed     54.71%
+1695  BRABEL007950/1-77     86.84%    passed     26.30%
+1696  GUITHE000023/1-68     88.38%    passed     28.00%
+1697  CHASUB010336/1-76     87.01%    passed     50.52%
+1698  PRIPAC012948/1-72     87.69%    passed     43.36%
+1699  RHYHUM011233/1-82     86.67%    failed      0.00%
+1700  CHASUB013671/1-74     87.35%    passed     60.05%
+1701  LAPGUS056990/1-73     88.55%    passed     94.30%
+1702  LEUCOM050451/1-103    83.25%    passed     23.95%
+1703  LEUCOM030464/1-92     84.44%    passed     19.22%
+1704  HEMPHA047792/1-81     86.32%    passed     14.79%
+1705  PHYPOL022368/1-75     87.18%    passed     69.49%
+1706  COLVIE003435/1-69     88.21%    passed     17.26%
+1707  ENTHIS005899/1-74     88.38%    passed     95.56%
+1708  PYGBIF005152/1-49     91.79%    passed     46.21%
+1709  CHRVEL026593/1-74     87.35%    failed      1.88%
+1710  LENLIM008922/1-199    68.21%    failed      0.03%
+1711  LEPVOR006531/1-60     89.74%    passed     28.81%
+1712  ENTSUL057611/1-72     87.69%    failed      0.84%
+1713  LENLIM005526/1-74     87.35%    passed     15.70%
+1714  LEUCOM002770/1-82     85.98%    passed     12.09%
+1715  CAULEN009478/1-49     91.62%    passed     69.67%
+1716  ANCTWI015267/1-79     87.18%    passed     65.16%
+1717  FABTRO007517/1-88     84.96%    passed     38.51%
+1718  SYMSPE071513/1-41     92.99%    passed     16.86%
+1719  ALLMAC004973/1-76     87.18%    passed     13.08%
+1720  LENLIM008809/1-74     87.35%    passed     15.70%
+1721  PICSPE075281/1-122    80.51%    passed      7.83%
+1722  COLVIE041680/1-54     90.77%    passed     80.27%
+1723  PRYPAR042211/1-54     90.77%    passed     75.10%
+WARNING: 1547 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                 67.10%  368 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: NANOCE114163/1-233 is identical to NANOCE077179/1-233 but kept for subsequent analysis
+NOTE: GEMCRY018681/1-232 is identical to GEMCRY023749/1-232 but kept for subsequent analysis
+NOTE: HOMSAP103977/1-247 is identical to HOMSAP003614/1-247 but kept for subsequent analysis
+NOTE: TELSUB006503/1-211 is identical to TELSPE082000/1-211 but kept for subsequent analysis
+NOTE: CHASUB017373/1-236 is identical to CHASUB000206/1-236 but kept for subsequent analysis
+NOTE: PERMAR008285/1-205 is identical to PERMAR008282/1-205 but kept for subsequent analysis
+NOTE: TELSUB024589/1-223 is identical to TELSUB024590/1-223 but kept for subsequent analysis
+NOTE: DANRER023398/1-202 is identical to DANRER023396/1-202 but kept for subsequent analysis
+NOTE: PARTRI008722/1-237 is identical to PARTRI008723/1-237 but kept for subsequent analysis
+NOTE: GEPOCE047951/1-243 is identical to GEPOCE027936/1-243 but kept for subsequent analysis
+NOTE: GEFOKE016355/1-206 is identical to GEFOKE016354/1-206 but kept for subsequent analysis
+NOTE: TELSPE042073/1-196 is identical to TELSPE042074/1-196 but kept for subsequent analysis
+NOTE: NANOCE077184/1-130 is identical to NANOCE045389/1-130 but kept for subsequent analysis
+NOTE: LAPGUS008718/1-198 is identical to LAPGUS008719/1-198 but kept for subsequent analysis
+NOTE: PARTRI009150/1-224 is identical to PARTRI009154/1-224 but kept for subsequent analysis
+NOTE: APISPI047452/1-88 is identical to APISPI047453/1-88 but kept for subsequent analysis
+NOTE: GONPAC011326/1-199 is identical to GONPAC030627/1-199 but kept for subsequent analysis
+NOTE: BAFFRI041667/1-215 is identical to BAFFRI006359/1-215 but kept for subsequent analysis
+NOTE: TELSPE020079/1-187 is identical to ANCTWI013260/1-187 but kept for subsequent analysis
+NOTE: TELSPE060444/1-205 is identical to TELSUB046350/1-205 but kept for subsequent analysis
+NOTE: DIPROT037871/1-215 is identical to DIPROT037872/1-215 but kept for subsequent analysis
+NOTE: GEMCRY024234/1-230 is identical to GEMCRY017562/1-230 but kept for subsequent analysis
+NOTE: BAFFRI027122/1-162 is identical to BAFFRI021264/1-162 but kept for subsequent analysis
+NOTE: TELSPE005782/1-85 is identical to TELSPE005783/1-85 but kept for subsequent analysis
+NOTE: BASMER013884/1-78 is identical to BASMER000245/1-78 but kept for subsequent analysis
+NOTE: COLVIE004068/1-82 is identical to COLSPE016401/1-82 but kept for subsequent analysis
+NOTE: CAPOWC000541/1-47 is identical to CAPOWC002206/1-47 but kept for subsequent analysis
+NOTE: CAPOWC008225/1-47 is identical to CAPOWC003812/1-47 but kept for subsequent analysis
+NOTE: PERMAR003224/1-70 is identical to PERMAR011224/1-70 but kept for subsequent analysis
+NOTE: PALBIL004764/1-75 is identical to PALBIL003267/1-75 but kept for subsequent analysis
+NOTE: MICMAR103171/1-75 is identical to MICMAR103165/1-75 but kept for subsequent analysis
+NOTE: COLVIE003435/1-69 is identical to COLSPE013186/1-69 but kept for subsequent analysis
+NOTE: LENLIM008809/1-74 is identical to LENLIM005526/1-74 but kept for subsequent analysis
+NOTE: 4 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: NANOCE139573/1-233 (identical to NANOCE077179/1-233) is ignored but added at the end
+NOTE: NANOCE088395/1-233 (identical to NANOCE077179/1-233) is ignored but added at the end
+NOTE: TELSPE060443/1-205 (identical to TELSUB046350/1-205) is ignored but added at the end
+NOTE: TELSUB025000/1-85 (identical to TELSPE005783/1-85) is ignored but added at the end
+Alignment was printed to euk5_homs4.SMC3.hmmalign_euk5_orths2.SMC3.linsi.gt001.cut.gt01.iqtree.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to euk5_homs4.SMC3.hmmalign_euk5_orths2.SMC3.linsi.gt001.cut.gt01.iqtree.uniqueseq.phy
+Creating fast initial parsimony tree by random order stepwise addition...
+51.549 seconds, parsimony score: 118692 (based on 583 sites)
+Generating 1000 samples for ultrafast bootstrap (seed: 738100)...
+Model LG+C20 is alias for LG+POISSON+G+FMIX{C20pi1:1:0.0559910600,C20pi2:1:0.0514824870,C20pi3:1:0.0812922124,C20pi4:1:0.0721976867,C20pi5:1:0.0556718858,C20pi6:1:0.0331003080,C20pi7:1:0.0589501763,C20pi8:1:0.0263756889,C20pi9:1:0.0307584220,C20pi10:1:0.0376701125,C20pi11:1:0.0303058290,C20pi12:1:0.0808775576,C20pi13:1:0.0263349134,C20pi14:1:0.0579101455,C20pi15:1:0.0371248064,C20pi16:1:0.0586867766,C20pi17:1:0.0561479138,C20pi18:1:0.0349810886,C20pi19:1:0.0544937394,C20pi20:1:0.0596471901}
+
+NOTE: 12920 MB RAM (12 GB) is required!
+Measuring multi-threading efficiency up to 16 CPU cores
+2 trees examined
+Threads: 1 / Time: 158.168 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -700658
+Threads: 2 / Time: 80.186 sec / Speedup: 1.973 / Efficiency: 99% / LogL: -700658
+Threads: 3 / Time: 54.071 sec / Speedup: 2.925 / Efficiency: 98% / LogL: -700658
+Threads: 4 / Time: 41.823 sec / Speedup: 3.782 / Efficiency: 95% / LogL: -700658
+Threads: 5 / Time: 50.546 sec / Speedup: 3.129 / Efficiency: 63% / LogL: -700658
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -559635.637
+2. Current log-likelihood: -512455.797
+3. Current log-likelihood: -511410.777
+4. Current log-likelihood: -511282.852
+5. Current log-likelihood: -511098.680
+6. Current log-likelihood: -510935.377
+7. Current log-likelihood: -510922.398
+8. Current log-likelihood: -510918.008
+9. Current log-likelihood: -510916.548
+10. Current log-likelihood: -510915.976
+11. Current log-likelihood: -510915.874
+Optimal log-likelihood: -510915.800
+Mixture weights: 0.056 0.051 0.081 0.072 0.056 0.033 0.059 0.026 0.031 0.038 0.030 0.081 0.026 0.058 0.037 0.059 0.056 0.035 0.054 0.060
+Gamma shape alpha: 1.348
+Parameters optimization took 11 rounds (854.065 sec)
+Computing ML distances based on estimated model parameters... 364.647 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+10.083 seconds
+Log-likelihood of BIONJ tree: -527059.516
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 186.945 second
+Computing log-likelihood of 98 initial trees ... 2011.366 seconds
+Current best score: -510915.800
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -505438.901
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -504930.829
+Iteration 10 / LogL: -504990.730 / Time: 7h:52m:17s
+Iteration 20 / LogL: -505234.661 / Time: 14h:22m:16s
+Finish initializing candidate tree set (20)
+Current best tree score: -504930.829 / CPU time: 49081.736
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -504698.968
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -504686.171
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -504439.372
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -504383.145
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -504379.251
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -504218.955
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -504182.929
+Iteration 30 / LogL: -504182.929 / Time: 18h:41m:49s (64h:25m:23s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -504065.617
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -503952.318
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 37: -503815.158
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 39: -503679.010
+Iteration 40 / LogL: -504029.432 / Time: 23h:47m:12s (60h:20m:42s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 43: -503556.248
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 49: -503445.065
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 50: -503362.761
+Iteration 50 / LogL: -503362.761 / Time: 27h:22m:48s (55h:50m:54s left)
+Log-likelihood cutoff on original alignment: -503716.974
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 51: -503276.098
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 55: -503269.835
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 56: -503215.631
+Iteration 60 / LogL: -503245.643 / Time: 31h:4m:4s (50h:31m:40s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 61: -503192.898
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 62: -503175.659
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 65: -503125.510
+Iteration 70 / LogL: -503182.470 / Time: 35h:21m:40s (48h:39m:57s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 75: -503111.129
+Iteration 80 / LogL: -503142.225 / Time: 39h:19m:22s (47h:16m:10s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 82: -503057.930
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 85: -503024.734
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 90: -503016.478
+Iteration 90 / LogL: -503016.478 / Time: 43h:31m:28s (48h:53m:16s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 91: -502982.752
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 92: -502976.863
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 94: -502903.983
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 96: -502902.621
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 98: -502891.367
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 99: -502835.358
+Iteration 100 / LogL: -502911.972 / Time: 47h:2m:41s (47h:1m:49s left)
+Log-likelihood cutoff on original alignment: -503217.524
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.445
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 102: -502816.723
+Iteration 110 / LogL: -502834.813 / Time: 51h:21m:25s (43h:20m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 113: -502802.371
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 116: -502770.577
+Iteration 120 / LogL: -502779.565 / Time: 55h:30m:50s (44h:46m:22s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 128: -502728.563
+Iteration 130 / LogL: -502735.055 / Time: 59h:59m:7s (45h:33m:33s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 134: -502710.952
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 137: -502690.086
+Iteration 140 / LogL: -502713.045 / Time: 64h:55m:34s (45h:17m:53s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 141: -502641.456
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 150: -502610.481
+Iteration 150 / LogL: -502610.481 / Time: 68h:59m:22s (46h:17m:31s left)
+Log-likelihood cutoff on original alignment: -502899.301
+Iteration 160 / LogL: -502682.034 / Time: 73h:5m:6s (41h:21m:38s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 167: -502603.136
+Iteration 170 / LogL: -502623.763 / Time: 77h:2m:28s (44h:12m:38s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 172: -502565.279
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 175: -502548.546
+Iteration 180 / LogL: -502564.937 / Time: 81h:5m:39s (43h:1m:52s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 182: -502541.832
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 185: -502540.824
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 189: -502528.090
+Iteration 190 / LogL: -502558.921 / Time: 84h:54m:13s (44h:27m:57s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 193: -502501.114
+Iteration 200 / LogL: -502532.357 / Time: 88h:56m:30s (41h:33m:32s left)
+Log-likelihood cutoff on original alignment: -502851.990
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.639
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 206: -502498.026
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 208: -502451.872
+Iteration 210 / LogL: -502537.254 / Time: 93h:20m:25s (43h:45m:37s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 214: -502440.205
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 216: -502420.411
+Iteration 220 / LogL: -502499.533 / Time: 98h:58m:32s (43h:22m:49s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 223: -502419.172
+Iteration 230 / LogL: -502497.136 / Time: 104h:14m:37s (42h:19m:44s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 236: -502417.686
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 237: -502405.802
+Iteration 240 / LogL: -502475.786 / Time: 109h:27m:1s (44h:24m:55s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 244: -502396.046
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 246: -502385.249
+Iteration 250 / LogL: -502406.292 / Time: 114h:41m:52s (44h:12m:55s left)
+Log-likelihood cutoff on original alignment: -502851.990
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 255: -502375.849
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 259: -502356.572
+Iteration 260 / LogL: -502368.817 / Time: 120h:49m:34s (46h:10m:44s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 262: -502353.105
+Iteration 270 / LogL: -502427.681 / Time: 125h:30m:31s (42h:55m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 279: -502348.315
+Iteration 280 / LogL: -502433.737 / Time: 130h:43m:56s (46h:23m:1s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 285: -502337.876
+Iteration 290 / LogL: -502387.079 / Time: 134h:46m:26s (44h:17m:53s left)
+Iteration 300 / LogL: -502379.144 / Time: 139h:28m:5s (39h:38m:38s left)
+Log-likelihood cutoff on original alignment: -502653.503
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.684
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 307: -502322.663
+Iteration 310 / LogL: -502408.212 / Time: 143h:41m:6s (45h:6m:1s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 313: -502309.535
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 314: -502308.737
+Iteration 320 / LogL: -502332.470 / Time: 147h:20m:44s (43h:24m:51s left)
+Iteration 330 / LogL: -502385.342 / Time: 151h:20m:34s (38h:38m:13s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 337: -502290.474
+Iteration 340 / LogL: -502426.299 / Time: 155h:29m:37s (44h:29m:17s left)
+Iteration 350 / LogL: -502352.353 / Time: 160h:19m:28s (39h:57m:45s left)
+Log-likelihood cutoff on original alignment: -502653.503
+Iteration 360 / LogL: -502293.513 / Time: 164h:18m:14s (35h:14m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 368: -502285.787
+Iteration 370 / LogL: -502398.955 / Time: 169h:30m:25s (45h:0m:51s left)
+Iteration 380 / LogL: -502294.400 / Time: 173h:33m:55s (40h:17m:48s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 387: -502276.230
+Iteration 390 / LogL: -502333.353 / Time: 177h:47m:11s (44h:19m:43s left)
+Iteration 400 / LogL: -502395.874 / Time: 181h:52m:56s (39h:39m:19s left)
+Log-likelihood cutoff on original alignment: -502653.503
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.731
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 410 / LogL: -502310.047 / Time: 185h:8m:55s (40h:44m:19s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 416: -502272.777
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 417: -502241.602
+Iteration 420 / LogL: -502310.219 / Time: 189h:31m:42s (43h:52m:23s left)
+Iteration 430 / LogL: -502392.130 / Time: 193h:23m:56s (39h:13m:4s left)
+Iteration 440 / LogL: -502304.861 / Time: 197h:21m:39s (34h:36m:51s left)
+Iteration 450 / LogL: -502328.883 / Time: 201h:38m:5s (30h:5m:9s left)
+Log-likelihood cutoff on original alignment: -502653.503
+Iteration 460 / LogL: -502309.429 / Time: 205h:45m:47s (25h:33m:1s left)
+Iteration 470 / LogL: -502273.789 / Time: 209h:46m:14s (21h:1m:13s left)
+Iteration 480 / LogL: -502328.382 / Time: 213h:31m:13s (16h:29m:31s left)
+Iteration 490 / LogL: -502248.639 / Time: 217h:42m:7s (12h:1m:10s left)
+Iteration 500 / LogL: -502289.912 / Time: 221h:18m:32s (7h:32m:20s left)
+Log-likelihood cutoff on original alignment: -502653.503
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.798
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 510: -502220.407
+Iteration 510 / LogL: -502220.407 / Time: 225h:22m:55s (44h:16m:35s left)
+Iteration 520 / LogL: -502282.971 / Time: 229h:16m:3s (39h:45m:17s left)
+Iteration 530 / LogL: -502244.524 / Time: 233h:26m:30s (35h:18m:3s left)
+Iteration 540 / LogL: -502229.559 / Time: 237h:53m:9s (30h:53m:32s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 545: -502219.690
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 546: -502208.237
+Iteration 550 / LogL: -502209.445 / Time: 241h:56m:4s (42h:18m:10s left)
+Log-likelihood cutoff on original alignment: -502653.503
+Iteration 560 / LogL: -502274.436 / Time: 246h:25m:38s (37h:54m:34s left)
+Iteration 570 / LogL: -502248.225 / Time: 250h:35m:9s (33h:28m:5s left)
+Iteration 580 / LogL: -502236.605 / Time: 255h:1m:17s (29h:4m:5s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 585: -502203.527
+Iteration 590 / LogL: -502244.220 / Time: 259h:30m:39s (41h:51m:15s left)
+Iteration 600 / LogL: -502282.907 / Time: 264h:31m:40s (37h:32m:7s left)
+Log-likelihood cutoff on original alignment: -502653.503
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.846
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 610 / LogL: -502244.032 / Time: 268h:43m:43s (39h:42m:41s left)
+Iteration 620 / LogL: -502266.986 / Time: 273h:59m:29s (35h:24m:32s left)
+Iteration 630 / LogL: -502264.323 / Time: 278h:46m:29s (31h:1m:21s left)
+Iteration 640 / LogL: -502228.683 / Time: 283h:27m:57s (26h:36m:54s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 642: -502198.684
+NOTE: 3.544 seconds to dump checkpoint file, increase to 71.000
+NOTE: 8.762 seconds to dump checkpoint file, increase to 176.000
+Iteration 650 / LogL: -502236.526 / Time: 288h:26m:24s (40h:53m:10s left)
+Log-likelihood cutoff on original alignment: -502653.503
+Iteration 660 / LogL: -502247.084 / Time: 292h:50m:34s (36h:26m:13s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 661: -502197.475
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 669: -502194.838
+Iteration 670 / LogL: -502291.113 / Time: 297h:39m:25s (44h:2m:44s left)
+Iteration 680 / LogL: -502232.203 / Time: 301h:43m:16s (39h:32m:46s left)
+Iteration 690 / LogL: -502296.760 / Time: 306h:2m:59s (35h:5m:22s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 694: -502182.883
+Iteration 700 / LogL: -502245.282 / Time: 309h:40m:35s (41h:38m:33s left)
+Log-likelihood cutoff on original alignment: -502653.503
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.858
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 710 / LogL: -502301.081 / Time: 313h:43m:32s (39h:49m:20s left)
+Iteration 720 / LogL: -502314.632 / Time: 318h:47m:38s (35h:28m:9s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 724: -502173.684
+Iteration 730 / LogL: -502206.103 / Time: 322h:54m:52s (41h:38m:9s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 738: -502145.627
+Iteration 740 / LogL: -502237.555 / Time: 327h:30m:41s (43h:25m:47s left)
+Iteration 750 / LogL: -502204.865 / Time: 331h:21m:13s (38h:55m:44s left)
+Log-likelihood cutoff on original alignment: -502653.503
+Iteration 760 / LogL: -502206.211 / Time: 335h:47m:39s (34h:30m:25s left)
+Iteration 770 / LogL: -502231.966 / Time: 340h:5m:11s (30h:4m:17s left)
+Iteration 780 / LogL: -502205.163 / Time: 344h:32m:45s (25h:39m:6s left)
+Iteration 790 / LogL: -502170.137 / Time: 348h:39m:35s (21h:12m:37s left)
+Iteration 800 / LogL: -502238.642 / Time: 352h:22m:25s (16h:45m:28s left)
+Log-likelihood cutoff on original alignment: -502653.503
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.840
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 810 / LogL: -502222.817 / Time: 356h:46m:43s (39h:41m:22s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 816: -502131.897
+Iteration 820 / LogL: -502186.968 / Time: 360h:32m:29s (42h:15m:34s left)
+NOTE: 15.111 seconds to dump checkpoint file, increase to 303.000
+Iteration 830 / LogL: -502170.608 / Time: 364h:49m:45s (37h:50m:44s left)
+Iteration 840 / LogL: -502205.631 / Time: 368h:37m:51s (33h:23m:26s left)
+Iteration 850 / LogL: -502161.951 / Time: 372h:56m:56s (28h:59m:28s left)
+Log-likelihood cutoff on original alignment: -502653.503
+Iteration 860 / LogL: -502229.300 / Time: 376h:38m:41s (24h:33m:11s left)
+Iteration 870 / LogL: -502148.514 / Time: 380h:56m:12s (20h:9m:50s left)
+Iteration 880 / LogL: -502177.308 / Time: 385h:48m:36s (15h:48m:1s left)
+Iteration 890 / LogL: -502196.468 / Time: 390h:13m:54s (11h:24m:44s left)
+Iteration 900 / LogL: -502197.650 / Time: 394h:51m:45s (7h:1m:38s left)
+Log-likelihood cutoff on original alignment: -502653.503
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.828
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 910 / LogL: -502234.240 / Time: 397h:51m:15s (39h:23m:24s left)
+Iteration 920 / LogL: -502160.996 / Time: 401h:43m:31s (34h:58m:9s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 925: -502130.561
+Iteration 930 / LogL: -502196.952 / Time: 405h:15m:41s (41h:26m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 932: -502130.268
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 933: -502127.310
+Iteration 940 / LogL: -502131.626 / Time: 409h:22m:15s (40h:32m:35s left)
+Iteration 950 / LogL: -502173.253 / Time: 413h:11m:50s (36h:8m:13s left)
+Log-likelihood cutoff on original alignment: -502653.503
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 954: -502119.881
+Iteration 960 / LogL: -502148.824 / Time: 417h:44m:49s (40h:56m:44s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 967: -502115.534
+Iteration 970 / LogL: -502249.647 / Time: 421h:40m:32s (42h:12m:34s left)
+Iteration 980 / LogL: -502199.810 / Time: 425h:42m:47s (37h:49m:48s left)
+Iteration 990 / LogL: -502178.642 / Time: 429h:18m:1s (33h:25m:21s left)
+Iteration 1000 / LogL: -502138.871 / Time: 434h:1m:44s (29h:6m:29s left)
+Log-likelihood cutoff on original alignment: -502653.503
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.830
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+TREE SEARCH COMPLETED AFTER 1001 ITERATIONS / Time: 434h:24m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -502115.534
+Optimal log-likelihood: -502115.530
+Mixture weights: 0.056 0.051 0.081 0.072 0.056 0.033 0.059 0.026 0.031 0.038 0.030 0.081 0.026 0.058 0.037 0.059 0.056 0.035 0.054 0.060
+Gamma shape alpha: 1.336
+Parameters optimization took 1 rounds (56.564 sec)
+BEST SCORE FOUND : -502115.530
+Creating bootstrap support values...
+Split supports printed to NEXUS file euk5_homs4.SMC3.hmmalign_euk5_orths2.SMC3.linsi.gt001.cut.gt01.iqtree.splits.nex
+Total tree length: 1698.827
+
+Total number of iterations: 1001
+CPU time used for tree search: 6174189.828 sec (1715h:3m:9s)
+Wall-clock time used for tree search: 1561187.470 sec (433h:39m:47s)
+Total CPU time used: 6184792.685 sec (1717h:59m:52s)
+Total wall-clock time used: 1563912.789 sec (434h:25m:12s)
+
+Computing bootstrap consensus tree...
+Reading input file euk5_homs4.SMC3.hmmalign_euk5_orths2.SMC3.linsi.gt001.cut.gt01.iqtree.splits.nex...
+1719 taxa and 16846 splits.
+Consensus tree written to euk5_homs4.SMC3.hmmalign_euk5_orths2.SMC3.linsi.gt001.cut.gt01.iqtree.contree
+Reading input trees file euk5_homs4.SMC3.hmmalign_euk5_orths2.SMC3.linsi.gt001.cut.gt01.iqtree.contree
+Log-likelihood of consensus tree: -502086.533
+
+Analysis results written to: 
+  IQ-TREE report:                euk5_homs4.SMC3.hmmalign_euk5_orths2.SMC3.linsi.gt001.cut.gt01.iqtree.iqtree
+  Maximum-likelihood tree:       euk5_homs4.SMC3.hmmalign_euk5_orths2.SMC3.linsi.gt001.cut.gt01.iqtree.treefile
+  Likelihood distances:          euk5_homs4.SMC3.hmmalign_euk5_orths2.SMC3.linsi.gt001.cut.gt01.iqtree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          euk5_homs4.SMC3.hmmalign_euk5_orths2.SMC3.linsi.gt001.cut.gt01.iqtree.splits.nex
+  Consensus tree:                euk5_homs4.SMC3.hmmalign_euk5_orths2.SMC3.linsi.gt001.cut.gt01.iqtree.contree
+  Screen log file:               euk5_homs4.SMC3.hmmalign_euk5_orths2.SMC3.linsi.gt001.cut.gt01.iqtree.log
+
+Date and Time: Tue Feb 28 20:47:22 2023
