@@ -4,7 +4,7 @@ import pandas as pd
 import argparse
 
 parser = argparse.ArgumentParser(description="make a dataset to upload to iTol to visualize BUSCO completeness scores")
-parser.add_argument('-pp', metavar='pprofile', default="../20220930_condensin_cohesin_SMC56.csv", help="phylogenetics profile comma-separated table")
+parser.add_argument('-pp', metavar='pprofile', default="../phylogenetic_profiles.csv", help="phylogenetics profile comma-separated table")
 
 args = parser.parse_args()
 busco_output = pd.read_csv(args.pp, index_col='Abbreviation')

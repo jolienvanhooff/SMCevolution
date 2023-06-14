@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-euk5table = pd.read_csv('../20220930_condensin_cohesin_SMC56.csv', index_col="Abbreviation")
+euk5table = pd.read_csv('../phylogenetic_profiles.csv', index_col="Abbreviation")
 species_abbrevs = euk5table.index.tolist()
 
 with open('iTOL_label_names.txt', 'w') as f:

@@ -1,0 +1,25 @@
+LABELS
+SEPARATOR COMMA
+DATA
+PLATAR|CLAOKA,Stramenopiles,Supergroup
+COLSPE|THEPAR,Alveolata,Supergroup
+ELPMAR|PAUCHR,Rhizaria,Supergroup
+TELSPE|TELSUB,Telonemia,Supergroup
+DIALUT|RAPHET,Haptista,Supergroup
+ANCTWI,Ancoracysta,Supergroup
+PRACOL|MONNEG,Chloroplastida,Supergroup
+GLOWIT|CYAGLO,Glaucophyta,Supergroup
+CYAMER|PORPUR,Rhodophyta,Supergroup
+RHOMAR,Rhodelphis,Supergroup
+MICMAR|GEMCRY,Cryptista,Supergroup
+ANDGOD|TRYBRU,Discoba,Supergroup
+ARCINT|POLPAL,Amoebozoa,Supergroup
+NUTLON|FABTRO,Ancyromonadida,Supergroup
+ANAIGN|TRESPE,Metamonada,Supergroup
+MANSPH|RIGRAM,CRuMs,Supergroup
+GEFOKE,Malawimonadidae,Supergroup
+HEMKUK|SPISPE,Hemimastigophora,Supergroup
+PICSPE,Picozoa,Supergroup
+LENLIM|PYGBIF,Breviatea,Supergroup
+THETRA,Apusomonadida,Supergroup
+PARATL|STRRAT,Opisthokonta,Supergroup
