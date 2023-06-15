@@ -20,7 +20,7 @@ complex_members = {
 
 # 0: fill, 1: stroke + text
 complex_colours = {
-    "condensin":("#ff5733","#710000"),
+    "condensin":("#FF8233","#710000"),
     "condensin I":("#FFC300","#AA7A38"),
     "condensin II":("#C70039","#C70039"),
     "cohesin":("#3362FF","#155289"),
