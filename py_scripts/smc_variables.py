@@ -15,7 +15,7 @@ complex_members = {
     "condensin I":["CAPH","CAPG","CAPD2"],
     "condensin II":["CAPH2", "CAPG2", "CAPD3"],
     "SMC5/6":["SMC5", "SMC6", "Nse4", "Nse1", "Nse3", "Nse2", "Nse5", "Nse6"],
-    "cohesin:":["SMC1", "SMC3", "Scc1", "Rec8", "Scc3", "PDS5", "NIPBL", "MAU2", "Separase", "WAPL", "Eco1", "Securin", "Sororin", "CTCF", "DYAD", "Haspin", "Shugoshin"]
+    "cohesin":["SMC1", "SMC3", "Scc1", "Rec8", "Scc3", "PDS5", "NIPBL", "MAU2", "Separase", "WAPL", "Eco1", "Securin", "Sororin", "CTCF", "DYAD", "Haspin", "Shugoshin"]
 }
 
 # 0: fill, 1: stroke + text
