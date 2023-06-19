@@ -44,18 +44,18 @@ with open(f'itol_presabs_{protein_complex_code}.txt', 'w') as f:
     f.write('LEGEND_COLORS,{}\n'.format(field_colour_fill))
     f.write('LEGEND_LABELS,{}\n'.format(field_labels))
     f.write('SHOW_LABELS,1\n')
-    f.write('SIZE_FACTOR,0.8\n')
+    f.write('SIZE_FACTOR,1\n')
     f.write('LABEL_ROTATION,0\n')
-    f.write('HEIGHT_FACTOR,1.1\n')
-    f.write('SYMBOL_SPACING,0\n')
-    #f.write('DASHED_LINES,1\n')
-    f.write('MARGIN,-8\n')
+    f.write('HEIGHT_FACTOR,1\n')
+    f.write('SYMBOL_SPACING,3\n')
+    f.write('DASHED_LINES,1\n')
+    f.write('MARGIN,0\n')
     f.write('DATA\n')
     # Collect binary results (presence or absence) for each species
     for species in eukarya_species:
         protein_value = []
         for protein in proteins:
             protein_count = eukarya_profiles.loc[species, protein] 
-            protein_value.append('1' if protein_count > 0 else '-1') # 0:empty, but lined shape in case a protein in absent in species -1: no symbol at all in absences
+            protein_value.append('1' if protein_count > 0 else '0') # 0:empty, but lined shape in case a protein in absent in species -1: no symbol at all in absences
         protein_value_string = ','.join(protein_value)
         f.write(species + ',' + protein_value_string + '\n')
