@@ -1,0 +1,920 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Dec 20 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    cpu-node-30.ifb.local (AVX2, FMA3, 251 GB RAM)
+Command: /shared/ifbstor1/software/miniconda/envs/iqtree-2.0.3/bin/iqtree -s euk5_homs6.Nse1_Nse3.ginsi_dash.cut.gappyout.drop.fa -m LG+C60 -B 1000 -T AUTO -pre euk5_homs6.Nse1_Nse3.ginsi_dash.cut.gappyout.drop.iqtree
+Seed:    948443 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Mar 15 13:09:49 2023
+Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
+
+Reading alignment file euk5_homs6.Nse1_Nse3.ginsi_dash.cut.gappyout.drop.fa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 575 sequences with 148 columns, 148 distinct patterns
+148 parsimony-informative, 0 singleton sites, 0 constant sites
+                                                                                           Gap/Ambiguity  Composition  p-value
+   1  ANAIGN016437_Nse1/1-104                                                                     50.68%    failed      0.43%
+   2  TRIMAR002709_Nse1/1-168                                                                     21.62%    passed     33.36%
+   3  MONEXI001980_Nse1/1-109                                                                     47.97%    passed     61.46%
+   4  ANDGOD002651_Nse1/1-203                                                                     13.51%    passed     67.08%
+   5  PHAKIR001109_Nse1/1-198                                                                     10.81%    failed      0.00%
+   6  NAEFOW000768_Nse1/1-189                                                                      8.11%    failed      0.85%
+   7  EUGLON045103_Nse1/1-149                                                                     22.30%    failed      0.01%
+   8  HEMKUK001857_Nse1/1-210                                                                     12.16%    failed      0.33%
+   9  NUTLON011783_Nse1/1-210                                                                      8.78%    passed     20.33%
+  10  GEFOKE015996_Nse1/1-194                                                                      6.76%    passed     57.41%
+  11  DIPROT036560_Nse1/1-177                                                                      7.43%    passed      5.33%
+  12  MANSPH007272_Nse1/1-242                                                                      9.46%    failed      2.93%
+  13  ACACAS003574_Nse1/1-447                                                                     14.19%    passed     17.45%
+  14  PHYPOL015612_Nse1/1-199                                                                      6.76%    failed      0.41%
+  15  LENLIM002253_Nse1/1-175                                                                     12.84%    passed     50.42%
+  16  PYGBIF005178_Nse1/1-188                                                                      7.43%    passed     21.79%
+  17  THETRA007659_Nse1/1-181                                                                      6.08%    failed      1.73%
+  18  ROZALL004763_Nse1/1-156                                                                     15.54%    passed     54.80%
+  19  SPIPUN005799_Nse1/1-183                                                                      7.43%    passed     47.97%
+  20  RHIIRR021665_Nse1/1-177                                                                     10.14%    passed     60.28%
+  21  CAPOWC004958_Nse1/1-189                                                                      8.78%    passed     74.98%
+  22  SALKVE019346_Nse1/1-186                                                                      8.11%    passed     70.60%
+  23  NEMVEC023022_Nse1/1-180                                                                      7.43%    passed     81.97%
+  24  HOMSAP059561_Nse1/1-189                                                                      7.43%    passed     33.52%
+  25  GONPAC048301_Nse1/1-178                                                                     20.27%    failed      4.20%
+  26  BAFFRI009725_Nse1/1-289                                                                      5.41%    passed      5.23%
+  27  DIALUT010363_Nse1/1-193                                                                      7.43%    failed      0.21%
+  28  CHOSPE006505_Nse1/1-148                                                                     33.11%    passed     59.41%
+  29  CHOSPE006502_Nse1/1-198                                                                      7.43%    failed      2.64%
+  30  RHOMAR002874_Nse1/1-212                                                                      8.11%    passed     21.20%
+  31  GALSUL003802_Nse1/1-194                                                                      9.46%    failed      0.26%
+  32  GRACHO006968_Nse1/1-182                                                                     16.89%    failed      1.04%
+  33  CYAPAR016895_Nse1/1-203                                                                      8.78%    passed     44.21%
+  34  GLOWIT023976_Nse1/1-173                                                                     22.97%    passed      7.24%
+  35  GLOWIT018538_Nse1/1-80                                                                      61.49%    passed     27.07%
+  36  KLENIT012346_Nse1/1-175                                                                     17.57%    passed     78.49%
+  37  PHYPAT001895_Nse1/1-192                                                                      8.78%    passed     87.08%
+  38  ARATHA044428_Nse1/1-196                                                                      7.43%    failed      3.15%
+  39  MICSPE007586_Nse1/1-215                                                                      6.76%    passed     32.50%
+  40  CHLREI003464_Nse1/1-163                                                                     29.73%    passed     69.65%
+  41  PLABRA008393_Nse1/1-184                                                                      8.11%    passed     18.14%
+  42  BIGNAT014598_Nse1/1-221                                                                     10.81%    passed     16.63%
+  43  HALSEO004537_Nse1/1-331                                                                     13.51%    passed     30.18%
+  44  HONFER007328_Nse1/1-188                                                                      5.41%    passed     86.23%
+  45  PHYINF008484_Nse1/1-173                                                                      8.78%    passed     16.83%
+  46  COLSPE008977_Nse1/1-180                                                                      8.11%    passed     17.21%
+  47  VITBRA000268_Nse1/1-214                                                                      7.43%    failed      0.07%
+  48  TOXGON004390_Nse1/1-221                                                                     12.84%    passed      9.03%
+  49  ANAIGN012057_Nse3/1-210                                                                      4.05%    passed     13.59%
+  50  TRIMAR004109_Nse3/1-219                                                                      4.05%    passed      9.22%
+  51  MONEXI000625_Nse3/1-217                                                                     16.22%    passed     94.76%
+  52  ANDGOD005953_Nse3/1-276                                                                     12.84%    passed     23.26%
+  53  PHAKIR000236_Nse3/1-252                                                                      0.00%    passed     37.03%
+  54  NAEFOW006471_Nse3/1-339                                                                      4.73%    passed     17.19%
+  55  EUGLON034973_Nse3/1-264                                                                      0.00%    passed     19.24%
+  56  NUTLON022973_Nse3/1-195                                                                     38.51%    passed     28.23%
+  57  GEFOKE012518_Nse3/1-305                                                                      1.35%    passed     21.83%
+  58  DIPROT020275_Nse3/1-188                                                                     31.76%    passed     42.76%
+  59  DIPROT020273_Nse3/1-243                                                                      0.68%    passed     56.05%
+  60  MANSPH001061_Nse3/1-358                                                                      1.35%    passed     45.93%
+  61  VERVER013134_Nse3/1-268                                                                      1.35%    failed      2.76%
+  62  ACACAS006712_Nse3/1-256                                                                      0.68%    passed     94.68%
+  63  PHYPOL012192_Nse3/1-82                                                                      59.46%    passed     69.45%
+  64  LENLIM001494_Nse3/1-190                                                                     29.73%    passed     48.66%
+  65  PYGBIF006019_Nse3/1-226                                                                     31.08%    passed     36.67%
+  66  THETRA001530_Nse3/1-292                                                                      2.70%    passed      6.07%
+  67  ROZALL001147_Nse3/1-192                                                                      2.70%    passed     72.25%
+  68  SPIPUN000371_Nse3/1-300                                                                      2.70%    passed     69.79%
+  69  RHIIRR010727_Nse3/1-262                                                                      0.68%    passed     60.23%
+  70  CAPOWC005541_Nse3/1-336                                                                      0.68%    passed     53.26%
+  71  SALKVE014232_Nse3/1-281                                                                      1.35%    failed      0.06%
+  72  NEMVEC011020_Nse3/1-263                                                                      0.68%    passed     63.31%
+  73  HOMSAP045994_Nse3/1-285                                                                      2.03%    passed     19.19%
+  74  HOMSAP004683_Nse3/1-290                                                                      1.35%    passed     49.70%
+  75  HOMSAP040256_Nse3/1-287                                                                      1.35%    passed     76.15%
+  76  HOMSAP096273_Nse3/1-285                                                                      1.35%    passed     19.24%
+  77  HOMSAP060615_Nse3/1-286                                                                      1.35%    failed      1.57%
+  78  HOMSAP061433_Nse3/1-286                                                                      1.35%    passed     10.81%
+  79  HOMSAP008691_Nse3/1-286                                                                      1.35%    passed     15.27%
+  80  HOMSAP048758_Nse3/1-286                                                                      1.35%    passed      8.43%
+  81  HOMSAP093747_Nse3/1-620                                                                      2.03%    passed     79.05%
+  82  HOMSAP061573_Nse3/1-223                                                                      2.03%    passed     79.05%
+  83  HOMSAP061080_Nse3/1-372                                                                      1.35%    passed      5.88%
+  84  HOMSAP014322_Nse3/1-217                                                                      2.03%    passed     25.08%
+  85  HOMSAP001578_Nse3/1-703                                                                      2.03%    passed     91.09%
+  86  HOMSAP054324_Nse3/1-1197                                                                     1.35%    failed      3.30%
+  87  HOMSAP008695_Nse3/1-289                                                                      1.35%    passed     73.68%
+  88  HOMSAP046108_Nse3/1-275                                                                      1.35%    failed      2.63%
+  89  HOMSAP045991_Nse3/1-285                                                                      1.35%    passed     19.46%
+  90  HOMSAP045992_Nse3/1-288                                                                      1.35%    passed     21.08%
+  91  HOMSAP051577_Nse3/1-456                                                                      1.35%    passed     64.56%
+  92  HOMSAP051192_Nse3/1-176                                                                     47.97%    passed     59.06%
+  93  HOMSAP061196_Nse3/1-284                                                                      1.35%    passed     62.70%
+  94  HOMSAP040418_Nse3/1-288                                                                      1.35%    passed      8.39%
+  95  HOMSAP059042_Nse3/1-266                                                                      2.03%    passed     19.22%
+  96  HOMSAP059043_Nse3/1-263                                                                      0.68%    passed     74.48%
+  97  HOMSAP059041_Nse3/1-585                                                                     26.35%    passed     43.08%
+  98  HOMSAP002119_Nse3/1-311                                                                      1.35%    passed     50.75%
+  99  HOMSAP011841_Nse3/1-605                                                                      2.03%    passed     80.96%
+ 100  HOMSAP048851_Nse3/1-1084                                                                     2.03%    passed     64.43%
+ 101  HOMSAP014700_Nse3/1-286                                                                      1.35%    passed     42.27%
+ 102  HOMSAP061545_Nse3/1-335                                                                      1.35%    passed     39.41%
+ 103  HOMSAP052829_Nse3/1-314                                                                      4.05%    passed      8.69%
+ 104  HOMSAP054961_Nse3/1-668                                                                      1.35%    failed      1.09%
+ 105  HOMSAP048762_Nse3/1-399                                                                      1.35%    failed      0.51%
+ 106  HOMSAP003285_Nse3/1-620                                                                      2.03%    passed     79.05%
+ 107  HOMSAP055496_Nse3/1-254                                                                      0.68%    passed     44.97%
+ 108  HOMSAP062146_Nse3/1-288                                                                      1.35%    passed     76.23%
+ 109  HOMSAP044020_Nse3/1-372                                                                      1.35%    passed     84.29%
+ 110  GONPAC047625_Nse3/1-263                                                                      1.35%    failed      0.78%
+ 111  BAFFRI051909_Nse3/1-87                                                                      59.46%    failed      4.94%
+ 112  BAFFRI050667_Nse3/1-94                                                                      72.30%    failed      4.37%
+ 113  BAFFRI059201_Nse3/1-187                                                                     47.30%    passed     23.31%
+ 114  BAFFRI045290_Nse3/1-113                                                                     48.65%    failed      4.89%
+ 115  DIALUT013802_Nse3/1-1072                                                                     7.43%    passed      7.58%
+ 116  CHOSPE042036_Nse3/1-241                                                                     11.49%    passed     93.96%
+ 117  RHOMAR006204_Nse3/1-243                                                                      3.38%    passed     21.79%
+ 118  GALSUL000712_Nse3/1-227                                                                      2.70%    failed      2.50%
+ 119  GRACHO010213_Nse3/1-254                                                                      2.70%    passed      9.08%
+ 120  CYAPAR018870_Nse3/1-266                                                                      1.35%    failed      2.77%
+ 121  GLOWIT004742_Nse3/1-306                                                                      3.38%    failed      2.70%
+ 122  KLENIT014469_Nse3/1-287                                                                      1.35%    passed     87.65%
+ 123  PHYPAT039875_Nse3/1-202                                                                      0.68%    passed     29.87%
+ 124  ARATHA045365_Nse3/1-218                                                                      0.68%    passed     34.88%
+ 125  ARATHA009578_Nse3/1-192                                                                     22.30%    passed     45.38%
+ 126  ARATHA009577_Nse3/1-231                                                                      0.68%    passed     26.90%
+ 127  MICSPE002563_Nse3/1-210                                                                      1.35%    failed      3.16%
+ 128  CHLREI009993_Nse3/1-450                                                                      0.00%    failed      0.42%
+ 129  CHLREI010601_Nse3/1-80                                                                      60.14%    failed      1.06%
+ 130  PLABRA007894_Nse3/1-293                                                                      0.68%    passed     10.97%
+ 131  BIGNAT010060_Nse3/1-289                                                                      2.70%    passed     13.19%
+ 132  HALSEO014901_Nse3/1-368                                                                      2.03%    failed      0.84%
+ 133  HALSEO003492_Nse3/1-329                                                                      2.70%    passed     75.06%
+ 134  HONFER004303_Nse3/1-305                                                                      2.70%    passed     96.21%
+ 135  PHYINF014371_Nse3/1-262                                                                      2.03%    passed     58.23%
+ 136  COLSPE005870_Nse3/1-323                                                                      0.68%    passed     48.92%
+ 137  VITBRA011690_Nse3/1-265                                                                      7.43%    passed     16.49%
+ 138  TOXGON007119_Nse3/1-431                                                                      2.70%    failed      2.87%
+ 139  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_011358735.1_DTMX01000003.1_316/1-177              8.78%    passed     19.80%
+ 140  Arch_Thermoproteota_Methanomethylicia_GB_GCA_003649085.1_QMQV01000041.1_14/1-175             8.78%    passed     19.64%
+ 141  Arch_Hadarchaeota_Hadarchaeia_GB_GCA_011367225.1_DSZE01000017.1_6/1-168                      8.78%    passed     23.38%
+ 142  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_009889585.1_WUQV01000073.1_14/1-178                 8.78%    passed     70.69%
+ 143  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_004376645.1_SOJC01000029.1_3/1-176                  8.78%    passed     22.94%
+ 144  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_011373895.1_DRVV01000055.1_32/1-177                 8.78%    passed     31.95%
+ 145  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_002011035.1_MTLY01000001.1_43/1-181                 8.78%    passed     58.51%
+ 146  Arch_Hadarchaeota_Hadarchaeia_GB_GCA_014361095.1_JACIWF010000041.1_10/1-171                  8.78%    failed      0.55%
+ 147  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_018396395.1_JAGTQN010000007.1_18/1-180              8.78%    passed     35.10%
+ 148  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_004376295.1_SOJZ01000005.1_78/1-186                 8.78%    passed     22.94%
+ 149  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_014361085.1_JACIWG010000093.1_2/1-175             8.78%    passed     47.23%
+ 150  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_016190055.1_JACPRH010000039.1_6/1-178             8.78%    passed     33.65%
+ 151  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_001775995.1_MEZH01000008.1_3/1-177                  8.78%    passed     48.56%
+ 152  Arch_Thermoproteota_EX4484-205_GB_GCA_017601245.1_JAFNJB010000055.1_58/1-176                 8.78%    passed     74.81%
+ 153  Arch_Hadarchaeota_Hadarchaeia_GB_GCA_004347925.1_QNVD01000244.1_6/1-168                      8.78%    passed      8.80%
+ 154  Arch_Thermoproteota_Nitrososphaeria_A_GB_GCA_011364235.1_DTBN01000001.1_44/1-179             8.78%    passed     57.86%
+ 155  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_011367275.1_DSZA01000086.1_32/1-168                 8.78%    passed     31.44%
+ 156  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_003601775.1_PIYN01000004.1_34/1-183                 8.78%    failed      2.03%
+ 157  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_016184315.1_JACPCU010000012.1_6/1-179             8.78%    failed      4.54%
+ 158  Arch_Thermoproteota_EX4484-205_GB_GCA_017601145.1_JAFNIV010000003.1_14/1-174                 8.78%    passed     23.81%
+ 159  Arch_Thermoproteota_Methanomethylicia_GB_GCA_011362245.1_DTDM01000263.1_17/1-176             8.78%    passed     31.21%
+ 160  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_005888755.1_VBBQ01000018.1_8/1-178                  9.46%    passed     22.84%
+ 161  Arch_Thermoproteota_EX4484-205_GB_GCA_002255045.1_NJEE01000025.1_11/1-176                    9.46%    passed     24.47%
+ 162  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_018396415.1_JAGTRE010000007.1_31/1-164             18.92%    passed     99.75%
+ 163  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_018396775.1_JAGTRF010000005.1_39/1-171              8.78%    passed     31.70%
+ 164  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_001768965.1_MEMY01000009.1_7/1-181                  8.78%    passed     46.57%
+ 165  Arch_Thermoplasmatota_E2_GB_GCA_013329495.1_DUKC01000174.1_5/1-168                          10.14%    passed     57.33%
+ 166  Arch_Thermoproteota_EX4484-205_GB_GCA_011371845.1_DRUP01000044.1_15/1-177                    8.78%    passed     25.46%
+ 167  Arch_Thermoproteota_Nitrososphaeria_A_GB_GCA_000270325.1_BA000048.1_1504/1-178               8.78%    passed      8.04%
+ 168  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_003662535.1_QMYG01000113.1_3/1-171                  8.78%    failed      3.82%
+ 169  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_018397055.1_JAGTQS010000023.1_6/1-184               8.78%    passed      9.39%
+ 170  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_018396865.1_JAGTRB010000009.1_31/1-176              9.46%    passed      8.36%
+ 171  Arch_Hadarchaeota_Hadarchaeia_GB_GCA_011361855.1_DTES01000047.1_4/1-168                      8.78%    passed     22.12%
+ 172  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_011040545.1_DQYM01000179.1_5/1-196                  8.78%    failed      0.35%
+ 173  Arch_Thermoproteota_Methanomethylicia_GB_GCA_004028775.1_RXGA01000001.1_98/1-176             8.78%    passed     66.74%
+ 174  Arch_Thermoproteota_Korarchaeia_GB_GCA_003661365.1_QMVZ01000010.1_12/1-174                   8.78%    passed     72.25%
+ 175  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016211195.1_JACQSS010000010.1_3/1-153                 2.03%    passed     72.14%
+ 176  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018303225.1_JAGVYO010000022.1_12/1-154                0.00%    passed     87.79%
+ 177  Arch_Thermoproteota_Methanomethylicia_GB_GCA_003649185.1_QMRB01000007.1_8/1-182              8.78%    passed     20.65%
+ 178  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_005222965.1_NJBG01000001.1_619/1-155                  0.00%    passed     54.40%
+ 179  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_002763335.1_PEYS01000162.1_4/1-175                    0.00%    passed     88.92%
+ 180  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_002688315.1_NZCN01000009.1_3/1-155                    0.00%    passed     78.46%
+ 181  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_002762985.1_PCXZ01000027.1_4/1-158                    0.00%    passed     67.87%
+ 182  Arch_Thermoproteota_Nitrososphaeria_A_GB_GCA_002898395.1_BEHE01000017.1_2/1-173              8.78%    passed     76.15%
+ 183  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016935155.1_JAFGRQ010000041.1_2/1-155                 0.00%    passed      9.64%
+ 184  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_018396725.1_JAGTRC010000001.1_657/1-165             8.78%    passed      5.33%
+ 185  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016188215.1_JACPIF010000001.1_91/1-158                0.00%    passed     99.54%
+ 186  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018221105.1_JAAOYA010000010.1_220/1-158               0.00%    passed     66.99%
+ 187  Arch_Thermoproteota_Thermoproteia_GB_GCA_003650815.1_QMSB01000069.1_9/1-176                  9.46%    passed     26.31%
+ 188  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016938695.1_JAFGUC010000024.1_58/1-162                0.00%    passed     54.00%
+ 189  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_002011075.1_MTMA01000001.1_409/1-164              8.78%    passed     59.79%
+ 190  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_015520525.1_WAPY01000027.1_6/1-158                    2.70%    passed     35.26%
+ 191  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018221175.1_JAAOYE010000060.1_18/1-169                0.00%    passed     96.86%
+ 192  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_011331255.1_DSSJ01000006.1_13/1-170              8.78%    failed      0.14%
+ 193  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_017608625.1_JAFCFN010000003.1_66/1-152                2.03%    passed     47.43%
+ 194  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018813725.1_JAHJBD010000112.1_9/1-154                 0.00%    passed     99.86%
+ 195  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018813685.1_JAHJAV010000018.1_57/1-154                0.00%    passed     41.59%
+ 196  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_002495315.1_DAEN01000007.1_4/1-176                8.78%    passed     30.94%
+ 197  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_002687815.1_NZBH01000016.1_22/1-159                   0.00%    passed     25.09%
+ 198  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_003695265.1_RFII01000043.1_37/1-156                   0.00%    passed     21.14%
+ 199  Arch_Thermoproteota_Methanomethylicia_GB_GCA_011372955.1_DRZN01000065.1_23/1-173             8.78%    passed      5.87%
+ 200  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_903907555.1_CAIVOO010000144.1_17/1-156                0.00%    passed     59.03%
+ 201  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018303725.1_JAGVXP010000052.1_18/1-152                1.35%    passed     76.63%
+ 202  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016928115.1_JAFGLI010000023.1_25/1-155                0.00%    passed     20.18%
+ 203  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018303425.1_JAGVYF010000003.1_54/1-157                0.00%    passed     46.60%
+ 204  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_016432545.1_CP066694.1_937/1-152                 14.86%    failed      1.66%
+ 205  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_013329175.1_DUKR01000102.1_15/1-154                   0.00%    passed     51.14%
+ 206  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018303285.1_JAGVYL010000012.1_22/1-153                0.68%    passed     86.74%
+ 207  Arch_Halobacteriota_Archaeoglobi_GB_GCA_002011165.1_MTMI01000018.1_174/1-153                 2.03%    passed     57.61%
+ 208  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_002779235.1_PEXD01000070.1_31/1-163                   0.00%    passed     61.41%
+ 209  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016187565.1_JACPJR010000010.1_8/1-171                 0.00%    passed     47.95%
+ 210  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018399355.1_JAGYOA010000003.1_21/1-155                0.00%    passed     79.27%
+ 211  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018671515.1_JABHHN010000056.1_9/1-156                 0.00%    passed     15.24%
+ 212  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_011368255.1_DSVV01000006.1_36/1-224                   0.00%    passed     96.79%
+ 213  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018303105.1_JAGVYU010000015.1_3/1-154                 0.00%    passed     78.42%
+ 214  Arch_Halobacteriota_Methanonatronarchaeia_GB_GCA_004212035.1_RYFX01000073.1_4/1-155          2.03%    passed     35.90%
+ 215  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_013330595.1_DUIB01000026.1_8/1-236                    0.00%    passed     27.65%
+ 216  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_014729995.1_WJIZ01000043.1_57/1-154                   0.00%    passed     86.78%
+ 217  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018646625.1_JABGUJ010000001.1_569/1-156               0.00%    passed     19.35%
+ 218  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016935985.1_JAFGPW010000004.1_246/1-159               0.00%    passed     60.35%
+ 219  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_014729555.1_WJJT01000010.1_10/1-155                   0.00%    passed     97.66%
+ 220  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_017609465.1_JAFCDX010000001.1_44/1-154                0.68%    passed     20.80%
+ 221  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_014239585.1_JAAZYP010000004.1_30/1-155                0.00%    passed     65.90%
+ 222  Arch_Thermoproteota_EX4484-205_GB_GCA_017601145.1_JAFNIV010000002.1_64/1-166                 0.00%    passed     87.11%
+ 223  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018819065.1_JAHJQL010000077.1_9/1-155                 0.00%    passed     56.28%
+ 224  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016929255.1_JAFGJH010000047.1_12/1-160                0.00%    passed     99.67%
+ 225  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_002762705.1_PCVE01000006.1_20/1-165                   0.00%    passed     78.78%
+ 226  Arch_Thermoproteota_Thermoproteia_GB_GCA_002507085.1_DAYW01000035.1_3/1-166                  8.78%    failed      0.66%
+ 227  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_903915225.1_CAIWSB010000048.1_12/1-154                0.68%    passed     99.82%
+ 228  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016211215.1_JACQSR010000010.1_14/1-153                0.68%    passed     92.76%
+ 229  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_013329045.1_DUKZ01000041.1_14/1-154                   0.68%    passed     96.82%
+ 230  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_002490245.1_PCNA01000026.1_3/1-170                  0.00%    passed     73.08%
+ 231  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016219835.1_JACRKL010000074.1_2/1-161                 0.00%    passed     20.85%
+ 232  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_017608345.1_JAFCGA010000002.1_158/1-154               0.00%    passed     58.20%
+ 233  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_003648985.1_QMQQ01000006.1_14/1-154                   0.68%    passed     52.06%
+ 234  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018303405.1_JAGVYD010000009.1_298/1-160               0.00%    passed     92.92%
+ 235  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016177615.1_JACOUX010000057.1_42/1-159                0.00%    passed     93.54%
+ 236  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016180285.1_JACPBO010000002.1_98/1-152                1.35%    passed     45.23%
+ 237  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_011333845.1_DTJL01000006.1_56/1-171               8.78%    failed      0.32%
+ 238  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_017608025.1_JAFCGM010000004.1_69/1-172                0.68%    failed      1.31%
+ 239  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016203335.1_JACQNA010000073.1_15/1-154                0.00%    passed     96.93%
+ 240  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_003650545.1_QMQO01000014.1_17/1-154                   1.35%    passed     50.21%
+ 241  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_014729345.1_WJKB01000045.1_1/1-140                    8.78%    passed     51.45%
+ 242  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_014729675.1_WJJM01000055.1_25/1-155                   0.68%    passed     94.78%
+ 243  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_015522765.1_WALR01000040.1_6/1-159                    0.00%    passed     87.75%
+ 244  Arch_Thermoproteota_Korarchaeia_GB_GCA_015522685.1_WALU01000053.1_6/1-174                    8.78%    failed      2.85%
+ 245  Arch_Thermoproteota_Nitrososphaeria_RS_GCF_013340765.1_NZ_AP018732.1_1252/1-174             10.81%    failed      1.82%
+ 246  Arch_Halobacteriota_UBA148_GB_GCA_002495885.1_DAHG01000072.1_57/1-155                        2.03%    passed     44.05%
+ 247  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016432305.1_CP066683.1_464/1-155                      0.00%    passed     56.04%
+ 248  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_003694805.1_RFJU01000082.1_18/1-203                   0.00%    passed     80.66%
+ 249  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_000402515.1_AQRL01000027.1_1/1-154                    0.68%    passed     73.87%
+ 250  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018653365.1_JABIAG010000003.1_94/1-152                1.35%    passed     15.71%
+ 251  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_003695045.1_RFJB01000085.1_13/1-156                   0.00%    passed     35.40%
+ 252  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_016932875.1_JAFGBZ010000056.1_2/1-265                 0.00%    passed     47.43%
+ 253  Arch_Hadarchaeota_Hadarchaeia_GB_GCA_014361095.1_JACIWF010000006.1_18/1-160                  0.00%    passed     57.53%
+ 254  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_009903795.1_WYER01000033.1_76/1-174               8.78%    passed     61.66%
+ 255  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_017609525.1_JAFCDT010000023.1_14/1-155                0.00%    passed     47.99%
+ 256  Arch_Thermoplasmatota_E2_GB_GCA_014361195.1_JACIWA010000002.1_151/1-153                      1.35%    failed      4.63%
+ 257  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016784165.1_JADHVD010000002.1_37/1-155                0.00%    passed     29.19%
+ 258  Arch_Thermoplasmatota_Thermoplasmata_RS_GCF_000327505.1_NC_019942.1_1371/1-152               3.38%    passed     40.85%
+ 259  Arch_B1Sed10-29_B1Sed10-29_GB_GCA_015522845.1_WALL01000030.1_5/1-156                         2.70%    passed     99.04%
+ 260  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016185565.1_JACPNH010000033.1_1/1-155                 0.00%    passed     74.37%
+ 261  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018263355.1_JAANXH010000051.1_152/1-165               0.00%    passed     92.95%
+ 262  Arch_B1Sed10-29_B1Sed10-29_GB_GCA_003660975.1_QMVG01000016.1_10/1-153                        2.03%    passed     74.02%
+ 263  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016926395.1_JAFGOT010000035.1_21/1-155                0.00%    passed     73.91%
+ 264  Arch_Halobacteriota_Methanosarcinia_RS_GCF_000970285.1_NZ_CP009516.1_380/1-155               2.03%    passed     39.68%
+ 265  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_013152815.1_JAADFO010000069.1_5/1-161                 0.00%    passed     89.34%
+ 266  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018302765.1_JAGVZG010000024.1_9/1-155                 0.00%    passed     81.44%
+ 267  Arch_Halobacteriota_Methanosarcinia_GB_GCA_014859725.1_JACUTQ010000047.1_8/1-156             1.35%    passed     65.79%
+ 268  Arch_Methanobacteriota_B_Thermococci_GB_GCA_001587575.1_LNJC01000032.1_13/1-164              0.00%    passed     75.93%
+ 269  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_002687185.1_NYZO01000012.1_3/1-155                    0.00%    passed     84.61%
+ 270  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018303545.1_JAGVXY010000009.1_127/1-155               0.00%    passed     85.04%
+ 271  Arch_Thermoproteota_Thermoproteia_GB_GCA_017857595.1_JAFMCU010000003.1_118/1-182             9.46%    passed     20.66%
+ 272  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018675975.1_JABGXB010000002.1_515/1-153               2.03%    passed     45.34%
+ 273  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016188045.1_JACPIM010000009.1_21/1-155                0.00%    passed     24.58%
+ 274  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_014729335.1_WJKC01000015.1_14/1-145                   6.08%    passed     68.39%
+ 275  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_011362975.1_DTGI01000006.1_53/1-158                   0.00%    passed     29.85%
+ 276  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_001871415.1_MNWW01000042.1_18/1-159                   0.00%    passed     57.81%
+ 277  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_000830315.1_CP010426.1_435/1-155                      0.00%    passed     17.55%
+ 278  Arch_Methanobacteriota_B_Thermococci_GB_GCA_018992685.1_JACVGT010000014.1_45/1-158           0.68%    passed     51.35%
+ 279  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016928155.1_JAFGLG010000012.1_2/1-156                 0.00%    passed     58.98%
+ 280  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018221165.1_JAAOYD010000103.1_1/1-155                 0.68%    passed     86.75%
+ 281  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_017608235.1_JAFCGI010000001.1_128/1-155               0.00%    passed     43.04%
+ 282  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_001595785.1_LSSJ01000026.1_53/1-164                   0.00%    passed     93.17%
+ 283  Arch_Halobacteriota_Archaeoglobi_RS_GCF_000025505.1_NC_013849.1_1538/1-153                   3.38%    passed     34.74%
+ 284  Arch_Halobacteriota_Syntropharchaeia_GB_GCA_001766815.1_LYOS01000002.1_230/1-154             2.70%    passed     65.24%
+ 285  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018302225.1_JAGVZY010000013.1_62/1-155                0.00%    passed     81.15%
+ 286  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_002762785.1_PCXY01000005.1_432/1-154                  0.00%    passed     68.43%
+ 287  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_018396725.1_JAGTRC010000001.1_653/1-165             0.00%    passed     17.71%
+ 288  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_011358645.1_DTNL01000117.1_36/1-197                   2.03%    passed     54.84%
+ 289  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016188065.1_JACPIN010000004.1_13/1-155                0.00%    passed     46.04%
+ 290  Arch_Thermoplasmatota_UBA186_GB_GCA_011620765.1_WOYO01000046.1_15/1-154                     13.51%    passed     44.21%
+ 291  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_011366705.1_DTBS01000004.1_33/1-153                   1.35%    passed     56.80%
+ 292  Arch_Thermoplasmatota_EX4484-6_GB_GCA_002254765.1_NJDV01000012.1_4/1-160                     0.68%    passed     80.99%
+ 293  Arch_EX4484-52_EX4484-52_GB_GCA_003660905.1_QMVB01000059.1_6/1-161                           0.00%    failed      0.06%
+ 294  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_018829335.1_JAHJUD010000046.1_49/1-258                0.00%    passed     66.77%
+ 295  Arch_Methanobacteriota_B_Thermococci_RS_GCF_900198835.1_NZ_LT900021.1_654/1-161              0.00%    passed     85.34%
+ 296  Arch_Methanobacteriota_B_Thermococci_GB_GCA_004212155.1_RXIG01000028.1_8/1-157               1.35%    passed     84.89%
+ 297  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_013426015.1_CP058998.1_706/1-192                      2.03%    passed     64.77%
+ 298  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_011333755.1_DTJS01000064.1_7/1-163                    1.35%    passed     92.88%
+ 299  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018816705.1_JAHIVG010000097.1_5/1-166                 0.00%    passed     89.54%
+ 300  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_017610305.1_JAFCCJ010000004.1_6/1-159                 0.00%    passed     47.46%
+ 301  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018302505.1_JAGVZL010000011.1_43/1-157                0.00%    passed     71.39%
+ 302  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018894775.1_JAHIPG010000278.1_2/1-155                 0.00%    passed     25.08%
+ 303  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_002779595.1_PEWF01000030.1_2/1-154                    0.68%    passed     31.81%
+ 304  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_007131205.1_SLQZ01000016.1_10/1-154                   0.68%    passed     37.86%
+ 305  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018652045.1_JABICX010000001.1_35/1-155                0.00%    passed     25.53%
+ 306  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_003649915.1_QMTG01000007.1_16/1-160              0.68%    passed     30.97%
+ 307  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_002011395.1_MTNG01000009.1_2/1-156               1.35%    failed      2.01%
+ 308  Arch_Halobacteriota_Methanonatronarchaeia_GB_GCA_003034855.1_PZKD01000100.1_202/1-155        2.03%    passed     17.89%
+ 309  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_007117065.1_SKHI01000044.1_30/1-156                   0.00%    passed     13.54%
+ 310  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_902386535.1_CABMJK010000017.1_6/1-186                 2.70%    passed     26.23%
+ 311  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016929855.1_JAFGHY010000092.1_13/1-158                0.00%    passed     55.06%
+ 312  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_017609105.1_JAFCEQ010000002.1_11/1-161                2.03%    passed     24.95%
+ 313  Arch_Altiarchaeota_Altiarchaeia_GB_GCA_018897475.1_JAHIKS010000049.1_11/1-158                0.00%    passed     92.04%
+ 314  Arch_Halobacteriota_Methanonatronarchaeia_GB_GCA_018263395.1_JAANXF010000001.1_15/1-154      3.38%    failed      1.95%
+ 315  Arch_Halobacteriota_Syntropharchaeia_GB_GCA_003661185.1_QMVQ01000087.1_6/1-151               4.05%    passed     30.43%
+ 316  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_003662535.1_QMYG01000001.1_15/1-162                 0.68%    passed     45.17%
+ 317  Arch_Thermoproteota_EX4484-205_GB_GCA_011371845.1_DRUP01000044.1_42/1-165                    0.00%    passed     91.64%
+ 318  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018663865.1_JABJPM010000021.1_11/1-155                0.00%    passed     53.16%
+ 319  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_002688325.1_NZCS01000020.1_8/1-156                    0.00%    passed     12.12%
+ 320  Arch_Asgardarchaeota_Baldrarchaeia_GB_GCA_019056805.1_DXJG01000002.1_313/1-163               0.68%    passed     32.23%
+ 321  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_016867455.1_VGJJ01000005.1_12/1-230                   0.68%    passed     91.09%
+ 322  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_016205145.1_JACQJH010000002.1_216/1-152               2.03%    passed     54.95%
+ 323  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_016932735.1_JAFGCI010000002.1_47/1-151        1.35%    passed     93.22%
+ 324  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_017609985.1_JAFCCW010000012.1_10/1-155                0.00%    passed     61.18%
+ 325  Arch_Halobacteriota_Methanosarcinia_GB_GCA_004212095.1_RXIJ01000084.1_5/1-154                2.03%    passed     89.78%
+ 326  Arch_Methanobacteriota_B_Thermococci_GB_GCA_003660605.1_QMUN01000047.1_9/1-153               4.05%    passed     50.94%
+ 327  Arch_Nanohaloarchaeota_Nanosalinia_GB_GCA_001761425.1_CP012986.1_343/1-157                   0.00%    passed     23.20%
+ 328  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018302085.1_JAGWAF010000015.1_2/1-160                 0.68%    passed     85.61%
+ 329  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_000830275.1_CP010424.1_371/1-156                      0.00%    passed     71.31%
+ 330  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_015522885.1_WALJ01000176.1_3/1-159               0.68%    passed     92.06%
+ 331  Arch_Hydrothermarchaeota_Hydrothermarchaeia_GB_GCA_002897955.1_BDTY01000086.1_16/1-156       1.35%    passed     82.86%
+ 332  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_003564925.1_PXDW01000032.1_2/1-155                    0.00%    passed      9.50%
+ 333  Arch_Nanohaloarchaeota_Nanosalinia_GB_GCA_018609855.1_JAHENU010000051.1_2/1-156              0.00%    passed     45.00%
+ 334  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018656555.1_JABHZQ010000012.1_26/1-155                0.00%    passed     68.63%
+ 335  Arch_Thermoplasmatota_UBA186_GB_GCA_011620765.1_WOYO01000050.1_1/1-155                       0.68%    passed     77.21%
+ 336  Arch_B1Sed10-29_B1Sed10-29_GB_GCA_018304505.1_JAGVWA010000006.1_44/1-153                     1.35%    passed     97.63%
+ 337  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016181215.1_JACOZS010000078.1_2/1-156                 0.68%    passed     99.34%
+ 338  Arch_Asgardarchaeota_Odinarchaeia_GB_GCA_001940665.1_MDVT01000007.1_993/1-160                0.00%    passed     39.90%
+ 339  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_009889585.1_WUQV01000228.1_3/1-174                  1.35%    failed      0.63%
+ 340  Arch_Halobacteriota_Methanocellia_RS_GCF_000063445.1_NC_009464.1_897/1-156                   1.35%    passed     80.95%
+ 341  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_002505585.1_DAVM01000011.1_21/1-156                   0.00%    passed     76.41%
+ 342  Arch_Halobacteriota_Methanosarcinia_GB_GCA_014859785.1_JACUTP010000039.1_5/1-154             2.03%    passed     60.72%
+ 343  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_016187745.1_JACPJC010000003.1_120/1-154               0.68%    passed     95.42%
+ 344  Arch_Hydrothermarchaeota_Hydrothermarchaeia_GB_GCA_002011125.1_MTMF01000001.1_229/1-155      2.03%    passed     46.39%
+ 345  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_016926295.1_JAFGOX010000042.1_14/1-154                0.68%    passed     91.85%
+ 346  Arch_Thermoplasmatota_E2_GB_GCA_003649745.1_QMST01000009.1_10/1-159                          0.68%    passed     90.44%
+ 347  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_017609445.1_JAFCDY010000003.1_28/1-157        0.00%    passed     79.98%
+ 348  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_001871535.1_MNVF01000083.1_12/1-157                   0.68%    passed      6.26%
+ 349  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_009758405.1_WSBC01000004.1_142/1-155             1.35%    passed     87.00%
+ 350  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_902384585.1_CABMCJ010000002.1_170/1-155               2.03%    passed     54.36%
+ 351  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016211995.1_JACRHU010000006.1_3/1-170                 0.00%    passed     94.33%
+ 352  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_018304425.1_JAGVWE010000005.1_38/1-156                0.68%    passed     19.37%
+ 353  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_003564925.1_PXDW01000068.1_3/1-165                    0.00%    passed     94.40%
+ 354  Arch_Halobacteriota_Archaeoglobi_GB_GCA_002010305.1_MTND01000017.1_7/1-154                   2.03%    passed     82.50%
+ 355  Arch_B1Sed10-29_B1Sed10-29_GB_GCA_003553825.1_PWFL01000024.1_5/1-166                         0.00%    passed      5.88%
+ 356  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_011363025.1_DTFW01000084.1_1/1-158               0.68%    passed     97.39%
+ 357  Arch_Halobacteriota_Methanonatronarchaeia_GB_GCA_001914405.1_MSDW01000001.1_1424/1-169       1.35%    passed     51.96%
+ 358  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_002011035.1_MTLY01000001.1_36/1-185                 0.00%    passed     36.96%
+ 359  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016180275.1_JACPBN010000012.1_4/1-175                 0.00%    passed     72.69%
+ 360  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_014728835.1_WJKY01000064.1_5/1-155                    0.00%    passed     80.64%
+ 361  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_002068885.1_MWBC01000027.1_2/1-157                    0.00%    passed     87.14%
+ 362  Arch_Thermoplasmatota_SW-10-69-26_GB_GCA_016207515.1_JACQPN010000002.1_236/1-181             0.68%    passed     36.45%
+ 363  Arch_Thermoplasmatota_E2_GB_GCA_013329495.1_DUKC01000180.1_3/1-156                           0.68%    passed     93.12%
+ 364  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_013331925.1_DUFJ01000084.1_2/1-154                    0.00%    passed     73.20%
+ 365  Arch_EX4484-52_EX4484-52_GB_GCA_013138805.1_WTCA01000003.1_9/1-153                           0.00%    passed     30.99%
+ 366  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_004376295.1_SOJZ01000005.1_57/1-175                 0.00%    passed     18.35%
+ 367  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_016202865.1_JACQNV010000018.1_7/1-164         0.00%    passed     39.40%
+ 368  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_001871475.1_MNVE01000003.1_3/1-149                    2.70%    passed     51.65%
+ 369  Arch_Asgardarchaeota_Jordarchaeia_GB_GCA_019056875.1_DXJA01000395.1_5/1-159                  0.00%    passed     88.19%
+ 370  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_002780285.1_PEVX01000028.1_16/1-160                   0.00%    passed     18.21%
+ 371  Arch_Asgardarchaeota_Jordarchaeia_GB_GCA_011362025.1_DTEF01000081.1_13/1-166                 0.00%    passed     75.67%
+ 372  Arch_Nanohaloarchaeota_Nanosalinia_GB_GCA_017610385.1_JAFCCC010000001.1_67/1-156             0.00%    passed     58.86%
+ 373  Arch_EX4484-52_EX4484-52_GB_GCA_017610545.1_JAFCBV010000005.1_4/1-159                        0.00%    passed     24.55%
+ 374  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_015661515.1_DQVX01000039.1_14/1-154           0.68%    passed     58.38%
+ 375  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_017608575.1_JAFCFP010000008.1_28/1-169                0.00%    passed     22.67%
+ 376  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_011333475.1_DTKX01000023.1_3/1-179               0.68%    passed     52.24%
+ 377  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_018920305.1_JAHLMO010000002.1_70/1-155        0.00%    passed     51.06%
+ 378  Arch_Hadarchaeota_B88-G9_GB_GCA_003660555.1_QMUK01000080.1_6/1-161                           0.00%    passed     11.23%
+ 379  Arch_Asgardarchaeota_LC30_GB_GCA_019058495.1_JAHPYV010000001.1_31/1-161                      0.00%    passed     18.98%
+ 380  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018221045.1_JAAOXT010000031.1_5/1-135                12.84%    passed      6.68%
+ 381  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_016927245.1_JAFGNA010000016.1_23/1-157                0.00%    passed     73.71%
+ 382  Arch_Thermoproteota_Korarchaeia_GB_GCA_015522685.1_WALU01000021.1_10/1-156                   1.35%    passed     34.41%
+ 383  Arch_Asgardarchaeota_Jordarchaeia_GB_GCA_019056875.1_DXJA01000034.1_3/1-159                 10.81%    passed     20.40%
+ 384  Arch_Thermoproteota_EX4484-205_GB_GCA_017601245.1_JAFNJB010000055.1_43/1-161                 0.00%    passed     68.77%
+ 385  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_004376645.1_SOJC01000109.1_4/1-176                  0.00%    passed     12.17%
+ 386  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_011605775.1_JAAOZN010000075.1_27/1-161            0.00%    failed      1.45%
+ 387  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_011373045.1_DRZH01000016.1_2/1-158            0.68%    passed     20.31%
+ 388  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_011045925.1_DSBS01000011.1_22/1-153                   0.68%    passed     96.67%
+ 389  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_016932355.1_JAFGDB010000098.1_9/1-155                 0.00%    passed     14.65%
+ 390  Arch_Asgardarchaeota_Thorarchaeia_GB_GCA_004524565.1_SDNZ01000007.1_23/1-157                 0.00%    passed     82.90%
+ 391  Arch_Altiarchaeota_Altiarchaeia_GB_GCA_001873845.1_MNZY01000137.1_3/1-156                    1.35%    failed      2.40%
+ 392  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_016185435.1_JACPNN010000004.1_23/1-151        2.03%    passed     23.11%
+ 393  Arch_Thermoproteota_Nitrososphaeria_A_GB_GCA_011364235.1_DTBN01000009.1_51/1-163             0.00%    passed     98.97%
+ 394  Arch_Asgardarchaeota_Lokiarchaeia_GB_GCA_016933055.1_JAFGBS010000004.1_133/1-261             0.00%    passed     75.91%
+ 395  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_016202815.1_JACQNZ010000006.1_78/1-153        0.00%    passed     60.70%
+ 396  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_013331945.1_DUFK01000047.1_39/1-166                   0.00%    passed     32.70%
+ 397  Arch_Halobacteriota_Methanosarcinia_RS_GCF_000235565.1_NC_017527.1_534/1-161                 1.35%    passed     10.01%
+ 398  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_018397055.1_JAGTQS010000055.1_16/1-174              0.00%    passed     58.60%
+ 399  Arch_EX4484-52_EX4484-52_GB_GCA_015520605.1_WAPT01000022.1_38/1-155                          0.00%    passed     59.09%
+ 400  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018304245.1_JAGVWO010000029.1_2/1-178                 0.00%    passed     61.60%
+ 401  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_902385045.1_CABMDW010000108.1_19/1-149                2.70%    passed     63.39%
+ 402  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_011331255.1_DSSJ01000045.1_15/1-155              1.35%    passed     28.57%
+ 403  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_011371765.1_DRVD01000004.1_14/1-165                   0.00%    passed     92.39%
+ 404  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_003601775.1_PIYN01000002.1_57/1-167                 0.00%    failed      4.38%
+ 405  Arch_Micrarchaeota_Micrarchaeia_RS_GCF_002214165.1_NZ_CP019964.1_332/1-160                   2.03%    failed      1.22%
+ 406  Arch_Hydrothermarchaeota_Hydrothermarchaeia_GB_GCA_013152845.1_JAADFM010000046.1_11/1-153    3.38%    passed     75.09%
+ 407  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_016874675.1_VGTL01000001.1_49/1-156              1.35%    passed     76.81%
+ 408  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_017608385.1_JAFCFZ010000007.1_19/1-156                2.03%    passed     14.51%
+ 409  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_002779065.1_PEXL01000036.1_8/1-163                    0.00%    passed     45.36%
+ 410  Arch_Asgardarchaeota_Lokiarchaeia_GB_GCA_013375455.1_JABXJT010000051.1_22/1-164              0.00%    passed     98.28%
+ 411  Arch_Thermoplasmatota_Thermoplasmata_RS_GCF_000308215.1_NZ_CAJE01000017.1_80/1-158           0.68%    passed      5.21%
+ 412  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_002688965.1_NZEE01000045.1_16/1-160           0.68%    passed     59.38%
+ 413  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_019262145.1_CP076745.1_233/1-155                 1.35%    failed      2.81%
+ 414  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_018396775.1_JAGTRF010000005.1_33/1-162              0.00%    passed     11.24%
+ 415  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_902385625.1_CABMGE010000006.1_3/1-198                 0.00%    passed     66.48%
+ 416  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_902385155.1_CABMEP010000051.1_2/1-172                 0.00%    passed     89.70%
+ 417  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_016198755.1_JACQIB010000004.1_48/1-157        0.00%    passed     83.98%
+ 418  Arch_EX4484-52_EX4484-52_GB_GCA_018897155.1_JAHILE010000015.1_27/1-156                       0.00%    passed     41.45%
+ 419  Arch_Thermoplasmatota_E2_GB_GCA_016180755.1_JACPAO010000105.1_5/1-158                        0.68%    passed     56.30%
+ 420  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_015519985.1_WIAN01000038.1_2/1-159                    0.00%    passed      6.27%
+ 421  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_018920345.1_JAHLMN010000021.1_8/1-155         0.00%    passed     95.10%
+ 422  Arch_Halobacteriota_Bog-38_GB_GCA_015660915.1_JACTTZ010000010.1_50/1-153                     2.70%    passed     20.38%
+ 423  Arch_Thermoproteota_Nitrososphaeria_A_GB_GCA_000270325.1_BA000048.1_312/1-162                1.35%    passed     77.75%
+ 424  Arch_Thermoproteota_EX4484-205_GB_GCA_002255045.1_NJEE01000031.1_12/1-155                    2.03%    passed      9.24%
+ 425  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_003554965.1_PWHR01000085.1_65/1-209              0.68%    passed     79.35%
+ 426  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_016432325.1_CP066684.1_1021/1-156             0.00%    passed     99.20%
+ 427  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_018920255.1_JAHLMR010000012.1_3/1-155         0.00%    passed     61.38%
+ 428  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_018304465.1_JAGVWC010000015.1_15/1-162                0.00%    passed     31.99%
+ 429  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_018920245.1_JAHLMS010000003.1_57/1-156        0.00%    passed     53.06%
+ 430  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_013360305.1_JABWCK010000002.1_38/1-185                2.03%    passed     50.63%
+ 431  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_011331095.1_DSSN01000035.1_15/1-162               0.00%    passed     63.62%
+ 432  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_016187335.1_JACPJW010000001.1_231/1-180       0.68%    passed     76.51%
+ 433  Arch_Thermoproteota_Nitrososphaeria_RS_GCF_900248165.1_NZ_LT981265.1_207/1-165               0.00%    passed     15.63%
+ 434  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_003663355.1_QMZV01000001.1_32/1-153           2.03%    passed     31.56%
+ 435  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_016212395.1_JACRGF010000035.1_10/1-256                2.03%    passed     96.43%
+ 436  Arch_Halobacteriota_Methanosarcinia_RS_GCF_000711905.1_NZ_KL543983.1_168/1-156               0.68%    failed      0.28%
+ 437  Arch_Asgardarchaeota_Lokiarchaeia_GB_GCA_005191425.1_SUPR01000013.1_14/1-156                11.49%    failed      3.46%
+ 438  Arch_Asgardarchaeota_Lokiarchaeia_GB_GCA_016933055.1_JAFGBS010000031.1_40/1-162             10.81%    passed     56.53%
+ 439  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_011334735.1_DTHM01000042.1_4/1-155               1.35%    passed     40.50%
+ 440  Arch_Altiarchaeota_Altiarchaeia_GB_GCA_001742785.1_MCBF01000001.1_1407/1-176                 0.00%    passed     92.26%
+ 441  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_013415695.1_JAAEEP010000002.1_10/1-155           1.35%    passed     34.25%
+ 442  Arch_Thermoproteota_Korarchaeia_GB_GCA_003661385.1_QMWA01000008.1_21/1-154                  11.49%    passed      8.26%
+ 443  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_002763115.1_PFCW01000006.1_62/1-162                   0.00%    passed     31.44%
+ 444  Arch_Thermoplasmatota_EX4484-6_GB_GCA_016929175.1_JAFGJI010000267.1_5/1-167                  1.35%    passed     35.81%
+ 445  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_013415865.1_CP058896.1_833/1-155                 1.35%    passed     46.28%
+ 446  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_001768965.1_MEMY01000095.1_5/1-179                  0.00%    passed     78.93%
+ 447  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_002763265.1_PEZQ01000007.1_144/1-154                  0.68%    passed     26.27%
+ 448  Arch_Asgardarchaeota_Lokiarchaeia_RS_GCF_008000775.1_NZ_CP042905.1_808/1-322                 0.00%    passed     67.44%
+ 449  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_011367275.1_DSZA01000086.1_12/1-163                 0.68%    passed     98.79%
+ 450  Arch_Altiarchaeota_Altiarchaeia_GB_GCA_902384455.1_CABMCB010000018.1_68/1-163                0.68%    passed     93.87%
+ 451  Arch_Thermoplasmatota_SW-10-69-26_GB_GCA_003009755.1_PXUB01000025.1_119/1-171                0.68%    passed     45.02%
+ 452  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_001775995.1_MEZH01000004.1_63/1-168                 0.00%    passed     35.49%
+ 453  Arch_Asgardarchaeota_Lokiarchaeia_GB_GCA_013375455.1_JABXJT010000054.1_27/1-144             16.22%    passed      6.52%
+ 454  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_015522745.1_WALQ01000069.1_2/1-156            0.68%    failed      2.26%
+ 455  Arch_Thermoproteota_EX4484-205_GB_GCA_017601265.1_JAFNJA010000112.1_4/1-163                  0.00%    passed      6.14%
+ 456  Arch_Thermoplasmatota_E2_GB_GCA_016930995.1_JAFGFQ010000040.1_13/1-160                       0.68%    passed      7.46%
+ 457  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_018818785.1_JAHIRF010000009.1_114/1-155          1.35%    passed     93.11%
+ 458  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_019246625.1_JAFAQB010000091.1_25/1-164            0.00%    passed     70.69%
+ 459  Arch_Undinarchaeota_Undinarchaeia_GB_GCA_014189685.1_DVAB01000012.1_15/1-165                 0.00%    passed     92.62%
+ 460  Arch_Thermoproteota_Korarchaeia_GB_GCA_003661385.1_QMWA01000025.1_3/1-161                   14.19%    passed     20.65%
+ 461  Arch_Asgardarchaeota_Heimdallarchaeia_GB_GCA_016840945.1_JAEORJ010000042.1_2/1-173           0.68%    failed      4.39%
+ 462  Arch_Undinarchaeota_Undinarchaeia_GB_GCA_014189675.1_DVAE01000024.1_9/1-152                  2.03%    passed     73.14%
+ 463  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_018813505.1_JAHJBM010000056.1_20/1-150                2.03%    passed     89.46%
+ 464  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_016213555.1_JACRAC010000038.1_4/1-154         1.35%    passed     60.12%
+ 465  Arch_Thermoproteota_Nitrososphaeria_RS_GCF_003175215.1_NZ_BGKI01000001.1_397/1-164           0.00%    passed     72.77%
+ 466  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_903832205.1_CAILAH010000066.1_5/1-166                 0.00%    passed     95.95%
+ 467  Arch_Hadarchaeota_Hadarchaeia_GB_GCA_011367225.1_DSZE01000017.1_74/1-159                     0.00%    passed     96.66%
+ 468  Arch_Hydrothermarchaeota_Hydrothermarchaeia_GB_GCA_015520145.1_WAQR01000224.1_5/1-182        1.35%    passed     85.76%
+ 469  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_018304635.1_JAGVVW010000036.1_40/1-149        3.38%    passed     80.10%
+ 470  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_018819225.1_JAHJQN010000008.1_217/1-177               2.03%    passed     55.75%
+ 471  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_009903795.1_WYER01000014.1_40/1-161               0.68%    passed     24.32%
+ 472  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_004377185.1_SOIM01000012.1_64/1-155              1.35%    passed     79.05%
+ 473  Arch_Halobacteriota_Methanosarcinia_GB_GCA_004211975.1_RXIK01000104.1_6/1-146                8.78%    passed     34.51%
+ 474  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_018396915.1_JAGTRD010000006.1_2/1-162               0.00%    passed     86.97%
+ 475  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_016190055.1_JACPRH010000057.1_76/1-164            0.00%    passed     43.31%
+ 476  Arch_Asgardarchaeota_Lokiarchaeia_GB_GCA_019058315.1_JAHPZH010000001.1_582/1-156            12.16%    failed      0.86%
+ 477  Arch_Hadarchaeota_Hadarchaeia_GB_GCA_004347925.1_QNVD01000245.1_4/1-159                      0.00%    failed      4.66%
+ 478  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_016866895.1_VGKX01000002.1_16/1-158                   0.00%    passed     84.19%
+ 479  Arch_Thermoplasmatota_Poseidoniia_GB_GCA_003602415.1_QQSK01000009.1_94/1-159                 1.35%    passed     76.47%
+ 480  Arch_Thermoproteota_Nitrososphaeria_A_GB_GCA_002898395.1_BEHE01000012.1_17/1-171             0.00%    passed     27.02%
+ 481  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_011355145.1_DTMW01000038.1_3/1-157               0.68%    passed     44.98%
+ 482  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_902812485.1_CADDZS010000020.1_3/1-192             0.00%    passed     36.06%
+ 483  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_011358735.1_DTMX01000018.1_16/1-172               0.00%    passed      8.98%
+ 484  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_018396395.1_JAGTQN010000038.1_3/1-174               0.00%    passed     41.90%
+ 485  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_017885655.1_JAFNFQ010000007.1_4/1-156            0.68%    passed     72.25%
+ 486  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_015522865.1_WALN01000012.1_4/1-150                    2.70%    passed     12.21%
+ 487  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_902384795.1_CABMDC010000001.1_73/1-298                2.03%    passed     81.10%
+ 488  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_002503985.1_DASW01000008.1_3/1-161               0.68%    passed     15.46%
+ 489  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_005888755.1_VBBQ01000028.1_122/1-172                0.00%    passed     29.92%
+ 490  Arch_Asgardarchaeota_Lokiarchaeia_GB_GCA_016839555.1_JAEOUA010000006.1_500/1-203             0.00%    passed     16.36%
+ 491  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_002502045.1_DAPE01000019.1_62/1-156                   2.03%    passed     91.37%
+ 492  Arch_Halobacteriota_Methanomicrobia_RS_GCF_001571385.1_NZ_BCNW01000001.1_2561/1-151          1.35%    failed      0.77%
+ 493  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_013152905.1_JAADFI010000013.1_11/1-152        1.35%    passed     75.45%
+ 494  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_016931255.1_JAFGFG010000009.1_141/1-157       0.00%    passed     39.24%
+ 495  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_018920315.1_JAHLMP010000001.1_251/1-155       2.70%    passed     41.64%
+ 496  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018829845.1_JAHJTO010000051.1_16/1-166                0.00%    passed     83.76%
+ 497  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_016432545.1_CP066694.1_253/1-166                  0.00%    failed      0.10%
+ 498  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_018396415.1_JAGTRE010000001.1_176/1-171             0.00%    passed      7.60%
+ 499  Arch_Thermoplasmatota_E2_GB_GCA_002838935.1_PGXE01000050.1_7/1-158                           0.68%    passed     94.18%
+ 500  Arch_Undinarchaeota_Undinarchaeia_GB_GCA_002502135.1_DAPM01000009.1_15/1-154                 2.03%    passed     65.55%
+ 501  Arch_Thermoplasmatota_E2_GB_GCA_011049295.1_DSCA01000064.1_4/1-161                           0.68%    passed     11.95%
+ 502  Arch_Asgardarchaeota_Lokiarchaeia_GB_GCA_001940655.1_MBAA01000044.1_21/1-175                10.81%    passed     46.92%
+ 503  Arch_Thermoproteota_QMWL01_GB_GCA_003661605.2_QMWL02000001.1_53/1-173                        0.00%    failed      0.01%
+ 504  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_011358415.1_DTNV01000001.1_16/1-155                   0.68%    failed      0.40%
+ 505  Arch_Asgardarchaeota_Heimdallarchaeia_GB_GCA_016840025.1_JAEOTF010000090.1_46/1-165         10.14%    passed     64.96%
+ 506  Arch_Asgardarchaeota_Lokiarchaeia_GB_GCA_019058315.1_JAHPZH010000003.1_642/1-158             0.68%    passed     38.15%
+ 507  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_011333845.1_DTJL01000011.1_69/1-160               0.00%    failed      2.80%
+ 508  Arch_Asgardarchaeota_Lokiarchaeia_GB_GCA_016839555.1_JAEOUA010000008.1_259/1-142            18.24%    passed     36.21%
+ 509  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_003554845.1_PWHK01000005.1_7/1-156            0.00%    passed     71.33%
+ 510  Arch_Asgardarchaeota_Lokiarchaeia_GB_GCA_014729935.1_WJJB01000087.1_2/1-157                 10.81%    passed     44.59%
+ 511  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_018396865.1_JAGTRB010000007.1_15/1-162              0.00%    failed      0.98%
+ 512  Arch_Asgardarchaeota_Lokiarchaeia_RS_GCF_008000775.1_NZ_CP042905.1_497/1-167                10.81%    passed     11.21%
+ 513  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_016214785.1_JACRNV010000010.1_4/1-155            1.35%    passed     43.34%
+ 514  Arch_Asgardarchaeota_Hermodarchaeia_GB_GCA_016839805.1_JAEOTO010000032.1_80/1-158            0.00%    passed     68.19%
+ 515  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_005878375.1_VBMQ01000059.1_6/1-145               8.11%    failed      2.98%
+ 516  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_903851445.1_CAINOH010000009.1_231/1-285               2.03%    passed     80.41%
+ 517  Arch_Asgardarchaeota_Thorarchaeia_GB_GCA_004524565.1_SDNZ01000083.1_6/1-159                 10.81%    passed     33.25%
+ 518  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_902384935.1_CABMDO010000022.1_44/1-152                2.03%    passed     81.77%
+ 519  Arch_Asgardarchaeota_Lokiarchaeia_GB_GCA_013375455.1_JABXJT010000051.1_19/1-245              0.68%    passed     81.30%
+ 520  Arch_Thermoproteota_Thermoproteia_GB_GCA_003649235.1_QMRG01000011.1_15/1-125                36.49%    passed     78.28%
+ 521  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_013215525.1_JABSQY010000052.1_2/1-159                 0.68%    passed     32.24%
+ 522  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_013791785.1_VMTD01000024.1_27/1-155              1.35%    passed     83.88%
+ 523  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_003649695.1_QMSR01000005.1_13/1-150              4.05%    failed      1.26%
+ 524  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_013425325.1_JACCLL010000045.1_18/1-194                1.35%    passed     97.74%
+ 525  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_016187415.1_JACPJT010000004.1_227/1-154       0.68%    passed     76.83%
+ 526  Arch_Thermoplasmatota_UBA186_GB_GCA_002494765.1_DACJ01000050.1_3/1-153                       1.35%    passed     98.39%
+ 527  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_903893865.1_CAITNU010000033.1_2/1-197                 0.00%    passed     97.71%
+ 528  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_018396865.1_JAGTRB010000009.1_84/1-170              1.35%    passed     75.78%
+ 529  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_013306035.1_JABUBF010000008.1_41/1-169            0.00%    passed      7.82%
+ 530  Arch_Asgardarchaeota_Heimdallarchaeia_GB_GCA_015520535.1_WAPZ01000598.1_5/1-231             13.51%    passed     16.68%
+ 531  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_017857235.1_JAFMDN010000041.1_11/1-155           1.35%    passed      8.36%
+ 532  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_013331935.1_DUFN01000017.1_10/1-195                   0.68%    passed     32.11%
+ 533  Arch_Asgardarchaeota_Heimdallarchaeia_GB_GCA_013166775.1_JABLTJ010000009.1_70/1-196         12.16%    passed      5.52%
+ 534  Arch_EX4484-52_EX4484-52_GB_GCA_013153555.1_JAADEF010000048.1_5/1-158                        6.08%    passed     71.60%
+ 535  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_014361085.1_JACIWG010000001.1_10/1-164            0.00%    passed     28.17%
+ 536  Arch_SpSt-1190_SpSt-1190_GB_GCA_018220935.1_JAAOXU010000022.1_10/1-133                      13.51%    passed     98.07%
+ 537  Arch_Thermoplasmatota_Poseidoniia_GB_GCA_018650285.1_JABIGF010000003.1_14/1-160              0.68%    passed     85.57%
+ 538  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_016194335.1_JACQBR010000001.1_8/1-227                 0.00%    passed     65.53%
+ 539  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_002011075.1_MTMA01000004.1_495/1-149              8.11%    failed      0.81%
+ 540  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_017608775.1_JAFCFF010000047.1_3/1-152                 2.03%    passed     26.36%
+ 541  Arch_Asgardarchaeota_Lokiarchaeia_GB_GCA_016839555.1_JAEOUA010000012.1_56/1-157             14.86%    failed      0.00%
+ 542  Arch_Asgardarchaeota_Heimdallarchaeia_GB_GCA_015520535.1_WAPZ01000701.1_3/1-172              0.00%    passed     26.50%
+ 543  Arch_Halobacteriota_Syntropharchaeia_GB_GCA_016207465.1_JACQPP010000097.1_1/1-160            1.35%    failed      0.05%
+ 544  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_016188965.1_JACPGT010000009.1_31/1-302                2.70%    passed     49.29%
+ 545  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_015521515.1_WANZ01000008.1_3/1-142                    6.08%    passed     33.86%
+ 546  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_002495315.1_DAEN01000026.1_32/1-162               0.00%    failed      0.11%
+ 547  Arch_Asgardarchaeota_Heimdallarchaeia_GB_GCA_001940645.1_MDVS01000144.1_20/1-179            12.84%    passed     32.80%
+ 548  Arch_Asgardarchaeota_Heimdallarchaeia_GB_GCA_016839955.1_JAEOTI010000034.1_3/1-199          15.54%    failed      0.03%
+ 549  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_009392915.1_CP045477.1_577/1-154                      4.73%    failed      0.00%
+ 550  Arch_Asgardarchaeota_Lokiarchaeia_GB_GCA_019058315.1_JAHPZH010000001.1_705/1-168             9.46%    failed      0.03%
+ 551  Arch_Asgardarchaeota_Lokiarchaeia_GB_GCA_016933055.1_JAFGBS010000004.1_187/1-160            16.22%    passed     25.84%
+ 552  Arch_Thermoproteota_EX4484-205_GB_GCA_017601265.1_JAFNJA010000112.1_2/1-106                 50.00%    passed     81.62%
+ 553  Arch_Hadarchaeota_Hadarchaeia_GB_GCA_011361855.1_DTES01000087.1_1/1-129                     17.57%    passed     15.42%
+ 554  Arch_Asgardarchaeota_Hermodarchaeia_GB_GCA_016839805.1_JAEOTO010000022.1_100/1-194          12.16%    failed      0.56%
+ 555  Arch_Asgardarchaeota_Baldrarchaeia_GB_GCA_016840465.1_JAEOSH010000043.1_2/1-145             16.22%    passed     62.05%
+ 556  Arch_Huberarchaeota_Huberarchaeia_GB_GCA_002789275.1_PFSX01000001.1_4/1-150                  3.38%    failed      0.06%
+ 557  Arch_Asgardarchaeota_Lokiarchaeia_RS_GCF_008000775.1_NZ_CP042905.1_3482/1-178                0.68%    failed      2.15%
+ 558  Arch_Thermoproteota_EX4484-205_GB_GCA_017601265.1_JAFNJA010000112.1_3/1-70                  63.51%    passed     19.82%
+ 559  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018302505.1_JAGVZL010000040.1_3/1-103                33.78%    passed     38.01%
+ 560  Arch_Asgardarchaeota_Heimdallarchaeia_GB_GCA_015520535.1_WAPZ01000354.1_2/1-150             18.24%    failed      0.21%
+ 561  Arch_Asgardarchaeota_Heimdallarchaeia_GB_GCA_016839515.1_JAEOUE010000278.1_6/1-170           0.00%    passed     52.73%
+ 562  Arch_Thermoplasmatota_Thermoplasmata_RS_GCF_900176435.1_NZ_FWYE01000001.1_13/1-153           3.38%    failed      1.85%
+ 563  Arch_Asgardarchaeota_Jordarchaeia_GB_GCA_011362025.1_DTEF01000006.1_37/1-151                15.54%    failed      0.01%
+ 564  Arch_B1Sed10-29_B1Sed10-29_GB_GCA_016177165.1_JACOVT010000080.1_6/1-73                      52.03%    passed     98.77%
+ 565  Arch_Asgardarchaeota_Heimdallarchaeia_GB_GCA_016839955.1_JAEOTI010000561.1_2/1-162           0.68%    passed     67.16%
+ 566  Arch_Asgardarchaeota_Heimdallarchaeia_GB_GCA_001940645.1_MDVS01000027.1_67/1-182            12.16%    failed      2.39%
+ 567  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_016184315.1_JACPCU010000009.1_123/1-120          24.32%    passed     15.97%
+ 568  Arch_Asgardarchaeota_Sifarchaeia_GB_GCA_016292335.1_JAECRX010000192.1_3/1-136               39.19%    passed     47.44%
+ 569  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_016212465.1_JACRGE010000038.1_40/1-97                37.16%    passed     15.42%
+ 570  Arch_Asgardarchaeota_Heimdallarchaeia_GB_GCA_016839955.1_JAEOTI010000728.1_7/1-148          19.59%    passed     51.41%
+ 571  Arch_Altiarchaeota_Altiarchaeia_GB_GCA_016935655.1_JAFGQM010000011.1_41/1-79                59.46%    passed     77.44%
+ 572  Arch_Thermoplasmatota_Poseidoniia_GB_GCA_002509165.1_DAZP01000005.1_2/1-101                 35.81%    passed      9.54%
+ 573  Arch_Asgardarchaeota_Baldrarchaeia_GB_GCA_016840465.1_JAEOSH010000004.1_103/1-69            59.46%    passed     92.23%
+ 574  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_016212465.1_JACRGE010000008.1_12/1-149               33.78%    passed     51.66%
+ 575  Arch_Asgardarchaeota_Heimdallarchaeia_GB_GCA_001940645.1_MDVS01000047.1_5/1-195              0.68%    passed     24.67%
+WARNING: 10 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                        5.42%  84 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: HOMSAP061573_Nse3/1-223 is identical to HOMSAP093747_Nse3/1-620 but kept for subsequent analysis
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: HOMSAP003285_Nse3/1-620 (identical to HOMSAP093747_Nse3/1-620) is ignored but added at the end
+Alignment was printed to euk5_homs6.Nse1_Nse3.ginsi_dash.cut.gappyout.drop.iqtree.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to euk5_homs6.Nse1_Nse3.ginsi_dash.cut.gappyout.drop.iqtree.uniqueseq.phy
+Creating fast initial parsimony tree by random order stepwise addition...
+2.170 seconds, parsimony score: 30822 (based on 148 sites)
+Generating 1000 samples for ultrafast bootstrap (seed: 948443)...
+Model LG+C60 is alias for LG+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}
+
+NOTE: 3577 MB RAM (3 GB) is required!
+Measuring multi-threading efficiency up to 4 CPU cores
+2 trees examined
+Threads: 1 / Time: 142.253 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -168305
+Threads: 2 / Time: 81.777 sec / Speedup: 1.740 / Efficiency: 87% / LogL: -168305
+Threads: 3 / Time: 56.609 sec / Speedup: 2.513 / Efficiency: 84% / LogL: -168305
+Threads: 4 / Time: 46.614 sec / Speedup: 3.052 / Efficiency: 76% / LogL: -168305
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -136205.781
+2. Current log-likelihood: -133838.089
+3. Current log-likelihood: -133678.341
+4. Current log-likelihood: -133668.105
+5. Current log-likelihood: -133660.560
+6. Current log-likelihood: -133644.600
+7. Current log-likelihood: -133638.908
+8. Current log-likelihood: -133638.592
+Optimal log-likelihood: -133638.540
+Mixture weights: 0.017 0.021 0.028 0.007 0.014 0.007 0.015 0.007 0.002 0.010 0.023 0.006 0.013 0.020 0.007 0.012 0.007 0.043 0.032 0.022 0.010 0.015 0.013 0.015 0.024 0.013 0.022 0.025 0.021 0.011 0.008 0.013 0.009 0.047 0.044 0.032 0.040 0.015 0.010 0.021 0.015 0.010 0.023 0.012 0.007 0.001 0.034 0.011 0.013 0.012 0.026 0.006 0.010 0.014 0.022 0.020 0.004 0.011 0.013 0.012
+Gamma shape alpha: 1.499
+Parameters optimization took 8 rounds (651.946 sec)
+Computing ML distances based on estimated model parameters... 153.117 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.487 seconds
+Log-likelihood of BIONJ tree: -132133.824
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 37.151 second
+Computing log-likelihood of 98 initial trees ... 1980.194 seconds
+Current best score: -132133.824
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -131482.216
+Iteration 10 / LogL: -131914.564 / Time: 3h:44m:56s
+Iteration 20 / LogL: -131914.271 / Time: 6h:27m:52s
+Finish initializing candidate tree set (20)
+Current best tree score: -131482.216 / CPU time: 21973.714
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -131429.913
+Iteration 30 / LogL: -131508.973 / Time: 8h:12m:33s (26h:19m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -131381.748
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -131375.496
+Iteration 40 / LogL: -131375.496 / Time: 9h:50m:10s (25h:13m:10s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 41: -131335.822
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 42: -131327.759
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 43: -131302.298
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 49: -131294.921
+Iteration 50 / LogL: -131297.848 / Time: 11h:34m:36s (23h:23m:18s left)
+Log-likelihood cutoff on original alignment: -131516.392
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 51: -131291.387
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 52: -131262.168
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 59: -131260.900
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 60: -131229.228
+Iteration 60 / LogL: -131229.228 / Time: 13h:14m:25s (22h:26m:25s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 61: -131219.007
+Iteration 70 / LogL: -131228.727 / Time: 14h:49m:10s (19h:32m:37s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 72: -131214.239
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 77: -131213.108
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 78: -131196.923
+Iteration 80 / LogL: -131221.598 / Time: 16h:18m:8s (20h:13m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 82: -131189.600
+Iteration 90 / LogL: -131226.414 / Time: 17h:37m:29s (18h:13m:6s left)
+Iteration 100 / LogL: -131208.889 / Time: 18h:50m:16s (15h:36m:9s left)
+Log-likelihood cutoff on original alignment: -131342.060
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.797
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 101: -131186.869
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 108: -131182.727
+Iteration 110 / LogL: -131188.524 / Time: 20h:5m:48s (18h:4m:4s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 112: -131181.500
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 114: -131171.297
+Iteration 120 / LogL: -131202.029 / Time: 21h:33m:51s (17h:2m:0s left)
+Iteration 130 / LogL: -131188.652 / Time: 22h:59m:32s (14h:58m:16s left)
+Iteration 140 / LogL: -131189.128 / Time: 24h:24m:17s (12h:59m:31s left)
+Iteration 150 / LogL: -131202.410 / Time: 25h:34m:3s (10h:58m:54s left)
+Log-likelihood cutoff on original alignment: -131287.086
+Iteration 160 / LogL: -131175.437 / Time: 27h:7m:5s (9h:12m:35s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 162: -131165.454
+Iteration 170 / LogL: -131167.688 / Time: 28h:38m:10s (15h:35m:19s left)
+Iteration 180 / LogL: -131182.084 / Time: 30h:14m:12s (13h:51m:4s left)
+Iteration 190 / LogL: -131169.939 / Time: 31h:41m:16s (12h:4m:16s left)
+Iteration 200 / LogL: -131189.151 / Time: 33h:0m:51s (10h:17m:8s left)
+Log-likelihood cutoff on original alignment: -131287.086
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.928
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 204: -131163.838
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 208: -131159.785
+Iteration 210 / LogL: -131199.365 / Time: 34h:32m:38s (16h:11m:50s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 213: -131156.961
+Iteration 220 / LogL: -131161.529 / Time: 35h:55m:40s (15h:15m:24s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 228: -131152.259
+Iteration 230 / LogL: -131159.758 / Time: 37h:28m:9s (16h:2m:4s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 233: -131144.175
+Iteration 240 / LogL: -131173.988 / Time: 38h:54m:59s (15h:8m:34s left)
+Iteration 250 / LogL: -131174.610 / Time: 40h:7m:46s (13h:22m:34s left)
+Log-likelihood cutoff on original alignment: -131287.086
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 257: -131141.887
+Iteration 260 / LogL: -131150.925 / Time: 41h:28m:54s (15h:32m:7s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 263: -131133.925
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 265: -131131.294
+Iteration 270 / LogL: -131156.239 / Time: 42h:59m:16s (15h:10m:52s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 271: -131129.423
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 275: -131126.427
+Iteration 280 / LogL: -131156.657 / Time: 44h:30m:23s (15h:9m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 288: -131120.006
+Iteration 290 / LogL: -131152.775 / Time: 45h:57m:1s (15h:34m:53s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 296: -131117.492
+Iteration 300 / LogL: -131123.004 / Time: 47h:22m:38s (15h:12m:40s left)
+Log-likelihood cutoff on original alignment: -131273.926
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.887
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 305: -131114.261
+Iteration 310 / LogL: -131144.973 / Time: 48h:55m:34s (15h:2m:30s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 313: -131108.271
+Iteration 320 / LogL: -131120.450 / Time: 50h:23m:35s (14h:41m:28s left)
+Iteration 330 / LogL: -131118.123 / Time: 51h:49m:27s (13h:4m:26s left)
+Iteration 340 / LogL: -131118.071 / Time: 53h:17m:39s (11h:28m:34s left)
+Iteration 350 / LogL: -131109.763 / Time: 54h:39m:51s (9h:52m:3s left)
+Log-likelihood cutoff on original alignment: -131267.930
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 352: -131100.087
+Iteration 360 / LogL: -131128.748 / Time: 56h:4m:56s (14h:22m:18s left)
+Iteration 370 / LogL: -131105.793 / Time: 57h:29m:55s (12h:46m:38s left)
+Iteration 380 / LogL: -131107.262 / Time: 58h:59m:10s (11h:12m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 384: -131099.311
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 388: -131096.649
+Iteration 390 / LogL: -131112.808 / Time: 60h:19m:28s (15h:11m:50s left)
+Iteration 400 / LogL: -131117.856 / Time: 61h:40m:45s (13h:36m:11s left)
+Log-likelihood cutoff on original alignment: -131267.930
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.874
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 404: -131095.533
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 405: -131094.765
+Iteration 410 / LogL: -131109.628 / Time: 62h:58m:52s (14h:37m:43s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 419: -131084.205
+Iteration 420 / LogL: -131130.069 / Time: 64h:20m:0s (15h:12m:1s left)
+Iteration 430 / LogL: -131116.341 / Time: 65h:45m:51s (13h:38m:35s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 435: -131078.233
+Iteration 440 / LogL: -131089.421 / Time: 67h:13m:53s (14h:32m:55s left)
+Iteration 450 / LogL: -131107.335 / Time: 68h:36m:2s (12h:59m:11s left)
+Log-likelihood cutoff on original alignment: -131267.930
+Iteration 460 / LogL: -131089.304 / Time: 69h:57m:36s (11h:25m:52s left)
+Iteration 470 / LogL: -131118.539 / Time: 71h:13m:33s (9h:52m:16s left)
+Iteration 480 / LogL: -131101.040 / Time: 72h:28m:37s (8h:19m:18s left)
+Iteration 490 / LogL: -131114.833 / Time: 73h:57m:23s (6h:48m:20s left)
+Iteration 500 / LogL: -131113.289 / Time: 75h:18m:47s (5h:16m:56s left)
+Log-likelihood cutoff on original alignment: -131267.930
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.895
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 510 / LogL: -131115.589 / Time: 76h:37m:9s (13h:32m:50s left)
+Iteration 520 / LogL: -131105.354 / Time: 77h:50m:37s (11h:59m:56s left)
+Iteration 530 / LogL: -131099.467 / Time: 79h:1m:53s (10h:27m:28s left)
+Iteration 540 / LogL: -131147.412 / Time: 80h:19m:50s (8h:56m:31s left)
+Iteration 550 / LogL: -131110.310 / Time: 81h:35m:6s (7h:25m:49s left)
+Log-likelihood cutoff on original alignment: -131267.930
+Iteration 560 / LogL: -131106.498 / Time: 83h:3m:46s (5h:56m:37s left)
+Iteration 570 / LogL: -131123.600 / Time: 84h:24m:45s (4h:27m:1s left)
+Iteration 580 / LogL: -131092.329 / Time: 85h:51m:58s (2h:57m:57s left)
+Iteration 590 / LogL: -131108.538 / Time: 87h:13m:34s (1h:28m:51s left)
+Iteration 600 / LogL: -131120.698 / Time: 88h:34m:0s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -131267.930
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.933
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 610 / LogL: -131091.833 / Time: 89h:57m:47s (13h:17m:41s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 611: -131075.833
+Iteration 620 / LogL: -131088.207 / Time: 91h:13m:6s (13h:24m:36s left)
+Iteration 630 / LogL: -131083.996 / Time: 92h:27m:26s (11h:54m:22s left)
+Iteration 640 / LogL: -131079.333 / Time: 93h:42m:53s (10h:24m:45s left)
+Iteration 650 / LogL: -131101.855 / Time: 95h:7m:59s (8h:56m:29s left)
+Log-likelihood cutoff on original alignment: -131267.930
+Iteration 660 / LogL: -131109.050 / Time: 96h:23m:29s (7h:27m:34s left)
+Iteration 670 / LogL: -131083.909 / Time: 97h:39m:49s (5h:59m:7s left)
+Iteration 680 / LogL: -131084.345 / Time: 99h:2m:55s (4h:31m:19s left)
+Iteration 690 / LogL: -131101.048 / Time: 100h:33m:14s (3h:3m:53s left)
+Iteration 700 / LogL: -131087.382 / Time: 101h:55m:2s (1h:36m:13s left)
+Log-likelihood cutoff on original alignment: -131267.930
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.950
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 710 / LogL: -131078.253 / Time: 103h:20m:25s (13h:7m:4s left)
+Iteration 720 / LogL: -131076.157 / Time: 104h:47m:27s (11h:39m:34s left)
+Iteration 730 / LogL: -131080.285 / Time: 106h:5m:17s (10h:11m:12s left)
+Iteration 740 / LogL: -131100.568 / Time: 107h:29m:57s (8h:43m:40s left)
+Iteration 750 / LogL: -131085.874 / Time: 108h:46m:16s (7h:15m:39s left)
+Log-likelihood cutoff on original alignment: -131267.930
+Iteration 760 / LogL: -131079.484 / Time: 110h:12m:54s (5h:48m:30s left)
+Iteration 770 / LogL: -131085.994 / Time: 111h:37m:11s (4h:21m:16s left)
+Iteration 780 / LogL: -131090.038 / Time: 112h:55m:20s (2h:53m:56s left)
+Iteration 790 / LogL: -131082.673 / Time: 114h:21m:17s (1h:26m:57s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 798: -131075.089
+Iteration 800 / LogL: -131090.781 / Time: 115h:46m:13s (14h:11m:58s left)
+Log-likelihood cutoff on original alignment: -131267.930
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.966
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 809: -131069.181
+Iteration 810 / LogL: -131086.832 / Time: 117h:11m:11s (14h:20m:25s left)
+Iteration 820 / LogL: -131076.225 / Time: 118h:22m:3s (12h:51m:46s left)
+Iteration 830 / LogL: -131096.821 / Time: 119h:26m:17s (11h:22m:54s left)
+Iteration 840 / LogL: -131089.955 / Time: 120h:34m:37s (9h:54m:58s left)
+Iteration 850 / LogL: -131089.131 / Time: 121h:39m:13s (8h:27m:14s left)
+Log-likelihood cutoff on original alignment: -131267.930
+Iteration 860 / LogL: -131092.220 / Time: 122h:44m:44s (7h:0m:6s left)
+Iteration 870 / LogL: -131085.473 / Time: 123h:47m:51s (5h:33m:21s left)
+Iteration 880 / LogL: -131070.357 / Time: 124h:48m:43s (4h:7m:4s left)
+Iteration 890 / LogL: -131091.111 / Time: 125h:52m:35s (2h:41m:24s left)
+Iteration 900 / LogL: -131099.535 / Time: 126h:54m:46s (1h:16m:13s left)
+Log-likelihood cutoff on original alignment: -131267.930
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.977
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 910 / LogL: -131073.048 / Time: 128h:1m:28s (12h:40m:32s left)
+Iteration 920 / LogL: -131081.849 / Time: 129h:6m:48s (11h:14m:21s left)
+Iteration 930 / LogL: -131081.843 / Time: 130h:11m:26s (9h:48m:35s left)
+Iteration 940 / LogL: -131094.081 / Time: 131h:19m:51s (8h:23m:30s left)
+Iteration 950 / LogL: -131120.475 / Time: 132h:27m:55s (6h:58m:45s left)
+Log-likelihood cutoff on original alignment: -131250.396
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 958: -131068.201
+Iteration 960 / LogL: -131078.654 / Time: 133h:31m:28s (13h:38m:41s left)
+Iteration 970 / LogL: -131095.531 / Time: 134h:37m:30s (12h:13m:33s left)
+Iteration 980 / LogL: -131079.538 / Time: 135h:44m:30s (10h:48m:53s left)
+Iteration 990 / LogL: -131085.134 / Time: 137h:6m:30s (9h:25m:37s left)
+Iteration 1000 / LogL: -131068.971 / Time: 138h:28m:10s (8h:2m:21s left)
+Log-likelihood cutoff on original alignment: -131250.396
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.980
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+TREE SEARCH COMPLETED AFTER 1001 ITERATIONS / Time: 138h:36m:7s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -131068.201
+Optimal log-likelihood: -131068.192
+Mixture weights: 0.017 0.021 0.028 0.007 0.014 0.007 0.015 0.007 0.002 0.010 0.023 0.006 0.013 0.020 0.007 0.012 0.007 0.043 0.032 0.022 0.010 0.015 0.013 0.015 0.024 0.013 0.022 0.025 0.021 0.011 0.008 0.013 0.009 0.047 0.044 0.032 0.040 0.015 0.010 0.021 0.015 0.010 0.023 0.012 0.007 0.001 0.034 0.011 0.013 0.012 0.026 0.006 0.010 0.014 0.022 0.020 0.004 0.011 0.013 0.012
+Gamma shape alpha: 1.447
+Parameters optimization took 1 rounds (51.492 sec)
+BEST SCORE FOUND : -131068.192
+Creating bootstrap support values...
+Split supports printed to NEXUS file euk5_homs6.Nse1_Nse3.ginsi_dash.cut.gappyout.drop.iqtree.splits.nex
+Total tree length: 481.708
+
+Total number of iterations: 1001
+CPU time used for tree search: 1795853.069 sec (498h:50m:53s)
+Wall-clock time used for tree search: 497667.730 sec (138h:14m:27s)
+Total CPU time used: 1799990.698 sec (499h:59m:50s)
+Total wall-clock time used: 499023.151 sec (138h:37m:3s)
+
+Computing bootstrap consensus tree...
+Reading input file euk5_homs6.Nse1_Nse3.ginsi_dash.cut.gappyout.drop.iqtree.splits.nex...
+574 taxa and 5341 splits.
+Consensus tree written to euk5_homs6.Nse1_Nse3.ginsi_dash.cut.gappyout.drop.iqtree.contree
+Reading input trees file euk5_homs6.Nse1_Nse3.ginsi_dash.cut.gappyout.drop.iqtree.contree
+Log-likelihood of consensus tree: -131071.116
+
+Analysis results written to: 
+  IQ-TREE report:                euk5_homs6.Nse1_Nse3.ginsi_dash.cut.gappyout.drop.iqtree.iqtree
+  Maximum-likelihood tree:       euk5_homs6.Nse1_Nse3.ginsi_dash.cut.gappyout.drop.iqtree.treefile
+  Likelihood distances:          euk5_homs6.Nse1_Nse3.ginsi_dash.cut.gappyout.drop.iqtree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          euk5_homs6.Nse1_Nse3.ginsi_dash.cut.gappyout.drop.iqtree.splits.nex
+  Consensus tree:                euk5_homs6.Nse1_Nse3.ginsi_dash.cut.gappyout.drop.iqtree.contree
+  Screen log file:               euk5_homs6.Nse1_Nse3.ginsi_dash.cut.gappyout.drop.iqtree.log
+
+Date and Time: Tue Mar 21 07:51:42 2023

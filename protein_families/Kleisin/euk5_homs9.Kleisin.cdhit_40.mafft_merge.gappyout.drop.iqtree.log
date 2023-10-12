@@ -1,0 +1,1299 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Dec 20 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    n77 (AVX2, FMA3, 251 GB RAM)
+Command: /shared/software/miniconda/envs/iqtree-2.0.3/bin/iqtree -s euk5_homs9.Kleisin.cdhit_40.mafft_merge.gappyout.drop.fa -B 1000 -T AUTO -m LG+C60 -pre euk5_homs9.Kleisin.cdhit_40.mafft_merge.gappyout.drop.iqtree
+Seed:    488184 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Aug  9 10:05:34 2023
+Kernel:  AVX+FMA - auto-detect threads (12 CPU cores detected)
+
+Reading alignment file euk5_homs9.Kleisin.cdhit_40.mafft_merge.gappyout.drop.fa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 930 sequences with 200 columns, 200 distinct patterns
+200 parsimony-informative, 0 singleton sites, 0 constant sites
+                                                                                       Gap/Ambiguity  Composition  p-value
+   1  ANAIGN007459_CAPH                                                                       53.50%    failed      0.01%
+   2  MONEXI011310_CAPH                                                                       21.50%    failed      1.93%
+   3  ANDGOD001315_CAPH                                                                       13.50%    failed      0.22%
+   4  PHAKIR006470_CAPH                                                                       50.00%    failed      0.03%
+   5  PHAKIR006263_CAPH                                                                       35.00%    failed      0.03%
+   6  NAEFOW008318_CAPH                                                                        9.00%    failed      0.09%
+   7  EUGLON015281_CAPH                                                                       11.00%    passed      7.25%
+   8  SPISPE008355_CAPH                                                                        9.50%    failed      0.25%
+   9  NUTLON008521_CAPH                                                                       60.50%    passed     31.48%
+  10  NUTLON007204_CAPH                                                                       34.50%    passed     21.58%
+  11  GEFOKE013832_CAPH                                                                       26.00%    passed     22.23%
+  12  GEFOKE001031_CAPH                                                                       10.00%    failed      4.86%
+  13  DIPROT034944_CAPH                                                                       12.50%    passed     10.88%
+  14  MANSPH005521_CAPH                                                                        9.00%    failed      1.40%
+  15  VERVER014506_CAPH                                                                       10.00%    failed      2.97%
+  16  VERVER009047_CAPH                                                                       51.50%    failed      1.25%
+  17  ACACAS006525_CAPH                                                                       10.00%    failed      0.10%
+  18  PHYPOL014935_CAPH                                                                       58.00%    passed     23.57%
+  19  PHYPOL003906_CAPH                                                                       46.00%    passed      8.73%
+  20  PYGBIF004714_CAPH                                                                       10.00%    failed      0.00%
+  21  THETRA008854_CAPH                                                                        9.00%    failed      0.91%
+  22  ROZALL001523_CAPH                                                                        9.50%    failed      0.00%
+  23  SPIPUN009105_CAPH                                                                        8.50%    failed      0.00%
+  24  CAPOWC000272_CAPH                                                                        9.00%    failed      0.26%
+  25  SALKVE017862_CAPH                                                                        9.00%    failed      1.56%
+  26  HOMSAP052218_CAPH                                                                       10.00%    failed      3.67%
+  27  GONPAC036514_CAPH                                                                       39.00%    passed     42.75%
+  28  BAFFRI037173_CAPH                                                                       39.50%    failed      2.12%
+  29  BAFFRI012872_CAPH                                                                       39.00%    failed      0.89%
+  30  DIALUT007371_CAPH                                                                        8.50%    failed      0.08%
+  31  RHOMAR012456_CAPH                                                                       18.00%    failed      0.43%
+  32  GALSUL003838_CAPH                                                                        8.50%    failed      0.01%
+  33  GRACHO010760_CAPH                                                                        8.50%    passed      8.98%
+  34  CYAPAR013020_CAPH                                                                        8.50%    failed      0.01%
+  35  CYAPAR013408_CAPH                                                                        9.50%    failed      0.21%
+  36  GLOWIT020961_CAPH                                                                       11.50%    failed      0.00%
+  37  GLOWIT021617_CAPH                                                                        8.00%    failed      0.00%
+  38  KLENIT002368_CAPH                                                                       10.50%    failed      0.40%
+  39  PHYPAT024167_CAPH                                                                       10.00%    failed      0.70%
+  40  ARATHA027201_CAPH                                                                        9.00%    failed      0.00%
+  41  MICSPE008291_CAPH                                                                       10.50%    failed      0.20%
+  42  CHLREI015307_CAPH                                                                       10.50%    failed      0.70%
+  43  TELSUB040118_CAPH                                                                       37.50%    failed      0.29%
+  44  PLABRA008434_CAPH                                                                        8.50%    failed      0.03%
+  45  BIGNAT018768_CAPH                                                                       61.00%    failed      0.05%
+  46  HONFER001694_CAPH                                                                       11.00%    failed      1.64%
+  47  PHYINF011368_CAPH                                                                       15.00%    failed      0.05%
+  48  COLSPE018384_CAPH                                                                       32.00%    passed      6.95%
+  49  COLSPE008083_CAPH                                                                        9.50%    failed      0.06%
+  50  TOXGON007637_CAPH                                                                        8.00%    failed      0.57%
+  51  ANAIGN011011_CAPH2                                                                      53.50%    passed     18.65%
+  52  ANAIGN011012_CAPH2                                                                      48.50%    failed      4.36%
+  53  MONEXI003923_CAPH2                                                                      26.00%    failed      1.80%
+  54  ANDGOD003141_CAPH2                                                                      17.50%    passed     86.52%
+  55  EUGLON029629_CAPH2                                                                      13.00%    passed     19.48%
+  56  NUTLON000017_CAPH2                                                                      53.00%    passed     69.39%
+  57  NUTLON009910_CAPH2                                                                      54.50%    failed      0.81%
+  58  NUTLON008997_CAPH2                                                                      38.50%    passed     72.81%
+  59  GEFOKE007234_CAPH2                                                                      12.50%    passed     11.14%
+  60  DIPROT035654_CAPH2                                                                      15.00%    passed     45.80%
+  61  MANSPH000135_CAPH2                                                                      12.00%    failed      3.45%
+  62  VERVER003677_CAPH2                                                                      13.50%    failed      0.61%
+  63  ACACAS011682_CAPH2                                                                      11.00%    passed     39.24%
+  64  PHYPOL004591_CAPH2                                                                      12.50%    passed     79.73%
+  65  LENLIM012018_CAPH2                                                                      67.00%    failed      4.97%
+  66  PYGBIF004295_CAPH2                                                                      11.50%    passed      9.04%
+  67  THETRA002881_CAPH2                                                                      11.50%    passed      6.95%
+  68  CAPOWC002118_CAPH2                                                                      11.00%    passed     26.50%
+  69  SALKVE020559_CAPH2                                                                      12.00%    passed     25.62%
+  70  NEMVEC010624_CAPH2                                                                      36.00%    passed     27.82%
+  71  HOMSAP009860_CAPH2                                                                      12.00%    failed      0.50%
+  72  GONPAC024511_CAPH2                                                                      56.00%    passed     53.51%
+  73  BAFFRI015302_CAPH2                                                                      64.50%    passed     89.38%
+  74  BAFFRI059126_CAPH2                                                                      42.50%    passed     10.25%
+  75  DIALUT010238_CAPH2                                                                      12.00%    failed      1.47%
+  76  CHOSPE000461_CAPH2                                                                      28.00%    passed      9.99%
+  77  RHOMAR009581_CAPH2                                                                      12.50%    passed     10.32%
+  78  GRACHO005473_CAPH2                                                                      14.00%    passed     44.88%
+  79  CYAPAR002722_CAPH2                                                                      11.50%    failed      0.01%
+  80  KLENIT008553_CAPH2                                                                      13.00%    passed     30.83%
+  81  ARATHA029265_CAPH2                                                                      14.00%    passed     40.62%
+  82  CHLREI010502_CAPH2                                                                      10.50%    failed      1.74%
+  83  BIGNAT009806_CAPH2                                                                      14.50%    passed     20.99%
+  84  HALSEO013316_CAPH2                                                                      11.00%    passed      6.92%
+  85  HONFER007602_CAPH2                                                                      11.50%    failed      3.52%
+  86  PHYINF010966_CAPH2                                                                      14.00%    passed     89.39%
+  87  COLSPE013710_CAPH2                                                                      28.00%    passed     77.27%
+  88  VITBRA016935_CAPH2                                                                      13.00%    passed      6.60%
+  89  TOXGON003526_CAPH2                                                                      12.00%    failed      0.98%
+  90  ANAIGN005261_Rec8                                                                       24.50%    failed      4.80%
+  91  MONEXI002784_Rec8                                                                        8.50%    passed     32.27%
+  92  MONEXI005964_Rec8                                                                        7.50%    failed      3.00%
+  93  MONEXI006876_Rec8                                                                        7.50%    passed     14.90%
+  94  ANDGOD004330_Scc1                                                                        9.50%    passed     14.28%
+  95  ANDGOD001128_Rec8                                                                       11.00%    passed     18.37%
+  96  PHAKIR000103_Scc1                                                                        9.50%    passed     42.89%
+  97  NAEFOW013552_Scc1                                                                        7.00%    failed      0.25%
+  98  NAEFOW006004_Rec8                                                                       18.00%    passed     70.68%
+  99  EUGLON048421_Scc1                                                                       10.00%    failed      0.06%
+ 100  HEMKUK018763_Rec8                                                                       63.00%    passed     22.41%
+ 101  HEMKUK012904_Scc1                                                                       10.50%    passed     13.65%
+ 102  SPISPE006042_Scc1                                                                       10.00%    passed     27.99%
+ 103  NUTLON014959_Rec8                                                                       11.50%    passed     28.42%
+ 104  GEFOKE015985_Rec8                                                                       21.50%    passed     50.26%
+ 105  GEFOKE006931_Scc1                                                                       11.50%    failed      0.88%
+ 106  DIPROT014403_Scc1                                                                        6.50%    passed     48.75%
+ 107  MANSPH001363_Scc1                                                                       12.50%    failed      3.18%
+ 108  MANSPH008547_Rec8                                                                       14.50%    failed      0.97%
+ 109  VERVER009284_Scc1                                                                        9.50%    passed     57.52%
+ 110  ACACAS003976_Scc1                                                                       10.00%    passed     46.04%
+ 111  LENLIM009210_Scc1                                                                       37.00%    passed     79.83%
+ 112  LENLIM003011_Scc1                                                                       41.00%    failed      2.31%
+ 113  LENLIM004672_Rec8                                                                        7.00%    passed     53.81%
+ 114  PYGBIF006239_Scc1                                                                       36.50%    passed     10.17%
+ 115  PYGBIF002811_Rec8                                                                       52.00%    passed     39.41%
+ 116  THETRA005287_Scc1                                                                        8.50%    passed      6.37%
+ 117  THETRA003336_Rec8                                                                       24.50%    failed      0.00%
+ 118  SPIPUN007410_Scc1                                                                        6.00%    passed     83.72%
+ 119  RHIIRR017216_Scc1                                                                       32.00%    passed     48.90%
+ 120  RHIIRR024891_Rec8                                                                       39.50%    failed      0.16%
+ 121  CAPOWC004912_Scc1                                                                        6.00%    passed     95.70%
+ 122  CAPOWC002388_Rec8                                                                       20.50%    failed      3.40%
+ 123  SALKVE012678_Scc1                                                                        8.50%    passed     26.53%
+ 124  NEMVEC020355_Scc1                                                                        7.50%    failed      3.65%
+ 125  HOMSAP070589_Scc1                                                                       10.50%    passed      6.04%
+ 126  HOMSAP080567_Rec8                                                                       19.00%    failed      0.83%
+ 127  HOMSAP049579_Scc1                                                                        7.50%    passed     72.09%
+ 128  GONPAC036684_Rec8                                                                       10.50%    failed      1.81%
+ 129  GONPAC023017_Scc1                                                                       18.50%    passed     40.32%
+ 130  BAFFRI056089_Scc1                                                                       26.50%    passed     42.08%
+ 131  DIALUT004052_Scc1                                                                        9.00%    failed      4.90%
+ 132  DIALUT005933_Rec8                                                                        7.50%    failed      0.00%
+ 133  RHOMAR002267_Rec8                                                                       56.00%    failed      4.31%
+ 134  RHOMAR002264_Scc1                                                                       33.50%    passed     78.24%
+ 135  RHOMAR005486_Scc1                                                                       13.50%    passed      7.14%
+ 136  GALSUL000191_Scc1                                                                       12.00%    failed      1.83%
+ 137  GALSUL000063_Rec8                                                                       12.50%    passed     19.62%
+ 138  GRACHO006821_Scc1                                                                        8.00%    passed     44.93%
+ 139  GRACHO004041_Rec8                                                                        8.00%    passed     21.99%
+ 140  CYAPAR017353_Scc1                                                                        6.00%    passed     31.88%
+ 141  CYAPAR017600_Rec8                                                                       28.50%    failed      0.02%
+ 142  GLOWIT007123_Scc1                                                                        5.50%    passed     58.07%
+ 143  KLENIT002888_Rec8                                                                       25.00%    passed     54.21%
+ 144  KLENIT009267_Scc1                                                                        6.00%    passed     13.21%
+ 145  PHYPAT014426_Rec8                                                                        7.50%    passed     19.21%
+ 146  PHYPAT021894_Scc1                                                                        6.00%    passed     15.27%
+ 147  ARATHA043867_Scc1                                                                        8.00%    passed     36.48%
+ 148  ARATHA031591_Scc1                                                                        5.00%    passed     40.37%
+ 149  ARATHA046319_Rec8                                                                       10.50%    passed     84.33%
+ 150  ARATHA032224_Scc1                                                                       18.00%    failed      1.94%
+ 151  ARATHA035685_Scc1                                                                        5.50%    passed     90.19%
+ 152  MICSPE007359_Scc1                                                                       35.00%    passed      5.68%
+ 153  CHLREI010183_Scc1                                                                        5.50%    failed      0.00%
+ 154  CHLREI012624_Scc1                                                                        5.50%    failed      0.04%
+ 155  CHLREI010008_Scc1                                                                        4.50%    failed      0.00%
+ 156  CHLREI013763_Rec8                                                                        9.00%    passed     10.26%
+ 157  TELSUB000939_Scc1                                                                       40.00%    failed      4.11%
+ 158  PLABRA007569_Scc1                                                                        8.00%    failed      0.58%
+ 159  PLABRA007672_Rec8                                                                        7.00%    failed      0.24%
+ 160  BIGNAT006811_Rec8                                                                       22.00%    passed     87.32%
+ 161  BIGNAT007867_Scc1                                                                       10.50%    passed     26.08%
+ 162  HALSEO010567_Scc1                                                                        8.00%    passed     52.49%
+ 163  HONFER000480_Scc1                                                                        9.50%    passed     48.67%
+ 164  PHYINF013523_Scc1                                                                       10.50%    passed     11.13%
+ 165  COLSPE017274_Scc1                                                                       21.50%    failed      3.20%
+ 166  COLSPE004357_Scc1                                                                        5.50%    passed     44.01%
+ 167  VITBRA006349_Scc1                                                                       10.50%    passed     38.53%
+ 168  VITBRA013917_Rec8                                                                        7.50%    failed      0.09%
+ 169  TOXGON005551_Rec8                                                                       26.50%    failed      0.07%
+ 170  TOXGON004554_Rec8                                                                        6.00%    failed      0.00%
+ 171  ANAIGN004629_Nse4                                                                       60.50%    failed      0.01%
+ 172  ANAIGN004643_Nse4                                                                       53.00%    failed      0.00%
+ 173  MONEXI011222_Nse4                                                                       23.50%    failed      0.11%
+ 174  ANDGOD004141_Nse4                                                                       18.50%    passed     22.60%
+ 175  PHAKIR014492_Nse4                                                                       49.00%    passed      6.60%
+ 176  PHAKIR010300_Nse4                                                                       57.50%    failed      0.00%
+ 177  NAEFOW003151_Nse4                                                                       17.00%    passed     11.40%
+ 178  EUGLON004105_Nse4                                                                       15.50%    passed      5.24%
+ 179  NUTLON021067_Nse4                                                                       56.50%    passed     51.05%
+ 180  DIPROT000800_Nse4                                                                       16.50%    passed      5.63%
+ 181  MANSPH006291_Nse4                                                                       17.50%    passed     25.74%
+ 182  VERVER013010_Nse4                                                                       15.50%    passed     18.79%
+ 183  ACACAS014708_Nse4                                                                       14.50%    passed     78.12%
+ 184  PHYPOL006727_Nse4                                                                       15.50%    passed      9.03%
+ 185  LENLIM015306_Nse4                                                                       30.00%    failed      0.01%
+ 186  PYGBIF003771_Nse4                                                                       16.00%    failed      0.51%
+ 187  THETRA005478_Nse4                                                                       18.50%    passed      8.74%
+ 188  ROZALL003382_Nse4                                                                       28.00%    passed     35.13%
+ 189  SPIPUN001631_Nse4                                                                       15.50%    passed     22.49%
+ 190  CAPOWC002521_Nse4                                                                       14.00%    failed      0.01%
+ 191  SALKVE011435_Nse4                                                                       16.00%    passed     36.09%
+ 192  NEMVEC020210_Nse4                                                                       16.00%    failed      3.92%
+ 193  HOMSAP053314_Nse4                                                                       15.50%    passed     42.13%
+ 194  BAFFRI008111_Nse4                                                                       17.00%    failed      0.34%
+ 195  DIALUT002482_Nse4                                                                       17.00%    failed      0.94%
+ 196  CHOSPE040815_Nse4                                                                       53.50%    passed      8.10%
+ 197  CHOSPE037896_Nse4                                                                       16.50%    failed      0.17%
+ 198  RHOMAR011614_Nse4                                                                       15.50%    failed      3.32%
+ 199  GALSUL003245_Nse4                                                                       16.50%    passed     35.27%
+ 200  GRACHO006935_Nse4                                                                       15.50%    failed      0.18%
+ 201  CYAPAR010597_Nse4                                                                       16.00%    failed      2.39%
+ 202  GLOWIT014255_Nse4                                                                       16.00%    failed      0.25%
+ 203  KLENIT003825_Nse4                                                                       15.00%    failed      2.33%
+ 204  ARATHA023708_Nse4                                                                       16.50%    failed      2.89%
+ 205  MICSPE008260_Nse4                                                                       14.00%    failed      2.42%
+ 206  MICSPE001643_Nse4                                                                       15.50%    failed      4.30%
+ 207  CHLREI004909_Nse4                                                                       15.50%    failed      4.87%
+ 208  CHLREI014138_Nse4                                                                       14.00%    failed      0.00%
+ 209  PLABRA006726_Nse4                                                                       15.50%    passed     22.73%
+ 210  BIGNAT018506_Nse4                                                                       17.00%    passed      8.24%
+ 211  HALSEO000054_Nse4                                                                       19.00%    failed      1.21%
+ 212  HONFER000459_Nse4                                                                       16.50%    failed      0.17%
+ 213  PHYINF002450_Nse4                                                                       16.00%    failed      0.29%
+ 214  COLSPE009317_Nse4                                                                       16.00%    passed     23.48%
+ 215  VITBRA020048_Nse4                                                                       17.00%    failed      4.00%
+ 216  TOXGON007655_Nse4                                                                       17.50%    failed      0.00%
+ 217  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_018396395.1_JAGTQN010000007.1_17               13.50%    passed     90.83%
+ 218  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_002495315.1_DAEN01000007.1_5                 13.50%    passed     66.79%
+ 219  Arch_Thermoproteota_Korarchaeia_GB_GCA_003661365.1_QMVZ01000010.1_11                    13.50%    passed     17.02%
+ 220  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_001768965.1_MEMY01000009.1_6                   14.00%    failed      0.42%
+ 221  Arch_Thermoproteota_Methanomethylicia_GB_GCA_003649185.1_QMRB01000007.1_9               14.00%    failed      0.72%
+ 222  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_018396865.1_JAGTRB010000009.1_30               14.00%    passed     11.40%
+ 223  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_018396775.1_JAGTRF010000005.1_40               14.50%    failed      0.12%
+ 224  Arch_Thermoplasmatota_UBA186_GB_GCA_011620765.1_WOYO01000046.1_16                       15.50%    passed     18.92%
+ 225  Arch_Thermoproteota_Thermoproteia_GB_GCA_003650815.1_QMSB01000069.1_8                   14.00%    passed     19.11%
+ 226  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_011367275.1_DSZA01000086.1_31                  13.50%    failed      4.28%
+ 227  Arch_Thermoproteota_EX4484-205_GB_GCA_002255045.1_NJEE01000025.1_10                     16.00%    passed     36.25%
+ 228  Arch_Thermoproteota_Nitrososphaeria_A_GB_GCA_011364235.1_DTBN01000001.1_43              14.50%    passed     73.93%
+ 229  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_005888755.1_VBBQ01000018.1_7                   35.00%    passed     83.35%
+ 230  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_018396725.1_JAGTRC010000001.1_658              15.00%    passed     22.74%
+ 231  Arch_Thermoproteota_EX4484-205_GB_GCA_011371845.1_DRUP01000044.1_14                     15.00%    passed     75.96%
+ 232  Arch_Thermoproteota_Korarchaeia_GB_GCA_003661385.1_QMWA01000025.1_2                     17.00%    passed     65.42%
+ 233  Arch_Thermoproteota_EX4484-205_GB_GCA_017601245.1_JAFNJB010000055.1_57                  16.00%    passed     10.64%
+ 234  Arch_Thermoproteota_Thermoproteia_GB_GCA_017857595.1_JAFMCU010000003.1_119              17.00%    failed      0.00%
+ 235  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_011331255.1_DSSJ01000006.1_14               16.00%    failed      0.00%
+ 236  Arch_Thermoproteota_Thermoproteia_GB_GCA_003649235.1_QMRG01000011.1_14                  18.50%    passed     15.83%
+ 237  Arch_Asgardarchaeota_Heimdallarchaeia_GB_GCA_016839955.1_JAEOTI010000728.1_8            15.50%    passed      7.03%
+ 238  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_002011075.1_MTMA01000001.1_408               15.00%    failed      2.59%
+ 239  Arch_Thermoproteota_Nitrososphaeria_A_GB_GCA_002898395.1_BEHE01000017.1_3               16.50%    failed      0.09%
+ 240  Arch_Thermoproteota_EX4484-205_GB_GCA_017601145.1_JAFNIV010000003.1_13                  15.50%    failed      0.02%
+ 241  Arch_B1Sed10-29_B1Sed10-29_GB_GCA_015522845.1_WALL01000030.1_4                           6.00%    passed     52.97%
+ 242  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_011333845.1_DTJL01000006.1_57                15.50%    failed      1.16%
+ 243  Arch_Thermoproteota_Thermoproteia_GB_GCA_002507085.1_DAYW01000035.1_4                   16.50%    failed      0.06%
+ 244  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_009903795.1_WYER01000033.1_75                15.00%    passed     21.89%
+ 245  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_014361085.1_JACIWG010000093.1_1              59.50%    passed     18.98%
+ 246  Arch_Thermoproteota_Korarchaeia_GB_GCA_015522685.1_WALU01000053.1_5                     25.50%    failed      2.75%
+ 247  Arch_Thermoproteota_Nitrososphaeria_RS_GCF_013340765.1_NZ_AP018732.1_1251               15.50%    failed      0.05%
+ 248  Arch_Hadarchaeota_B88-G9_GB_GCA_003660555.1_QMUK01000080.1_7                            12.50%    failed      1.39%
+ 249  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_011362975.1_DTGI01000006.1_52                     5.50%    passed     13.40%
+ 250  Arch_Asgardarchaeota_Jordarchaeia_GB_GCA_019056875.1_DXJA01000034.1_2                   17.50%    passed      6.08%
+ 251  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_017609985.1_JAFCCW010000012.1_15                  4.00%    passed     52.86%
+ 252  Arch_B1Sed10-29_B1Sed10-29_GB_GCA_016177165.1_JACOVT010000035.1_1                        6.00%    passed     13.54%
+ 253  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_902384795.1_CABMDC010000001.1_72                  4.00%    passed     27.50%
+ 254  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_002068885.1_MWBC01000046.1_8                      5.00%    failed      2.40%
+ 255  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_017609445.1_JAFCDY010000003.1_19          5.50%    passed     23.13%
+ 256  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_002011035.1_MTLY01000001.1_35                   9.00%    passed     13.80%
+ 257  Arch_Halobacteriota_Methanonatronarchaeia_GB_GCA_004212035.1_RYFX01000073.1_3            8.00%    failed      4.86%
+ 258  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_001871475.1_MNVE01000003.1_2                      5.50%    passed     21.59%
+ 259  Arch_Hadarchaeota_Hadarchaeia_GB_GCA_011367225.1_DSZE01000017.1_75                       9.00%    passed     40.61%
+ 260  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_017608775.1_JAFCFF010000047.1_4                   6.50%    failed      0.70%
+ 261  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_013331935.1_DUFN01000017.1_11                     2.50%    failed      4.76%
+ 262  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018303405.1_JAGVYD010000011.1_4                   4.50%    passed     33.85%
+ 263  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_013331945.1_DUFK01000030.1_9                      5.00%    passed     79.70%
+ 264  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_002762705.1_PCVE01000127.1_1                      5.00%    failed      2.87%
+ 265  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_017608025.1_JAFCGM010000004.1_72                  1.50%    failed      0.10%
+ 266  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_002763265.1_PEZQ01000007.1_145                    9.00%    passed     43.63%
+ 267  Arch_Hydrothermarchaeota_Hydrothermarchaeia_GB_GCA_015520145.1_WAQR01000224.1_4          8.00%    passed     94.75%
+ 268  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_002779595.1_PEWF01000030.1_1                      3.50%    failed      3.43%
+ 269  Arch_Undinarchaeota_Undinarchaeia_GB_GCA_014189685.1_DVAB01000023.1_48                   8.50%    passed     13.51%
+ 270  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_016202815.1_JACQNZ010000006.1_24          7.50%    passed     22.26%
+ 271  Arch_EX4484-52_EX4484-52_GB_GCA_015520605.1_WAPT01000022.1_39                            6.50%    passed     19.89%
+ 272  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_016432325.1_CP066684.1_1022               6.50%    failed      1.61%
+ 273  Arch_Methanobacteriota_B_Thermococci_GB_GCA_004212155.1_RXIG01000028.1_9                 7.00%    passed      6.48%
+ 274  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_016866895.1_VGKX01000002.1_17                     5.50%    passed     94.14%
+ 275  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_017609105.1_JAFCEQ010000002.1_10                  4.50%    failed      0.00%
+ 276  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_016202865.1_JACQNV010000018.1_8           5.50%    passed     11.55%
+ 277  Arch_Halobacteriota_Methanosarcinia_RS_GCF_000970285.1_NZ_CP009516.1_379                10.00%    passed     59.55%
+ 278  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_002688965.1_NZEE01000045.1_17             7.00%    passed     40.17%
+ 279  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_016194335.1_JACQBR010000018.1_31                  5.50%    passed     12.76%
+ 280  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_018829845.1_JAHJTO010000032.1_5                   6.50%    failed      2.80%
+ 281  Arch_B1Sed10-29_B1Sed10-29_GB_GCA_003553825.1_PWFL01000024.1_4                           5.50%    failed      0.07%
+ 282  Arch_EX4484-52_EX4484-52_GB_GCA_013153555.1_JAADEF010000045.1_5                          6.00%    failed      0.56%
+ 283  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_903893865.1_CAITNU010000102.1_10                  5.50%    passed      6.60%
+ 284  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_016187415.1_JACPJT010000004.1_222         4.50%    passed     13.10%
+ 285  Arch_EX4484-52_EX4484-52_GB_GCA_013138805.1_WTCA01000003.1_7                             9.00%    passed     63.49%
+ 286  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_001871535.1_MNVF01000083.1_13                     6.00%    failed      4.14%
+ 287  Arch_EX4484-52_EX4484-52_GB_GCA_018897155.1_JAHILE010000025.1_46                         7.50%    passed     65.56%
+ 288  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_018813505.1_JAHJBM010000073.1_20                  4.50%    passed     56.07%
+ 289  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_903832205.1_CAILAH010000065.1_13                  4.50%    passed     11.13%
+ 290  Arch_Micrarchaeota_Micrarchaeia_GB_GCA_015522865.1_WALN01000011.1_2                      6.00%    failed      1.49%
+ 291  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_016214785.1_JACRNV010000010.1_3              5.00%    passed     54.70%
+ 292  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_902385625.1_CABMGE010000026.1_22                  5.00%    failed      3.99%
+ 293  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_011363025.1_DTFW01000084.1_2                 4.50%    passed     26.44%
+ 294  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_016926295.1_JAFGOX010000042.1_20                  2.00%    passed      5.55%
+ 295  Arch_Thermoplasmatota_Thermoplasmata_RS_GCF_000327505.1_NC_019942.1_1164                 6.50%    failed      0.89%
+ 296  Arch_Halobacteriota_Methanonatronarchaeia_GB_GCA_018263395.1_JAANXF010000001.1_14        9.50%    failed      0.07%
+ 297  Arch_Thermoplasmatota_SW-10-69-26_GB_GCA_016207515.1_JACQPN010000002.1_235               3.00%    failed      3.11%
+ 298  Arch_Hadarchaeota_Hadarchaeia_GB_GCA_004347925.1_QNVD01000245.1_5                        9.00%    failed      0.00%
+ 299  Arch_Asgardarchaeota_Odinarchaeia_GB_GCA_001940665.1_MDVT01000007.1_994                  7.00%    passed     25.78%
+ 300  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_011333475.1_DTKX01000292.1_3                 3.50%    passed     26.02%
+ 301  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_004376645.1_SOJC01000109.1_3                    9.50%    failed      0.64%
+ 302  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_002011395.1_MTNG01000030.1_7                 3.50%    failed      1.07%
+ 303  Arch_Halobacteriota_Halobacteria_RS_GCF_011734195.1_NZ_JAANTH010000001.1_732             6.00%    failed      0.02%
+ 304  Arch_Thermoproteota_EX4484-205_GB_GCA_017601265.1_JAFNJA010000112.1_5                    8.50%    failed      5.00%
+ 305  Arch_Thermoplasmatota_E2_GB_GCA_014361195.1_JACIWA010000002.1_150                        7.00%    failed      0.95%
+ 306  Arch_Micrarchaeota_Micrarchaeia_RS_GCF_002214165.1_NZ_CP019964.1_331                     6.00%    passed     30.63%
+ 307  Arch_Asgardarchaeota_Hermodarchaeia_GB_GCA_016839805.1_JAEOTO010000032.1_81              8.00%    passed      7.69%
+ 308  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_011355145.1_DTMW01000038.1_2                 4.50%    passed     36.33%
+ 309  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_015521515.1_WANZ01000008.1_2                      8.00%    failed      0.04%
+ 310  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_011334735.1_DTHM01000042.1_3                 3.50%    passed     50.22%
+ 311  Arch_Asgardarchaeota_Jordarchaeia_GB_GCA_019056875.1_DXJA01000395.1_4                    9.50%    failed      1.27%
+ 312  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_015522885.1_WALJ01000119.1_4                 4.00%    failed      0.02%
+ 313  Arch_Aenigmatarchaeota_Aenigmatarchaeia_GB_GCA_018920305.1_JAHLMO010000002.1_48          8.00%    failed      0.00%
+ 314  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_002502045.1_DAPE01000019.1_61                    10.50%    passed     24.66%
+ 315  Arch_Nanohaloarchaeota_Nanosalinia_GB_GCA_017610385.1_JAFCCC010000001.1_66               5.50%    failed      1.03%
+ 316  Arch_Altiarchaeota_Altiarchaeia_GB_GCA_018897475.1_JAHIKS010000023.1_6                   5.00%    passed     26.59%
+ 317  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_013791785.1_VMTD01000024.1_28                3.50%    passed     62.54%
+ 318  Arch_Halobacteriota_Syntropharchaeia_GB_GCA_016207465.1_JACQPP010000108.1_6              7.50%    passed     45.02%
+ 319  Arch_Halobacteriota_Methanomicrobia_RS_GCF_000327485.1_NC_019943.1_525                   3.50%    failed      3.03%
+ 320  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_016874675.1_VGTL01000042.1_2                 3.50%    passed     18.44%
+ 321  Arch_Nanoarchaeota_Nanoarchaeia_GB_GCA_013215525.1_JABSQY010000023.1_16                  4.00%    failed      2.63%
+ 322  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_009758405.1_WSBC01000032.1_86                5.50%    passed     14.44%
+ 323  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_018396395.1_JAGTQN010000038.1_2                 7.50%    failed      0.02%
+ 324  Arch_Halobacteriota_Archaeoglobi_RS_GCF_000025505.1_NC_013849.1_1539                    11.00%    failed      0.08%
+ 325  Arch_Halobacteriota_Syntropharchaeia_GB_GCA_003661185.1_QMVQ01000087.1_5                19.00%    failed      1.33%
+ 326  Arch_Thermoplasmatota_EX4484-6_GB_GCA_002254765.1_NJDV01000012.1_3                       4.00%    passed     26.12%
+ 327  Arch_Asgardarchaeota_Thorarchaeia_GB_GCA_004524565.1_SDNZ01000007.1_22                   8.50%    passed      5.00%
+ 328  Arch_Altiarchaeota_Altiarchaeia_GB_GCA_001873845.1_MNZY01000165.1_2                      8.00%    failed      0.01%
+ 329  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_003554965.1_PWHR01000037.1_124               2.00%    failed      0.25%
+ 330  Arch_Thermoplasmatota_EX4484-6_GB_GCA_016929175.1_JAFGJI010000267.1_6                    4.00%    passed     52.93%
+ 331  Arch_Thermoplasmatota_UBA186_GB_GCA_002494765.1_DACJ01000050.1_4                         5.00%    failed      0.67%
+ 332  Arch_Thermoplasmatota_SW-10-69-26_GB_GCA_003009755.1_PXUB01000025.1_120                  3.00%    failed      2.58%
+ 333  Arch_Thermoproteota_Nitrososphaeria_A_GB_GCA_000270325.1_BA000048.1_313                  8.50%    passed     75.51%
+ 334  Arch_Halobacteriota_Halobacteria_GB_GCA_018609935.1_JAHENH010000171.1_18                 8.00%    passed      8.30%
+ 335  Arch_Thermoplasmatota_E2_GB_GCA_013329495.1_DUKC01000180.1_4                             4.50%    passed      8.25%
+ 336  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_003649695.1_QMSR01000162.1_2                14.50%    failed      0.00%
+ 337  Arch_Nanohaloarchaeota_Nanosalinia_GB_GCA_001761425.1_CP012986.1_345                     3.50%    failed      2.95%
+ 338  Arch_Nanohaloarchaeota_Nanosalinia_GB_GCA_018609855.1_JAHENU010000051.1_3                3.50%    passed      9.79%
+ 339  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_018396725.1_JAGTRC010000001.1_652              11.00%    failed      0.87%
+ 340  Arch_Methanobacteriota_A_Methanococci_RS_GCF_000025525.1_NC_013887.1_780                 6.50%    failed      0.00%
+ 341  Arch_Asgardarchaeota_Heimdallarchaeia_GB_GCA_016840945.1_JAEORJ010000304.1_49            7.00%    passed     62.59%
+ 342  Arch_Asgardarchaeota_Wukongarchaeia_GB_GCA_016840425.1_JAEOSI010000045.1_8               6.50%    passed      7.24%
+ 343  Arch_Thermoplasmatota_Poseidoniia_GB_GCA_002509165.1_DAZP01000005.1_3                    7.00%    failed      4.19%
+ 344  Arch_Asgardarchaeota_Jordarchaeia_GB_GCA_011362025.1_DTEF01000081.1_14                  13.50%    passed     50.46%
+ 345  Arch_Thermoproteota_Bathyarchaeia_GB_GCA_011367275.1_DSZA01000086.1_11                   7.00%    failed      1.71%
+ 346  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_002503985.1_DASW01000008.1_4                 2.00%    failed      0.21%
+ 347  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_019246625.1_JAFAQB010000091.1_24              9.50%    passed     21.88%
+ 348  Arch_Altiarchaeota_Altiarchaeia_GB_GCA_001723855.1_MCBC01000142.1_21                    26.00%    passed     76.62%
+ 349  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_016190055.1_JACPRH010000057.1_75             11.50%    passed     50.93%
+ 350  Arch_Thermoplasmatota_UBA186_GB_GCA_011620765.1_WOYO01000050.1_2                        12.50%    passed      6.10%
+ 351  Arch_Thermoplasmatota_Poseidoniia_GB_GCA_003602415.1_QQSK01000009.1_93                   2.50%    failed      2.70%
+ 352  Arch_Thermoproteota_EX4484-205_GB_GCA_017601245.1_JAFNJB010000055.1_44                  10.00%    passed     26.60%
+ 353  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_017857235.1_JAFMDN010000014.1_13            12.50%    failed      0.19%
+ 354  Arch_SpSt-1190_SpSt-1190_GB_GCA_018220935.1_JAAOXU010000022.1_9                         17.50%    passed     46.29%
+ 355  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_011333845.1_DTJL01000011.1_68                16.00%    passed     38.52%
+ 356  Arch_Asgardarchaeota_Lokiarchaeia_GB_GCA_014729935.1_WJJB01000473.1_10                   2.50%    passed     22.31%
+ 357  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_014361085.1_JACIWG010000001.1_9              12.50%    passed     10.99%
+ 358  Arch_Thermoproteota_Nitrososphaeria_RS_GCF_900248165.1_NZ_LT981265.1_206                 7.00%    failed      0.89%
+ 359  Arch_Asgardarchaeota_Baldrarchaeia_GB_GCA_019056805.1_DXJG01000002.1_314                17.50%    passed     33.35%
+ 360  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_016432545.1_CP066694.1_252                   12.50%    passed     67.02%
+ 361  Arch_Asgardarchaeota_Lokiarchaeia_GB_GCA_016839555.1_JAEOUA010000006.1_501               8.00%    failed      0.72%
+ 362  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_009903795.1_WYER01000014.1_10                15.50%    failed      0.72%
+ 363  Arch_Asgardarchaeota_Lokiarchaeia_GB_GCA_001940655.1_MBAA01000079.1_13                   7.50%    passed     11.37%
+ 364  Arch_Asgardarchaeota_Lokiarchaeia_GB_GCA_011365055.1_RDOG01000001.1_49                   7.00%    passed     39.96%
+ 365  Arch_Thermoproteota_EX4484-205_GB_GCA_017601145.1_JAFNIV010000002.1_65                   9.00%    failed      0.65%
+ 366  Arch_Thermoplasmatota_Thermoplasmata_RS_GCF_900176435.1_NZ_FWYE01000001.1_111           10.50%    failed      0.18%
+ 367  Arch_Thermoproteota_EX4484-205_GB_GCA_011371845.1_DRUP01000044.1_43                      8.50%    passed      9.62%
+ 368  Arch_Asgardarchaeota_Heimdallarchaeia_GB_GCA_015520535.1_WAPZ01000701.1_2                8.50%    passed     11.22%
+ 369  Arch_Asgardarchaeota_Lokiarchaeia_RS_GCF_008000775.1_NZ_CP042905.1_2478                  4.50%    failed      0.01%
+ 370  Arch_Asgardarchaeota_Lokiarchaeia_RS_GCF_008000775.1_NZ_CP042905.1_809                   8.00%    passed     46.56%
+ 371  Arch_Thermoproteota_EX4484-205_GB_GCA_002255045.1_NJEE01000031.1_11                     14.00%    passed     73.06%
+ 372  Arch_Thermoproteota_Nitrososphaeria_A_GB_GCA_002898395.1_BEHE01000012.1_18              10.50%    passed     70.32%
+ 373  Arch_Huberarchaeota_Huberarchaeia_GB_GCA_002789275.1_PFSX01000061.1_3                    9.00%    failed      2.32%
+ 374  Arch_Asgardarchaeota_Lokiarchaeia_GB_GCA_013375455.1_JABXJT010000054.1_26               16.00%    failed      1.82%
+ 375  Arch_Thermoplasmatota_Thermoplasmata_GB_GCA_005878375.1_VBMQ01000059.1_7                43.00%    failed      0.00%
+ 376  Arch_Asgardarchaeota_Heimdallarchaeia_GB_GCA_001940645.1_MDVS01000047.1_3                7.50%    failed      2.42%
+ 377  Arch_Thermoproteota_Korarchaeia_GB_GCA_015522685.1_WALU01000021.1_11                    30.00%    passed     14.81%
+ 378  Arch_Thermoproteota_QMWL01_GB_GCA_003661605.2_QMWL02000001.1_52                         10.00%    failed      4.63%
+ 379  Arch_Asgardarchaeota_Lokiarchaeia_GB_GCA_005191425.1_SUPR01000013.1_13                  16.00%    failed      0.00%
+ 380  Arch_Thermoproteota_Nitrososphaeria_GB_GCA_002011075.1_MTMA01000004.1_494               19.00%    passed     28.90%
+ 381  Arch_Asgardarchaeota_Heimdallarchaeia_GB_GCA_016839515.1_JAEOUE010000121.1_44            7.50%    passed     18.17%
+ 382  Arch_Iainarchaeota_Iainarchaeia_GB_GCA_903916665.1_CAIWXP010000144.1_1                  46.00%    passed     26.72%
+ 383  Arch_Asgardarchaeota_Lokiarchaeia_GB_GCA_019058315.1_JAHPZH010000001.1_581              18.00%    passed     27.30%
+ 384  Arch_Asgardarchaeota_Baldrarchaeia_GB_GCA_016840465.1_JAEOSH010000043.1_3               25.50%    failed      2.09%
+ 385  Bact_Desulfobacterota_B_Binatia_GB_GCA_016210005.1_JACQVA010000006.1_14                  0.50%    failed      2.32%
+ 386  Bact_Nitrospinota_UBA7883_GB_GCA_016217735.1_JACRGQ010000042.1_23                        0.50%    passed     33.02%
+ 387  Bact_Verrucomicrobiota_Verrucomicrobiae_GB_GCA_012517065.1_JAAYVR010000015.1_56          0.00%    passed     55.82%
+ 388  Bact_Myxococcota_Polyangia_GB_GCA_016933275.1_JAFGBI010000291.1_2                        0.50%    passed     64.38%
+ 389  Bact_Planctomycetota_PUPC01_GB_GCA_016179685.1_JACPCR010000041.1_5                       0.50%    passed     67.05%
+ 390  Bact_Firmicutes_E_DTU015_GB_GCA_003530255.1_DPTM01000135.1_4                             0.50%    failed      0.31%
+ 391  Bact_Eisenbacteria_RBG-16-71-46_GB_GCA_013003415.1_JABDJR010000583.1_3                   0.50%    failed      0.56%
+ 392  Bact_Krumholzibacteriota_Krumholzibacteria_GB_GCA_018814885.1_JAHIYU010000177.1_73       1.00%    passed     94.04%
+ 393  Bact_Proteobacteria_Gammaproteobacteria_GB_GCA_013414725.1_CP058706.1_2781               1.50%    passed     11.70%
+ 394  Bact_Acidobacteriota_Blastocatellia_GB_GCA_902825875.1_CADECP010000017.1_93              1.00%    passed     60.69%
+ 395  Bact_Omnitrophota_Omnitrophia_GB_GCA_001804285.1_MHFR01000017.1_17                       0.50%    passed     22.17%
+ 396  Bact_Verrucomicrobiota_Verrucomicrobiae_GB_GCA_002715965.1_PBAL01000037.1_7              0.50%    passed     19.04%
+ 397  Bact_Latescibacterota_UBA2968_GB_GCA_018672475.1_JABHFS010000157.1_16                    0.50%    passed     53.17%
+ 398  Bact_Armatimonadota_UBA5829_GB_GCA_019136435.1_JAGVUD010000117.1_9                       0.00%    failed      3.37%
+ 399  Bact_Armatimonadota_Abditibacteria_GB_GCA_019239895.1_JAFAZH010000005.1_141              0.50%    passed     11.42%
+ 400  Bact_CLD3_CLD3_GB_GCA_013360215.1_JABWCP010000002.1_24                                   0.50%    passed     26.07%
+ 401  Bact_Eisenbacteria_RBG-16-71-46_GB_GCA_014729455.1_WJJW01000245.1_4                      1.00%    failed      0.01%
+ 402  Bact_Myxococcota_Polyangia_GB_GCA_011373655.1_DRWM01000216.1_17                          0.00%    passed     24.22%
+ 403  Bact_Acidobacteriota_UBA6911_GB_GCA_016179055.1_JACOSC010000011.1_2                      0.50%    passed     57.55%
+ 404  Bact_Verrucomicrobiota_Verrucomicrobiae_GB_GCA_018674955.1_JABGZB010000193.1_7           0.00%    passed     42.97%
+ 405  Bact_Nitrospirota_Nitrospiria_GB_GCA_016201765.1_JACQCE010000002.1_10                    1.00%    passed     79.70%
+ 406  Bact_Myxococcota_Polyangia_RS_GCF_000737325.1_NZ_CP011125.1_3632                         0.50%    passed     57.83%
+ 407  Bact_FCPU426_Palsa-1180_GB_GCA_003136635.1_PLFD01000003.1_20                             0.50%    passed     15.63%
+ 408  Bact_Planctomycetota_PUPC01_GB_GCA_011327615.1_DSWH01000096.1_4                          0.50%    passed     16.75%
+ 409  Bact_Planctomycetota_PUPC01_GB_GCA_003553185.1_PUPC01000072.1_8                          0.50%    passed     17.84%
+ 410  Bact_SZUA-182_SZUA-182_GB_GCA_016235675.1_JACRJN010000125.1_10                           0.50%    passed     21.07%
+ 411  Bact_SZUA-182_SZUA-182_GB_GCA_011338205.1_DTGQ01000063.1_9                               0.50%    passed     28.18%
+ 412  Bact_Acidobacteriota_Mor1_GB_GCA_003223995.1_QHYA01000156.1_5                            0.50%    failed      2.56%
+ 413  Bact_Elusimicrobiota_Elusimicrobia_GB_GCA_002790095.1_PFUL01000087.1_86                  1.00%    passed     88.94%
+ 414  Bact_Firmicutes_A_Clostridia_RS_GCF_900604345.1_NZ_LR026983.1_2239                       0.00%    passed     28.12%
+ 415  Bact_Verrucomicrobiota_Verrucomicrobiae_GB_GCA_013215165.1_JABSRG010000019.1_13          0.50%    passed     13.78%
+ 416  Bact_UBA8248_UBA8248_GB_GCA_018669005.1_JABJAL010000072.1_274                            0.50%    passed     73.49%
+ 417  Bact_Krumholzibacteriota_Krumholzibacteria_GB_GCA_011772205.1_WVZY01000031.1_27          1.50%    passed     20.68%
+ 418  Bact_Planctomycetota_JAFGQW01_GB_GCA_016935485.1_JAFGQW010000371.1_12                    0.00%    passed      7.55%
+ 419  Bact_Spirochaetota_UBA12135_GB_GCA_017302015.1_JAFLEE010000073.1_2                       0.50%    passed     39.19%
+ 420  Bact_Planctomycetota_Phycisphaerae_GB_GCA_016710275.1_JADJXS010000001.1_2867             0.50%    passed      9.84%
+ 421  Bact_Firmicutes_C_DUMD01_GB_GCA_012840065.1_DUMD01000185.1_30                            0.00%    passed     15.62%
+ 422  Bact_Goldbacteria_PGYV01_GB_GCA_003159495.1_PLPI01000054.1_9                             0.50%    failed      2.00%
+ 423  Bact_Riflebacteria_Ozemobacteria_GB_GCA_018818125.1_JAHISQ010000124.1_23                 0.50%    passed     38.50%
+ 424  Bact_Poribacteria_WGA-4E_GB_GCA_002709695.1_PAQF01000010.1_30                            0.00%    passed     62.20%
+ 425  Bact_Firmicutes_Bacilli_RS_GCF_011058155.1_NZ_JAALFC010000001.1_262                      1.00%    passed     70.95%
+ 426  Bact_Sumerlaeota_Sumerlaeia_GB_GCA_002068205.1_MVZB01000021.1_15                         0.50%    passed     15.88%
+ 427  Bact_Planctomycetota_Phycisphaerae_GB_GCA_012729675.1_JAAYCR010000025.1_31               1.00%    passed     12.67%
+ 428  Bact_Planctomycetota_UBA8742_GB_GCA_016209585.1_JACQVU010000493.1_2                      1.00%    passed     62.94%
+ 429  Bact_4572-55_4572-55_GB_GCA_002084765.1_NBMB01000041.1_23                                0.00%    passed      6.80%
+ 430  Bact_Myxococcota_XYA12-FULL-58-9_GB_GCA_016218825.1_JACRCV010000056.1_35                 1.00%    passed     23.60%
+ 431  Bact_Firmicutes_A_Clostridia_GB_GCA_009780415.1_WRAC01000004.1_52                        0.00%    passed     49.98%
+ 432  Bact_SAR324_SAR324_GB_GCA_016204605.1_JACQKK010000045.1_21                               0.50%    failed      1.30%
+ 433  Bact_Firmicutes_Bacilli_RS_GCF_005771635.1_NZ_VBWP01000010.1_24                          0.50%    passed     49.04%
+ 434  Bact_Myxococcota_Polyangia_GB_GCA_016709225.1_JADJEE010000001.1_1363                     0.50%    failed      2.12%
+ 435  Bact_Hydrogenedentota_Hydrogenedentia_GB_GCA_016125095.1_WGMK01000007.1_13               0.50%    passed     70.56%
+ 436  Bact_Firmicutes_A_Clostridia_GB_GCA_012839865.1_DUMO01000051.1_204                       0.00%    passed      5.40%
+ 437  Bact_Marinisomatota_Marinisomatia_GB_GCA_018657495.1_JABHXA010000026.1_17                0.50%    passed     14.26%
+ 438  Bact_Mcinerneyibacteriota_Mcinerneyibacteria_GB_GCA_008086245.1_VSIX01000058.1_15        0.50%    failed      0.00%
+ 439  Bact_Firmicutes_F_Halanaerobiia_RS_GCF_000328625.1_NC_019978.1_569                       0.00%    failed      4.72%
+ 440  Bact_Firmicutes_A_Clostridia_GB_GCA_002841375.1_PGZO01000022.1_49                        0.00%    failed      0.93%
+ 441  Bact_Planctomycetota_Phycisphaerae_GB_GCA_016872895.1_VGYT01000192.1_5                   0.50%    passed      7.18%
+ 442  Bact_Acidobacteriota_Vicinamibacteria_GB_GCA_016650185.1_JAENWE010000190.1_8             0.50%    passed     88.09%
+ 443  Bact_Firmicutes_G_Limnochordia_GB_GCA_012519025.1_JAAYQZ010000052.1_50                   0.00%    passed     40.64%
+ 444  Bact_Acidobacteriota_Holophagae_RS_GCF_000428885.1_NZ_AUAU01000012.1_35                  1.50%    failed      4.06%
+ 445  Bact_GCA-001730085_GCA-001730085_GB_GCA_001730085.1_MDLB01000076.1_13                    0.50%    passed     12.39%
+ 446  Bact_Planctomycetota_MHYJ01_GB_GCA_011327745.1_DSWA01000005.1_4                          0.50%    passed     20.50%
+ 447  Bact_Chloroflexota_Anaerolineae_GB_GCA_017882055.1_JADGQE010000373.1_3                   0.50%    passed     42.50%
+ 448  Bact_Firmicutes_C_Negativicutes_GB_GCA_900538365.1_UPXT01000003.1_32                     1.00%    passed     54.43%
+ 449  Bact_Firmicutes_F_Halanaerobiia_GB_GCA_016841825.1_JAENYK010000008.1_112                 1.00%    passed     39.62%
+ 450  Bact_Nitrospinota_JADGAW01_GB_GCA_015231815.1_JADGAW010000159.1_2                        1.00%    passed      7.87%
+ 451  Bact_Spirochaetota_Spirochaetia_GB_GCA_012523305.1_JAAYIV010000161.1_5                   1.00%    passed     66.60%
+ 452  Bact_Firmicutes_A_Clostridia_GB_GCA_009780345.1_WRAG01000003.1_86                        0.00%    passed     28.12%
+ 453  Bact_Firmicutes_B_Dehalobacteriia_GB_GCA_002482535.1_DLGE01000001.1_842                  0.00%    passed     85.49%
+ 454  Bact_Firmicutes_A_Clostridia_GB_GCA_009780445.1_WRAA01000071.1_6                         0.00%    passed     60.89%
+ 455  Bact_Desulfobacterota_Desulfobacteria_GB_GCA_011389935.1_JAABTJ010000004.1_3             1.00%    passed     61.75%
+ 456  Bact_Firmicutes_A_Clostridia_RS_GCF_900107405.1_NZ_FNPV01000005.1_160                    3.00%    passed     12.70%
+ 457  Bact_Firmicutes_A_Clostridia_GB_GCA_016649995.1_JAENWJ010000018.1_11                     0.00%    failed      0.08%
+ 458  Bact_Firmicutes_A_Clostridia_RS_GCF_900095725.1_NZ_FMMP01000006.1_571                    0.00%    failed      1.57%
+ 459  Bact_UBP4_UBA4092_GB_GCA_002428325.1_DIVR01000026.1_61                                   1.00%    passed     15.21%
+ 460  Bact_UBA10199_UBA10199_GB_GCA_015228875.1_JADGCS010000030.1_13                           1.00%    passed     38.63%
+ 461  Bact_Bdellovibrionota_Bdellovibrionia_A_GB_GCA_011087955.1_JAALKR010000021.1_20          1.00%    passed     39.47%
+ 462  Bact_Firmicutes_G_Limnochordia_GB_GCA_007132635.1_SLOG01000112.1_9                       1.50%    passed     29.95%
+ 463  Bact_AABM5-125-24_B3-LCP_GB_GCA_005223185.1_NJBN01000005.1_99                            2.00%    passed     82.08%
+ 464  Bact_Fibrobacterota_Fibrobacteria_GB_GCA_900299345.1_OMJM01000037.1_15                   1.50%    passed     43.93%
+ 465  Bact_Chloroflexota_Anaerolineae_GB_GCA_009692745.1_SHYO01000016.1_10                     0.00%    passed      7.37%
+ 466  Bact_CG03_SLGR01_GB_GCA_003553445.1_PWEK01000045.1_14                                    1.00%    passed     17.50%
+ 467  Bact_Firmicutes_A_Clostridia_GB_GCA_009777515.1_WRLR01000093.1_14                        0.00%    passed     21.44%
+ 468  Bact_Elusimicrobiota_Endomicrobia_GB_GCA_018433585.1_JAHDQW010000001.1_199               1.50%    passed     37.52%
+ 469  Bact_Firmicutes_D_Dethiobacteria_GB_GCA_012800855.1_JAAZIN010000022.1_30                 2.00%    passed     29.76%
+ 470  Bact_Spirochaetota_GWE2-31-10_GB_GCA_002070605.1_MWDO01000036.1_8                        0.00%    failed      2.32%
+ 471  Bact_Firmicutes_Bacilli_RS_GCF_000301035.1_NZ_JH932292.1_205                             1.50%    passed      6.61%
+ 472  Bact_Armatimonadota_UBA5377_GB_GCA_002305165.1_DBQI01000026.1_23                         0.50%    failed      0.12%
+ 473  Bact_Firmicutes_C_Negativicutes_RS_GCF_000428745.1_NZ_KE386795.1_563                     0.50%    passed      8.06%
+ 474  Bact_Spirochaetota_UBA4802_GB_GCA_016928815.1_JAFGJZ010000126.1_12                       1.50%    passed     44.72%
+ 475  Bact_Firmicutes_A_Clostridia_GB_GCA_900315265.1_OMYN01000012.1_46                        0.00%    passed     59.46%
+ 476  Bact_Firmicutes_Bacilli_GB_GCA_017577895.1_PKQY01000035.1_17                             1.00%    failed      0.00%
+ 477  Bact_Wallbacteria_UBA9980_GB_GCA_002423385.1_DIVV01000206.1_4                            1.50%    passed     33.65%
+ 478  Bact_Acidobacteriota_Aminicenantia_GB_GCA_002877915.1_PNJE01000121.1_3                   1.00%    passed     31.11%
+ 479  Bact_OLB16_OLB16_GB_GCA_015075175.1_JABTUV010000001.1_42                                 1.50%    passed     85.35%
+ 480  Bact_Planctomycetota_Phycisphaerae_RS_GCF_014207595.1_NZ_JACHGY010000001.1_2160          1.00%    failed      3.67%
+ 481  Bact_Planctomycetota_PLA2_GB_GCA_016795345.1_JAEUHO010000554.1_5                         0.50%    failed      0.03%
+ 482  Bact_Firmicutes_D_Dethiobacteria_GB_GCA_003555415.1_PWHX01000009.1_2                     0.50%    failed      1.13%
+ 483  Bact_Acidobacteriota_UBA4820_GB_GCA_002402325.1_DHFQ01000100.1_2                         1.00%    passed     22.18%
+ 484  Bact_Myxococcota_UBA727_GB_GCA_016874845.1_VGSZ01000133.1_7                              0.50%    passed      5.53%
+ 485  Bact_Bdellovibrionota_Bdellovibrionia_GB_GCA_002436415.1_DJMA01000005.1_46               1.50%    passed     30.32%
+ 486  Bact_Firmicutes_B_Desulfitobacteriia_RS_GCF_004343605.1_NZ_POSF01000015.1_158            1.00%    passed     90.89%
+ 487  Bact_Cloacimonadota_Cloacimonadia_GB_GCA_018334695.1_JAGXLO010000046.1_15                2.50%    failed      0.14%
+ 488  Bact_J088_J088_GB_GCA_003695505.1_RFIY01000107.1_2                                       0.50%    failed      4.85%
+ 489  Bact_Myxococcota_UBA727_GB_GCA_016000045.1_JAECQY010000007.1_12                          2.00%    passed     99.47%
+ 490  Bact_UBP14_UBA6098_GB_GCA_003645115.1_QNEG01000076.1_3                                   1.50%    failed      2.57%
+ 491  Bact_Firmicutes_A_Clostridia_GB_GCA_905233855.1_CAJOGA010000071.1_5                      0.50%    passed     66.32%
+ 492  Bact_Planctomycetota_SZUA-567_GB_GCA_016927125.1_JAFGNG010000267.1_3                     1.00%    passed     51.53%
+ 493  Bact_Fibrobacterota_Fibrobacteria_GB_GCA_016699655.1_CP064986.1_3485                     2.00%    passed     12.39%
+ 494  Bact_Firmicutes_A_Clostridia_RS_GCF_000213255.1_NC_015520.1_1451                         0.50%    passed     46.82%
+ 495  Bact_Bacteroidota_Rhodothermia_GB_GCA_016788705.1_JAEUSQ010000039.1_41                   0.00%    passed     69.96%
+ 496  Bact_Chloroflexota_Dehalococcoidia_GB_GCA_009839925.1_VXOS01000050.1_43                  0.50%    failed      0.07%
+ 497  Bact_Planctomycetota_UBA1135_GB_GCA_016200225.1_JACQFD010000022.1_83                     0.00%    failed      0.93%
+ 498  Bact_Firmicutes_A_Clostridia_GB_GCA_009777845.1_WRLD01000012.1_61                        1.50%    passed     22.71%
+ 499  Bact_Firmicutes_A_Clostridia_GB_GCA_017531485.1_JAFXKY010000058.1_61                     1.00%    failed      2.05%
+ 500  Bact_Acidobacteriota_Thermoanaerobaculia_GB_GCA_013152895.1_JAADFN010000172.1_6          1.50%    passed     41.64%
+ 501  Bact_Marinisomatota_BS150m-G59_GB_GCA_016784265.1_JADHUZ010000063.1_4                    0.50%    failed      2.15%
+ 502  Bact_Firmicutes_A_Clostridia_GB_GCA_017501105.1_JAFVXO010000089.1_4                      0.50%    passed     34.12%
+ 503  Bact_Planctomycetota_B15-G4_GB_GCA_016795285.1_JAEUIC010000022.1_3                       0.50%    passed     13.91%
+ 504  Bact_Myxococcota_UBA6777_GB_GCA_002731275.1_PCBK01000076.1_63                            1.00%    passed     46.68%
+ 505  Bact_Planctomycetota_SZUA-567_GB_GCA_016200135.1_JACQFI010000139.1_2                     1.50%    passed      6.24%
+ 506  Bact_Bdellovibrionota_UBA2428_GB_GCA_018001635.1_JAGNHS010000014.1_55                    1.00%    passed     79.49%
+ 507  Bact_Myxococcota_WYAZ01_GB_GCA_016713425.1_JADJPE010000005.1_4565                        6.00%    passed     42.56%
+ 508  Bact_Acidobacteriota_Acidobacteriae_GB_GCA_000688615.1_JHVA01000001.1_1796               1.50%    passed     31.84%
+ 509  Bact_Latescibacterota_Latescibacteria_GB_GCA_016927495.1_JAFGMP010000457.1_9             1.00%    passed     60.40%
+ 510  Bact_Delongbacteria_UBA4055_GB_GCA_903910645.1_CAIWAD010000100.1_7                       0.50%    passed     22.77%
+ 511  Bact_UBA8481_UBA8481_GB_GCA_003697085.1_RFFU01000027.1_40                                0.50%    failed      3.32%
+ 512  Bact_Armatimonadota_HRBIN17_GB_GCA_011380295.1_DRYI01000060.1_24                         0.50%    passed     46.87%
+ 513  Bact_Fermentibacterota_Fermentibacteria_GB_GCA_013138965.1_WTBT01000048.1_34             1.00%    passed     14.38%
+ 514  Bact_Firmicutes_A_Clostridia_GB_GCA_009784685.1_WRBF01000009.1_15                        1.50%    failed      3.56%
+ 515  Bact_Actinobacteriota_Geothermincolia_GB_GCA_018831265.1_JAHJCO010000060.1_69            0.00%    passed     17.48%
+ 516  Bact_Firmicutes_A_Clostridia_GB_GCA_002435915.1_DIWY01000004.1_107                       0.50%    failed      0.04%
+ 517  Bact_Firmicutes_A_Thermoanaerobacteria_RS_GCF_000427425.1_NZ_KE386495.1_1194             0.00%    passed      7.48%
+ 518  Bact_Acidobacteriota_Thermoanaerobaculia_GB_GCA_003388555.1_QQVD01000018.1_58            2.50%    passed      6.77%
+ 519  Bact_Chloroflexota_Anaerolineae_GB_GCA_015486235.1_WFSD01000209.1_9                      0.50%    passed     44.99%
+ 520  Bact_Firmicutes_G_UBA5301_GB_GCA_012735535.1_JAAYHC010000068.1_29                        1.50%    passed     15.37%
+ 521  Bact_Firmicutes_Bacilli_RS_GCF_900101445.1_NZ_FNKE01000001.1_1130                        0.00%    failed      4.53%
+ 522  Bact_Firmicutes_E_DTU015_GB_GCA_902812875.1_CADDZV010000001.1_87                         1.50%    failed      3.94%
+ 523  Bact_Desulfobacterota_Dissulfuribacteria_RS_GCF_001687335.1_NZ_MAGO01000003.1_79         1.50%    passed     69.57%
+ 524  Bact_Planctomycetota_E44-bin39_GB_GCA_004376375.1_SOJX01000043.1_4                       0.50%    passed     46.52%
+ 525  Bact_Eremiobacterota_Eremiobacteria_GB_GCA_004298675.1_SCRI01000085.1_22                 1.00%    failed      3.59%
+ 526  Bact_Firmicutes_A_Clostridia_GB_GCA_012034405.1_JAAVLZ010000010.1_67                     0.00%    passed     42.10%
+ 527  Bact_Firmicutes_A_Clostridia_GB_GCA_902790905.1_CADATO010000006.1_22                     0.00%    passed     20.00%
+ 528  Bact_Desulfobacterota_Desulfobacteria_GB_GCA_002748835.1_PDTL01000002.1_3                1.00%    failed      0.32%
+ 529  Bact_Armatimonadota_UBA5377_GB_GCA_002411015.1_DHPY01000054.1_9                          0.50%    passed      5.80%
+ 530  Bact_Firmicutes_A_Clostridia_GB_GCA_015056385.1_SVGI01000006.1_14                        0.00%    passed     75.39%
+ 531  Bact_Firmicutes_D_Dethiobacteria_GB_GCA_012837615.1_DUQX01000027.1_24                    1.50%    passed     43.54%
+ 532  Bact_Firmicutes_E_DTU015_GB_GCA_007130145.1_SLSY01000062.1_31                            1.50%    failed      0.04%
+ 533  Bact_Methylomirabilota_Methylomirabilia_GB_GCA_016184125.1_JACPDG010000038.1_33          0.50%    failed      2.21%
+ 534  Bact_Chloroflexota_Anaerolineae_GB_GCA_012729455.1_JAAYDC010000007.1_15                  0.00%    passed     43.36%
+ 535  Bact_Firmicutes_A_Clostridia_GB_GCA_015065085.1_SVQW01000009.1_66                        1.00%    passed     45.51%
+ 536  Bact_Chloroflexota_Dehalococcoidia_GB_GCA_016183425.1_JACPEP010000048.1_25               1.00%    passed     46.36%
+ 537  Bact_Eremiobacterota_Xenobia_GB_GCA_010028905.1_RGZZ01000013.1_22                        1.00%    passed     41.20%
+ 538  Bact_Firmicutes_A_Clostridia_GB_GCA_910586625.1_CAJUIZ010000005.1_97                     0.50%    passed     10.05%
+ 539  Bact_Firmicutes_C_Negativicutes_RS_GCF_000384135.1_NZ_KB913028.1_828                     1.00%    failed      0.80%
+ 540  Bact_OLB16_OLB16_GB_GCA_016125385.1_WGLV01000022.1_286                                   1.00%    passed     42.63%
+ 541  Bact_Firmicutes_E_JACPQU01_GB_GCA_016190305.1_JACPQU010000164.1_10                       1.50%    failed      4.99%
+ 542  Bact_Gemmatimonadota_Gemmatimonadetes_GB_GCA_007121555.1_SKKH01000141.1_3                0.50%    failed      1.08%
+ 543  Bact_Planctomycetota_SZUA-567_GB_GCA_003245715.1_QKCJ01000017.1_51                       0.00%    passed     87.77%
+ 544  Bact_Bdellovibrionota_UBA2394_GB_GCA_007693605.1_REDG01000040.1_46                       0.50%    passed     13.87%
+ 545  Bact_Desulfobacterota_Desulfobacteria_GB_GCA_002753725.1_PEAL01000341.1_5                2.00%    passed     19.45%
+ 546  Bact_OLB16_OLB16_GB_GCA_001567115.1_LMZT01000117.1_3                                     0.50%    passed     88.97%
+ 547  Bact_Planctomycetota_Planctomycetia_GB_GCA_007748055.1_CP036279.1_5303                   1.00%    passed     91.76%
+ 548  Bact_Actinobacteriota_Coriobacteriia_GB_GCA_009783085.1_WRHU01000001.1_19                0.50%    passed     34.37%
+ 549  Bact_Armatimonadota_Armatimonadia_GB_GCA_903910385.1_CAIVZM010000037.1_10                1.00%    failed      1.68%
+ 550  Bact_Bdellovibrionota_Bdellovibrionia_GB_GCA_002778785.1_PEZS01000001.1_32               1.00%    passed     79.71%
+ 551  Bact_Bdellovibrionota_C_UBA2361_GB_GCA_900299205.1_OMIW01000062.1_77                     2.50%    passed     13.09%
+ 552  Bact_Planctomycetota_UBA8108_GB_GCA_002070955.1_MWEK01000046.1_10                        0.50%    passed     47.48%
+ 553  Bact_Firmicutes_G_UBA5301_GB_GCA_014896355.1_JADBKO010000015.1_61                        1.00%    failed      0.03%
+ 554  Bact_Bdellovibrionota_Bdellovibrionia_A_GB_GCA_014376785.1_JACMQW010000053.1_20          2.00%    passed     38.54%
+ 555  Bact_Margulisbacteria_WOR-1_GB_GCA_001771545.1_MEUC01000016.1_29                         0.50%    passed     85.98%
+ 556  Bact_Acidobacteriota_HRBIN11_GB_GCA_002898535.1_BEHN01000025.1_3                         2.00%    failed      0.00%
+ 557  Bact_Firmicutes_A_Clostridia_GB_GCA_910585035.1_CAJUEF010000002.1_22                     0.50%    passed     21.36%
+ 558  Bact_Firmicutes_A_Clostridia_GB_GCA_015067825.1_SVLQ01000001.1_403                       2.00%    passed     39.52%
+ 559  Bact_Planctomycetota_SZUA-567_GB_GCA_016930595.1_JAFGGJ010000026.1_33                    1.00%    passed     66.90%
+ 560  Bact_Firmicutes_C_Negativicutes_GB_GCA_900095875.1_LT608311.1_598                        0.00%    passed     18.20%
+ 561  Bact_Chrysiogenota_Chrysiogenetes_RS_GCF_000177635.2_NC_014836.1_2140                    3.00%    passed      6.32%
+ 562  Bact_Actinobacteriota_Aquicultoria_GB_GCA_002366545.1_DFBH01000025.1_4                   0.50%    passed     43.95%
+ 563  Bact_Acidobacteriota_Mor1_GB_GCA_018606725.1_JAGYID010000042.1_12                        3.00%    failed      1.11%
+ 564  Bact_WOR-3_E44-bin80_GB_GCA_004375785.1_SOKM01000003.1_3                                 1.00%    failed      2.13%
+ 565  Bact_Firmicutes_A_Clostridia_GB_GCA_017556745.1_JAFYMF010000010.1_65                     0.50%    passed     48.57%
+ 566  Bact_RBG-13-66-14_B26-G2_GB_GCA_003647715.1_QMNJ01000081.1_2                             1.00%    failed      2.58%
+ 567  Bact_Firmicutes_F_Halanaerobiia_RS_GCF_003953885.1_NZ_CP032760.1_2782                    0.50%    failed      4.12%
+ 568  Bact_Lindowbacteria_2-12-FULL-62-27_GB_GCA_001784175.1_MFPR01000026.1_96                 0.00%    failed      2.74%
+ 569  Bact_Eremiobacterota_JACPDS01_GB_GCA_016183885.1_JACPDS010000038.1_13                    1.00%    failed      0.00%
+ 570  Bact_Firmicutes_A_Clostridia_GB_GCA_017507855.1_JAFWAE010000056.1_87                     1.00%    passed     28.92%
+ 571  Bact_Planctomycetota_UBA1135_GB_GCA_016719295.1_JADKAF010000001.1_3546                   2.00%    passed     45.79%
+ 572  Bact_Desulfobacterota_D_UBA1144_GB_GCA_014075295.1_CP046180.1_847                        0.00%    passed     98.94%
+ 573  Bact_Patescibacteria_SOKK01_GB_GCA_004374725.1_SOKK01000013.1_7                          0.50%    passed      9.81%
+ 574  Bact_Planctomycetota_UBA11346_GB_GCA_016745075.1_JADGDD010000001.1_412                   0.50%    passed     33.91%
+ 575  Bact_Chloroflexota_Ktedonobacteria_RS_GCF_001748285.1_NZ_BDGT01000028.1_34               0.00%    failed      0.64%
+ 576  Bact_AABM5-125-24_RPQS01_GB_GCA_016214895.1_JACRMR010000008.1_62                         1.00%    passed     57.78%
+ 577  Bact_Firmicutes_A_Clostridia_GB_GCA_018399635.1_JAGYOH010000005.1_46                     0.00%    passed     14.04%
+ 578  Bact_Planctomycetota_UBA8108_GB_GCA_002311345.1_DCAA01000035.1_17                        0.00%    passed     33.41%
+ 579  Bact_Myxococcota_A_UBA796_GB_GCA_002348535.1_DEBL01000007.1_8                            1.00%    passed     26.09%
+ 580  Bact_Firmicutes_D_Proteinivoracia_GB_GCA_009711825.1_VEMY01000010.1_43                   2.00%    passed     95.92%
+ 581  Bact_Firmicutes_Bacilli_RS_GCF_003815035.1_NZ_RKRK01000002.1_667                         0.00%    failed      0.02%
+ 582  Bact_CSP1-3_CSP1-3_GB_GCA_016869025.1_VGFA01000003.1_123                                 1.50%    failed      0.06%
+ 583  Bact_Eremiobacterota_JACPDT01_GB_GCA_016183865.1_JACPDT010000346.1_6                     0.00%    passed     12.86%
+ 584  Bact_Desulfobacterota_Desulfobacteria_RS_GCF_000429925.1_NZ_KE386987.1_29                1.50%    failed      0.24%
+ 585  Bact_Bacteroidota_Bacteroidia_GB_GCA_002862745.1_PKDX01000005.1_25                       1.00%    passed     37.22%
+ 586  Bact_WOR-3_SDB-A_GB_GCA_016926475.1_JAFGON010000073.1_25                                 2.00%    passed     34.82%
+ 587  Bact_Bacteroidota_Ignavibacteria_GB_GCA_002344965.1_DDUU01000018.1_6                     1.50%    failed      0.59%
+ 588  Bact_Planctomycetota_Planctomycetia_RS_GCF_007752935.1_NZ_CP036319.1_3342                1.00%    failed      4.70%
+ 589  Bact_UBP14_UBA6098_GB_GCA_011371545.1_DTLL01000118.1_12                                  2.00%    passed     48.56%
+ 590  Bact_Chloroflexota_Chloroflexia_GB_GCA_013390565.1_JACATZ010000001.1_352                 0.00%    passed     14.12%
+ 591  Bact_Acidobacteriota_UBA890_GB_GCA_012103255.1_WLXD01000005.1_156                        0.50%    failed      0.07%
+ 592  Bact_Chloroflexota_Anaerolineae_GB_GCA_016841965.1_JAEANN010000045.1_7                   0.50%    passed      7.75%
+ 593  Bact_Margulisbacteria_WOR-1_GB_GCA_018823125.1_JAHJIW010000013.1_13                      0.50%    passed     60.52%
+ 594  Bact_Proteobacteria_Gammaproteobacteria_GB_GCA_002170535.1_NHDW01000008.1_40             1.00%    passed     82.37%
+ 595  Bact_Margulisbacteria_Termititenacia_GB_GCA_003864475.1_BGZO01000048.1_7                 2.00%    passed     53.63%
+ 596  Bact_Desulfobacterota_C_Anaeroferrophillalia_GB_GCA_016934315.1_JAFGSY010000030.1_123    0.50%    passed     30.92%
+ 597  Bact_Bacteroidota_Bacteroidia_RS_GCF_900182575.1_NZ_FXSZ01000004.1_263                   0.00%    passed     68.33%
+ 598  Bact_CSSED10-310_JACPHN01_GB_GCA_016188575.1_JACPHN010000271.1_3                         2.00%    failed      2.20%
+ 599  Bact_Firmicutes_A_Clostridia_GB_GCA_009784335.1_WRBX01000075.1_1                         4.50%    passed     27.67%
+ 600  Bact_Aquificota_Desulfurobacteriia_RS_GCF_003633715.1_NZ_RBIE01000001.1_949              3.00%    passed     19.75%
+ 601  Bact_Patescibacteria_CPR2_A_GB_GCA_002792735.1_PFOW01000007.1_9                          0.50%    failed      0.00%
+ 602  Bact_Firmicutes_A_Clostridia_GB_GCA_017549425.1_JAFYUV010000017.1_12                     0.50%    failed      0.01%
+ 603  Bact_Chloroflexota_Anaerolineae_GB_GCA_012839565.1_DUMZ01000010.1_28                     0.50%    passed     14.96%
+ 604  Bact_Actinobacteriota_Acidimicrobiia_GB_GCA_003577105.1_QEUQ01000086.1_5                 0.00%    passed     36.18%
+ 605  Bact_Chlamydiota_Chlamydiia_RS_GCF_000092785.1_NC_014225.1_1605                          1.00%    passed     25.71%
+ 606  Bact_Myxococcota_A_UBA796_GB_GCA_903844155.1_CAIMSU010000192.1_13                        0.00%    failed      0.00%
+ 607  Bact_Bdellovibrionota_Oligoflexia_RS_GCF_009792895.1_NZ_WSSC01000001.1_17                0.00%    passed     25.04%
+ 608  Bact_Firmicutes_C_Negativicutes_GB_GCA_017995975.1_JAGOHU010000134.1_6                   1.50%    passed     69.93%
+ 609  Bact_Spirochaetota_JAAYUW01_GB_GCA_012517545.1_JAAYUW010000046.1_14                      0.50%    failed      0.41%
+ 610  Bact_Patescibacteria_ABY1_GB_GCA_011047195.1_DSNS01000013.1_4                            1.00%    passed     29.59%
+ 611  Bact_Planctomycetota_UBA1135_GB_GCA_012959785.1_DUCM01000014.1_11                        0.50%    passed     25.92%
+ 612  Bact_Patescibacteria_ABY1_GB_GCA_016188385.1_JACPHV010000001.1_20                        1.00%    passed     49.73%
+ 613  Bact_Planctomycetota_UBA8742_GB_GCA_013360495.1_JABWBM010000125.1_8                      1.50%    passed     30.76%
+ 614  Bact_Patescibacteria_Paceibacteria_GB_GCA_016201505.1_JACQCQ010000003.1_11               0.50%    passed     43.80%
+ 615  Bact_Patescibacteria_ABY1_GB_GCA_001780285.1_MFGN01000026.1_11                           1.00%    failed      0.05%
+ 616  Bact_Spirochaetota_Brevinematia_GB_GCA_013177995.1_JABLXN010000018.1_26                  4.00%    passed     46.10%
+ 617  Bact_CSSED10-310_JAFGSJ01_GB_GCA_016934675.1_JAFGSJ010000016.1_6                         1.00%    passed     36.69%
+ 618  Bact_RBG-13-66-14_RBG-13-66-14_GB_GCA_014728225.1_WJLX01000138.1_6                       1.00%    failed      0.32%
+ 619  Bact_Eremiobacterota_Xenobia_GB_GCA_018780265.1_JADMJV010000049.1_91                     0.50%    passed     37.25%
+ 620  Bact_Myxococcota_SpSt-1050_GB_GCA_011373705.1_DRWH01000235.1_10                          3.00%    failed      4.25%
+ 621  Bact_Chloroflexota_FW602-bin22_GB_GCA_016210125.1_JACQUS010000274.1_6                    2.50%    failed      0.00%
+ 622  Bact_Firmicutes_Bacilli_GB_GCA_018969805.1_JAGWXQ010000133.1_3                           1.00%    failed      0.04%
+ 623  Bact_Chloroflexota_Chloroflexia_GB_GCA_902806415.1_CADCWN010000005.1_8                   1.00%    failed      0.00%
+ 624  Bact_Actinobacteriota_Actinomycetia_RS_GCF_006717025.1_NZ_VFQB01000004.1_312             0.00%    failed      0.11%
+ 625  Bact_Firmicutes_F_Halanaerobiia_GB_GCA_003553485.1_PWEJ01000077.1_66                     2.00%    passed      5.89%
+ 626  Bact_Chloroflexota_Chloroflexia_GB_GCA_015478675.1_JADMIH010000136.1_6                   0.50%    failed      0.96%
+ 627  Bact_Firmicutes_G_SHA-98_GB_GCA_900761905.1_CAAFEP010000058.1_3                          1.00%    passed      5.43%
+ 628  Bact_Bacteroidota_Kapabacteria_GB_GCA_011373555.1_DRWW01000118.1_16                      1.00%    failed      0.01%
+ 629  Bact_Spirochaetota_Leptospirae_RS_GCF_003114815.1_NZ_BFAZ01000005.1_130                  3.00%    passed     61.12%
+ 630  Bact_Planctomycetota_UBA11346_GB_GCA_002746535.1_NVWA01000012.1_89                       1.00%    passed     72.96%
+ 631  Bact_Bacteroidota_Bacteroidia_GB_GCA_015490695.1_WFXK01000024.1_16                       2.50%    failed      0.18%
+ 632  Bact_Firmicutes_A_Clostridia_GB_GCA_001512685.1_LFSG01000009.1_65                        0.50%    failed      0.24%
+ 633  Bact_Planctomycetota_UBA1135_GB_GCA_008501825.1_QQUA01000006.1_198                       0.50%    failed      0.78%
+ 634  Bact_Firmicutes_A_Clostridia_GB_GCA_002329295.1_DCTT01000021.1_66                        0.50%    passed     26.03%
+ 635  Bact_Chloroflexota_Dehalococcoidia_GB_GCA_005882985.1_VBEJ01000120.1_18                  0.00%    passed     79.67%
+ 636  Bact_Fibrobacterota_Fibrobacteria_RS_GCF_900177705.1_NZ_FXBA01000002.1_20                0.50%    passed     12.88%
+ 637  Bact_Chloroflexota_FW602-bin22_GB_GCA_016190465.1_JACPQP010000247.1_2                    0.50%    failed      0.00%
+ 638  Bact_Chloroflexota_Anaerolineae_GB_GCA_016710785.1_JADJUE010000009.1_101                 1.00%    failed      0.01%
+ 639  Bact_Actinobacteriota_Acidimicrobiia_GB_GCA_009886115.1_VFJJ01000079.1_8                 0.50%    passed     13.36%
+ 640  Bact_DTU030_DTU030_GB_GCA_012837285.1_DURJ01000018.1_30                                  2.50%    passed     31.80%
+ 641  Bact_Nitrospirota_Nitrospiria_GB_GCA_012965905.1_DTRN01000195.1_5                        2.50%    passed      8.98%
+ 642  Bact_Planctomycetota_DTLF01_GB_GCA_011371585.1_DTLF01000002.1_50                         1.00%    passed     81.75%
+ 643  Bact_Bdellovibrionota_C_UBA2361_GB_GCA_009926305.1_RFPC01000005.1_65                     1.50%    passed     22.71%
+ 644  Bact_Patescibacteria_Paceibacteria_GB_GCA_001781205.1_MFLE01000026.1_12                  0.50%    passed     77.55%
+ 645  Bact_Firmicutes_A_Clostridia_GB_GCA_017620395.1_JAFZQJ010000027.1_83                     2.50%    passed     27.32%
+ 646  Bact_Dormibacterota_Dormibacteria_GB_GCA_005882775.1_VBDY01000120.1_7                    1.50%    failed      4.89%
+ 647  Bact_Proteobacteria_Gammaproteobacteria_RS_GCF_000021485.1_NC_011761.1_1642              1.00%    failed      0.00%
+ 648  Bact_Firmicutes_A_Clostridia_GB_GCA_910583995.1_CAJTYW010000001.1_101                    1.00%    passed     31.56%
+ 649  Bact_Planctomycetota_UBA1135_GB_GCA_014192625.1_BJHM01000007.1_62                        5.00%    failed      3.47%
+ 650  Bact_T1SED10-198M_T1SED10-198M_GB_GCA_003554345.1_PWGE01000443.1_2                       2.50%    passed      5.64%
+ 651  Bact_Firmicutes_G_Limnochordia_GB_GCA_012839765.1_DUMW01000101.1_29                      0.50%    failed      0.72%
+ 652  Bact_Chlamydiota_Chlamydiia_GB_GCA_011064985.1_JAAKFR010000010.1_8                       2.00%    passed      6.27%
+ 653  Bact_Patescibacteria_Paceibacteria_GB_GCA_007376725.1_VMGT01000002.1_39                  0.50%    passed     29.70%
+ 654  Bact_Firmicutes_A_Tb-RUG-66_GB_GCA_016288255.1_JAEEYS010000070.1_3                       1.00%    passed      7.64%
+ 655  Bact_Chloroflexota_UBA11872_GB_GCA_011523785.1_WTFW01000063.1_55                         1.50%    failed      0.02%
+ 656  Bact_SAR324_SAR324_GB_GCA_001783715.1_MFNF01000001.1_382                                 0.50%    passed      6.17%
+ 657  Bact_Bdellovibrionota_Oligoflexia_GB_GCA_902766925.1_CACXFL010000051.1_6                 1.50%    passed     27.98%
+ 658  Bact_Patescibacteria_ABY1_GB_GCA_016182495.1_JACPGK010000037.1_11                        1.00%    passed     23.96%
+ 659  Bact_Patescibacteria_Doudnabacteria_GB_GCA_001777515.1_MFEF01000019.1_7                  1.00%    failed      4.37%
+ 660  Bact_Spirochaetota_B62-G9_GB_GCA_016934265.1_JAFGTF010000026.1_26                        0.50%    passed     17.17%
+ 661  Bact_Firmicutes_A_Clostridia_GB_GCA_009783805.1_WRCU01000077.1_4                         0.00%    failed      0.29%
+ 662  Bact_Firmicutes_Bacilli_RS_GCF_000701685.1_NZ_JNJO01000009.1_62                          0.00%    failed      0.00%
+ 663  Bact_Firmicutes_B_Syntrophomonadia_GB_GCA_012512295.1_JAAZDI010000252.1_4                0.00%    passed     29.66%
+ 664  Bact_WOR-3_WOR-3_GB_GCA_903865935.1_CAIPLT010000023.1_24                                 2.00%    passed     12.74%
+ 665  Bact_Patescibacteria_ABY1_GB_GCA_001791465.1_MGER01000031.1_6                            1.50%    passed     21.10%
+ 666  Bact_Firmicutes_F_Halanaerobiia_GB_GCA_007122335.1_SKTZ01000026.1_65                     2.00%    passed     66.75%
+ 667  Bact_Armatimonadota_UBA5377_GB_GCA_003170595.1_PMZA01000408.1_21                         3.00%    failed      0.03%
+ 668  Bact_SZUA-79_SZUA-79_GB_GCA_004195045.1_SGBC01000003.1_338                               1.50%    failed      0.00%
+ 669  Bact_Firmicutes_A_Clostridia_GB_GCA_000434675.1_HF988633.1_28                            1.00%    passed     25.19%
+ 670  Bact_Firmicutes_A_Clostridia_GB_GCA_900767715.1_CAAGAD010000005.1_298                    1.00%    passed     11.50%
+ 671  Bact_Patescibacteria_Paceibacteria_GB_GCA_002772995.1_PFCO01000001.1_72                  0.50%    passed     25.98%
+ 672  Bact_Firmicutes_C_Negativicutes_RS_GCF_000194985.1_NZ_GL878519.1_376                     2.00%    passed     49.68%
+ 673  Bact_Proteobacteria_Gammaproteobacteria_GB_GCA_015163845.1_JAAOII010000069.1_3           1.50%    passed     85.80%
+ 674  Bact_Proteobacteria_Alphaproteobacteria_GB_GCA_002239065.1_MPNO01000049.1_22             0.50%    failed      0.33%
+ 675  Bact_WOR-3_32-111_GB_GCA_003641665.1_QNBC01000092.1_6                                    4.50%    failed      4.47%
+ 676  Bact_Desulfobacterota_DSM-4660_GB_GCA_011334845.1_DTHC01000133.1_2                       4.00%    passed     69.65%
+ 677  Bact_AABM5-125-24_BMS3BBIN04_GB_GCA_018263585.1_JAANWZ010000002.1_6                      0.50%    failed      2.33%
+ 678  Bact_Proteobacteria_Gammaproteobacteria_GB_GCA_900078745.1_FKII01000045.1_21             0.50%    failed      0.98%
+ 679  Bact_Patescibacteria_Paceibacteria_GB_GCA_012510515.1_JAAZHW010000018.1_3                1.00%    failed      0.01%
+ 680  Bact_Planctomycetota_J132_GB_GCA_003694635.1_RFKQ01000090.1_14                           1.00%    failed      3.19%
+ 681  Bact_Patescibacteria_ABY1_GB_GCA_015485695.1_WFTB01000027.1_36                           0.50%    passed     12.77%
+ 682  Bact_Acidobacteriota_Aminicenantia_GB_GCA_011333655.1_DTKB01000012.1_19                  0.50%    failed      0.12%
+ 683  Bact_Acidobacteriota_Holophagae_RS_GCF_016592575.1_NZ_AP017470.1_1660                    2.50%    failed      3.19%
+ 684  Bact_Patescibacteria_CPR2_GB_GCA_903842085.1_CAIMLA010000019.1_10                        1.50%    failed      0.03%
+ 685  Bact_Acidobacteriota_Vicinamibacteria_GB_GCA_009840635.1_VXNL01000079.1_36               1.00%    failed      0.01%
+ 686  Bact_Proteobacteria_Gammaproteobacteria_GB_GCA_001750625.1_MEIE01000052.1_4              0.50%    failed      0.04%
+ 687  Bact_WOR-3_WOR-3_GB_GCA_011051315.1_DSKY01000016.1_22                                    3.00%    passed     28.39%
+ 688  Bact_Patescibacteria_Paceibacteria_GB_GCA_018826255.1_JAHJZO010000010.1_5                0.50%    passed     45.28%
+ 689  Bact_Desulfobacterota_Desulfomonilia_GB_GCA_018434685.1_JAHDOV010000004.1_523            2.00%    passed     25.50%
+ 690  Bact_Proteobacteria_Gammaproteobacteria_GB_GCA_002352565.1_DEIQ01000129.1_25             2.00%    failed      0.01%
+ 691  Bact_Proteobacteria_Alphaproteobacteria_RS_GCF_011516885.1_NZ_WOTD01000017.1_27          0.50%    failed      0.00%
+ 692  Bact_Actinobacteriota_Acidimicrobiia_GB_GCA_013044465.1_JABEUL010000160.1_7              1.00%    passed     93.60%
+ 693  Bact_Firmicutes_B_Moorellia_GB_GCA_014360065.1_JACIYF010000103.1_5                       1.50%    passed     20.91%
+ 694  Bact_Firmicutes_A_Clostridia_GB_GCA_900766735.1_CAAFWO010000040.1_52                     0.50%    failed      3.06%
+ 695  Bact_Firmicutes_B_Moorellia_RS_GCF_000305935.1_NC_018870.1_1563                          1.50%    passed     23.79%
+ 696  Bact_Patescibacteria_Paceibacteria_GB_GCA_001821765.1_MHOA01000001.1_127                 0.50%    passed     76.38%
+ 697  Bact_Chlamydiota_Chlamydiia_GB_GCA_018239785.1_JAFEGQ010000092.1_6                       0.50%    failed      0.02%
+ 698  Bact_Actinobacteriota_Humimicrobiia_GB_GCA_018830725.1_JAHJRV010000035.1_5               0.00%    failed      0.08%
+ 699  Bact_Firmicutes_A_Thermoanaerobacteria_RS_GCF_008274215.1_NZ_VTPS01000023.1_37           2.50%    failed      0.00%
+ 700  Bact_Firmicutes_G_SHA-98_GB_GCA_002070415.1_MWDF01000005.1_25                            3.50%    failed      2.47%
+ 701  Bact_Patescibacteria_Paceibacteria_GB_GCA_002069525.1_MWBJ01000001.1_35                  0.50%    failed      0.08%
+ 702  Bact_Patescibacteria_Paceibacteria_GB_GCA_016182095.1_JACOXY010000012.1_7                2.00%    passed     69.85%
+ 703  Bact_CG03_CG03_GB_GCA_002841685.1_PHAM01000021.1_23                                      1.50%    passed     54.57%
+ 704  Bact_Actinobacteriota_Thermoleophilia_GB_GCA_016235065.1_JACRMB010000003.1_659           0.50%    passed     65.36%
+ 705  Bact_Actinobacteriota_Acidimicrobiia_GB_GCA_001767695.1_MELR01000013.1_185               0.00%    failed      0.24%
+ 706  Bact_Patescibacteria_Paceibacteria_GB_GCA_016215335.1_JACRKE010000015.1_37               0.50%    passed     48.45%
+ 707  Bact_Patescibacteria_ABY1_GB_GCA_002402995.1_DHGX01000004.1_148                          1.50%    passed      8.60%
+ 708  Bact_Thermotogota_Thermotogae_GB_GCA_003641545.1_QNAU01000039.1_7                        3.00%    failed      0.73%
+ 709  Bact_Chloroflexota_Dehalococcoidia_GB_GCA_002239025.1_MPNM01000019.1_41                  0.50%    failed      4.79%
+ 710  Bact_Firmicutes_A_Clostridia_RS_GCF_900112155.1_NZ_FOKQ01000022.1_40                     2.50%    passed     38.54%
+ 711  Bact_Chlamydiota_Chlamydiia_GB_GCA_018694295.1_JABHNK010000055.1_29                      0.50%    passed     27.77%
+ 712  Bact_Actinobacteriota_Humimicrobiia_RS_GCF_013281975.1_NZ_BLRZ01000020.1_15              1.00%    passed     36.21%
+ 713  Bact_Spirochaetota_Leptospirae_GB_GCA_014238275.1_JABABJ010000095.1_19                   0.50%    passed     41.19%
+ 714  Bact_Patescibacteria_Paceibacteria_GB_GCA_016181525.1_JACOZD010000001.1_3                0.50%    passed     40.36%
+ 715  Bact_AABM5-125-24_AABM5-125-24_GB_GCA_002127415.1_MWJR01000187.1_1                       2.00%    passed      9.85%
+ 716  Bact_WOR-3_UBA3072_GB_GCA_004377355.1_SOIB01000117.1_11                                  7.50%    passed     18.94%
+ 717  Bact_Patescibacteria_Andersenbacteria_GB_GCA_016203935.1_JACQLU010000030.1_43            0.50%    passed     32.29%
+ 718  Bact_4484-113_4484-113_GB_GCA_016932385.1_JAFGCY010000065.1_14                           2.50%    passed     57.83%
+ 719  Bact_Patescibacteria_ABY1_GB_GCA_001818315.1_MHKF01000011.1_36                           1.00%    failed      0.49%
+ 720  Bact_Proteobacteria_Alphaproteobacteria_GB_GCA_011524605.1_WTKA01000103.1_20             0.50%    passed     90.57%
+ 721  Bact_Chloroflexota_Limnocylindria_GB_GCA_013816405.1_JACDEL010000092.1_5                 1.50%    failed      0.00%
+ 722  Bact_Desulfobacterota_G_Syntrophorhabdia_GB_GCA_002067405.1_MVRP01000032.1_3             4.00%    passed     32.10%
+ 723  Bact_Patescibacteria_Paceibacteria_GB_GCA_016217555.1_JACRHW010000016.1_95               2.50%    passed      5.14%
+ 724  Bact_Patescibacteria_Paceibacteria_GB_GCA_003164215.1_PLSR01000003.1_27                  0.50%    passed     17.35%
+ 725  Bact_SAR324_SAR324_GB_GCA_002995645.1_PUHO01000019.1_28                                  0.50%    failed      0.50%
+ 726  Bact_Firmicutes_E_DTU015_GB_GCA_012842575.1_DUSP01000132.1_5                             0.50%    passed     72.98%
+ 727  Bact_Deferribacterota_Deferribacteres_GB_GCA_019116905.1_DXAQ01000122.1_17               1.00%    failed      1.44%
+ 728  Bact_Actinobacteriota_Thermoleophilia_GB_GCA_016870485.1_VGBM01000007.1_33               1.00%    failed      0.00%
+ 729  Bact_Chlamydiota_Chlamydiia_GB_GCA_014239035.1_JAAZZY010000048.1_8                       0.50%    passed      7.37%
+ 730  Bact_Omnitrophota_Koll11_GB_GCA_001804415.1_MHGA01000033.1_39                            3.00%    passed     13.83%
+ 731  Bact_Patescibacteria_ABY1_GB_GCA_005239895.1_SBBB01000022.1_25                           1.50%    failed      0.00%
+ 732  Bact_Patescibacteria_Paceibacteria_GB_GCA_000992445.2_LBUF02000001.1_55                  0.50%    passed     13.77%
+ 733  Bact_Spirochaetota_UBA12135_GB_GCA_013426755.1_AP019861.1_1048                           2.50%    passed     24.85%
+ 734  Bact_Firmicutes_Bacilli_GB_GCA_003050565.1_PEBW01000004.1_29                             0.00%    failed      0.00%
+ 735  Bact_Patescibacteria_ABY1_GB_GCA_018698735.1_JABIPD010000012.1_5                         2.00%    passed     29.29%
+ 736  Bact_Firmicutes_Bacilli_RS_GCF_900637845.1_NZ_LR134439.1_1578                            2.00%    passed      8.16%
+ 737  Bact_Firmicutes_B_Moorellia_GB_GCA_012523575.1_JAAYIF010000032.1_124                     3.50%    failed      0.24%
+ 738  Bact_Firmicutes_A_Clostridia_RS_GCF_900626145.1_NZ_LR130817.1_1247                       0.50%    passed     59.83%
+ 739  Bact_Chloroflexota_UBA11872_GB_GCA_012270555.1_JAAXIC010000039.1_16                      3.00%    passed     24.49%
+ 740  Bact_Actinobacteriota_Acidimicrobiia_GB_GCA_003132305.1_PKXJ01000011.1_128               0.00%    failed      0.15%
+ 741  Bact_Thermotogota_Thermotogae_RS_GCF_000816145.1_NZ_CP007141.1_1633                      3.00%    passed     59.53%
+ 742  Bact_Bdellovibrionota_Bacteriovoracia_GB_GCA_002786715.1_PCTW01000068.1_22               2.00%    passed     32.66%
+ 743  Bact_Patescibacteria_ABY1_GB_GCA_016187485.1_JACPJO010000004.1_73                        1.00%    passed     11.63%
+ 744  Bact_Firmicutes_C_Negativicutes_RS_GCF_902506685.1_NZ_CABWNB010000001.1_282              3.50%    passed     32.78%
+ 745  Bact_Spirochaetota_Brachyspirae_RS_GCF_000384655.1_NZ_ARQI01000126.1_78                  2.50%    passed     17.78%
+ 746  Bact_Patescibacteria_Paceibacteria_GB_GCA_001818015.1_MHJO01000008.1_2                   1.00%    passed     54.45%
+ 747  Bact_WOR-3_UBA3072_GB_GCA_015486685.1_WFRC01000214.1_9                                   3.50%    failed      2.96%
+ 748  Bact_Firmicutes_G_Limnochordia_GB_GCA_017577405.1_PIUA01000020.1_84                      4.50%    failed      0.00%
+ 749  Bact_WOR-3_WOR-3_GB_GCA_011358805.1_DTMQ01000007.1_14                                    2.00%    failed      0.34%
+ 750  Bact_Firmicutes_Bacilli_RS_GCF_000620005.1_NZ_JHVF01000002.1_49                          2.50%    passed     20.79%
+ 751  Bact_Bdellovibrionota_C_UBA2361_GB_GCA_016786595.1_JAEUWB010000060.1_246                 1.50%    passed     87.67%
+ 752  Bact_Spirochaetota_Leptospirae_RS_GCF_000266885.1_NC_018020.1_3828                       3.00%    passed     80.45%
+ 753  Bact_Patescibacteria_Saccharimonadia_GB_GCA_002429485.1_DIZX01000009.1_7                 3.00%    failed      2.03%
+ 754  Bact_WOR-3_WOR-3_GB_GCA_005223075.1_NJBO01000001.1_210                                   1.50%    passed     10.28%
+ 755  Bact_Spirochaetota_UBA6919_GB_GCA_001829155.1_MIAO01000071.1_13                          1.50%    passed      9.19%
+ 756  Bact_Proteobacteria_Alphaproteobacteria_GB_GCA_014332745.1_JACONL010000005.1_16          1.00%    failed      0.03%
+ 757  Bact_Proteobacteria_Alphaproteobacteria_GB_GCA_905181735.1_CAJIYR010000010.1_40          0.50%    failed      0.00%
+ 758  Bact_Patescibacteria_ABY1_GB_GCA_001818155.1_MHJU01000005.1_59                           1.50%    failed      2.93%
+ 759  Bact_Myxococcota_Polyangia_GB_GCA_016937155.1_JAFGWM010000008.1_16                       3.50%    passed     49.75%
+ 760  Bact_Firmicutes_Bacilli_GB_GCA_014238055.1_JABABV010000016.1_2                           0.50%    failed      0.02%
+ 761  Bact_WOR-3_Hydrothermia_GB_GCA_002011615.1_MTOH01000001.1_273                            2.50%    failed      0.14%
+ 762  Bact_Patescibacteria_Paceibacteria_GB_GCA_002773475.1_PFBB01000035.1_10                  0.50%    passed     15.74%
+ 763  Bact_Actinobacteriota_Acidimicrobiia_GB_GCA_002352645.1_DEIU01000061.1_39                0.50%    failed      4.93%
+ 764  Bact_SAR324_SAR324_GB_GCA_016735295.1_JAERRU010000019.1_62                               0.50%    failed      0.25%
+ 765  Bact_Patescibacteria_Paceibacteria_GB_GCA_007117675.1_SKGB01000005.1_17                  1.00%    failed      3.05%
+ 766  Bact_Patescibacteria_Paceibacteria_GB_GCA_013360865.1_JABWAS010000010.1_11               0.50%    passed     52.37%
+ 767  Bact_Patescibacteria_Paceibacteria_GB_GCA_014874305.1_JACWAO010000014.1_6                1.50%    passed     17.03%
+ 768  Bact_Firmicutes_A_Clostridia_GB_GCA_004556925.1_SFFI01000004.1_89                        0.50%    passed     80.15%
+ 769  Bact_Firmicutes_A_Clostridia_RS_GCF_000159095.1_NZ_GG666295.1_110                        4.50%    failed      0.00%
+ 770  Bact_Chlamydiota_Chlamydiia_GB_GCA_009937555.1_JAACFD010000192.1_3                       1.50%    passed     25.68%
+ 771  Bact_Fusobacteriota_Fusobacteriia_RS_GCF_001553645.1_NZ_CP014231.1_67                    4.50%    failed      0.00%
+ 772  Bact_Proteobacteria_Alphaproteobacteria_GB_GCA_002715505.1_PAZF01000009.1_19             0.50%    failed      0.00%
+ 773  Bact_Chloroflexota_Limnocylindria_GB_GCA_009925905.1_RFPZ01000009.1_23                   0.50%    failed      0.09%
+ 774  Bact_Actinobacteriota_UBA4738_GB_GCA_005888465.1_VAYJ01000053.1_4                        1.00%    failed      0.04%
+ 775  Bact_Proteobacteria_Alphaproteobacteria_RS_GCF_000420665.1_NZ_ATVJ01000002.1_81          0.50%    passed     28.11%
+ 776  Bact_Patescibacteria_ABY1_GB_GCA_016784145.1_JADHVF010000002.1_127                       2.00%    failed      0.00%
+ 777  Bact_Firestonebacteria_D2-FULL-39-29_GB_GCA_001778375.1_MFGV01000012.1_27                5.50%    passed     67.03%
+ 778  Bact_Chlamydiota_Chlamydiia_RS_GCF_900000175.1_NZ_CWGJ01000025.1_149                     3.50%    passed     20.43%
+ 779  Bact_Firmicutes_Bacilli_RS_GCF_012163225.1_NZ_JAAVVK010000001.1_145                      0.50%    failed      0.00%
+ 780  Bact_Firmicutes_Bacilli_RS_GCF_000685905.1_NZ_JMKZ01000001.1_353                         0.50%    failed      0.03%
+ 781  Bact_Proteobacteria_Alphaproteobacteria_RS_GCF_000264455.2_NC_017956.1_1527              0.50%    failed      0.00%
+ 782  Bact_Actinobacteriota_Thermoleophilia_GB_GCA_016213645.1_JACQZY010000014.1_77            1.00%    failed      0.13%
+ 783  Bact_Actinobacteriota_Thermoleophilia_GB_GCA_002347645.1_DDYF01000047.1_94               1.00%    failed      0.07%
+ 784  Bact_Firmicutes_A_Clostridia_GB_GCA_000146855.1_GL405246.1_1389                          3.50%    failed      1.53%
+ 785  Bact_Spirochaetota_Leptospirae_GB_GCA_003695005.1_RFJE01000080.1_4                       1.50%    passed     27.18%
+ 786  Bact_CSP1-3_CSP1-3_GB_GCA_011056185.1_DSGJ01000026.1_26                                  4.00%    failed      0.01%
+ 787  Bact_Dormibacterota_Dormibacteria_GB_GCA_005880985.1_VBIQ01000007.1_65                   2.00%    failed      0.00%
+ 788  Bact_Proteobacteria_Alphaproteobacteria_GB_GCA_002717245.1_PBCY01000019.1_42             1.00%    failed      2.15%
+ 789  Bact_Fibrobacterota_Fibrobacteria_GB_GCA_902796785.1_CADBQJ010000025.1_9                 1.50%    passed     52.60%
+ 790  Bact_Synergistota_Synergistia_GB_GCA_002839185.1_PGXO01000003.1_16                       1.00%    passed     18.60%
+ 791  Bact_Firmicutes_H_UBA994_RS_GCF_014931565.1_NZ_CP063353.1_609                            3.00%    failed      0.16%
+ 792  Bact_Firmicutes_G_SHA-98_GB_GCA_002424305.1_DIQZ01000038.1_50                            2.00%    passed      7.91%
+ 793  Bact_Chloroflexota_Dehalococcoidia_GB_GCA_009377665.1_WHTO01000099.1_12                  7.50%    failed      0.40%
+ 794  Bact_Firmicutes_Bacilli_GB_GCA_001179805.1_CWGI01000001.1_514                            1.50%    failed      0.66%
+ 795  Bact_Firmicutes_G_SHA-98_GB_GCA_013178415.1_JABLXA010000002.1_67                         1.50%    failed      0.16%
+ 796  Bact_Omnitrophota_4484-213_GB_GCA_003645805.1_QNCL01000001.1_36                          1.50%    failed      0.05%
+ 797  Bact_Firmicutes_Bacilli_GB_GCA_002359095.1_DEQD01000011.1_20                             5.50%    passed      6.43%
+ 798  Bact_Planctomycetota_MHYJ01_GB_GCA_016206485.1_JACQRL010000272.1_7                       2.50%    passed     19.28%
+ 799  Bact_Patescibacteria_Paceibacteria_GB_GCA_903933735.1_CAIZLB010000002.1_8                0.50%    failed      0.12%
+ 800  Bact_Proteobacteria_Alphaproteobacteria_RS_GCF_007833635.1_NZ_CP031125.1_1232            0.50%    failed      2.91%
+ 801  Bact_Patescibacteria_Andersenbacteria_GB_GCA_001817055.1_MHHP01000038.1_20               3.50%    passed     33.96%
+ 802  Bact_Firmicutes_Bacilli_RS_GCF_000702725.1_NZ_JNJI01000004.1_80                          3.50%    failed      0.73%
+ 803  Bact_Thermotogota_Thermotogae_RS_GCF_900129985.1_NZ_FQXN01000001.1_66                    5.00%    failed      0.00%
+ 804  Bact_Firmicutes_A_Clostridia_GB_GCA_017394805.1_JAFPXC010000027.1_3                      0.50%    passed     35.69%
+ 805  Bact_Synergistota_Synergistia_RS_GCF_000237805.1_NZ_CM001376.1_954                       1.00%    passed     15.41%
+ 806  Bact_UBA9089_UBA9088_GB_GCA_003498085.1_DNCM01000027.1_3                                 3.50%    failed      0.59%
+ 807  Bact_Thermotogota_Thermotogae_GB_GCA_015491995.1_WGFY01000026.1_7                        4.50%    failed      2.60%
+ 808  Bact_WOR-3_WOR-3_GB_GCA_011363735.1_DTDR01000058.1_17                                    0.00%    failed      0.35%
+ 809  Bact_Patescibacteria_Paceibacteria_GB_GCA_014237915.1_JABACC010000007.1_68               1.50%    failed      0.00%
+ 810  Bact_Atribacterota_JS1_GB_GCA_011056645.1_DSEL01000147.1_5                               3.00%    failed      0.10%
+ 811  Bact_B130-G9_B130-G9_GB_GCA_016929465.1_JAFGIT010000066.1_18                             1.50%    passed     14.50%
+ 812  Bact_Armatimonadota_HRBIN17_GB_GCA_011055095.1_DSGX01000021.1_87                         3.50%    failed      0.11%
+ 813  Bact_Bdellovibrionota_C_UBA2361_GB_GCA_003230795.1_QIGM01000265.1_1                      1.00%    failed      2.38%
+ 814  Bact_CAIJMQ01_CAIJMQ01_GB_GCA_013152825.1_JAADFP010000003.1_16                           2.50%    failed      0.29%
+ 815  Bact_Firmicutes_G_SHA-98_GB_GCA_013178125.1_JABLXJ010000001.1_422                        4.00%    passed     50.12%
+ 816  Bact_Spirochaetota_Brevinematia_GB_GCA_011358125.1_DTOW01000140.1_5                      3.00%    failed      0.89%
+ 817  Bact_Chloroflexota_Dehalococcoidia_GB_GCA_011057325.1_DSGV01000014.1_462                 4.00%    failed      0.00%
+ 818  Bact_Actinobacteriota_Thermoleophilia_GB_GCA_016278725.1_JADQBG010000002.1_105           1.00%    passed     12.73%
+ 819  Bact_Patescibacteria_Paceibacteria_GB_GCA_009694925.1_SIBX01000001.1_37                  1.50%    passed      6.36%
+ 820  Bact_Patescibacteria_CG2-30-54-11_GB_GCA_903889905.1_CAISZI010000040.1_141               2.50%    passed     46.70%
+ 821  Bact_Chloroflexota_UBA6077_GB_GCA_016210245.1_JACQUR010000344.1_8                       16.00%    failed      0.89%
+ 822  Bact_Firmicutes_A_Clostridia_GB_GCA_009780275.1_WRAI01000030.1_9                         3.50%    passed     59.49%
+ 823  Bact_Fusobacteriota_Fusobacteriia_RS_GCF_000165505.1_NC_014632.1_872                     6.00%    failed      0.00%
+ 824  Bact_Patescibacteria_Saccharimonadia_GB_GCA_013816445.1_JACDEK010000035.1_8              4.50%    failed      4.68%
+ 825  Bact_Synergistota_Synergistia_GB_GCA_015657435.1_JADLKH010000005.1_116                   0.00%    failed      3.83%
+ 826  Bact_Proteobacteria_Alphaproteobacteria_GB_GCA_002691145.1_NZHE01000026.1_67             2.00%    failed      0.04%
+ 827  Bact_Actinobacteriota_Thermoleophilia_GB_GCA_007122215.1_SKUG01000271.1_2                2.00%    failed      0.04%
+ 828  Bact_Patescibacteria_Paceibacteria_GB_GCA_002408565.1_DHTA01000005.1_163                 0.50%    failed      0.14%
+ 829  Bact_Patescibacteria_Paceibacteria_GB_GCA_903920485.1_CAIXMG010000045.1_2                2.50%    failed      1.84%
+ 830  Bact_Firmicutes_E_RBS10-35_GB_GCA_014896375.1_JADBKN010000009.1_109                      9.00%    failed      0.00%
+ 831  Bact_Proteobacteria_Alphaproteobacteria_GB_GCA_013216065.1_JABSOH010000026.1_11          1.50%    failed      1.08%
+ 832  Bact_Bdellovibrionota_Oligoflexia_GB_GCA_002238945.1_MPNI01000004.1_99                   2.00%    failed      0.09%
+ 833  Bact_Actinobacteriota_Rubrobacteria_RS_GCF_900175965.1_NZ_FWWX01000004.1_1454            1.50%    failed      0.26%
+ 834  Bact_Patescibacteria_Paceibacteria_GB_GCA_014238395.1_JABABE010000119.1_13               1.00%    failed      0.02%
+ 835  Bact_Atribacterota_JS1_GB_GCA_012520575.1_JAAYOB010000022.1_23                           2.50%    failed      0.07%
+ 836  Bact_Firmicutes_H_UBA994_GB_GCA_012522585.1_JAAYKD010000062.1_2                          4.50%    failed      0.46%
+ 837  Bact_Marinisomatota_AB16_GB_GCA_018400915.1_JAGYLW010000007.1_37                        31.00%    passed     97.75%
+ 838  Bact_Deferribacterota_Deferribacteres_GB_GCA_002402635.1_DHGE01000124.1_6               11.00%    failed      0.36%
+ 839  Bact_Thermotogota_Thermotogae_GB_GCA_015486095.1_WFSK01000231.1_6                        1.50%    failed      4.64%
+ 840  Bact_Actinobacteriota_Humimicrobiia_GB_GCA_012837825.1_DUQM01000059.1_22                 0.00%    failed      0.00%
+ 841  Bact_Patescibacteria_Paceibacteria_GB_GCA_003694545.1_RFKD01000017.1_14                 10.00%    passed      5.70%
+ 842  Bact_Firmicutes_Bacilli_RS_GCF_001484045.1_NZ_CP013128.1_480                             1.50%    failed      0.06%
+ 843  Bact_Synergistota_Synergistia_GB_GCA_016841745.1_JAENYO010000001.1_192                   0.00%    failed      3.09%
+ 844  Bact_UBP15_UBA6099_GB_GCA_011368175.1_DSWB01000626.1_5                                   3.50%    passed     38.27%
+ 845  Bact_Desulfobacterota_BSN033_GB_GCA_011367125.1_DSZL01000043.1_13                       10.00%    passed     13.98%
+ 846  Bact_Actinobacteriota_Thermoleophilia_GB_GCA_016870155.1_VGCE01000002.1_35               4.00%    failed      0.00%
+ 847  Bact_Patescibacteria_Saccharimonadia_GB_GCA_014191035.1_BJGX01000014.1_9                 8.00%    failed      1.16%
+ 848  Bact_Chloroflexota_UBA5177_GB_GCA_002413265.1_DHWR01000165.1_33                          7.50%    failed      1.46%
+ 849  Bact_Armatimonadota_Fimbriimonadia_GB_GCA_013359125.1_JABWCR010000005.1_53               9.00%    failed      0.08%
+ 850  Bact_Actinobacteriota_Acidimicrobiia_GB_GCA_002238785.1_MPNA01000001.1_159               1.50%    passed     11.36%
+ 851  Bact_Firmicutes_E_SLMV01_GB_GCA_003563985.1_PWSR01000158.1_6                             1.50%    failed      0.01%
+ 852  Bact_Armatimonadota_Fimbriimonadia_GB_GCA_003577165.1_QEUM01000002.1_42                  9.50%    failed      0.52%
+ 853  Bact_WOR-3_WOR-3_GB_GCA_003645615.1_QNBE01000022.1_5                                     8.00%    passed     45.11%
+ 854  Bact_Firmicutes_H_UBA994_GB_GCA_018334055.1_JAGXSS010000107.1_62                         4.50%    failed      0.11%
+ 855  Bact_Proteobacteria_Alphaproteobacteria_GB_GCA_000299115.1_CP003801.1_1069               1.00%    failed      0.00%
+ 856  Bact_Patescibacteria_Paceibacteria_GB_GCA_016867415.1_VGJO01000002.1_56                  5.00%    passed     25.96%
+ 857  Bact_Chloroflexota_Limnocylindria_GB_GCA_005889075.1_VBDQ01000014.1_5                    3.00%    failed      0.00%
+ 858  Bact_Deinococcota_Deinococci_RS_GCF_000092425.1_NC_014221.1_2073                         7.00%    failed      0.00%
+ 859  Bact_Proteobacteria_Alphaproteobacteria_GB_GCA_014238315.1_JABABG010000010.1_3           1.50%    failed      0.88%
+ 860  Bact_Synergistota_Synergistia_GB_GCA_900129645.1_FSQZ01000001.1_155                      1.50%    passed     39.06%
+ 861  Bact_Chloroflexota_Dehalococcoidia_GB_GCA_009377715.1_WHTN01000063.1_17                  7.50%    passed     81.35%
+ 862  Bact_Eremiobacterota_SpSt-956_GB_GCA_011343225.1_DTOT01000079.1_3                        5.00%    failed      1.83%
+ 863  Bact_Chlamydiota_Chlamydiia_GB_GCA_018239765.1_JAFEGT010000002.1_16                     10.00%    passed     44.74%
+ 864  Bact_Acidobacteriota_Aminicenantia_GB_GCA_015486055.1_WFSJ01000027.1_7                   4.50%    passed     57.70%
+ 865  Bact_Desulfobacterota_RBG-13-43-22_GB_GCA_011334425.1_DTOO01000085.1_3                  39.50%    passed     19.05%
+ 866  Bact_Proteobacteria_Alphaproteobacteria_GB_GCA_903884125.1_CAISDR010000084.1_16          3.00%    passed     11.48%
+ 867  Bact_Patescibacteria_Saccharimonadia_GB_GCA_016700035.1_CP064998.1_437                   6.00%    failed      0.16%
+ 868  Bact_Dormibacterota_Dormibacteria_GB_GCA_013044295.1_JABEUU010000175.1_16                6.00%    failed      0.04%
+ 869  Bact_Verrucomicrobiota_Verrucomicrobiae_GB_GCA_019246215.1_JAFAQT010000150.1_1          43.50%    passed     33.05%
+ 870  Bact_Acidobacteriota_Vicinamibacteria_GB_GCA_013697225.1_JACCXG010000637.1_6            48.00%    passed     58.00%
+ 871  Bact_WOR-3_UBA3073_GB_GCA_002366725.1_DFBT01000098.1_20                                  5.00%    passed     67.31%
+ 872  Bact_Cyanobacteria_Vampirovibrionia_GB_GCA_903866275.1_CAIPMU010000016.1_144             4.00%    passed     84.02%
+ 873  Bact_Thermotogota_Thermotogae_RS_GCF_000953715.1_NZ_LN824141.1_355                       9.50%    failed      0.01%
+ 874  Bact_T1Sed10-126_T1Sed10-126_GB_GCA_003557545.1_PWOD01000013.1_1                        27.50%    passed     29.15%
+ 875  Bact_Planctomycetota_UBA11346_GB_GCA_015231345.1_JADGBV010000021.1_11                    5.00%    passed     16.93%
+ 876  Bact_Actinobacteriota_Acidimicrobiia_RS_GCF_900128965.1_NZ_FQUL01000021.1_36             7.00%    passed      5.87%
+ 877  Bact_Deinococcota_Deinococci_RS_GCF_000195335.1_NC_015387.1_1061                         8.00%    failed      0.00%
+ 878  Bact_Synergistota_DRWO01_GB_GCA_011375965.1_DRWO01000020.1_3                             6.00%    failed      0.00%
+ 879  Bact_Omnitrophota_Koll11_GB_GCA_018813085.1_JAHJCI010000158.1_1                         50.00%    passed      7.52%
+ 880  Bact_Planctomycetota_J058_GB_GCA_003695705.1_RFHU01000303.1_4                            4.00%    failed      0.03%
+ 881  Bact_Cyanobacteria_Cyanobacteriia_RS_GCF_018389385.1_NZ_CP062698.1_3315                  9.50%    passed     10.79%
+ 882  Bact_Firmicutes_G_Limnochordia_GB_GCA_014896295.1_JADBKR010000003.1_185                  6.50%    failed      0.01%
+ 883  Bact_Cyanobacteria_Sericytochromatia_GB_GCA_002083825.1_DAZV01000027.1_36                3.00%    failed      2.13%
+ 884  Bact_Proteobacteria_Gammaproteobacteria_GB_GCA_905478365.1_CAJQIK010000079.1_1          53.50%    passed     52.31%
+ 885  Bact_Cyanobacteria_Vampirovibrionia_GB_GCA_016212515.1_JACRFZ010000078.1_64              3.00%    passed     27.08%
+ 886  Bact_Actinobacteriota_Actinomycetia_RS_GCF_004745075.1_NZ_RHFH01000016.1_34             37.00%    passed     24.90%
+ 887  Bact_Cyanobacteria_Vampirovibrionia_GB_GCA_001784555.1_MFRM01000005.1_143                4.00%    passed     62.66%
+ 888  Bact_Proteobacteria_Zetaproteobacteria_GB_GCA_015487905.1_WFOX01000153.1_3              52.00%    failed      0.00%
+ 889  Bact_Aquificota_Aquificae_RS_GCF_900215515.1_NZ_OBEI01000005.1_108                      16.50%    passed     27.93%
+ 890  Bact_Chloroflexota_Dehalococcoidia_GB_GCA_011053995.1_DSJM01000028.1_4                   8.50%    failed      0.00%
+ 891  Bact_Caldisericota_Caldisericia_GB_GCA_017999835.1_JAGNLA010000008.1_8                   6.50%    passed     15.03%
+ 892  Bact_Actinobacteriota_Acidimicrobiia_GB_GCA_902533795.1_CACAND010000002.1_14            13.50%    failed      0.34%
+ 893  Bact_Firmicutes_E_DTU015_GB_GCA_012841375.1_DUUV01000002.1_35                           18.50%    failed      0.00%
+ 894  Bact_Caldisericota_Caldisericia_RS_GCF_003570995.1_NZ_QXIY01000017.1_57                  6.00%    passed      6.23%
+ 895  Bact_Caldisericota_Caldisericia_RS_GCF_000284335.1_NC_017096.1_450                      16.50%    failed      0.61%
+ 896  Bact_Bipolaricaulota_Bipolaricaulia_GB_GCA_002011425.1_MTNJ01000056.1_6                  5.50%    failed      3.10%
+ 897  Bact_Bipolaricaulota_Bipolaricaulia_GB_GCA_018400715.1_JAGYME010000012.1_19              4.50%    passed     29.65%
+ 898  Bact_Cyanobacteria_Cyanobacteriia_RS_GCF_001746915.1_NZ_MJGC01000076.1_4                 6.00%    failed      0.63%
+ 899  Bact_Bipolaricaulota_Bipolaricaulia_GB_GCA_003535305.1_DOHL01000068.1_4                  5.00%    passed     22.37%
+ 900  Bact_Patescibacteria_ABY1_GB_GCA_001778095.1_MFGA01000009.1_10                          52.50%    passed      8.57%
+ 901  Bact_Proteobacteria_Gammaproteobacteria_GB_GCA_012961935.1_DTYI01000079.1_2             20.00%    failed      2.47%
+ 902  Bact_Actinobacteriota_Aquicultoria_GB_GCA_016208465.1_JACQXZ010000019.1_17              54.50%    passed     65.55%
+ 903  Bact_Bdellovibrionota_C_UBA2361_GB_GCA_003694225.1_RFKT01000329.1_7                     51.00%    passed     21.51%
+ 904  Bact_Cyanobacteria_Cyanobacteriia_GB_GCA_015295835.1_DVEG01000020.1_440                  5.00%    failed      0.11%
+ 905  Bact_JACPQY01_JACPQY01_GB_GCA_016180645.1_JACPAV010000064.1_5                           11.00%    passed      6.72%
+ 906  Bact_Cyanobacteria_Vampirovibrionia_GB_GCA_013216135.1_JABSOS010000018.1_35              2.50%    passed     61.65%
+ 907  Bact_Firmicutes_E_DTU015_GB_GCA_012842495.1_DUSS01000004.1_30                           17.00%    failed      0.04%
+ 908  Bact_Firmicutes_E_Sulfobacillia_GB_GCA_000237975.1_CP003179.1_1840                      10.00%    failed      0.00%
+ 909  Bact_Firmicutes_G_Limnochordia_GB_GCA_014896305.1_JADBKQ010000003.1_92                   3.00%    failed      0.00%
+ 910  Bact_Bacteroidota_Bacteroidia_GB_GCA_011058435.1_DSIS01000001.1_23                       9.50%    failed      0.00%
+ 911  Bact_Cyanobacteria_Cyanobacteriia_RS_GCF_000332275.1_NZ_CM001776.1_2436                  7.00%    passed     20.65%
+ 912  Bact_Cyanobacteria_Sericytochromatia_GB_GCA_016867265.1_VGJW01000010.1_60                4.00%    failed      0.37%
+ 913  Bact_Aquificota_Desulfurobacteriia_GB_GCA_015661865.1_DQVG01000028.1_3                  12.00%    failed      0.00%
+ 914  Bact_Cyanobacteria_Cyanobacteriia_RS_GCF_014698235.1_NZ_JACJSP010000003.1_318            5.50%    failed      0.05%
+ 915  Bact_Patescibacteria_Paceibacteria_GB_GCA_002724975.1_PBQF01000073.1_7                  54.00%    passed     90.38%
+ 916  Bact_Deinococcota_Deinococci_GB_GCA_013298595.1_JAAFIG010000047.1_24                     8.00%    failed      0.00%
+ 917  Bact_Firmicutes_E_DTU015_GB_GCA_012840015.1_DUMF01000002.1_67                            7.50%    passed     11.46%
+ 918  Bact_Cyanobacteria_Cyanobacteriia_RS_GCF_900474185.1_NZ_UCNW01000009.1_27                4.50%    failed      0.00%
+ 919  Bact_Desulfobacterota_Thermodesulfobacteria_RS_GCF_008630935.1_NZ_CP043908.1_147        12.50%    failed      0.39%
+ 920  Bact_Fermentibacterota_JAFGKV01_GB_GCA_016928395.1_JAFGKV010000173.1_15                 12.00%    failed      0.39%
+ 921  Bact_Cyanobacteria_Vampirovibrionia_GB_GCA_910587245.1_CAJULX010000012.1_13              4.00%    passed     20.12%
+ 922  Bact_Firmicutes_E_Sulfobacillia_GB_GCA_902809825.1_LR778114.1_1083                       9.50%    failed      0.00%
+ 923  Bact_Cyanobacteria_Vampirovibrionia_GB_GCA_013298875.1_JAAFJH010000029.1_8               3.00%    passed      8.83%
+ 924  Bact_Dictyoglomota_Dictyoglomia_RS_GCF_008124665.1_NZ_VNHP01000009.1_121                15.00%    failed      0.04%
+ 925  Bact_Cyanobacteria_Cyanobacteriia_RS_GCF_001904725.1_NZ_MRCE01000041.1_59                3.50%    failed      1.38%
+ 926  Bact_4484-113_4484-113_GB_GCA_002050035.1_MVCR01000059.1_9                              49.00%    passed      6.63%
+ 927  Bact_Atribacterota_Atribacteria_GB_GCA_014359405.1_JACIZN010000003.1_9                  26.00%    failed      0.19%
+ 928  Bact_Tectomicrobia_Entotheonellia_GB_GCA_003696125.1_RFHZ01000031.1_1                   35.00%    passed     46.48%
+ 929  Bact_Spirochaetota_Spirochaetia_GB_GCA_011524535.1_WTKD01000003.1_18                    16.50%    failed      0.16%
+ 930  Bact_Desulfobacterota_Desulfobacteria_RS_GCF_003851005.1_NZ_BEXT01000008.1_3            24.00%    failed      0.30%
+WARNING: 26 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                    8.37%  410 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.675 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 488184)...
+Model LG+C60 is alias for LG+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}
+
+NOTE: 7587 MB RAM (7 GB) is required!
+Measuring multi-threading efficiency up to 12 CPU cores
+2 trees examined
+Threads: 1 / Time: 94.277 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -375231
+Threads: 2 / Time: 46.828 sec / Speedup: 2.013 / Efficiency: 101% / LogL: -375231
+Threads: 3 / Time: 34.185 sec / Speedup: 2.758 / Efficiency: 92% / LogL: -375231
+Threads: 4 / Time: 27.271 sec / Speedup: 3.457 / Efficiency: 86% / LogL: -375231
+Threads: 5 / Time: 96.039 sec / Speedup: 0.982 / Efficiency: 20% / LogL: -375231
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -342850.327
+2. Current log-likelihood: -336689.243
+3. Current log-likelihood: -336481.718
+4. Current log-likelihood: -336474.579
+5. Current log-likelihood: -336448.213
+6. Current log-likelihood: -336414.657
+7. Current log-likelihood: -336413.507
+8. Current log-likelihood: -336413.181
+9. Current log-likelihood: -336410.891
+10. Current log-likelihood: -336342.025
+11. Current log-likelihood: -336291.055
+12. Current log-likelihood: -336246.054
+13. Current log-likelihood: -336242.652
+Optimal log-likelihood: -336242.563
+Mixture weights: 0.017 0.021 0.028 0.007 0.014 0.007 0.015 0.007 0.002 0.010 0.023 0.006 0.013 0.020 0.007 0.012 0.007 0.043 0.032 0.022 0.010 0.015 0.013 0.015 0.024 0.013 0.022 0.025 0.021 0.011 0.008 0.013 0.009 0.047 0.044 0.032 0.040 0.015 0.010 0.021 0.015 0.010 0.023 0.012 0.007 0.001 0.034 0.011 0.013 0.012 0.026 0.006 0.010 0.014 0.022 0.020 0.004 0.011 0.013 0.012
+Gamma shape alpha: 2.372
+Parameters optimization took 13 rounds (777.884 sec)
+Computing ML distances based on estimated model parameters... 114.124 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+1.317 seconds
+Log-likelihood of BIONJ tree: -333392.298
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 75.016 second
+Computing log-likelihood of 98 initial trees ... 1268.759 seconds
+Current best score: -333392.298
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -332254.929
+Iteration 10 / LogL: -333555.271 / Time: 2h:52m:59s
+Iteration 20 / LogL: -333859.411 / Time: 5h:3m:35s
+Finish initializing candidate tree set (20)
+Current best tree score: -332254.929 / CPU time: 16907.657
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -332101.170
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -332042.393
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -331952.077
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -331935.446
+Iteration 30 / LogL: -331982.911 / Time: 6h:12m:54s (21h:13m:0s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -331866.239
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 39: -331838.210
+Iteration 40 / LogL: -331868.920 / Time: 7h:15m:4s (18h:24m:23s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 47: -331811.502
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 50: -331808.259
+Iteration 50 / LogL: -331808.259 / Time: 8h:15m:2s (16h:50m:15s left)
+Log-likelihood cutoff on original alignment: -331988.921
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 51: -331805.910
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 55: -331790.414
+Iteration 60 / LogL: -331839.545 / Time: 9h:14m:37s (14h:53m:0s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 65: -331761.399
+Iteration 70 / LogL: -331806.848 / Time: 10h:12m:35s (14h:3m:24s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 72: -331755.263
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 76: -331748.610
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 77: -331728.947
+Iteration 80 / LogL: -331769.155 / Time: 11h:11m:16s (13h:44m:12s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 82: -331727.717
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 85: -331723.810
+Iteration 90 / LogL: -331742.592 / Time: 12h:9m:43s (12h:58m:54s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 92: -331715.943
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 93: -331704.544
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 97: -331704.382
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 99: -331697.333
+Iteration 100 / LogL: -331698.666 / Time: 13h:10m:41s (13h:10m:40s left)
+Log-likelihood cutoff on original alignment: -331887.751
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.692
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 103: -331691.361
+Iteration 110 / LogL: -331728.005 / Time: 14h:7m:27s (12h:3m:2s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 112: -331680.955
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 114: -331669.277
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 116: -331635.431
+Iteration 120 / LogL: -331676.830 / Time: 15h:16m:5s (12h:19m:1s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 126: -331632.151
+Iteration 130 / LogL: -331656.301 / Time: 16h:17m:32s (12h:7m:27s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 133: -331621.400
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 134: -331619.092
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 140: -331618.427
+Iteration 140 / LogL: -331618.427 / Time: 17h:21m:50s (12h:29m:31s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 145: -331617.116
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 147: -331589.716
+Iteration 150 / LogL: -331615.308 / Time: 18h:22m:45s (11h:57m:53s left)
+Log-likelihood cutoff on original alignment: -331839.041
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 156: -331586.254
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 159: -331570.167
+Iteration 160 / LogL: -331570.666 / Time: 19h:23m:41s (12h:4m:33s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 169: -331567.163
+Iteration 170 / LogL: -331625.701 / Time: 20h:22m:19s (11h:56m:1s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 174: -331532.785
+Iteration 180 / LogL: -331577.525 / Time: 21h:20m:56s (11h:12m:39s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 187: -331515.074
+Iteration 190 / LogL: -331524.166 / Time: 22h:21m:23s (11h:28m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 194: -331508.558
+Iteration 200 / LogL: -331516.518 / Time: 23h:24m:45s (11h:3m:32s left)
+Log-likelihood cutoff on original alignment: -331839.041
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.720
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -331510.490 / Time: 24h:24m:25s (10h:30m:36s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 215: -331490.971
+Iteration 220 / LogL: -331523.472 / Time: 25h:27m:19s (11h:2m:31s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 222: -331488.889
+Iteration 230 / LogL: -331535.585 / Time: 26h:28m:9s (10h:38m:1s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 231: -331471.710
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 232: -331465.168
+Iteration 240 / LogL: -331472.432 / Time: 27h:31m:10s (10h:35m:35s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 241: -331459.353
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 248: -331456.039
+Iteration 250 / LogL: -331522.165 / Time: 28h:31m:29s (11h:13m:35s left)
+Log-likelihood cutoff on original alignment: -331839.041
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 253: -331443.382
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 259: -331425.976
+Iteration 260 / LogL: -331477.226 / Time: 29h:33m:47s (11h:18m:0s left)
+Iteration 270 / LogL: -331456.786 / Time: 30h:29m:52s (10h:5m:25s left)
+Iteration 280 / LogL: -331441.218 / Time: 31h:28m:27s (8h:54m:43s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 281: -331418.653
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 283: -331414.674
+Iteration 290 / LogL: -331448.960 / Time: 32h:27m:59s (10h:26m:51s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 296: -331412.109
+Iteration 300 / LogL: -331439.232 / Time: 33h:28m:6s (10h:44m:44s left)
+Log-likelihood cutoff on original alignment: -331839.041
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.710
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 310 / LogL: -331465.956 / Time: 34h:24m:11s (10h:1m:13s left)
+Iteration 320 / LogL: -331414.897 / Time: 35h:25m:39s (8h:53m:4s left)
+Iteration 330 / LogL: -331418.909 / Time: 36h:25m:37s (7h:45m:1s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 335: -331410.398
+Iteration 340 / LogL: -331428.063 / Time: 37h:25m:19s (10h:29m:13s left)
+Iteration 350 / LogL: -331453.544 / Time: 38h:24m:25s (9h:21m:14s left)
+Log-likelihood cutoff on original alignment: -331839.041
+Iteration 360 / LogL: -331438.456 / Time: 39h:26m:48s (8h:14m:27s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 362: -331401.481
+Iteration 370 / LogL: -331436.369 / Time: 40h:27m:19s (10h:5m:11s left)
+Iteration 380 / LogL: -331440.344 / Time: 41h:26m:24s (8h:57m:57s left)
+Iteration 390 / LogL: -331428.038 / Time: 42h:25m:27s (7h:51m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 393: -331400.684
+Iteration 400 / LogL: -331411.253 / Time: 43h:26m:10s (10h:7m:27s left)
+Log-likelihood cutoff on original alignment: -331839.041
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.796
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 410 / LogL: -331428.874 / Time: 44h:25m:30s (9h:46m:32s left)
+Iteration 420 / LogL: -331405.169 / Time: 45h:25m:55s (8h:40m:27s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 427: -331383.889
+Iteration 430 / LogL: -331438.221 / Time: 46h:26m:56s (10h:30m:8s left)
+Iteration 440 / LogL: -331433.546 / Time: 47h:25m:11s (9h:23m:51s left)
+Iteration 450 / LogL: -331406.006 / Time: 48h:23m:0s (8h:17m:50s left)
+Log-likelihood cutoff on original alignment: -331839.041
+Iteration 460 / LogL: -331456.612 / Time: 49h:21m:49s (7h:12m:20s left)
+Iteration 470 / LogL: -331413.969 / Time: 50h:20m:38s (6h:7m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 471: -331365.895
+Iteration 480 / LogL: -331450.733 / Time: 51h:21m:32s (9h:45m:25s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 485: -331356.950
+Iteration 490 / LogL: -331383.417 / Time: 52h:20m:13s (10h:10m:3s left)
+Iteration 500 / LogL: -331443.784 / Time: 53h:18m:35s (9h:4m:50s left)
+Log-likelihood cutoff on original alignment: -331587.781
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.831
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 510 / LogL: -331388.613 / Time: 54h:14m:54s (9h:35m:31s left)
+Iteration 520 / LogL: -331376.010 / Time: 55h:11m:42s (8h:30m:28s left)
+Iteration 530 / LogL: -331375.147 / Time: 56h:8m:16s (7h:25m:42s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 537: -331355.015
+Iteration 540 / LogL: -331382.367 / Time: 57h:6m:46s (10h:16m:41s left)
+Iteration 550 / LogL: -331383.794 / Time: 58h:3m:25s (9h:12m:0s left)
+Log-likelihood cutoff on original alignment: -331587.781
+Iteration 560 / LogL: -331377.758 / Time: 59h:4m:25s (8h:8m:13s left)
+Iteration 570 / LogL: -331390.339 / Time: 60h:1m:43s (7h:4m:6s left)
+Iteration 580 / LogL: -331397.223 / Time: 60h:59m:4s (6h:0m:13s left)
+Iteration 590 / LogL: -331389.753 / Time: 61h:54m:9s (4h:56m:22s left)
+Iteration 600 / LogL: -331423.118 / Time: 62h:50m:3s (3h:52m:52s left)
+Log-likelihood cutoff on original alignment: -331587.781
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.871
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 610 / LogL: -331398.636 / Time: 63h:48m:4s (9h:25m:43s left)
+Iteration 620 / LogL: -331370.078 / Time: 64h:45m:7s (8h:22m:6s left)
+Iteration 630 / LogL: -331406.856 / Time: 65h:43m:44s (7h:18m:53s left)
+Iteration 640 / LogL: -331422.712 / Time: 66h:42m:13s (6h:15m:47s left)
+Iteration 650 / LogL: -331377.533 / Time: 67h:37m:57s (5h:12m:37s left)
+Log-likelihood cutoff on original alignment: -331587.781
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 658: -331351.963
+Iteration 660 / LogL: -331367.517 / Time: 68h:36m:55s (10h:12m:13s left)
+Iteration 670 / LogL: -331400.936 / Time: 69h:35m:8s (9h:9m:11s left)
+Iteration 680 / LogL: -331384.525 / Time: 70h:34m:12s (8h:6m:24s left)
+Iteration 690 / LogL: -331413.697 / Time: 71h:32m:22s (7h:3m:37s left)
+Iteration 700 / LogL: -331390.697 / Time: 72h:29m:47s (6h:0m:55s left)
+Log-likelihood cutoff on original alignment: -331587.781
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.886
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 710 / LogL: -331367.497 / Time: 73h:38m:18s (9h:20m:51s left)
+Iteration 720 / LogL: -331387.707 / Time: 74h:33m:36s (8h:17m:45s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 727: -331350.065
+Iteration 730 / LogL: -331412.328 / Time: 75h:31m:5s (10h:2m:53s left)
+Iteration 740 / LogL: -331492.617 / Time: 76h:26m:18s (8h:59m:55s left)
+Iteration 750 / LogL: -331374.172 / Time: 77h:19m:22s (7h:56m:56s left)
+Log-likelihood cutoff on original alignment: -331587.781
+Iteration 760 / LogL: -331352.668 / Time: 78h:17m:48s (6h:54m:41s left)
+Iteration 770 / LogL: -331369.304 / Time: 79h:17m:13s (5h:52m:36s left)
+Iteration 780 / LogL: -331366.620 / Time: 80h:14m:28s (4h:50m:28s left)
+Iteration 790 / LogL: -331402.431 / Time: 81h:11m:49s (3h:48m:27s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 794: -331343.760
+Iteration 800 / LogL: -331372.586 / Time: 82h:12m:28s (9h:40m:17s left)
+Log-likelihood cutoff on original alignment: -331587.781
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.908
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 810 / LogL: -331351.364 / Time: 83h:10m:22s (9h:15m:10s left)
+Iteration 820 / LogL: -331386.798 / Time: 84h:8m:17s (8h:13m:6s left)
+Iteration 830 / LogL: -331372.217 / Time: 85h:7m:12s (7h:11m:14s left)
+Iteration 840 / LogL: -331345.795 / Time: 86h:6m:36s (6h:9m:28s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 848: -331340.112
+Iteration 850 / LogL: -331376.523 / Time: 87h:4m:36s (10h:3m:4s left)
+Log-likelihood cutoff on original alignment: -331587.781
+Iteration 860 / LogL: -331398.854 / Time: 88h:3m:16s (9h:1m:14s left)
+Iteration 870 / LogL: -331374.492 / Time: 89h:1m:13s (7h:59m:25s left)
+Iteration 880 / LogL: -331362.867 / Time: 90h:3m:35s (6h:58m:1s left)
+Iteration 890 / LogL: -331388.426 / Time: 91h:4m:48s (5h:56m:31s left)
+Iteration 900 / LogL: -331433.239 / Time: 92h:5m:1s (4h:54m:59s left)
+Log-likelihood cutoff on original alignment: -331587.781
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.919
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 910 / LogL: -331376.790 / Time: 93h:6m:9s (9h:13m:4s left)
+Iteration 920 / LogL: -331382.148 / Time: 94h:9m:37s (8h:11m:48s left)
+Iteration 930 / LogL: -331380.576 / Time: 95h:10m:33s (7h:10m:17s left)
+Iteration 940 / LogL: -331392.292 / Time: 96h:11m:34s (6h:8m:47s left)
+Iteration 950 / LogL: -331372.496 / Time: 97h:10m:56s (5h:7m:12s left)
+Log-likelihood cutoff on original alignment: -331587.781
+Iteration 960 / LogL: -331364.216 / Time: 98h:11m:44s (4h:5m:44s left)
+Iteration 970 / LogL: -331358.891 / Time: 99h:7m:55s (3h:4m:8s left)
+Iteration 980 / LogL: -331384.609 / Time: 100h:7m:20s (2h:2m:43s left)
+Iteration 990 / LogL: -331347.042 / Time: 101h:6m:28s (1h:1m:20s left)
+Iteration 1000 / LogL: -331391.956 / Time: 102h:5m:12s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -331587.781
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.955
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+TREE SEARCH COMPLETED AFTER 1001 ITERATIONS / Time: 102h:11m:27s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -331340.112
+Optimal log-likelihood: -331340.112
+Mixture weights: 0.017 0.021 0.028 0.007 0.014 0.007 0.015 0.007 0.002 0.010 0.023 0.006 0.013 0.020 0.007 0.012 0.007 0.043 0.032 0.022 0.010 0.015 0.013 0.015 0.024 0.013 0.022 0.025 0.021 0.011 0.008 0.013 0.009 0.047 0.044 0.032 0.040 0.015 0.010 0.021 0.015 0.010 0.023 0.012 0.007 0.001 0.034 0.011 0.013 0.012 0.026 0.006 0.010 0.014 0.022 0.020 0.004 0.011 0.013 0.012
+Gamma shape alpha: 2.085
+Parameters optimization took 1 rounds (46.855 sec)
+BEST SCORE FOUND : -331340.112
+Creating bootstrap support values...
+Split supports printed to NEXUS file euk5_homs9.Kleisin.cdhit_40.mafft_merge.gappyout.drop.iqtree.splits.nex
+Total tree length: 1080.591
+
+Total number of iterations: 1001
+CPU time used for tree search: 1450283.145 sec (402h:51m:23s)
+Wall-clock time used for tree search: 366579.732 sec (101h:49m:39s)
+Total CPU time used: 1455099.420 sec (404h:11m:39s)
+Total wall-clock time used: 367939.535 sec (102h:12m:19s)
+
+Computing bootstrap consensus tree...
+Reading input file euk5_homs9.Kleisin.cdhit_40.mafft_merge.gappyout.drop.iqtree.splits.nex...
+930 taxa and 10599 splits.
+Consensus tree written to euk5_homs9.Kleisin.cdhit_40.mafft_merge.gappyout.drop.iqtree.contree
+Reading input trees file euk5_homs9.Kleisin.cdhit_40.mafft_merge.gappyout.drop.iqtree.contree
+Log-likelihood of consensus tree: -331319.324
+
+Analysis results written to: 
+  IQ-TREE report:                euk5_homs9.Kleisin.cdhit_40.mafft_merge.gappyout.drop.iqtree.iqtree
+  Maximum-likelihood tree:       euk5_homs9.Kleisin.cdhit_40.mafft_merge.gappyout.drop.iqtree.treefile
+  Likelihood distances:          euk5_homs9.Kleisin.cdhit_40.mafft_merge.gappyout.drop.iqtree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          euk5_homs9.Kleisin.cdhit_40.mafft_merge.gappyout.drop.iqtree.splits.nex
+  Consensus tree:                euk5_homs9.Kleisin.cdhit_40.mafft_merge.gappyout.drop.iqtree.contree
+  Screen log file:               euk5_homs9.Kleisin.cdhit_40.mafft_merge.gappyout.drop.iqtree.log
+
+Date and Time: Sun Aug 13 16:19:59 2023
