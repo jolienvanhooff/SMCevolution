@@ -15,14 +15,14 @@ complex_members = {
     "condensin I":["CAPH","CAPG","CAPD2"],
     "condensin II":["CAPH2", "CAPG2", "CAPD3"],
     "SMC5/6":["SMC5", "SMC6", "Nse4", "Nse1", "Nse3", "Nse2", "Nse5", "Nse6"],
-    "cohesin":["SMC1", "SMC3", "Scc1", "Rec8", "Scc3", "PDS5", "NIPBL", "MAU2", "Separase", "WAPL", "Eco1", "Securin", "Sororin", "CTCF", "DYAD", "Haspin", "Shugoshin"]
+    "cohesin":["SMC1", "SMC3", "Scc1", "Rec8", "Scc3", "PDS5", "NIPBL", "MAU2", "WAPL", "Eco1", "Securin", "Sororin", "Haspin", "Shugoshin", "Separase", "CTCF"]
 }
 
 # 0: fill, 1: stroke + text
 complex_colours = {
-    "condensin":("#FF8233","#710000"),
-    "condensin I":("#FFC300","#AA7A38"),
-    "condensin II":("#C70039","#C70039"),
-    "cohesin":("#3362FF","#155289"),
-    "SMC5/6":("#A633FF","#883268")
+    "condensin":("#ddcc77","#AA7A38"),
+    "condensin I":("#999933","#335A30"),
+    "condensin II":("#117733","#024217"),
+    "cohesin":("#4477aa","#155289"),
+    "SMC5/6":("#aa3377","#7B255A")
 }

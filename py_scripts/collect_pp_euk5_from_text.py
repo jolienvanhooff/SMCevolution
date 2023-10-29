@@ -9,7 +9,7 @@ import re
 parser = argparse.ArgumentParser(description="Gets the phyletic profiles of proteins from eukarya.v5 ('euk5') based on flat text (.txt) files with identifiers")
 parser.add_argument("-t", metavar="table", type=str, default="../euk5proteomes/Euk5FinalSet.adjust.busco.euk5_tree_abbrev.csv", help="input table")
 parser.add_argument("-d", metavar="base_directory", type=str, default="../proteins/", help="directory containing all protein folders")
-parser.add_argument("-p", metavar="protein_order", type=str, default="SMC2,SMC4,CAPH,CAPG,CAPD2,CAPH2,CAPG2,CAPD3,SMC1,SMC3,Scc1,Rec8,Scc3,PDS5,NIPBL,MAU2,Separase,WAPL,Sororin,Eco1,Securin,CTCF,DYAD,Haspin,Shugoshin,SMC5,SMC6,Nse4,Nse1,Nse3,Nse2,Nse5,Nse6", help="protein set to search for; ordered")
+parser.add_argument("-p", metavar="protein_order", type=str, default="SMC2,SMC4,CAPH,CAPG,CAPD2,CAPH2,CAPG2,CAPD3,SMC1,SMC3,Scc1,Rec8,Scc3,PDS5,NIPBL,MAU2,WAPL,Eco1,Securin,Sororin,Haspin,Shugoshin,Separase,CTCF,SMC5,SMC6,Nse4,Nse1,Nse3,Nse2,Nse5,Nse6", help="protein set to search for; ordered")
 parser.add_argument("-o", metavar="output", type=str, default="phylogenetic_profiles.csv", help="name of output csv table")
 
 args = parser.parse_args()
