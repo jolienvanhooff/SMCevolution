@@ -3,8 +3,6 @@
 
 ***Warning: current version contains outdated orthologous groups for Sororin, Nse5 and Nse6 (groups for eukarya.v5.1 instead of the most recent eukarya.v5.2)***
 
-*NB: typically, this repository serves to share and visualize results and, importantly, to keep track of the versions of such results. It is not intended to use as a location for storing all sorts of intermediate files*
-
 ## proteins
 * Lists (\*.txt) and FASTA files (\*.fa) of SMC complexes' proteins
   * Filename convention: [dataset]\_[protein set type].[protein name].[txt or fa]; e.g. euk5_orths2.SMC1.fa, 'euk5' indicating eukarya.v5
@@ -14,7 +12,9 @@
   * (annotated) treefile
   * logfile
   * multiple sequence alignment
-* *other data, e.g. for pre-LECA examinations - maybe it is most practical if we add a subdirectory for these*
+
+## protein_families
+* MSAs and phylogenies of protein families studied to examine the origins of the eukaryotic SMC complexes
 
 ## alveolata
 * Subproject: contains data similar to the main directory, most importantly 'proteins' based on searches across Jolien's SAR dataset (418 taxa)
@@ -30,15 +30,6 @@
 ## py_scripts
 * General-usage python3 scripts, e.g. to generate phylogenetic profile tables
 
-## co-evolution *to be added*
+## gtdb_selection
+* Metadata for the included assemblies from GTDB (archaea, bacteria)
 
-## .gitignore
-* Add anything to be ignored in version controlling
-
-## External links / other platforms
-* [Google Drive directory](https://drive.google.com/drive/folders/10_zQJfThDdbN8nEHA8leA_tiyxAh5Fh-)
-  * [Manuscript_outline](https://docs.google.com/document/d/1BkOMaUu7r-3rs05RzT2_LqnterpXH63XLRaZpAGHmeM/edit)
-  * [General notes/observations](https://docs.google.com/document/d/1uRSr-7Q_5-_9Sp_bZsohDjWt9PrOxKg1IUqID9gxZLE/edit)
-* [Collected literature](https://paperpile.com/shared/Uow2va)
-* [Slack channel](https://deemteamworkspace.slack.com/archives/C04579BJXR8)
-* [Google Spaces](https://mail.google.com/chat/u/0/#chat/space/AAAAiR1Ycrk) *obsolete*
