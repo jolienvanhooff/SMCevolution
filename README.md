@@ -1,8 +1,6 @@
 # SMCevolution
 **Evolutionary histories and current-day distributions of eukaryotic SMC complexes' proteins**
 
-***Warning: current version contains outdated orthologous groups for Sororin, Nse5 and Nse6 (groups for eukarya.v5.1 instead of the most recent eukarya.v5.2)***
-
 ## proteins
 * Lists (\*.txt) and FASTA files (\*.fa) of SMC complexes' proteins
   * Filename convention: [dataset]\_[protein set type].[protein name].[txt or fa]; e.g. euk5_orths2.SMC1.fa, 'euk5' indicating eukarya.v5
@@ -14,10 +12,9 @@
   * multiple sequence alignment
 
 ## protein_families
-* MSAs and phylogenies of protein families studied to examine the origins of the eukaryotic SMC complexes
-
-## alveolata
-* Subproject: contains data similar to the main directory, most importantly 'proteins' based on searches across Jolien's SAR dataset (418 taxa)
+* SMC, kleisin and kite: Multiple sequence alignments (unfiltered and filtered, the latter were used for the phylogenies) and phylogenies of protein families studied to examine the origins of the eukaryotic SMC complexes, including constraint phylogenies used for topology testing
+* Hawks: curated profile HMM files used in profile-versus-profile homology searches with HHsearch, including also MAU2, WAPL and Nse5,6 (all alpha-solenoid domain proteins)
+* Nse56: AlphaFold2-predicted structures for a subset of Nse5 and Nse6 orthologs, used as input for structural alignments
 
 ## euk5proteomes
 * Tab-separated files (\.csv) listing the eukarya.v5 ('euk5') proteome dataset
@@ -25,7 +22,6 @@
 
 ## phylogenetic_profiles
 * Tab-separated files (\.csv) showing the number of orthologs (members of the orthogroups) in each taxon of eukarya.v5
-* Species phylogeny figures showing the distributions of SMC complexes' proteins across eukarya.v5
 
 ## py_scripts
 * General-usage python3 scripts, e.g. to generate phylogenetic profile tables
