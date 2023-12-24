@@ -4,17 +4,21 @@
 ## proteins
 * Lists (\*.txt) and FASTA files (\*.fa) of SMC complexes' proteins
   * Filename convention: [dataset]\_[protein set type].[protein name].[txt or fa]; e.g. euk5_orths2.SMC1.fa, 'euk5' indicating eukarya.v5
-  * protein set type: 'orths' (sequences belonging to the orthogroup within eukaryotes) or 'homs' (broader set of homologs, e.g. also containing eukaryotic outparalogs or prokaryotic homologs)
+  * Protein set type: 'orths' (sequences belonging to the orthogroup within eukaryotes) or 'homs' (broader set of homologs, e.g. also containing eukaryotic outparalogs or prokaryotic homologs)
 * HMM profiles used to establish the orthogroup or to gather homologs for the phylogeny
 * Phylogenies used to establish the orthogroup, including:
-  * (annotated) treefile
-  * logfile
-  * multiple sequence alignment
+  * Treefile(s)
+  * Logfile
+  * Multiple sequence alignment
 
 ## protein_families
 * SMC, kleisin and kite: Multiple sequence alignments (unfiltered and filtered, the latter were used for the phylogenies) and phylogenies of protein families studied to examine the origins of the eukaryotic SMC complexes, including constraint phylogenies used for topology testing
-* Hawks: curated profile HMM files used in profile-versus-profile homology searches with HHsearch, including also MAU2, WAPL and Nse5,6 (all alpha-solenoid domain proteins)
-* Nse56: AlphaFold2-predicted structures for a subset of Nse5 and Nse6 orthologs, used as input for structural alignments
+* Hawks: 
+  * Curated profile HMM files used in profile-versus-profile homology searches with HHsearch, including also MAU2, WAPL, Nse5 and Nse6 (other alpha-solenoid domain proteins)
+  * Pymol session file with alignments of predicted hawk structures of *Homo sapiens* and *Arabidopsis thaliana*, derived from the AlphaFold repository (alphafold.ebi.ac.uk/, last accessed 23 December 2023)
+* Nse56: 
+  * AlphaFold2-predicted structures for a subset of Nse5 and Nse6 orthologs, used as input for structural alignments
+  * Structure alignment created with TMalign, respresenting the best Nse5-Nse6 alignment across all Nse5-Nse6 pairs of AlphaFold2 predicted structures
 
 ## euk5proteomes
 * Tab-separated files (\.csv) listing the eukarya.v5 ('euk5') proteome dataset
