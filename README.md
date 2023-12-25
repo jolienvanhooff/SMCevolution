@@ -17,7 +17,7 @@
   * Curated profile HMM files used in profile-versus-profile homology searches with HHsearch, including also MAU2, WAPL, Nse5 and Nse6 (other alpha-solenoid domain proteins)
   * Pymol session file with alignments of predicted hawk structures of *Homo sapiens* and *Arabidopsis thaliana*, derived from the AlphaFold repository (alphafold.ebi.ac.uk/, last accessed 23 December 2023)
 * Nse56: 
-  * AlphaFold2-predicted structures for a subset of Nse5 and Nse6 orthologs, used as input for structural alignments
+  * AlphaFold2-predicted structures for a subset of Nse5 and Nse6 orthologs, used as input for structural alignments; both provided in full-length (separate Nse5 and Nse6 zipped archives contain full-length predictions, combined archive contains the cut alpha-solenoid domains)
   * Structure alignment created with TMalign, respresenting the best Nse5-Nse6 alignment across all Nse5-Nse6 pairs of AlphaFold2 predicted structures
 
 ## euk5proteomes
