@@ -47,7 +47,7 @@ for protein in proteins_ordered:
             hits_species = {sp:[] for sp in species_collection.index.tolist()}
             for s in sequence_ids:
                 try:
-                    s_species = re.search(r'(\D{6})(\d{6})', s)[1]
+                    s_species = re.search(r'(\D{6})(\w+)', s)[1]
                     hits_species[s_species].append(s)
                 except:
                     print(f"Error: no species found for {s}")

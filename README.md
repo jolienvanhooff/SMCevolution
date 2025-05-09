@@ -2,14 +2,17 @@
 **Evolutionary histories and current-day distributions of eukaryotic SMC complexes' proteins**
 
 ## proteins
-* Lists (\*.txt) and FASTA files (\*.fa) of SMC complexes' proteins
-  * Filename convention: [dataset]\_[protein set type].[protein name].[txt or fa]; e.g. euk5_orths2.SMC1.fa, 'euk5' indicating eukarya.v5
-  * Protein set type: 'orths' (sequences belonging to the orthogroup within eukaryotes) or 'homs' (broader set of homologs, e.g. also containing eukaryotic outparalogs or prokaryotic homologs)
-* HMM profiles used to establish the orthogroup or to gather homologs for the phylogeny
-* Phylogenies used to establish the orthogroup, including:
-  * Treefile(s)
-  * Logfile
-  * Multiple sequence alignment
+* Final_OG_Table_with_comments.xlsx: overview spreadsheet containing information on how the orthologs were found
+* In each subdirectory:
+  * Lists (\*.txt) and FASTA files (\*.fa) of SMC complexes' proteins
+    * Filename convention: [dataset]\_[protein set type].[protein name].[txt or fa]; e.g. euk5_orths2.SMC1.fa, 'euk5' indicating eukarya.v5
+    * Protein set type: 'orths' (sequences belonging to the orthogroup within eukaryotes) or 'homs' (broader set of homologs, e.g. also containing eukaryotic outparalogs or prokaryotic homologs)
+  * HMM profiles used to establish the orthogroup or to gather homologs for the phylogeny
+  * Phylogenies used to establish the orthogroup, including:
+    * Treefile(s)
+    * Logfile
+    * Multiple sequence alignment
+
 
 ## protein_families
 * SMC, kleisin and kite: Multiple sequence alignments (unfiltered and filtered, the latter were used for the phylogenies) and phylogenies of protein families studied to examine the origins of the eukaryotic SMC complexes, including constraint phylogenies used for topology testing
@@ -28,7 +31,7 @@
 * Tab-separated files (\.csv) showing the number of orthologs (members of the orthogroups) in each taxon of eukarya.v5
 
 ## py_scripts
-* General-usage python3 scripts, e.g. to generate phylogenetic profile tables
+* General-usage python3 scripts, e.g. to generate phylogenetic profile tables and input for iTOL visualization
 
 ## gtdb_selection
 * Metadata for the included assemblies from GTDB (archaea, bacteria)
